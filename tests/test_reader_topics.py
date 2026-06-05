@@ -55,7 +55,7 @@ def brand_articles_df():
         {
             'title': 'barcelona.igbaffiliate.com event news',
             'summary': 'IGB Barcelona conference highlights',
-            'body': 'The clarion gaming event was successful',
+            'body': 'The igb affiliate gaming event was successful',
             'link': 'https://example.com/3',
             'published_date_utc': '2024-01-13',
             'category': 'internal'
@@ -158,10 +158,10 @@ class TestBrandTokenExclusion:
         assert is_brand_token("igba") is True
         assert is_brand_token("IGB") is True
 
-    def test_clarion_is_brand(self):
-        """Clarion brand must be filtered."""
-        assert is_brand_token("clarion") is True
-        assert is_brand_token("clarionigaming") is True
+    def test_portfolio_brand_is_brand(self):
+        """Portfolio brand tokens must be filtered."""
+        assert is_brand_token("igamingbusiness") is True
+        assert is_brand_token("igbaffiliate") is True
 
     def test_barcelona_domain_is_brand(self):
         """barcelona.igbaffiliate.com paths must be filtered."""
@@ -182,14 +182,12 @@ class TestBrandTokenExclusion:
             for topic in topic_names:
                 assert 'igbaffiliate' not in topic, f"Brand token 'igbaffiliate' found in topic: {topic}"
                 assert 'igamingbusiness' not in topic, f"Brand token 'igamingbusiness' found in topic: {topic}"
-                assert 'clarion' not in topic, f"Brand token 'clarion' found in topic: {topic}"
                 assert 'igb' not in topic.split(), f"Brand token 'igb' found as word in topic: {topic}"
 
     def test_is_valid_topic_rejects_brands(self):
         """is_valid_topic must reject all brand patterns."""
         assert is_valid_topic("igbaffiliate") is False
         assert is_valid_topic("igamingbusiness news") is False
-        assert is_valid_topic("clarion gaming") is False
         assert is_valid_topic("igb magazine") is False
 
     def test_is_valid_topic_accepts_clean_topics(self):

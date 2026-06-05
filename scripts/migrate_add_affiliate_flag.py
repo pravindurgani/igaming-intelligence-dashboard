@@ -5,7 +5,7 @@ Add is_affiliate column to existing news_history.csv and update categories.
 This migration:
 1. Adds is_affiliate boolean column based on source name
 2. Updates category to 'competitor' for affiliate sources (not 'affiliate')
-3. Keeps iGB Affiliate as 'internal' (Clarion's affiliate brand)
+3. Keeps iGB Affiliate as 'internal' (portfolio affiliate brand)
 
 Run once after updating sources.json with is_affiliate field.
 """
@@ -28,7 +28,7 @@ AFFILIATE_SOURCES = {
     "Game Lounge",
     "Gaming and Co",
     "North Star Network",
-    "iGB Affiliate"  # Clarion's affiliate brand
+    "iGB Affiliate"  # portfolio affiliate brand
 }
 
 # Affiliate sources that should be category='competitor' (external affiliates)
@@ -41,7 +41,7 @@ AFFILIATE_COMPETITOR_SOURCES = {
     "North Star Network"
 }
 
-# Sources that should be category='internal' (Clarion brands)
+# Sources that should be category='internal' (portfolio brands)
 INTERNAL_SOURCES = {
     "iGaming Business",
     "iGB Affiliate",
@@ -138,7 +138,7 @@ def main():
     print("\nThis script:")
     print("  1. Adds 'is_affiliate' boolean column based on source name")
     print("  2. Updates category to 'competitor' for external affiliate sources")
-    print("  3. Keeps iGB Affiliate as 'internal' (Clarion's affiliate brand)")
+    print("  3. Keeps iGB Affiliate as 'internal' (portfolio affiliate brand)")
     print()
 
     success = True

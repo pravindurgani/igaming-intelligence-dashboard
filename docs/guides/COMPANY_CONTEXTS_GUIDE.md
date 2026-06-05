@@ -290,10 +290,10 @@ ADDITIONAL_IGNORE_ENTITIES = {
 
 ### 3. Content Gap Analysis
 
-**Use:** Compare Clarion coverage vs competitor coverage of specific companies
+**Use:** Compare portfolio coverage vs competitor coverage of specific companies
 - Track which companies are mentioned where
 - Identify companies competitors focus on
-- Find companies Clarion should cover more
+- Find companies the portfolio should cover more
 
 ### 4. Trending Company Detection
 

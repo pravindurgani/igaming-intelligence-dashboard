@@ -14,6 +14,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -43,7 +44,7 @@ jobs:
           LLM_PRIMARY_PROVIDER: ${{ vars.LLM_PRIMARY_PROVIDER }}
         run: python run_pipeline.py --no-dashboard --headless
 
-      - name: Commit and push updated data
+      - name: Stash fresh pipeline outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -54,6 +55,20 @@ jobs:
 
           # Pull latest from remote (may have code changes we need)
           git fetch origin main
+
+      - name: Verify backup before destructive reset
+        run: |
+          if [ ! -s /tmp/fresh_data/latest_competitor_news.json ]; then
+            echo "::error::Backup missing or empty; aborting before git reset"
+            exit 1
+          fi
+          if [ ! -s /tmp/fresh_version.py ]; then
+            echo "::error::Version backup missing or empty; aborting before git reset"
+            exit 1
+          fi
+
+      - name: Reset to origin/main and restore fresh data
+        run: |
           git reset --hard origin/main
 
           # Restore our fresh data and version file on top
@@ -69,3 +84,16 @@ jobs:
           else
             echo "No data changes to commit"
           fi
+
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Pipeline failed: ${context.runId}`,
+              body: `Daily pipeline run ${context.runId} failed.\n\nLog: ${context.payload.repository.html_url}/actions/runs/${context.runId}`,
+              labels: ['pipeline-failure']
+            });

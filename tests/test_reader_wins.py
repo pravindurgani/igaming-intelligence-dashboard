@@ -62,8 +62,8 @@ def brand_articles_df():
             'category': 'internal'
         },
         {
-            'title': 'clarion gaming event news',
-            'summary': 'The clarion team reports on trends',
+            'title': 'igbaffiliate event news',
+            'summary': 'The igb affiliate team reports on trends',
             'link': 'https://example.com/3',
             'published_date_utc': now - timedelta(days=7),
             'category': 'internal'
@@ -197,7 +197,6 @@ class TestBrandTokensProduceZeroCandidates:
         """Stoplist should contain brand domains."""
         assert 'igbaffiliate' in STOPWORDS_EXACT
         assert 'igamingbusiness' in STOPWORDS_EXACT
-        assert 'clarion' in STOPWORDS_EXACT
         assert 'igb' in STOPWORDS_EXACT
         assert 'igba' in STOPWORDS_EXACT
 
@@ -207,7 +206,6 @@ class TestBrandTokensProduceZeroCandidates:
         assert is_brand_token('IGBAFFILIATE') is True
         assert is_brand_token('igbaffiliate.com') is True
         assert is_brand_token('igamingbusiness') is True
-        assert is_brand_token('clarion') is True
         assert is_brand_token('igb') is True
 
     def test_valid_topics_pass(self):
@@ -220,7 +218,7 @@ class TestBrandTokensProduceZeroCandidates:
         """Brand topics should fail validation."""
         assert is_valid_topic('igbaffiliate') is False
         assert is_valid_topic('igamingbusiness news') is False
-        assert is_valid_topic('clarion gaming') is False
+        assert is_valid_topic('igbaffiliate news') is False
 
 
 # ============================================================================

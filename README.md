@@ -1,19 +1,17 @@
 # iGaming Competitive Intelligence Dashboard
 
-A competitive intelligence system for Clarion Events (ICE/iGB) that tracks competitor news coverage, identifies content gaps, and surfaces commercial opportunities using AI-powered analysis and spaCy NER entity extraction.
+> **Live demo:** https://igaming-competitor-newsfeed.streamlit.app
+
+A competitive intelligence system for iGaming trade media. Tracks a portfolio of brands against competitors using LLM-driven content analysis, with spaCy NER entity extraction, automated daily refresh, and a Streamlit dashboard for exploration.
 
 [![Tests](https://img.shields.io/badge/tests-474%20passed-brightgreen)](tests/)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](requirements.txt)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.x-red)](app/dashboard.py)
 
-## Live Dashboard
-
-**Production:** [igaming-competitor-newsfeed.streamlit.app](https://igaming-competitor-newsfeed.streamlit.app)
-
 ## What It Does
 
-- Aggregates news from **17 iGaming sources** (8 competitors + 9 internal brands)
-- Uses **Llama 3.3 70B** via a Cerebras → Groq → OpenRouter failover chain to identify strategic content gaps
+- Aggregates news from **17 iGaming sources** (8 competitors + 9 tracked portfolio brands)
+- Uses an open-source LLM with multi-provider failover for resilience to identify strategic content gaps
 - Extracts entities (companies, locations, topics) with **spaCy NER**
 - Presents insights through an interactive **Streamlit dashboard**
 - Runs automatically at **8am GMT daily** via GitHub Actions
@@ -27,7 +25,7 @@ git clone https://github.com/pravindurgani/igaming-intelligence-dashboard.git
 cd igaming-intelligence-dashboard
 make setup
 
-# Configure at least one LLM provider key (Cerebras recommended for speed + free tier)
+# Configure at least one LLM provider key (any one of the three is enough)
 cp .env.example .env
 # Edit .env: set CEREBRAS_API_KEY, GROQ_API_KEY, or OPENROUTER_API_KEY
 
@@ -45,9 +43,9 @@ python run_pipeline.py  # Runs everything and opens dashboard
 
 | Tab | Purpose | For |
 |-----|---------|-----|
-| **AI Briefing** | Executive summary, market trends, strategic gaps | Leadership, Content Directors |
-| **News Feed** | Searchable article browser with filters | Journalists, Researchers |
-| **Intelligence Battleground** | NER-based comparative analytics | Marketing, Sales, CI Analysts |
+| **AI Briefing** | Executive summary, market trends, strategic gaps | Editorial leadership, content strategists |
+| **News Feed** | Searchable article browser with filters | Journalists, researchers |
+| **Intelligence Battleground** | NER-based comparative analytics | Marketing, commercial, CI analysts |
 
 ## Architecture
 
@@ -67,7 +65,7 @@ python run_pipeline.py  # Runs everything and opens dashboard
 ### Competitor Sources (8)
 SBC News, iGaming Future, Next.io, SiGMA World, EGR Global, CDC Gaming, Global Gaming Insider, iGaming Today
 
-### Internal Sources (9)
+### Tracked Portfolio (9 sources)
 iGaming Business, iGB Affiliate, GGB Magazine, Gambling Insider, Game Lounge, Gaming and Co, North Star Network, iGaming Afrika, iGaming Expert
 
 ## Project Structure
@@ -104,14 +102,14 @@ make scheduler-once  # Run pipeline once immediately
 
 ## Environment Variables
 
-At least one LLM provider key is required. The client tries them in failover order.
+At least one LLM provider key is required. The client tries them in failover order so configuring more than one improves resilience.
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `CEREBRAS_API_KEY` | One of three | Cerebras Llama 3.3 70B (~2600 tok/s, 1M tokens/day free). Primary by default. |
-| `GROQ_API_KEY` | One of three | Groq Llama 3.3 70B Versatile (14.4k req/day free). |
-| `OPENROUTER_API_KEY` | One of three | OpenRouter Llama 3.3 70B free tier (last-resort failover). |
-| `LLM_PRIMARY_PROVIDER` | No | Override primary (`cerebras` / `groq` / `openrouter`). Default `cerebras`. |
+| `CEREBRAS_API_KEY` | One of three | Primary provider by default. |
+| `GROQ_API_KEY` | One of three | Second in chain. |
+| `OPENROUTER_API_KEY` | One of three | Last-resort failover. |
+| `LLM_PRIMARY_PROVIDER` | No | Override primary provider. Default `cerebras`. |
 | `LLM_TEMPERATURE` | No | Default `0.3`. |
 | `LLM_MAX_TOKENS` | No | Default `4096`. |
 | `DEBUG_MODE` | No | Set to `1` for debug features. |
@@ -166,7 +164,7 @@ python -m spacy download en_core_web_sm
 
 **LLM provider rate limit:**
 - Automatic exponential-backoff retry built in; on persistent 429s the chain fails over to the next provider.
-- Check quota at [Cerebras Cloud](https://cloud.cerebras.ai/) / [Groq Console](https://console.groq.com/) / [OpenRouter](https://openrouter.ai/keys).
+- Check quota at the provider dashboard for each configured key.
 
 **Widget warning on reload:**
 - Fixed in v1.0.0 - session state properly managed
@@ -179,8 +177,10 @@ python -m spacy download en_core_web_sm
 
 ## License
 
-Proprietary - Clarion Events
+MIT
 
 ---
+
+**Built with:** Python, Streamlit, spaCy NER, and multi-provider LLM failover for resilience.
 
 **Version:** 1.1.0 | **Tests:** 474 passed | **Last Updated:** 2026-06-05

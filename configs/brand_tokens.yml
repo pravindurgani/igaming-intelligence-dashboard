@@ -2,17 +2,14 @@
 # These are filtered AFTER counting article membership, not before
 # This ensures competitor counts remain accurate
 
-# Our brand names and domains
-our_brands:
+# Portfolio brand names
+portfolio_brands:
   - igbaffiliate
   - igamingbusiness
   - igba
   - igb
-  - clarion
-  - clarionigaming
-  - clarion gaming
 
-# Our domain variations
+# Portfolio domain variations
 our_domains:
   - igbaffiliate.com
   - igamingbusiness.com

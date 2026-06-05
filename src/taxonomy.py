@@ -464,7 +464,7 @@ IGNORE_ENTITIES = {
 
     # Internal brands (already in INTERNAL_BRANDS in dashboard.py)
     'iGaming Business', 'iGB', 'iGB Affiliate', 'GGB Magazine', 'GGB',
-    'ICE Gaming', 'ICE', 'Clarion', 'Clarion Events',
+    'ICE Gaming', 'ICE',
 
     # Common false positives
     'Group', 'Holdings', 'International', 'Global', 'World', 'Entertainment',

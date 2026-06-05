@@ -1,44 +1,44 @@
-# Clarion Strengths Feature Guide
+# Portfolio Strengths Feature Guide
 
 ## Overview
 
-The Intelligence Battleground dashboard now shows not only where competitors lead (gaps), but also where **Clarion leads** competitors in topic coverage. This balanced view helps identify both opportunities to improve and existing strengths to leverage.
+The Intelligence Battleground dashboard now shows not only where competitors lead (gaps), but also where the **tracked portfolio leads** competitors in topic coverage. This balanced view helps identify both opportunities to improve and existing strengths to leverage.
 
 ## What Changed
 
-### New Helper Function: `get_clarion_strengths()`
+### New Helper Function: `get_portfolio_strengths()`
 
 **Location:** [dashboard.py:215-249](dashboard.py)
 
-**Purpose:** Identifies topics where Clarion's coverage percentage exceeds competitor coverage.
+**Purpose:** Identifies topics where the portfolio's coverage percentage exceeds competitor coverage.
 
 **Signature:**
 
 ```python
-def get_clarion_strengths(competitor_pct, clarion_pct, top_n=10):
+def get_portfolio_strengths(competitor_pct, portfolio_pct, top_n=10):
     """
-    Identify topics where Clarion's coverage exceeds competitor coverage.
+    Identify topics where the portfolio's coverage exceeds competitor coverage.
     Returns top N entities sorted by percentage point lead.
 
     Args:
         competitor_pct: Dict mapping entity to competitor percentage
-        clarion_pct: Dict mapping entity to Clarion percentage
+        portfolio_pct: Dict mapping entity to portfolio percentage
         top_n: Number of top strengths to return
 
     Returns:
-        List of dicts with entity, clarion_pct, competitor_pct, and gap_pct
+        List of dicts with entity, portfolio_pct, competitor_pct, and gap_pct
     """
 ```
 
 **Algorithm:**
 
-1. Iterates through all unique entities from both competitor and Clarion data
-2. Calculates the gap: `gap = clarion_pct - competitor_pct`
-3. Filters to only entities where Clarion has coverage AND leads (`clar > 0 and gap > 0`)
+1. Iterates through all unique entities from both competitor and portfolio data
+2. Calculates the gap: `gap = portfolio_pct - competitor_pct`
+3. Filters to only entities where the portfolio has coverage AND leads (`port > 0 and gap > 0`)
 4. Sorts by gap (largest lead first)
 5. Returns top N results
 
-### New Dashboard Section: "Clarion Strengths"
+### New Dashboard Section: "Portfolio Strengths"
 
 **Location:** Chart C (Strategic Topics) section
 
@@ -47,10 +47,10 @@ def get_clarion_strengths(competitor_pct, clarion_pct, top_n=10):
 **Format:**
 
 ```
-✅ Clarion Strengths - Topics where we lead:
-- Technology & Innovation - Clarion 16.25% vs competitors 12.00% (lead of 4.25 pp)
-- Mobile Gaming - Clarion 14.50% vs competitors 8.75% (lead of 5.75 pp)
-- Responsible Gaming - Clarion 11.00% vs competitors 6.50% (lead of 4.50 pp)
+✅ Portfolio Strengths - Topics where we lead:
+- Technology & Innovation - Portfolio 16.25% vs competitors 12.00% (lead of 4.25 pp)
+- Mobile Gaming - Portfolio 14.50% vs competitors 8.75% (lead of 5.75 pp)
+- Responsible Gaming - Portfolio 11.00% vs competitors 6.50% (lead of 4.50 pp)
 ```
 
 **Display Logic:**
@@ -141,15 +141,15 @@ if topic_comparison:
         st.markdown("**🎯 Top 3 Topic Gaps:**")
         # Display gaps
 
-    # NEW: Find Clarion strengths
+    # NEW: Find portfolio strengths
     topic_pct_competitor = {item['entity']: item['competitor_pct'] for item in topic_comparison}
-    topic_pct_clarion = {item['entity']: item['internal_pct'] for item in topic_comparison}
+    topic_pct_portfolio = {item['entity']: item['internal_pct'] for item in topic_comparison}
 
-    strengths = get_clarion_strengths(topic_pct_competitor, topic_pct_clarion, top_n=5)
+    strengths = get_portfolio_strengths(topic_pct_competitor, topic_pct_portfolio, top_n=5)
     if strengths:
-        st.markdown("**✅ Clarion Strengths - Topics where we lead:**")
+        st.markdown("**✅ Portfolio Strengths - Topics where we lead:**")
         for row in strengths:
-            st.markdown(f"- **{row['entity']}** - Clarion {row['clarion_pct']:.2f}% vs competitors {row['competitor_pct']:.2f}% (lead of {row['gap_pct']:.2f} pp)")
+            st.markdown(f"- **{row['entity']}** - Portfolio {row['portfolio_pct']:.2f}% vs competitors {row['competitor_pct']:.2f}% (lead of {row['gap_pct']:.2f} pp)")
 ```
 
 ### Data Flow
@@ -157,8 +157,8 @@ if topic_comparison:
 1. **Chart C** processes topic comparison data
 2. Creates two dictionaries:
    - `topic_pct_competitor`: Maps topics to competitor coverage %
-   - `topic_pct_clarion`: Maps topics to Clarion coverage %
-3. Calls `get_clarion_strengths()` with these dictionaries
+   - `topic_pct_portfolio`: Maps topics to portfolio coverage %
+3. Calls `get_portfolio_strengths()` with these dictionaries
 4. Renders strengths section if results exist
 
 ### Display Conditions
@@ -185,12 +185,12 @@ If neither condition is met, the section is skipped silently.
 
    - Chart (bar chart)
    - **🎯 Top 3 Topic Gaps** (if gaps exist)
-   - **✅ Clarion Strengths - Topics where we lead** (if strengths exist)
+   - **✅ Portfolio Strengths - Topics where we lead** (if strengths exist)
 
 ### Unit Test
 
 ```python
-from dashboard import get_clarion_strengths
+from dashboard import get_portfolio_strengths
 
 # Test data
 competitor_pct = {
@@ -200,20 +200,20 @@ competitor_pct = {
     'mobile': 5.0,
 }
 
-clarion_pct = {
+portfolio_pct = {
     'regulation': 12.0,        # Competitor leads
-    'sports betting': 25.0,    # Clarion leads by 5pp
+    'sports betting': 25.0,    # Portfolio leads by 5pp
     'tax': 8.0,                # Competitor leads
-    'mobile': 12.0,            # Clarion leads by 7pp
-    'innovation': 10.0,        # Clarion only (leads by 10pp)
+    'mobile': 12.0,            # Portfolio leads by 7pp
+    'innovation': 10.0,        # Portfolio only (leads by 10pp)
 }
 
-strengths = get_clarion_strengths(competitor_pct, clarion_pct, top_n=5)
+strengths = get_portfolio_strengths(competitor_pct, portfolio_pct, top_n=5)
 
 # Expected results (sorted by gap):
-# 1. innovation - Clarion 10.00%, Competitor 0.00%, Gap 10.00pp
-# 2. mobile - Clarion 12.00%, Competitor 5.00%, Gap 7.00pp
-# 3. sports betting - Clarion 25.00%, Competitor 20.00%, Gap 5.00pp
+# 1. innovation - Portfolio 10.00%, Competitor 0.00%, Gap 10.00pp
+# 2. mobile - Portfolio 12.00%, Competitor 5.00%, Gap 7.00pp
+# 3. sports betting - Portfolio 25.00%, Competitor 20.00%, Gap 5.00pp
 
 assert len(strengths) == 3
 assert strengths[0]['entity'] == 'innovation'
@@ -229,16 +229,16 @@ Chart C: Strategic Topics - Key Phrases
 [Bar chart showing topic comparison]
 
 🎯 Top 3 Topic Gaps (by % difference):
-1. Regulation & Compliance: Competitors (18.5%) vs. Clarion (12.3%) - Gap of 6.2%
-2. Tax Policy: Competitors (14.2%) vs. Clarion (9.8%) - Gap of 4.4%
-3. M&A Activity: Competitors (11.7%) vs. Clarion (8.5%) - Gap of 3.2%
+1. Regulation & Compliance: Competitors (18.5%) vs. Portfolio (12.3%) - Gap of 6.2%
+2. Tax Policy: Competitors (14.2%) vs. Portfolio (9.8%) - Gap of 4.4%
+3. M&A Activity: Competitors (11.7%) vs. Portfolio (8.5%) - Gap of 3.2%
 
-✅ Clarion Strengths - Topics where we lead:
-- Mobile Gaming - Clarion 14.50% vs competitors 8.75% (lead of 5.75 pp)
-- Responsible Gaming - Clarion 11.00% vs competitors 6.50% (lead of 4.50 pp)
-- Technology & Innovation - Clarion 16.25% vs competitors 12.00% (lead of 4.25 pp)
-- Esports - Clarion 9.75% vs competitors 5.50% (lead of 4.25 pp)
-- Virtual Reality - Clarion 7.50% vs competitors 4.25% (lead of 3.25 pp)
+✅ Portfolio Strengths - Topics where we lead:
+- Mobile Gaming - Portfolio 14.50% vs competitors 8.75% (lead of 5.75 pp)
+- Responsible Gaming - Portfolio 11.00% vs competitors 6.50% (lead of 4.50 pp)
+- Technology & Innovation - Portfolio 16.25% vs competitors 12.00% (lead of 4.25 pp)
+- Esports - Portfolio 9.75% vs competitors 5.50% (lead of 4.25 pp)
+- Virtual Reality - Portfolio 7.50% vs competitors 4.25% (lead of 3.25 pp)
 ```
 
 ## Configuration
@@ -251,18 +251,18 @@ Chart C: Strategic Topics - Key Phrases
 
 ```python
 # dashboard.py, line 764
-strengths = get_clarion_strengths(topic_pct_competitor, topic_pct_clarion, top_n=10)  # Show top 10
+strengths = get_portfolio_strengths(topic_pct_competitor, topic_pct_portfolio, top_n=10)  # Show top 10
 ```
 
 ### Filtering Criteria
 
-**Current filter:** `if clar > 0 and gap > 0`
+**Current filter:** `if port > 0 and gap > 0`
 
 **To add minimum threshold:**
 
 ```python
-# In get_clarion_strengths(), line 239
-if clar > 0 and gap > 2.0:  # Only show leads of 2pp or more
+# In get_portfolio_strengths(), line 239
+if port > 0 and gap > 2.0:  # Only show leads of 2pp or more
 ```
 
 ## Future Enhancements

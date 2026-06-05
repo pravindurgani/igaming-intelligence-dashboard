@@ -17,7 +17,7 @@
 #### Clustered Mode (8,778 chars)
 
 ```
-You are the Strategic Content Director for Clarion Events...
+You are the Strategic Content Director for the tracked portfolio...
 
 **DATA FORMAT:**
 Each entry is a pre-aggregated cluster with:
@@ -27,7 +27,7 @@ Each entry is a pre-aggregated cluster with:
 - article_count: Number of articles in this cluster
 - sample_headlines: Representative article titles from this cluster
 
-**INTERNAL COVERAGE (Our Brands - Clarion Events):**
+**INTERNAL COVERAGE (Tracked Portfolio):**
 []
 
 **COMPETITOR COVERAGE (External Publishers):**
@@ -70,12 +70,12 @@ Each entry is a pre-aggregated cluster with:
 #### Raw Mode (32,841 chars)
 
 ```
-You are the Strategic Content Director for Clarion Events...
+You are the Strategic Content Director for the tracked portfolio...
 
 **DATA FORMAT:**
 Each entry is a full article with title, summary, source, link, category, and published_date.
 
-**INTERNAL COVERAGE (Our Brands - Clarion Events):**
+**INTERNAL COVERAGE (Tracked Portfolio):**
 []
 
 **COMPETITOR COVERAGE (External Publishers):**

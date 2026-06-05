@@ -267,8 +267,8 @@ def build_audience_edge(run: dict) -> dict:
 
     # Also check global_notes weekend_advantage string
     weekend_str = global_notes.get('weekend_advantage', '')
-    if not our_weekend and 'Clarion leads with' in weekend_str:
-        # Parse from string like "Clarion leads with 14.3% weekend coverage vs competitors' 3.8%"
+    if not our_weekend and 'Portfolio leads with' in weekend_str:
+        # Parse from string like "Portfolio leads with 14.3% weekend coverage vs competitors' 3.8%"
         match = re.search(r'(\d+\.?\d*)%.*vs.*?(\d+\.?\d*)%', weekend_str)
         if match:
             our_weekend = float(match.group(1))

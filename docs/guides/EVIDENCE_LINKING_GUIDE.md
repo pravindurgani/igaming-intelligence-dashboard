@@ -81,7 +81,7 @@ The top 5 matching articles are attached to each gap:
 
 In the AI Briefing tab, each strategic gap shows evidence articles with:
 - **🌐** badge for competitor articles
-- **🏠** badge for internal (Clarion) articles
+- **🏠** badge for internal (portfolio) articles
 - Clickable markdown links to original sources
 - Source attribution in italics
 

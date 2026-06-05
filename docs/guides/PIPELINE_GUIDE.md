@@ -21,7 +21,7 @@ The `run_pipeline.py` script is a **one-command solution** that runs the entire 
 └─────────────────────────────────────────────────────────────────────┘
            │
            ├─► Step 1: News Aggregation (scripts/main.py)
-           │   • Scrapes 8 competitor sources + 3 Clarion brands
+           │   • Scrapes 8 competitor sources + 3 portfolio brands
            │   • Deduplicates and saves to outputs/latest_competitor_news.json
            │   • Appends to data/news_history.csv
            │   ⏱️  30-60 seconds
@@ -184,13 +184,13 @@ streamlit run app/dashboard.py
 ### Daily at 6 AM
 
 ```cron
-0 6 * * * cd /path/to/spying_gaming_competitors_clarion && /path/to/.venv/bin/python run_pipeline.py --no-dashboard --headless >> /var/log/clarion_pipeline.log 2>&1
+0 6 * * * cd /path/to/igaming-intelligence-dashboard && /path/to/.venv/bin/python run_pipeline.py --no-dashboard --headless >> /var/log/portfolio_pipeline.log 2>&1
 ```
 
 ### Weekly on Monday
 
 ```cron
-0 6 * * 1 cd /path/to/spying_gaming_competitors_clarion && /path/to/.venv/bin/python run_pipeline.py --no-dashboard --headless
+0 6 * * 1 cd /path/to/igaming-intelligence-dashboard && /path/to/.venv/bin/python run_pipeline.py --no-dashboard --headless
 ```
 
 ---
@@ -237,7 +237,7 @@ streamlit run app/dashboard.py
 ```bash
 # Ensure you're in project root
 pwd
-# Should show: /path/to/spying_gaming_competitors_clarion
+# Should show: /path/to/igaming-intelligence-dashboard
 
 # Check data directories exist
 ls -la outputs/ data/

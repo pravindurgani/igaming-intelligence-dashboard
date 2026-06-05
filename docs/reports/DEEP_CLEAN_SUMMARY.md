@@ -116,7 +116,7 @@ outputs/*
 
 ### **Clean Root Directory:**
 ```
-spying_gaming_competitors_clarion/
+igaming-intelligence-dashboard/
 ├── README.md               ✅ Project overview
 ├── paths.py                ✅ Path management
 ├── run_pipeline.py         ✅ Master pipeline

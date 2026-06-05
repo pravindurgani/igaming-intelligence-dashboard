@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Master Pipeline Runner for Clarion Competitive Intelligence
+Master Pipeline Runner for Portfolio Competitive Intelligence
 
 Runs the complete end-to-end pipeline:
 1. News Aggregation (scripts/main.py)
@@ -652,7 +652,7 @@ def run_full_cycle(skip_scrape=False, launch_dash=True, headless=False):
     success = True
 
     print("\n" + "=" * 70)
-    print("CLARION COMPETITIVE INTELLIGENCE - FULL PIPELINE")
+    print("PORTFOLIO COMPETITIVE INTELLIGENCE - FULL PIPELINE")
     print("=" * 70)
     print("\nConfiguration:")
     print(f"  • Skip scraping: {skip_scrape}")
@@ -710,7 +710,7 @@ def run_full_cycle(skip_scrape=False, launch_dash=True, headless=False):
 def main():
     """Parse arguments and run pipeline."""
     parser = argparse.ArgumentParser(
-        description="Run the Clarion Competitive Intelligence pipeline",
+        description="Run the Portfolio Competitive Intelligence pipeline",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

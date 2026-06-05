@@ -1,5 +1,5 @@
 """
-All-time full-text search for the Clarion Intelligence Dashboard.
+All-time full-text search for the iGaming Intelligence Dashboard.
 
 Features:
 - Searches title, summary, AND content fields by default

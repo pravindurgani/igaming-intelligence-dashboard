@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Clarion Competitive Intelligence Dashboard
-Interactive Streamlit dashboard using spaCy NER for entity extraction.
+iGaming Intelligence Dashboard
+Interactive intelligence dashboard for iGaming market analysis.
 """
 
 __version__ = "1.0.0"
@@ -140,7 +140,7 @@ def _render_data_freshness():
         # Version info
         try:
             from src._version import DATA_VERSION, PIPELINE_TIMESTAMP
-            st.caption(f"Pipeline v{DATA_VERSION}")
+            st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
         except ImportError:
             pass
 
@@ -257,7 +257,7 @@ def compute_search_parity(
 
 # Page configuration
 st.set_page_config(
-    page_title="Clarion Competitive Intelligence",
+    page_title="iGaming Intelligence",
     page_icon="🎰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -410,7 +410,6 @@ PUBLISHER_DOMAINS = {
     'iGB Affiliate': 'igbaffiliate.com',
     'GGB Magazine': 'ggbmagazine.com',
     'ICE Gaming': 'icegaming.com',
-    'Clarion Events': 'clarionevents.com'
 }
 
 # Extract domain values for matching
@@ -532,7 +531,7 @@ def get_domain_from_url(url: str) -> str:
 
 def is_internal(source: str, link: str) -> bool:
     """
-    Check if article is from an internal Clarion brand.
+    Check if article is from an internal portfolio brand.
 
     Uses both domain matching and source name matching for robustness.
 
@@ -581,7 +580,7 @@ def load_spacy_model():
         nlp = spacy.load("en_core_web_sm")
         return nlp
     except OSError:
-        st.warning("⚠️ spaCy model 'en_core_web_sm' not found. NER entity extraction disabled. To enable, run:\n```bash\npip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl\n```")
+        st.warning("⚠️ Advanced entity detection temporarily unavailable.")
         return None
 
 
@@ -1309,13 +1308,13 @@ def _display_static_exhibitor_categories(categories):
         st.info("No exhibitor categories identified in the current analysis.")
 
 
-def generate_seo_insights(strategic_gaps, clarion_wins, market_pulse, df):
+def generate_seo_insights(strategic_gaps, portfolio_wins, market_pulse, df):
     """
     Generate SEO insights from analysis data with intelligent keyword extraction.
 
     Args:
         strategic_gaps: List of strategic gap dicts
-        clarion_wins: List of Clarion win dicts
+        portfolio_wins: List of portfolio win dicts
         market_pulse: List of market theme dicts
         df: Filtered DataFrame with articles
 
@@ -1482,8 +1481,8 @@ def generate_seo_insights(strategic_gaps, clarion_wins, market_pulse, df):
             'competitor_coverage': gap.get('competitor_coverage', 'Unknown')
         })
 
-    # ========== STRENGTHS TO AMPLIFY (from clarion_wins) ==========
-    for win in clarion_wins[:5]:
+    # ========== STRENGTHS TO AMPLIFY (from portfolio_wins) ==========
+    for win in portfolio_wins[:5]:
         topic = win.get('topic', '')
         narrative = win.get('our_narrative', '')
 
@@ -1581,7 +1580,7 @@ def _render_data_freshness():
 
     # Version info
     if DATA_VERSION is not None:
-        st.caption(f"Pipeline v{DATA_VERSION}")
+        st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
 
 
 def main():
@@ -1601,8 +1600,8 @@ def main():
         st.stop()
 
     # Header
-    st.title("🎰 Clarion Competitive Intelligence Dashboard")
-    st.markdown("**iGaming Industry News Aggregation & Gap Analysis (spaCy NER)**")
+    st.title("🎰 iGaming Intelligence Dashboard")
+    st.markdown("**iGaming Industry News Aggregation & Competitive Gap Analysis**")
     st.markdown("---")
 
     # Load spaCy model
@@ -1683,8 +1682,8 @@ def main():
     df = df_history.loc[mask_window].copy()
 
     if df.empty:
-        st.warning("No articles in the selected date range. Try another window.")
-        return
+        st.warning("No articles in the selected date range. Try expanding the window.")
+        st.stop()
 
     # Ensure article_id exists
     if "article_id" not in df.columns:
@@ -1793,7 +1792,7 @@ def main():
         )
 
         st.markdown("---")
-        st.caption(f"Dashboard powered by Streamlit + spaCy | v{__version__}")
+        st.caption(f"iGaming Intelligence Dashboard · v{__version__}")
 
         # Display run information and check for mismatches
         if run_meta:
@@ -1820,7 +1819,7 @@ def main():
             # Check for mismatch
             if analysis_json and analysis_run_id and news_run_id:
                 if analysis_run_id != news_run_id:
-                    st.warning(f"⚠️ AI analysis is from run `{analysis_run_id}`, but latest news is from run `{news_run_id}`. Run `python analysis.py` to sync.")
+                    st.warning("⚠️ Analysis is being refreshed. Some insights may be a moment behind the latest news.")
         else:
             st.caption(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 
@@ -2238,7 +2237,7 @@ A 2.0x ratio means we're twice as focused on that topic.
             # Generate SEO insights first (needed for all tabs)
             seo_insights = generate_seo_insights(
                 analysis_json.get('strategic_gaps', []),
-                analysis_json.get('clarion_wins', []),
+                analysis_json.get('portfolio_wins', []),
                 analysis_json.get('market_pulse', []),
                 filtered_df
             )
@@ -2495,7 +2494,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                 with col1:
                     opps = keyword_analysis.get('competitor_opportunities', 0)
                     st.metric("🎯 Opportunities", opps,
-                             help="Keywords where competitors outpace us")
+                             help="Keywords where competitors outpace the portfolio")
                 with col2:
                     strengths = keyword_analysis.get('our_strengths', 0)
                     st.metric("💪 Strengths", strengths,
@@ -2715,8 +2714,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                     pass
 
         else:
-            st.warning("⚠️ No analysis found. Please run analysis.py to generate the AI briefing.")
-            st.info("💡 Run the following command:\n```bash\npython scripts/analysis.py\n```")
+            st.info("Historical analysis is being generated. Refresh in a moment.")
 
             # Fallback to markdown if JSON doesn't exist
             briefing = load_briefing()
@@ -2869,7 +2867,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                 st.warning(f"⚠️ **Coverage Gap:** External sources have {gap} more articles about '{search_query}' ({competitor_count} competitor + {affiliate_count} affiliate)")
             elif internal_count > external_count:
                 lead = internal_count - external_count
-                st.success(f"✅ **Clarion Lead:** We have {lead} more articles about '{search_query}'")
+                st.success(f"✅ **Portfolio Lead:** We have {lead} more articles about '{search_query}'")
             elif external_count == internal_count and external_count > 0:
                 st.info(f"⚖️ **Even Coverage:** Equal coverage of '{search_query}'")
 
@@ -3012,8 +3010,8 @@ A 2.0x ratio means we're twice as focused on that topic.
 
     # Tab 3: Intelligence Battleground (NER-Based)
     elif selected_tab == TAB_OPTIONS[2]:
-        st.header("⚔️ Intelligence Battleground: NER-Powered Analysis")
-        st.markdown("**Using spaCy Named Entity Recognition for precise entity extraction**")
+        st.header("⚔️ Intelligence Battleground: Competitive Analysis")
+        st.markdown("**Entity-level coverage comparison across competitors and the portfolio**")
         st.caption(f"📅 **Date range:** {start_date.isoformat()} to {end_date.isoformat()} ({window_option})")
         st.markdown("---")
 
@@ -3037,7 +3035,7 @@ A 2.0x ratio means we're twice as focused on that topic.
         nlp_cache_key = get_ai_cache_key('nlp_results')
 
         if nlp is None:
-            st.info("ℹ️ spaCy NER not available. Entity extraction charts will be empty. Install spaCy model to enable.")
+            st.info("ℹ️ Advanced entity detection temporarily unavailable. Entity extraction charts will be empty.")
             nlp_results = process_articles_with_nlp(filtered_df, None)
         else:
             # Check session state first for instant retrieval
@@ -3057,7 +3055,7 @@ A 2.0x ratio means we're twice as focused on that topic.
 
         # CHART A: Market Focus (Geographic - GPE Entities)
         st.subheader("🌍 Chart A: Market Focus - Geographic Coverage (%)")
-        st.caption("❓ **Question this answers:** Where are competitors talking more than us geographically?")
+        st.caption("❓ **Question this answers:** Where are competitors talking more than the portfolio geographically?")
         st.caption("Percentage of articles mentioning each location (fixes volume bias)")
 
         geo_comparison = get_top_entities_comparison(
@@ -3081,7 +3079,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                     textposition='auto',
                 ),
                 go.Bar(
-                    name='Clarion Coverage (%)',
+                    name='Portfolio Coverage (%)',
                     x=locations,
                     y=internal_pct,
                     marker_color='#0068C9',
@@ -3104,7 +3102,7 @@ A 2.0x ratio means we're twice as focused on that topic.
 
             # Geographic Gap Table
             st.markdown("---")
-            st.subheader("📊 Geo Gap Table: Where competitors talk more than us")
+            st.subheader("📊 Geo Gap Table: Where competitors talk more than the portfolio")
             st.caption("Percentages represent share of articles mentioning each region. Positive gap = competitor advantage.")
 
             # Build gap table
@@ -3126,7 +3124,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                 gap_rows.append({
                     'Region': region,
                     'Competitor %': f"{comp_pct}%",
-                    'Clarion %': f"{clar_pct}%",
+                    'Portfolio %': f"{clar_pct}%",
                     'Gap %': f"{gap:+.1f}%",
                     'Priority': priority
                 })
@@ -3147,10 +3145,10 @@ A 2.0x ratio means we're twice as focused on that topic.
                     top_row = gap_df.iloc[0]
                     top_region = top_row['Region']
                     top_comp = top_row['Competitor %'].strip('%')
-                    top_clar = top_row['Clarion %'].strip('%')
+                    top_clar = top_row['Portfolio %'].strip('%')
                     st.info(f"📍 **Largest geo gap:** {top_region} where competitors cover {top_comp}% vs our {top_clar}%")
             else:
-                st.info("✅ No geographic gaps detected. Clarion coverage matches or exceeds competitors across all regions.")
+                st.info("✅ No geographic gaps detected. Portfolio coverage matches or exceeds competitors across all regions.")
 
             # AI Insight for Chart A (Geographic) - filter-keyed for instant retrieval
             if GEMINI_NER_AVAILABLE and get_geo_insight is not None and geo_comparison:
@@ -3271,7 +3269,7 @@ A 2.0x ratio means we're twice as focused on that topic.
             else:
                 # No metadata available, use all companies
                 df_filtered = df_companies
-                st.info("💡 Run `python -m scripts.enrich_company_metadata_llm` to enable smart filtering")
+                st.info("💡 Advanced company classification activates when metadata is available.")
 
             # Limit to top 15 after filtering
             df_filtered = df_filtered.head(15)
@@ -3328,7 +3326,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                 )
 
                 st.plotly_chart(fig_companies, **_get_width_kwargs())
-                st.caption("⭐ Gold bars are flagged as potential sponsors by the LLM analysis.")
+                st.caption("⭐ = AI-identified sponsor candidate.")
 
                 # Show summary with metadata breakdown
                 sponsor_count = sum(is_sponsor_flags)
@@ -3388,7 +3386,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                     textposition='auto',
                 ),
                 go.Bar(
-                    name='Clarion Coverage (%)',
+                    name='Portfolio Coverage (%)',
                     x=topics,
                     y=topic_internal_pct,
                     marker_color='#0068C9',
@@ -3416,7 +3414,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                     topic_gap_rows.append({
                         'Topic': item['entity'],
                         'Competitor %': f"{item['competitor_pct']}%",
-                        'Clarion %': f"{item['internal_pct']}%",
+                        'Portfolio %': f"{item['internal_pct']}%",
                         'Gap %': f"{item['competitor_pct'] - item['internal_pct']:.1f}%"
                     })
 
@@ -3435,7 +3433,7 @@ A 2.0x ratio means we're twice as focused on that topic.
                     top_row = topic_gap_df.iloc[0]
                     top_topic = top_row['Topic']
                     top_comp_pct = top_row['Competitor %'].strip('%')
-                    top_clar_pct = top_row['Clarion %'].strip('%')
+                    top_clar_pct = top_row['Portfolio %'].strip('%')
                     st.info(f"📊 **Largest topic gap:** {top_topic} where competitors write about it {top_comp_pct}% of the time vs our {top_clar_pct}%")
 
             # AI Insight for Chart C (Topics) - filter-keyed for instant retrieval
@@ -3450,7 +3448,7 @@ A 2.0x ratio means we're twice as focused on that topic.
 
         # Fallback: Show strategic gaps from JSON even if no topics detected via NER
         elif analysis_json and 'strategic_gaps' in analysis_json:
-            st.info("📊 No topic clusters detected via NER. Showing AI-identified strategic gaps instead:")
+            st.info("📊 No topic clusters detected in this window. Showing AI-identified strategic gaps instead:")
             strategic_gaps = analysis_json['strategic_gaps']
 
             for idx, gap in enumerate(strategic_gaps[:5], 1):
@@ -3510,13 +3508,13 @@ A 2.0x ratio means we're twice as focused on that topic.
                 )])
 
                 fig_pie_int.update_layout(
-                    title='Clarion Regional Focus',
+                    title='Portfolio Regional Focus',
                     height=400
                 )
 
                 st.plotly_chart(fig_pie_int, **_get_width_kwargs())
             else:
-                st.info("No Clarion regional data")
+                st.info("No portfolio regional data")
 
         # Regional insights
         if all_competitor_regions and all_internal_regions:

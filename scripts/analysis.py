@@ -2,7 +2,7 @@
 """
 iGaming News Gap Analysis Script - Batched Analysis Approach
 
-Compares Clarion's internal coverage against competitors and identifies content
+Compares the tracked portfolio's internal coverage against competitors and identifies content
 gaps, wins, and commercial opportunities. Powered by the provider-agnostic
 ``src.llm_client`` (Cerebras / Groq / OpenRouter failover) — no Google
 dependency.
@@ -11,6 +11,7 @@ BATCHING: Processes ALL articles in the window by splitting into batches,
 then aggregating batch summaries into a final briefing. No article loss due to caps.
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -59,13 +60,31 @@ class NewsAnalyzer:
         # Force re-discovery so the script works in long-lived processes where
         # env vars changed since the module was first imported.
         if not llm_client.reinit():
-            raise ValueError(
-                "❌ No LLM provider credentials found. Set at least one of:\n"
-                "  CEREBRAS_API_KEY  (recommended — 1M tokens/day free, fastest)\n"
-                "  GROQ_API_KEY      (14.4k req/day free, JSON-mode support)\n"
-                "  OPENROUTER_API_KEY (multi-model fallback)\n"
-                "  Export in your shell or add to .env"
+            # Graceful degradation: write a marker file the dashboard can surface
+            # and exit cleanly (NOT non-zero — non-zero would break the GH Action).
+            reason = (
+                "No LLM provider credentials found. Set at least one of: "
+                "CEREBRAS_API_KEY (recommended — 1M tokens/day free, fastest), "
+                "GROQ_API_KEY (14.4k req/day free, JSON-mode support), "
+                "OPENROUTER_API_KEY (multi-model fallback)."
             )
+            print(f"WARNING: {reason}")
+            print("WARNING: All LLM providers unavailable — writing marker file and exiting cleanly.")
+            try:
+                marker_path = Path(DAILY_ANALYSIS_JSON).parent / "analysis_failed.json"
+                marker = {
+                    "reason": "all LLM providers failed",
+                    "detail": reason,
+                    "timestamp": datetime.now(UTC).isoformat(),
+                }
+                tmp_marker = marker_path.with_suffix(".json.tmp")
+                with open(tmp_marker, "w", encoding="utf-8") as f:
+                    json.dump(marker, f, indent=2)
+                os.replace(tmp_marker, marker_path)
+                print(f"WARNING: Marker written to {marker_path}")
+            except Exception as marker_err:
+                print(f"WARNING: Failed to write marker file: {marker_err}")
+            sys.exit(0)
 
         self.analysis_lookback_days = analysis_lookback_days or ANALYSIS_LOOKBACK_DAYS_DEFAULT
         self.batch_size = ANALYSIS_BATCH_SIZE_ARTICLES
@@ -109,7 +128,7 @@ class NewsAnalyzer:
         affiliate_count = len(df[df['category'] == 'affiliate'])
         print(f"  → Competitor articles: {competitor_count}")
         print(f"  → Affiliate articles: {affiliate_count}")
-        print(f"  → Internal (Clarion) articles: {internal_count}")
+        print(f"  → Internal (Portfolio) articles: {internal_count}")
 
         return df
 
@@ -231,7 +250,7 @@ class NewsAnalyzer:
         prompt = f"""You are analyzing batch {batch_num} of {total_batches} for iGaming competitive intelligence.
 
 **BATCH CONTAINS:**
-- {len(internal_articles)} Internal (Clarion Events) articles
+- {len(internal_articles)} Internal (Tracked Portfolio) articles
 - {len(competitor_articles)} Competitor articles
 
 **INTERNAL COVERAGE:**
@@ -267,7 +286,7 @@ Respond with ONLY valid JSON containing these findings from THIS BATCH:
   ],
   "batch_wins": [
     {{
-      "topic": "Topic where Clarion leads",
+      "topic": "Topic where the portfolio leads",
       "our_narrative": "Our strength",
       "evidence_article_titles": ["Exact title of internal article"]
     }}
@@ -312,7 +331,7 @@ Return ONLY JSON, no other text."""
 
         batch_json = json.dumps(batch_data, indent=2, ensure_ascii=False)
 
-        prompt = f"""You are the Strategic Content Director for Clarion Events (ICE/iGB).
+        prompt = f"""You are the Strategic Content Director for an iGaming trade-media portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 I have analyzed {stats['total_window_articles']} articles from the last {stats['analysis_lookback_days']} days
 ({stats['total_window_competitor']} competitor, {stats['total_window_internal']} internal).
 
@@ -356,7 +375,7 @@ Respond with ONLY valid JSON in this exact schema:
     }}
   ],
 
-  "clarion_wins": [
+  "portfolio_wins": [
     {{
       "topic": "Topic where we're leading",
       "our_narrative": "What makes our coverage strong",
@@ -514,7 +533,7 @@ Return ONLY the JSON object. No other text."""
                      "potential_impact": "Increase audience relevance"}
                     for g in all_gaps[:5]
                 ],
-                "clarion_wins": [
+                "portfolio_wins": [
                     {"topic": w.get('topic', ''), "our_narrative": w.get('our_narrative', ''),
                      "competitive_gap": "Competitors have limited coverage",
                      "amplification_opportunity": "Leverage in upcoming events"}
@@ -532,7 +551,7 @@ Return ONLY the JSON object. No other text."""
                 "executive_summary": f"Analyzed {stats['total_window_articles']} articles. See differentiators section for detailed topic analysis.",
                 "market_pulse": [],
                 "strategic_gaps": [],
-                "clarion_wins": [],
+                "portfolio_wins": [],
                 "commercial_radar": {
                     "potential_sponsors": [],
                     "potential_speakers": [],
@@ -674,7 +693,7 @@ Return ONLY the JSON object. No other text."""
         print()
         print(f"✓ Market Pulse Themes: {len(analysis_json.get('market_pulse', []))}")
         print(f"✓ Strategic Gaps Identified: {len(analysis_json.get('strategic_gaps', []))}")
-        print(f"✓ Clarion Wins: {len(analysis_json.get('clarion_wins', []))}")
+        print(f"✓ Portfolio Wins: {len(analysis_json.get('portfolio_wins', []))}")
 
         commercial = analysis_json.get('commercial_radar', {})
         print(f"✓ Potential Sponsors: {len(commercial.get('potential_sponsors', []))}")
@@ -720,9 +739,11 @@ Return ONLY the JSON object. No other text."""
             # Legacy fields for backward compat
             analysis_json["articles_analyzed_count"] = stats['total_window_articles']
 
-            # Save JSON
-            with open(DAILY_ANALYSIS_JSON, 'w', encoding='utf-8') as f:
+            # Save JSON atomically (write to temp then rename)
+            tmp = DAILY_ANALYSIS_JSON.with_suffix('.json.tmp')
+            with open(tmp, 'w', encoding='utf-8') as f:
                 json.dump(analysis_json, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, DAILY_ANALYSIS_JSON)
             print(f"✓ JSON analysis saved to {DAILY_ANALYSIS_JSON}")
 
             # Convert to markdown
@@ -742,13 +763,16 @@ Return ONLY the JSON object. No other text."""
 
 ---
 
-*Generated by Clarion Events Competitive Intelligence System*
+*Generated by the Portfolio Competitive Intelligence System*
 *LLM backend: {self.model_name}*
 *Run ID: {run_meta.get('run_id', 'N/A')}*
 """
 
-            with open(DAILY_BRIEFING_MD, 'w', encoding='utf-8') as f:
+            # Save Markdown briefing atomically
+            tmp_md = DAILY_BRIEFING_MD.with_suffix('.md.tmp')
+            with open(tmp_md, 'w', encoding='utf-8') as f:
                 f.write(briefing_content)
+            os.replace(tmp_md, DAILY_BRIEFING_MD)
             print(f"✓ Markdown briefing saved to {DAILY_BRIEFING_MD}")
 
         except Exception as e:
@@ -799,11 +823,11 @@ Return ONLY the JSON object. No other text."""
                     md.append("\n")
                 md.append("---\n\n")
 
-        # Clarion Wins
-        clarion_wins = analysis.get("clarion_wins", [])
-        if clarion_wins:
-            md.append("## Clarion Wins: Where We're Leading\n")
-            for i, win in enumerate(clarion_wins, 1):
+        # Portfolio Wins
+        portfolio_wins = analysis.get("portfolio_wins", [])
+        if portfolio_wins:
+            md.append("## Portfolio Wins: Where We're Leading\n")
+            for i, win in enumerate(portfolio_wins, 1):
                 md.append(f"### {i}. {win.get('topic', 'Unknown Topic')}\n")
                 md.append(f"**Our Narrative:** {win.get('our_narrative', 'N/A')}\n\n")
                 md.append(f"**Competitive Gap:** {win.get('competitive_gap', 'N/A')}\n\n")
@@ -846,7 +870,7 @@ Return ONLY the JSON object. No other text."""
         print("=" * 70)
         print("iGAMING COMPETITIVE INTELLIGENCE: BATCHED GAP ANALYSIS")
         print("=" * 70)
-        print("Comparing Internal (Clarion) vs. Competitor Coverage")
+        print("Comparing Internal (Portfolio) vs. Competitor Coverage")
         print("Method: Batched processing - ALL articles analyzed, no cap loss")
         print("=" * 70)
         print()
@@ -858,7 +882,22 @@ Return ONLY the JSON object. No other text."""
         competitor_df, internal_df, stats = self.get_window_articles(df)
 
         if len(competitor_df) == 0 and len(internal_df) == 0:
-            print("⚠ No articles found in window. Nothing to analyze.")
+            print("⚠ No articles found in window. Writing empty-window marker.")
+            empty_payload = {
+                "empty_window": True,
+                "timestamp": datetime.now(UTC).isoformat(),
+                "competitor_count": 0,
+                "internal_count": 0,
+                "analysis_period_days": self.analysis_lookback_days,
+            }
+            try:
+                tmp_empty = DAILY_ANALYSIS_JSON.with_suffix(".json.tmp")
+                with open(tmp_empty, "w", encoding="utf-8") as f:
+                    json.dump(empty_payload, f, ensure_ascii=False, indent=2)
+                os.replace(tmp_empty, DAILY_ANALYSIS_JSON)
+                print(f"✓ Empty-window marker saved to {DAILY_ANALYSIS_JSON}")
+            except Exception as e:
+                print(f"⚠ Failed to write empty-window marker: {e}")
             return
 
         # Run batched analysis
@@ -867,7 +906,7 @@ Return ONLY the JSON object. No other text."""
         # Enrich with supporting articles
         analysis = self.enrich_gaps_with_evidence(analysis, competitor_df, internal_df)
 
-        # Extract differentiators (what Clarion does that competitors don't)
+        # Extract differentiators (what the portfolio does that competitors don't)
         print("\n" + "=" * 70)
         print("EXTRACTING DIFFERENTIATORS")
         print("=" * 70)

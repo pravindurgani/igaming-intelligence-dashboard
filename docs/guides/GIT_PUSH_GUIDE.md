@@ -12,7 +12,7 @@ This guide explains how to push all local changes to the GitHub repository, over
 
 - **Local Branch**: `release/unified-search-briefing-2025-12-15`
 - **Remote Branch**: `main`
-- **Remote URL**: `https://github.com/prav-clarion/igaming-intelligence-dashboard.git`
+- **Remote URL**: `https://github.com/pravindurgani/igaming-intelligence-dashboard.git`
 
 ---
 
@@ -161,7 +161,7 @@ git push origin release/unified-search-briefing-2025-12-15:main --force
 Re-authenticate:
 
 ```bash
-git remote set-url origin https://github.com/prav-clarion/igaming-intelligence-dashboard.git
+git remote set-url origin https://github.com/pravindurgani/igaming-intelligence-dashboard.git
 ```
 
 Then retry push (you'll be prompted for credentials).

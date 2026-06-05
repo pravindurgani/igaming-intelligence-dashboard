@@ -152,7 +152,6 @@ class TestBrandTokenFilteringOrder:
         tokens = get_brand_tokens()
         assert 'igbaffiliate' in tokens
         assert 'igamingbusiness' in tokens
-        assert 'clarion' in tokens
 
     def test_brand_topics_not_in_output(self, mixed_articles_df):
         """Brand topics should not appear in final output."""
@@ -165,7 +164,6 @@ class TestBrandTokenFilteringOrder:
         for topic in topic_names:
             assert 'igbaffiliate' not in topic
             assert 'igamingbusiness' not in topic
-            assert 'clarion' not in topic
 
     def test_competitor_counts_preserved_for_non_brand_topics(self, mixed_articles_df):
         """Non-brand topics should have accurate competitor counts."""

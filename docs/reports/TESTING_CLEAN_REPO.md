@@ -95,7 +95,7 @@ from scripts.analysis import main as analysis_main
 ### Result:
 ```
 ✅ All imports successful!
-   ROOT: /Users/confusemouse/Desktop/spying_gaming_competitors_clarion
+   ROOT: /Users/confusemouse/Desktop/igaming-intelligence-dashboard
    LATEST_NEWS_JSON: .../outputs/latest_competitor_news.json
    should_ignore("CEO"): True
    normalize_company("Flutter Entertainment"): Flutter
@@ -137,13 +137,13 @@ from src.taxonomy import normalize_company, normalize_region, classify_topic, sh
 ### Command:
 ```python
 from paths import ROOT
-from app.dashboard import get_clarion_strengths
+from app.dashboard import get_portfolio_strengths
 ```
 
 ### Result:
 ```
 ✅ Test imports successful!
-   get_clarion_strengths function: <function get_clarion_strengths at 0x...>
+   get_portfolio_strengths function: <function get_portfolio_strengths at 0x...>
 ```
 
 ### Verification:
@@ -234,7 +234,7 @@ from src.taxonomy import should_ignore  # Works
 
 ```python
 # paths.py constants
-ROOT = /Users/confusemouse/Desktop/spying_gaming_competitors_clarion
+ROOT = /Users/confusemouse/Desktop/igaming-intelligence-dashboard
 
 # Derived paths
 DATA_DIR = ROOT / "data"

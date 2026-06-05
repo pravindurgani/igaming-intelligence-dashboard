@@ -115,7 +115,7 @@ $ python scripts/analysis.py
 
 ✓ Loaded 540 articles from news_history.csv
   → Competitor articles: 411
-  → Internal (Clarion) articles: 129
+  → Internal (portfolio) articles: 129
 
 ✓ Filtering articles by date range...
   → Analysis period: 30 days

@@ -2,7 +2,7 @@
 """
 Competitive Intelligence Tool for iGaming Industry
 Hybrid approach: Direct RSS for working feeds, Google News RSS proxy for blocked sites.
-Includes self-audit feature for Clarion's own brands (all via Google News proxy).
+Includes self-audit feature for the tracked portfolio's own brands (all via Google News proxy).
 SSL-safe implementation using requests + feedparser for macOS compatibility.
 """
 
@@ -261,7 +261,7 @@ def normalize_url(url: str) -> str:
 
 
 class NewsAggregator:
-    """Aggregates news from various iGaming competitor websites and Clarion's own brands."""
+    """Aggregates news from various iGaming competitor websites and portfolio brands."""
 
     def __init__(self):
         self.headers = {
@@ -461,6 +461,11 @@ class NewsAggregator:
                     raise Exception(f"Failed to parse RSS feed: {feed.get('bozo_exception', 'Unknown error')}")
 
             for entry in feed.entries[:50]:  # Limit to 50 most recent articles
+                # Per-entry validation: skip entries missing link or title
+                if not entry.get('link') or not entry.get('title'):
+                    print(f"    ⚠ Skipping entry from {source}: missing link or title")
+                    continue
+
                 raw_link = entry.get('link', '')
 
                 # Normalize URL to remove tracking parameters and reduce duplicates
@@ -531,6 +536,11 @@ class NewsAggregator:
                 raise Exception(f"Failed to parse Google News feed: {feed.get('bozo_exception', 'Unknown error')}")
 
             for entry in feed.entries[:50]:  # Limit to 50 most recent articles
+                # Per-entry validation: skip entries missing link or title
+                if not entry.get('link') or not entry.get('title'):
+                    print(f"    ⚠ Skipping entry from {source}: missing link or title")
+                    continue
+
                 # Get the link (may be Google redirect)
                 original_link = entry.get('link', '')
 
@@ -694,7 +704,7 @@ class NewsAggregator:
 
     def aggregate_all_news(self):
         """
-        Aggregate news from all sources: competitors and internal Clarion brands.
+        Aggregate news from all sources: competitors and internal portfolio brands.
 
         Processing flow:
         1. Fetch articles from all sources (each gets article_id and run_timestamp)
@@ -826,7 +836,7 @@ def main():
     print("iGAMING COMPETITIVE INTELLIGENCE NEWS AGGREGATOR")
     print("=" * 70)
     print("Strategy: Direct RSS + Google News Proxy")
-    print("Features: Competitor tracking + Clarion self-audit + History tracking")
+    print("Features: Competitor tracking + Portfolio self-audit + History tracking")
     print("SSL-Safe: Using requests + feedparser (macOS compatible)")
     print("=" * 70)
 

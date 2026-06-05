@@ -109,7 +109,7 @@ TOPIC_CLUSTERS = {
 
 **Impact on Chart C (Strategic Topics):**
 - Before: 50+ scattered keywords
-- After: 7 strategic themes with competitor vs. Clarion comparison
+- After: 7 strategic themes with competitor vs. portfolio comparison
 
 ## Noise Filtering
 

@@ -18,7 +18,7 @@ Refactored the repository into a standard data science project structure to impr
 Created standard Python project layout:
 
 ```
-spying_gaming_competitors_clarion/
+igaming-intelligence-dashboard/
 ├── src/                      # Core business logic modules
 │   ├── __init__.py
 │   ├── taxonomy.py           # Entity normalization & classification

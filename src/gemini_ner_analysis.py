@@ -253,7 +253,7 @@ def get_company_insight(companies_json: str) -> str:
     if not _ensure_gemini_initialized():
         return fallback_insight()
 
-    prompt = f"""As an iGaming industry analyst for Clarion Events (ICE/iGB conferences), provide ONE brief insight (2-3 sentences max) about these most-mentioned companies:
+    prompt = f"""As an iGaming industry analyst tracking a portfolio of trade-media brands (iGaming Business, iGB Affiliate, GGB Magazine), provide ONE brief insight (2-3 sentences max) about these most-mentioned companies:
 
 {json.dumps(companies, indent=2)}
 
@@ -390,7 +390,7 @@ def analyze_geographic_gaps(
             if g['competitor_pct'] > g['internal_pct']
         ]
 
-        prompt = f"""You are an iGaming industry analyst for Clarion Events (ICE/iGB conferences).
+        prompt = f"""You are an iGaming industry analyst for the tracked portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 
 Analyze this geographic coverage data:
 - Total articles: {competitor_article_count} external vs {internal_article_count} internal
@@ -441,7 +441,7 @@ def analyze_company_landscape(
                 for s in analysis_json['commercial_radar'].get('potential_sponsors', [])
             ]
 
-        prompt = f"""You are an iGaming industry analyst for Clarion Events (ICE/iGB conferences).
+        prompt = f"""You are an iGaming industry analyst for the tracked portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 
 Analyze these most-mentioned companies from news coverage:
 {json.dumps(top_companies[:15], indent=2)}
@@ -500,7 +500,7 @@ def analyze_topic_trends(
         if strategic_gaps:
             gap_titles = [g.get('gap_title', '') for g in strategic_gaps[:5]]
 
-        prompt = f"""You are an iGaming industry content strategist for Clarion Events.
+        prompt = f"""You are an iGaming industry content strategist for the tracked portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 
 Analyze this topic coverage data:
 
@@ -674,7 +674,7 @@ def get_commercial_enhancement(
         existing_sponsors = [s.get('company_name', '') for s in existing_commercial.get('potential_sponsors', [])]
         existing_speakers = [s.get('name_or_company', '') for s in existing_commercial.get('potential_speakers', [])]
 
-        prompt = f"""As an iGaming industry commercial analyst for Clarion Events (ICE/iGB conferences),
+        prompt = f"""As an iGaming industry commercial analyst for the tracked iGaming trade-media portfolio,
 analyze these recent news headlines and enhance our commercial intelligence:
 
 Recent Headlines:
@@ -705,7 +705,7 @@ Provide additional commercial insights as JSON:
     {{
       "companies_involved": ["Company A", "Company B"],
       "partnership_type": "M&A/Investment/Product",
-      "opportunity": "How Clarion can engage"
+      "opportunity": "How the portfolio can engage"
     }}
   ],
   "timing_recommendations": "Any time-sensitive opportunities"
@@ -769,7 +769,7 @@ def get_ai_seo_recommendations(seo_insights: dict, recent_articles: list[dict]) 
 
         article_titles = [a.get('title', '')[:60] for a in recent_articles[:20]]
 
-        prompt = f"""As an SEO strategist for iGaming media (Clarion Events - iGB, ICE),
+        prompt = f"""As an SEO strategist for an iGaming trade-media portfolio (iGaming Business, iGB Affiliate, GGB Magazine),
 provide actionable SEO recommendations based on this competitive intelligence:
 
 Content Gaps (competitors cover, we don't):
@@ -900,7 +900,7 @@ def get_exhibitor_prospects(
 
         categories_list = [c.get('category', '') for c in emerging_categories]
 
-        prompt = f"""You are an exhibition sales strategist for Clarion Events (ICE London / iGB Affiliate).
+        prompt = f"""You are an exhibition sales strategist for an iGaming trade-media portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 Your goal is to identify companies that should exhibit at the next ICE/iGB event.
 
 CONTEXT:
@@ -1055,7 +1055,7 @@ def get_ai_keyword_recommendations(
         # Get sample competitor headlines
         comp_headlines = [a.get('title', '')[:80] for a in competitor_articles[:20]]
 
-        prompt = f"""You are an SEO strategist for iGaming media (Clarion Events - iGB, GGB Magazine).
+        prompt = f"""You are an SEO strategist for an iGaming trade-media portfolio (iGaming Business, iGB Affiliate, GGB Magazine).
 Your goal is to identify high-value keywords that will help us rank higher on Google.
 
 CURRENT STATE:
@@ -1227,14 +1227,14 @@ def enhance_reader_advantages_with_gemini(
         }
 
     # Build the prompt
-    prompt = f"""You are an expert editorial strategist analyzing competitive advantages for Clarion Gaming's publications (iGaming Business, iGB Affiliate, GGB Magazine).
+    prompt = f"""You are an expert editorial strategist analyzing competitive advantages for the tracked publications (iGaming Business, iGB Affiliate, GGB Magazine).
 
 TASK: Transform detected coverage patterns into compelling "Why Readers Choose Us" cards.
 
 DATA CONTEXT (Last {window_days} days):
 - Internal articles analyzed: {internal_count}
 - Competitor articles analyzed: {competitor_count}
-- This is 1 publisher (Clarion) vs multiple competitor sources
+- This is 1 publisher (the tracked portfolio) vs multiple competitor sources
 
 PYTHON-DETECTED PATTERNS:
 {json.dumps(python_cards[:5], indent=2)}

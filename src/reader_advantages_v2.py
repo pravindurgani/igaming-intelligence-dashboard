@@ -83,7 +83,6 @@ GEOGRAPHY_TOKENS = {
 # Brand tokens to exclude from analysis
 BRAND_TOKENS = {
     'igbaffiliate', 'igamingbusiness', 'igba', 'igb',
-    'clarion', 'clarionigaming', 'clarion gaming',
     'igbaffiliate.com', 'igamingbusiness.com',
     'barcelona.igbaffiliate.com', 'ggb magazine', 'ggbmagazine',
 }

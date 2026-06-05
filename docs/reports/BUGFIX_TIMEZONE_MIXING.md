@@ -150,7 +150,7 @@ The normalization step runs **every time** `save_to_history()` is called, so:
 ### Test 1: Syntax Check
 
 ```bash
-cd spying_gaming_competitors_clarion
+cd igaming-intelligence-dashboard
 source .venv/bin/activate
 python -m py_compile main.py
 ```
@@ -170,7 +170,7 @@ GROUP A: Direct RSS Feeds (Working Feeds)
 ...
 GROUP B: Competitor Sources (Google News Proxy)
 ...
-GROUP C: Clarion's Own Brands (Google News Proxy - Self-Audit)
+GROUP C: Portfolio's Own Brands (Google News Proxy - Self-Audit)
 ...
 DEDUPLICATION
 ✓ Deduplicated: 180 → 120 articles

@@ -1,7 +1,7 @@
 """
 Differentiators extraction module.
 
-Identifies what Clarion (internal) coverage does that competitors don't:
+Identifies what the tracked portfolio covers that competitors don't:
 - Language differentiators via log-odds analysis
 - Entity/company coverage differentiators
 - Region/geography advantages
@@ -173,7 +173,7 @@ def log_odds_ratio(count_a: int, total_a: int, count_b: int, total_b: int,
     - Adds prior_weight to both counts to prevent divide-by-zero
     - Normalizes by corpus size
 
-    Positive values = more associated with corpus A (internal/Clarion)
+    Positive values = more associated with corpus A (internal/portfolio)
     Negative values = more associated with corpus B (competitors)
 
     Args:
@@ -184,7 +184,7 @@ def log_odds_ratio(count_a: int, total_a: int, count_b: int, total_b: int,
         prior_weight: Smoothing parameter (default 1.0 for Laplace)
 
     Returns:
-        Log-odds ratio (positive = Clarion advantage)
+        Log-odds ratio (positive = portfolio advantage)
     """
     # Add smoothing
     smoothed_a = count_a + prior_weight
@@ -291,21 +291,21 @@ def extract_term_differentiators(internal_counts: Counter, competitor_counts: Co
     # Filter meaningful terms and sort by absolute score
     meaningful_scores = {k: v for k, v in scores.items() if is_meaningful_term(k)}
 
-    # Get top Clarion advantages (positive log-odds)
-    clarion_terms = sorted(
+    # Get top portfolio advantages (positive log-odds)
+    portfolio_terms = sorted(
         [(term, score) for term, score in meaningful_scores.items() if score > 0],
         key=lambda x: x[1],
         reverse=True
     )[:top_n]
 
     results = []
-    for term, score in clarion_terms:
+    for term, score in portfolio_terms:
         results.append({
             'term': term,
             'log_odds': round(score, 3),
             'internal_count': internal_counts.get(term, 0),
             'competitor_count': competitor_counts.get(term, 0),
-            'advantage': 'clarion'
+            'advantage': 'portfolio'
         })
 
     return results
@@ -324,7 +324,7 @@ KNOWN_COMPANIES = {
     'sportradar', 'genius sports', 'img arena', 'betgenius', 'kambi',
     'softswiss', 'betconstruct', 'digitain', 'altenar', 'sbtech',
     'microgaming', 'pragmatic play', 'yggdrasil', 'big time gaming', 'red tiger',
-    'clarion', 'igb', 'ice', 'sigma', 'sbc', 'egr', 'gambling insider'
+    'igb', 'ice', 'sigma', 'sbc', 'egr', 'gambling insider'
 }
 
 
@@ -353,7 +353,7 @@ def extract_company_mentions(corpus: str) -> Counter:
 def extract_company_differentiators(internal_df: pd.DataFrame, competitor_df: pd.DataFrame,
                                      top_n: int = 10) -> list[dict]:
     """
-    Find companies mentioned more by Clarion than competitors.
+    Find companies mentioned more by the tracked portfolio than competitors.
 
     Args:
         internal_df: Internal articles DataFrame
@@ -381,7 +381,7 @@ def extract_company_differentiators(internal_df: pd.DataFrame, competitor_df: pd
         comp_count = competitor_mentions.get(company, 0)
 
         # Skip our own brands
-        if company in {'clarion', 'igb', 'ice'}:
+        if company in {'igb', 'ice'}:
             continue
 
         # Normalize per-article rate
@@ -435,7 +435,7 @@ def extract_region_mentions(corpus: str) -> dict[str, int]:
 
 def extract_region_differentiators(internal_df: pd.DataFrame, competitor_df: pd.DataFrame) -> list[dict]:
     """
-    Find regions covered more by Clarion than competitors.
+    Find regions covered more by the tracked portfolio than competitors.
 
     Returns:
         List of {region, internal_mentions, competitor_mentions, advantage_ratio}
@@ -465,10 +465,10 @@ def extract_region_differentiators(internal_df: pd.DataFrame, competitor_df: pd.
             'internal_mentions': int_count,
             'competitor_mentions': comp_count,
             'advantage_ratio': round(ratio, 2),
-            'advantage': 'clarion' if ratio > 1.0 else 'competitor'
+            'advantage': 'portfolio' if ratio > 1.0 else 'competitor'
         })
 
-    # Sort by Clarion advantage
+    # Sort by portfolio advantage
     results.sort(key=lambda x: x['advantage_ratio'], reverse=True)
     return results
 
@@ -534,7 +534,7 @@ def extract_format_differentiators(internal_df: pd.DataFrame, competitor_df: pd.
             'internal_pct': round(int_pct, 1),
             'competitor_pct': round(comp_pct, 1),
             'advantage_ratio': round(ratio, 2),
-            'advantage': 'clarion' if ratio > 1.0 else 'competitor'
+            'advantage': 'portfolio' if ratio > 1.0 else 'competitor'
         })
 
     results.sort(key=lambda x: x['advantage_ratio'], reverse=True)
@@ -603,7 +603,7 @@ def calculate_cadence_metrics(internal_df: pd.DataFrame, competitor_df: pd.DataF
         'rate_ratio': round((internal_rate + 0.1) / (competitor_rate + 0.1), 2),
         'internal_weekend_pct': round(int_weekend_pct, 1),
         'competitor_weekend_pct': round(comp_weekend_pct, 1),
-        'weekend_advantage': 'clarion' if int_weekend_pct > comp_weekend_pct else 'competitor'
+        'weekend_advantage': 'portfolio' if int_weekend_pct > comp_weekend_pct else 'competitor'
     }
 
 
@@ -645,7 +645,7 @@ def extract_all_differentiators(internal_df: pd.DataFrame, competitor_df: pd.Dat
     Extract all differentiators between internal and competitor coverage.
 
     Args:
-        internal_df: Internal (Clarion) articles DataFrame
+        internal_df: Internal (portfolio) articles DataFrame
         competitor_df: Competitor articles DataFrame
         analysis_days: Number of days in analysis window
 
@@ -698,14 +698,14 @@ def extract_all_differentiators(internal_df: pd.DataFrame, competitor_df: pd.Dat
         'format_differentiators': format_diffs,
         'cadence_metrics': cadence,
         'summary': {
-            'top_clarion_terms': [d['term'] for d in term_diffs[:5]],
-            'top_clarion_companies': [d['company'] for d in company_diffs[:3]],
+            'top_portfolio_terms': [d['term'] for d in term_diffs[:5]],
+            'top_portfolio_companies': [d['company'] for d in company_diffs[:3]],
             'strongest_region': next(
-                (r['region'] for r in region_diffs if r['advantage'] == 'clarion'),
+                (r['region'] for r in region_diffs if r['advantage'] == 'portfolio'),
                 None
             ),
             'strongest_format': next(
-                (f['format'] for f in format_diffs if f['advantage'] == 'clarion'),
+                (f['format'] for f in format_diffs if f['advantage'] == 'portfolio'),
                 None
             )
         }

@@ -71,7 +71,7 @@ def get_brand_tokens(config_dir: Path = None) -> set[str]:
     tokens = set()
 
     # Collect all token lists
-    for key in ['our_brands', 'our_domains', 'boilerplate', 'web_artifacts']:
+    for key in ['portfolio_brands', 'our_domains', 'boilerplate', 'web_artifacts']:
         tokens.update(t.lower() for t in config.get(key, []))
 
     # Add defaults if empty
@@ -79,7 +79,6 @@ def get_brand_tokens(config_dir: Path = None) -> set[str]:
         tokens = {
             # Brand tokens - core
             'igbaffiliate', 'igamingbusiness', 'igba', 'igb',
-            'clarion', 'clarionigaming', 'clarion gaming',
             'igbaffiliate.com', 'igamingbusiness.com',
             'barcelona.igbaffiliate.com', 'ggb magazine', 'ggbmagazine',
             # Web artifacts

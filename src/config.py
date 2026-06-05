@@ -1,5 +1,5 @@
 """
-Configuration constants for the Clarion Intelligence Dashboard.
+Configuration constants for the iGaming Intelligence Dashboard.
 """
 
 # Analysis Configuration

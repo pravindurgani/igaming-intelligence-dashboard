@@ -234,7 +234,7 @@ class TestCompanyDifferentiators:
         result = extract_company_differentiators(internal_df, competitor_df, top_n=5)
 
         assert isinstance(result, list)
-        # DraftKings should show up as Clarion advantage
+        # DraftKings should show up as portfolio advantage
         if result:
             companies = [r['company'].lower() for r in result]
             # May or may not have draftkings depending on thresholds
@@ -378,7 +378,7 @@ class TestFullExtraction:
             {
                 'title': 'ICE Conference Preview',
                 'summary': 'What to expect at ICE 2025',
-                'content': 'Clarion events announces major speakers.',
+                'content': 'Industry event announces major speakers.',
                 'published_date': '2025-01-13',
                 'source': 'iGaming Business',
                 'link': 'http://example.com/3'
@@ -430,8 +430,8 @@ class TestFullExtraction:
         assert result['corpus_stats']['competitor_articles'] == 2
 
         # Check summary
-        assert 'top_clarion_terms' in result['summary']
-        assert 'top_clarion_companies' in result['summary']
+        assert 'top_portfolio_terms' in result['summary']
+        assert 'top_portfolio_companies' in result['summary']
 
     def test_extract_all_handles_empty(self):
         """Test with empty dataframes."""

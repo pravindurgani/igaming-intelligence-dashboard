@@ -25,7 +25,7 @@ import pandas as pd
 from paths import LATEST_NEWS_JSON, NEWS_HISTORY_CSV
 
 # Affiliate sources that should have category='affiliate'
-# These are COMPETITOR affiliates (not Clarion's)
+# These are competitor affiliates (not part of the tracked portfolio)
 AFFILIATE_SOURCES = {
     "iGaming Afrika",
     "Gambling Insider",
@@ -35,10 +35,10 @@ AFFILIATE_SOURCES = {
     "Gaming and Co",
 }
 
-# Sources that should stay as 'internal' (Clarion's own brands)
+# Sources that should stay as 'internal' (tracked portfolio brands)
 INTERNAL_SOURCES = {
     "iGaming Business",
-    "iGB Affiliate",  # Clarion's affiliate brand - counts as internal
+    "iGB Affiliate",  # Portfolio affiliate brand - counts as internal
     "GGB Magazine"
 }
 
@@ -132,7 +132,7 @@ def main():
         print("\nCategory filter now includes:")
         print("  • competitor - Competitor news sources")
         print("  • affiliate  - Affiliate/partner sources")
-        print("  • internal   - Clarion's own brands")
+        print("  • internal   - Tracked portfolio brands")
     else:
         print("\n⚠️ Migration completed with warnings")
 

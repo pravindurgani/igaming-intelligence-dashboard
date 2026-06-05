@@ -386,7 +386,7 @@ All paths resolve correctly:
 ```python
 >>> from paths import LATEST_NEWS_JSON
 >>> print(LATEST_NEWS_JSON)
-/Users/.../spying_gaming_competitors_clarion/outputs/latest_competitor_news.json
+/Users/.../igaming-intelligence-dashboard/outputs/latest_competitor_news.json
 >>> print(LATEST_NEWS_JSON.exists())
 True  # after running main.py
 ```

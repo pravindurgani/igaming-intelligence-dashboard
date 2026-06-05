@@ -53,7 +53,7 @@ Every article now has these fields:
 Articles are fetched from all sources (12 sources total):
 - Direct RSS: SBC News, iGaming Future
 - Google News Proxy: Next.io, SiGMA World, EGR Global, CDC Gaming, Global Gaming Insider, iGaming Today
-- Clarion Brands: iGaming Business, iGB Affiliate, GGB Magazine, ICE Gaming
+- Portfolio Brands: iGaming Business, iGB Affiliate, GGB Magazine, ICE Gaming
 
 **Expected:** ~200-240 articles (20 per source × 12 sources)
 

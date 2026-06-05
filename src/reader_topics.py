@@ -2,7 +2,7 @@
 Reader Topics: Brand-neutral topic discovery for "Why Readers Choose Us".
 
 Scoring Rules:
-- Filters out brand/domain tokens (igbaffiliate, igamingbusiness, clarion, etc.)
+- Filters out brand/domain tokens (igbaffiliate, igamingbusiness, etc.)
 - Extracts topics from title+summary using spaCy noun chunks and named entities
 - Selection: Us >= 3 AND (Us >= 2*Them OR Them <= 1)
 - Near-wins fallback: Us >= 2 AND Advantage >= 1
@@ -36,10 +36,9 @@ except ImportError:
 # ============================================================================
 
 STOPWORDS_EXACT = {
-    # Our brands and domains
+    # Tracked portfolio brands and domains
     "igbaffiliate", "igamingbusiness", "igba", "igb",
     "igbaffiliate.com", "igamingbusiness.com", "barcelona.igbaffiliate.com",
-    "clarion", "clarionigaming", "clarion gaming",
     # Generic domain artifacts
     "com", "www", "http", "https", "html", "magazine",
     # Common non-topic words
@@ -48,7 +47,7 @@ STOPWORDS_EXACT = {
 
 # Regex pattern for brand detection
 BRAND_PATTERN = re.compile(
-    r"^(igb|igamingbusiness|igbaffiliate|clarion)(\.com)?$",
+    r"^(igb|igamingbusiness|igbaffiliate)(\.com)?$",
     re.IGNORECASE
 )
 
@@ -123,7 +122,7 @@ def is_brand_token(token: str) -> bool:
         return True
 
     # Contains our domain
-    if any(brand in token_lower for brand in ["igbaffiliate", "igamingbusiness", "clarion"]):
+    if any(brand in token_lower for brand in ["igbaffiliate", "igamingbusiness"]):
         return True
 
     return False

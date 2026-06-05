@@ -112,7 +112,7 @@ def sample_analysis_json(sample_topic_exclusive, sample_topic_owned, sample_topi
                 sample_topic_not_owned
             ],
             'global_notes': {
-                'weekend_advantage': 'Clarion leads with 14.3% weekend coverage',
+                'weekend_advantage': 'Portfolio leads with 14.3% weekend coverage',
                 'region_edge': [
                     {'region': 'North America', 'ratio': 1.8}
                 ]

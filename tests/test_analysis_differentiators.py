@@ -106,7 +106,7 @@ def sample_run_data(sample_topic):
                 }
             ],
             'global_notes': {
-                'weekend_advantage': 'Clarion leads with 14.3% weekend coverage vs competitors\' 3.8%',
+                'weekend_advantage': 'Portfolio leads with 14.3% weekend coverage vs competitors\' 3.8%',
                 'format_summary': [
                     {'format': 'analysis', 'internal_share': 25.0, 'competitor_share': 15.0, 'ratio_vs_comp': 1.67},
                     {'format': 'news', 'internal_share': 45.0, 'competitor_share': 50.0, 'ratio_vs_comp': 0.9}
@@ -126,10 +126,10 @@ def sample_run_data(sample_topic):
                 'competitor_daily_rate': 4.1
             },
             'format_differentiators': [
-                {'format': 'analysis', 'internal_count': 25, 'internal_pct': 25.0, 'competitor_pct': 15.0, 'advantage': 'clarion', 'advantage_ratio': 1.67}
+                {'format': 'analysis', 'internal_count': 25, 'internal_pct': 25.0, 'competitor_pct': 15.0, 'advantage': 'portfolio', 'advantage_ratio': 1.67}
             ],
             'region_differentiators': [
-                {'region': 'North America', 'internal_mentions': 45, 'competitor_mentions': 25, 'advantage_ratio': 1.8, 'advantage': 'clarion'}
+                {'region': 'North America', 'internal_mentions': 45, 'competitor_mentions': 25, 'advantage_ratio': 1.8, 'advantage': 'portfolio'}
             ]
         },
         'commercial_radar': {

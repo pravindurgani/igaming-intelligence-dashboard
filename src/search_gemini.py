@@ -1,5 +1,5 @@
 """
-LLM-powered search enhancements for the Clarion Intelligence Dashboard.
+LLM-powered search enhancements for the iGaming Intelligence Dashboard.
 
 Features:
 - Query expansion: Suggest related terms

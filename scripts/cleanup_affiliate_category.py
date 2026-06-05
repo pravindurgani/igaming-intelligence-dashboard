@@ -33,7 +33,7 @@ SOURCE_CATEGORIES = {
     "North Star Network": "competitor",
     "iGaming Afrika": "competitor",
     "iGaming Expert": "competitor",
-    # Internal (Clarion brands)
+    # Internal (tracked portfolio brands)
     "iGaming Business": "internal",
     "iGB Affiliate": "internal",
     "GGB Magazine": "internal"

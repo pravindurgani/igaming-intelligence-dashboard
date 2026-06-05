@@ -1,7 +1,7 @@
 # Production-Readiness Audit Report
 **Date:** 2025-12-13
 **Auditor:** Senior Engineering Review
-**Repository:** Clarion Competitive Intelligence Dashboard
+**Repository:** Portfolio Competitive Intelligence Dashboard
 
 ---
 
@@ -32,7 +32,7 @@ This codebase is a competitive intelligence tool for the iGaming industry that:
 ```
 src/
 ├── taxonomy.py      # Domain knowledge: regions, topics, company normalization
-└── metrics.py       # Clarion strengths calculation
+└── metrics.py       # Portfolio strengths calculation
 
 paths.py             # Centralized path management
 tests/               # Unit tests (blocklist, dedupe, strengths)

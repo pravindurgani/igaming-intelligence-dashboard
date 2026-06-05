@@ -89,7 +89,7 @@ The dashboard opens at `http://localhost:8501`.
 - Competitor vs. Internal comparison
 - Topics clustered by taxonomy (e.g., "Regulation & Compliance")
 - Shows top 3 gaps where competitors lead
-- Shows top 5 strengths where Clarion leads
+- Shows top 5 strengths where the portfolio leads
 
 ### Chart D: Regional Breakdown
 - Two pie charts: Competitor | Internal

@@ -6,10 +6,7 @@ This guide covers deploying the intelligence dashboard to Streamlit Cloud. For b
 
 - GitHub account
 - Streamlit Cloud account (free at [share.streamlit.io](https://share.streamlit.io))
-- At least one LLM provider key:
-  - Cerebras (recommended): [cloud.cerebras.ai](https://cloud.cerebras.ai/) — Llama 3.3 70B, ~2600 tok/s, 1M tokens/day free
-  - Groq: [console.groq.com](https://console.groq.com/) — Llama 3.3 70B Versatile, 14.4k req/day free
-  - OpenRouter: [openrouter.ai/keys](https://openrouter.ai/keys) — Llama 3.3 70B free tier (last-resort failover)
+- At least one LLM provider key (any one of the three is enough; configure more for failover resilience)
 
 ## Environment Variables
 
@@ -159,10 +156,7 @@ Run `main.py` and `analysis.py` locally, then commit the `outputs/` files to Git
 
 ### "Rate limit exceeded (429)"
 
-Each provider has its own quota. The client retries with exponential backoff and then fails over to the next provider in the chain. Check quotas at:
-- [Cerebras Cloud](https://cloud.cerebras.ai/)
-- [Groq Console](https://console.groq.com/)
-- [OpenRouter](https://openrouter.ai/keys)
+Each provider has its own quota. The client retries with exponential backoff and then fails over to the next provider in the chain. Check quotas at the dashboard for each provider you've configured.
 
 Run `python scripts/check_models.py` to verify which providers are currently configured for your environment.
 

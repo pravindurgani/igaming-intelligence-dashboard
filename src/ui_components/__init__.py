@@ -1,4 +1,4 @@
-"""UI Components for the Clarion dashboard."""
+"""UI Components for the iGaming dashboard."""
 
 from .briefs import render_content_brief
 

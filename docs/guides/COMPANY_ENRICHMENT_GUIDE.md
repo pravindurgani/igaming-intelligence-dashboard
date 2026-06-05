@@ -401,7 +401,7 @@ competitor_operators = [
     if data['type'] == 'operator'
 ]
 
-# TODO: Cross-reference with Clarion coverage
+# TODO: Cross-reference with portfolio coverage
 ```
 
 ### 4. Regulatory Intelligence
