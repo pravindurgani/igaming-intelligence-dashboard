@@ -1273,6 +1273,10 @@ CRITICAL RULES:
 - Focus on READER benefit, not publisher bragging
 - Be specific - avoid generic phrases like "comprehensive coverage"
 - Confidence levels: high (ratio > 2), medium (1.5-2), low (1.3-1.5)
+- DO NOT name the parent publisher group or any individual brand in the
+  strategic_summary, headlines, or evidence text. Refer to the publications
+  collectively as "the portfolio" or "tracked publications". This output is
+  rendered in a vendor-neutral dashboard.
 
 OUTPUT FORMAT (JSON only, no markdown):
 {{

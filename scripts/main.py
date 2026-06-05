@@ -667,6 +667,18 @@ class NewsAggregator:
                   .dt.tz_localize(None)
             )
 
+        # Defensive backfill: any rows that lost their scrape_timestamp during
+        # normalization (legacy bad data) fall back to run_timestamp, then to
+        # current UTC. Then ensure published_date is never empty either.
+        if "run_timestamp" in df_all.columns:
+            run_parsed = (
+                pd.to_datetime(df_all["run_timestamp"], errors="coerce", utc=True)
+                  .dt.tz_localize(None)
+            )
+            df_all["scrape_timestamp"] = df_all["scrape_timestamp"].fillna(run_parsed)
+        df_all["scrape_timestamp"] = df_all["scrape_timestamp"].fillna(now_utc)
+        df_all["published_date"] = df_all["published_date"].fillna(df_all["scrape_timestamp"])
+
         before = len(df_all)
 
         # 6. Deduplicate by article_id keeping the earliest scrape_timestamp

@@ -28,6 +28,8 @@ jobs:
   wake:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      issues: write
     steps:
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,7 +44,7 @@ jobs:
 
       - name: Wake up Streamlit app (with retry)
         env:
-          APP_URL: https://igaming-competitor-newsfeed.streamlit.app/
+          APP_URL: https://igaming-intelligence.streamlit.app/
         run: |
           cat > /tmp/wake.py <<'PY'
           import os
