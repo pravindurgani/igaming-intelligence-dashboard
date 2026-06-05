@@ -1,0 +1,69 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  quality:
+    name: Code Quality & Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.lock
+          # spaCy model en_core_web_sm is included in requirements.lock
+
+      - name: Check repository cleanliness
+        run: |
+          python scripts/cleanup_repo.py --dry-run
+          if [ $? -eq 1 ]; then
+            echo "❌ Repository has uncommitted generated files"
+            echo "Run: python scripts/cleanup_repo.py --clean"
+            exit 1
+          fi
+
+      - name: Run linter (ruff)
+        run: |
+          ruff check scripts/ app/ tests/ src/
+        continue-on-error: false
+
+      - name: Run type checker (mypy)
+        run: |
+          # Run mypy but suppress exit code to avoid annotations
+          # Type checking is advisory, not blocking
+          mypy scripts/main.py scripts/analysis.py --ignore-missing-imports || true
+
+      - name: Run unit tests
+        run: |
+          pytest tests/ -v --ignore=tests/e2e_idempotency.py --tb=short
+
+      - name: Run data integrity tests
+        run: |
+          pytest tests/test_data_integrity.py -v --tb=short
+
+      - name: Check for duplicate URLs
+        run: |
+          if [ -f data/news_history.csv ]; then
+            python -c "import pandas as pd; df = pd.read_csv('data/news_history.csv'); df['link_norm'] = df['link'].str.lower().str.strip(); dups = df[df.duplicated('link_norm', keep=False)]; exit(1) if len(dups) > 0 else print('No duplicate URLs')"
+          else
+            echo "Skipping (no CSV file)"
+          fi
+
+  # Note: E2E tests removed from CI - they test live Gemini API behavior
+  # and belong in manual/scheduled testing, not code quality CI.
+  # The scheduler (scheduler.py) handles production runs at 8am GMT
+  # with built-in retry logic for Gemini API reliability.

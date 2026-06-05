@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.tmp
+data/*.tmp
+data/*.lock
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__MACOSX/
+
+# Project-specific data files
+# NOTE: For Streamlit Cloud, we commit data files via the pipeline
+# news_history.csv (~1MB) and gemini_cache.json are tracked in git
+data/*.csv.bak
+data/*.json.bak
+data/*.backup
+*.backup
+
+# Environment files
+.env.local
+
+# Timestamped output files (keep only *_latest.csv)
+data/outputs/*_20??????_??????.csv
+
+# Keep these files for Streamlit deployment:
+# - data/latest_competitor_news.json (seed data)
+# - data/daily_analysis.json (seed data)
+# - data/company_metadata_auto.json (persistent)
+# - data/company_contexts_for_enrichment.json (persistent)
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Archives
+Archive.zip
+*.zip
+*.tar.gz
+*.rar
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Model files (keep the trained model but ignore backups)
+models/*.joblib.bak
+models/*.pkl.bak
+
+# Runtime state (rebuilt on every pipeline run)
+circuit-breaker-state.json
+
+# Claude Code local state (per-machine; never commit)
+.claude/

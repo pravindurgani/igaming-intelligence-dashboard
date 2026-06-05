@@ -1,0 +1,37 @@
+# Reader Advantages Configuration
+# Thresholds for topic selection and scoring
+
+# Minimum counts required for a topic to be considered
+thresholds:
+  min_total: 3          # Minimum total articles (us + them) required
+  min_our: 2            # Minimum our articles required
+  # NOTE: We do NOT require their_count >= 2 (this caused 0's to nuke cards)
+
+# Share thresholds
+share:
+  edge_threshold: 0.6   # Our share >= 60% to qualify as "edge"
+
+# Output limits
+limits:
+  top_n: 10             # Maximum topics to return
+  near_advantages_n: 5  # Maximum near-advantages to return
+  examples_per_topic: 3 # Max example links per topic
+
+# Scoring weights (used for ranking topics)
+scoring:
+  ownership_weight: 2.0     # Weight for ownership (them=0, us>=2)
+  edge_weight: 1.5          # Weight for edge (share >= 60%, total >= 4)
+  momentum_weight: 1.0      # Weight for momentum (us>=2 in last 7d, them=0)
+  share_diff_weight: 1.0    # Weight for share_diff
+
+# Momentum window (days)
+momentum:
+  window_days: 7        # Look back period for momentum calculation
+
+# TF-IDF settings for topic extraction
+tfidf:
+  max_ngrams_per_article: 3   # Top n-grams per article
+  min_token_length: 3         # Minimum token length
+  max_token_length: 30        # Maximum token length
+  ngram_range_min: 1          # Minimum n-gram size
+  ngram_range_max: 2          # Maximum n-gram size (1-2 word phrases)

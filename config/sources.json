@@ -1,0 +1,52 @@
+{
+  "_comment": "News sources for the iGaming Intelligence Dashboard. Edit this file to add/remove sources.",
+
+  "direct_rss": {
+    "_comment": "Sources with reliable direct RSS feeds",
+    "sources": [
+      {
+        "name": "SBC News",
+        "url": "https://sbcnews.co.uk/feed/",
+        "category": "competitor",
+        "is_affiliate": false
+      },
+      {
+        "name": "iGaming Future",
+        "url": "https://igamingfuture.com/feed/",
+        "category": "competitor",
+        "is_affiliate": false
+      },
+      {
+        "name": "iGaming Afrika",
+        "url": "https://igamingafrika.com/feed/",
+        "category": "competitor",
+        "is_affiliate": true
+      },
+      {
+        "name": "iGaming Expert",
+        "url": "https://igamingexpert.com/feed/",
+        "category": "competitor",
+        "is_affiliate": true
+      }
+    ]
+  },
+
+  "google_news_proxy": {
+    "_comment": "Sources fetched via Google News RSS proxy. Category specified per source.",
+    "sources": [
+      {"name": "Next.io", "domain": "next.io", "category": "competitor", "is_affiliate": false},
+      {"name": "SiGMA World", "domain": "sigma.world", "category": "competitor", "is_affiliate": false},
+      {"name": "EGR Global", "domain": "egr.global", "category": "competitor", "is_affiliate": false},
+      {"name": "CDC Gaming", "domain": "cdcgaming.com", "category": "competitor", "is_affiliate": false},
+      {"name": "Global Gaming Insider", "domain": "globalgaminginsider.com", "category": "competitor", "is_affiliate": false},
+      {"name": "iGaming Today", "domain": "igamingtoday.com", "category": "competitor", "is_affiliate": false},
+      {"name": "Gambling Insider", "domain": "gamblinginsider.com", "category": "competitor", "is_affiliate": true},
+      {"name": "Game Lounge", "domain": "gamelounge.com", "category": "competitor", "is_affiliate": true},
+      {"name": "Gaming and Co", "domain": "gamingandco.substack.com", "category": "competitor", "is_affiliate": true},
+      {"name": "North Star Network", "domain": "north-star.network", "category": "competitor", "is_affiliate": true},
+      {"name": "iGaming Business", "domain": "igamingbusiness.com", "category": "internal", "is_affiliate": false},
+      {"name": "iGB Affiliate", "domain": "igbaffiliate.com", "category": "internal", "is_affiliate": true},
+      {"name": "GGB Magazine", "domain": "ggbmagazine.com", "category": "internal", "is_affiliate": false}
+    ]
+  }
+}

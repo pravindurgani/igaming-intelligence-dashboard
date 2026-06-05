@@ -1,0 +1,485 @@
+{
+  "Leovegas": {
+    "canonical_name": "Leovegas",
+    "raw_variants": [
+      "LeoVegas"
+    ],
+    "mention_count": 4,
+    "type": "operator",
+    "primary_segment": "sports betting and online casino",
+    "is_regulator": false,
+    "is_media": false,
+    "confidence": 0.95,
+    "rationale": "LeoVegas is launching sports betting in Germany. The CFO was interviewed, indicating it's a public company involved in operations."
+  },
+  "Evoke": {
+    "canonical_name": "Evoke",
+    "raw_variants": [
+      "Evoke",
+      "Evoke Plc"
+    ],
+    "mention_count": 3,
+    "type": "operator",
+    "primary_segment": "online casino",
+    "is_regulator": false,
+    "is_media": false,
+    "confidence": 0.9,
+    "rationale": "The snippets mention Evoke as a 'UK gambling giant' and a 'gambling group' that is exploring a sale, suggesting it's an operator in the gambling industry, potentially online casino given mention of 888 Holdings."
+  },
+  "Easywin": {
+    "canonical_name": "Easywin",
+    "raw_variants": [
+      "EasyWin"
+    ],
+    "mention_count": 3,
+    "type": "other",
+    "primary_segment": "generic",
+    "is_regulator": false,
+    "is_media": false,
+    "confidence": 0.6,
+    "rationale": "The company is a digital gaming startup that has completed a seed funding round. This suggests it is a new company, but the specific segment of the gambling industry it operates in is unclear from the context provided."
+  },
+  "Fanduel": {
+    "canonical_name": "Fanduel",
+    "raw_variants": [
+      "FanDuel"
+    ],
+    "mention_count": 3,
+    "type": "operator",
+    "primary_segment": "sports betting",
+    "is_regulator": false,
+    "is_media": false,
+    "confidence": 0.9,
+    "rationale": "The snippets mention FanDuel launching a sports betting prediction market app, indicating it's an operator, specifically in the sports betting segment."
+  },
+  "eCricket": {
+    "company_type": "supplier",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "KSA": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.7
+  },
+  "Casino Operations": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.7
+  },
+  "MGM National Harbor and Casino": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.7
+  },
+  "Meet Casino -": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.7
+  },
+  "EMS": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.8
+  },
+  "Slots": {
+    "company_type": "other",
+    "business_segment": "online_casino",
+    "confidence": 0.7
+  },
+  "Affiliate": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.9
+  },
+  "FanDuel": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.95
+  },
+  "Affiliate Awards": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.8
+  },
+  "DraftKings": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.95
+  },
+  "HG Vora": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.6
+  },
+  "Bally’s": {
+    "company_type": "operator",
+    "business_segment": "omnichannel",
+    "confidence": 0.9
+  },
+  "Star Entertainment": {
+    "company_type": "operator",
+    "business_segment": "land_based",
+    "confidence": 0.9
+  },
+  "GambleAware": {
+    "company_type": "association",
+    "business_segment": "regulation",
+    "confidence": 0.9
+  },
+  "UKGC": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.95
+  },
+  "Global Markets Hub": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "Random State": {
+    "company_type": "supplier",
+    "business_segment": "lottery",
+    "confidence": 0.8
+  },
+  "FDJ": {
+    "company_type": "operator",
+    "business_segment": "lottery",
+    "confidence": 0.9
+  },
+  "OpenBet": {
+    "company_type": "supplier",
+    "business_segment": "sports_betting",
+    "confidence": 0.9
+  },
+  "BGC": {
+    "company_type": "association",
+    "business_segment": "regulation",
+    "confidence": 0.85
+  },
+  "Premier League": {
+    "company_type": "other",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "Affiliate Elite Retreat - Register": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.6
+  },
+  "Responsible Gaming Foundation": {
+    "company_type": "association",
+    "business_segment": "regulation",
+    "confidence": 0.9
+  },
+  "iGaming Academy": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "B2B news": {
+    "company_type": "media",
+    "business_segment": "other",
+    "confidence": 0.9
+  },
+  "ESPN": {
+    "company_type": "media",
+    "business_segment": "sports_betting",
+    "confidence": 0.8
+  },
+  "Rewards Shop": {
+    "company_type": "other",
+    "business_segment": "online_casino",
+    "confidence": 0.6
+  },
+  "Kalshi": {
+    "company_type": "operator",
+    "business_segment": "other",
+    "confidence": 0.8
+  },
+  "Sun Bets": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.85
+  },
+  "Betway": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.9
+  },
+  "Penn Entertainment": {
+    "company_type": "operator",
+    "business_segment": "omnichannel",
+    "confidence": 0.9
+  },
+  "MGM CFO": {
+    "company_type": "other",
+    "business_segment": "land_based",
+    "confidence": 0.5
+  },
+  "MGM Strip": {
+    "company_type": "other",
+    "business_segment": "land_based",
+    "confidence": 0.5
+  },
+  "Supreme Court": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.6
+  },
+  "Mirage": {
+    "company_type": "other",
+    "business_segment": "land_based",
+    "confidence": 0.5
+  },
+  "MGM": {
+    "company_type": "operator",
+    "business_segment": "omnichannel",
+    "confidence": 0.9
+  },
+  "NFL": {
+    "company_type": "other",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "Big Changes - Growth": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.5
+  },
+  "Layouts": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.5
+  },
+  "Betsson": {
+    "company_type": "operator",
+    "business_segment": "omnichannel",
+    "confidence": 0.9
+  },
+  "Senate": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.6
+  },
+  "Super Lig": {
+    "company_type": "other",
+    "business_segment": "sports_betting",
+    "confidence": 0.6
+  },
+  "the Road Ahead for": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.5
+  },
+  "LeoVegas": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.9
+  },
+  "BC Game": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.8
+  },
+  "SPA": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.7
+  },
+  "Google": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.5
+  },
+  "the Global iGaming Affiliate Community": {
+    "company_type": "association",
+    "business_segment": "other",
+    "confidence": 0.8
+  },
+  "XLMedia": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "Betsson Group Affiliates": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "The Future of iGaming: The Good": {
+    "company_type": "media",
+    "business_segment": "other",
+    "confidence": 0.75
+  },
+  "Ultimate": {
+    "company_type": "supplier",
+    "business_segment": "land_based",
+    "confidence": 0.8
+  },
+  "EGR North America": {
+    "company_type": "media",
+    "business_segment": "other",
+    "confidence": 0.95
+  },
+  "QCEX": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.6
+  },
+  "General Assembly": {
+    "company_type": "other",
+    "business_segment": "regulation",
+    "confidence": 0.7
+  },
+  "Middle East & Africa": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.5
+  },
+  "AI Regulation Problem - How Tight Guardrails": {
+    "company_type": "other",
+    "business_segment": "regulation",
+    "confidence": 0.6
+  },
+  "EveryMatrix": {
+    "company_type": "supplier",
+    "business_segment": "omnichannel",
+    "confidence": 0.9
+  },
+  "L&W": {
+    "company_type": "supplier",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "Matchbook": {
+    "company_type": "supplier",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "Superbet Group": {
+    "company_type": "operator",
+    "business_segment": "omnichannel",
+    "confidence": 0.95
+  },
+  "WhatsApp": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.75
+  },
+  "Unibet": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.9
+  },
+  "Group of Copenhagen": {
+    "company_type": "association",
+    "business_segment": "regulation",
+    "confidence": 0.8
+  },
+  "AML": {
+    "company_type": "other",
+    "business_segment": "regulation",
+    "confidence": 0.6
+  },
+  "New Administration Proposes": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.7
+  },
+  "SEC": {
+    "company_type": "regulator",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "NED": {
+    "company_type": "supplier",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "American Express": {
+    "company_type": "other",
+    "business_segment": "payments",
+    "confidence": 0.95
+  },
+  "Santa Pigger": {
+    "company_type": "other",
+    "business_segment": "online_casino",
+    "confidence": 0.95
+  },
+  "US Senate": {
+    "company_type": "regulator",
+    "business_segment": "regulation",
+    "confidence": 0.95
+  },
+  "MLB": {
+    "company_type": "other",
+    "business_segment": "sports_betting",
+    "confidence": 0.85
+  },
+  "SlotMatrix": {
+    "company_type": "supplier",
+    "business_segment": "online_casino",
+    "confidence": 0.95
+  },
+  "Black Cube": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.75
+  },
+  "PrizePicks": {
+    "company_type": "operator",
+    "business_segment": "sports_betting",
+    "confidence": 0.85
+  },
+  "B2B Awards": {
+    "company_type": "other",
+    "business_segment": "other",
+    "confidence": 0.75
+  },
+  "Galaxsys": {
+    "company_type": "supplier",
+    "business_segment": "online_casino",
+    "confidence": 0.9
+  },
+  "Stake.us": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.9
+  },
+  "Paf Group": {
+    "company_type": "operator",
+    "business_segment": "online_casino",
+    "confidence": 0.8
+  },
+  "Sports Betting Alliance": {
+    "company_type": "association",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "AGA": {
+    "company_type": "association",
+    "business_segment": "sports_betting",
+    "confidence": 0.7
+  },
+  "Bragg": {
+    "company_type": "supplier",
+    "business_segment": "online_casino",
+    "confidence": 0.8
+  },
+  "NHL": {
+    "company_type": "association",
+    "business_segment": "sports_betting",
+    "confidence": 0.9
+  },
+  "Affiliate / iGaming": {
+    "company_type": "media",
+    "business_segment": "other",
+    "confidence": 0.7
+  },
+  "5bn UAE": {
+    "company_type": "other",
+    "business_segment": "land_based",
+    "confidence": 0.7
+  }
+}

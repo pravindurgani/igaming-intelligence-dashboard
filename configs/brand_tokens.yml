@@ -1,0 +1,57 @@
+# Brand tokens to filter from topic extraction
+# These are filtered AFTER counting article membership, not before
+# This ensures competitor counts remain accurate
+
+# Our brand names and domains
+our_brands:
+  - igbaffiliate
+  - igamingbusiness
+  - igba
+  - igb
+  - clarion
+  - clarionigaming
+  - clarion gaming
+
+# Our domain variations
+our_domains:
+  - igbaffiliate.com
+  - igamingbusiness.com
+  - barcelona.igbaffiliate.com
+  - www.igbaffiliate.com
+  - www.igamingbusiness.com
+
+# Generic boilerplate tokens to exclude
+boilerplate:
+  - news
+  - article
+  - read more
+  - click here
+  - subscribe
+  - newsletter
+  - magazine
+  - editorial
+  - press release
+  - sponsored
+  - advertisement
+  - contact us
+  - about us
+  - privacy policy
+  - terms of service
+  - cookie policy
+
+# URL/web artifacts
+web_artifacts:
+  - com
+  - www
+  - http
+  - https
+  - html
+  - htm
+  - php
+  - asp
+  - aspx
+
+# Social handles pattern (applied via regex)
+social_patterns:
+  - "@\\w+"
+  - "#\\w+"

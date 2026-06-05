@@ -1,0 +1,798 @@
+{
+  "762156993c366c298f4cfd076fdef6de": {
+    "result": {
+      "enhanced_cards": [
+        {
+          "rank": 1,
+          "headline": "Be first to market: Insider insights from global gaming events.",
+          "what_readers_get": "Exclusive show floor insights, keynote highlights, and crucial networking intel that competitors often miss, keeping you ahead of the curve.",
+          "why_it_matters": "In-depth event coverage extends your reach beyond attendees and fuels anticipation, driving industry momentum.",
+          "evidence_summary": "54.9% of our coverage focuses on events, compared to 30.9% from competitors.",
+          "confidence": "high",
+          "original_type": "event",
+          "internal_count": 67,
+          "concentration_ratio": 1.78
+        },
+        {
+          "rank": 3,
+          "headline": "Shape the conversation: Exclusive rankings and award-winning franchises.",
+          "what_readers_get": "Access industry-defining rankings, prestigious awards, and recurring formats that establish benchmarks and drive recognition.",
+          "why_it_matters": "Our franchises build anticipation and establish our voice as the trusted authority in the iGaming and affiliate sectors.",
+          "evidence_summary": "Our franchise coverage represents 3.3% of our content, compared to 2.8% from competitors.",
+          "confidence": "low",
+          "original_type": "franchise",
+          "internal_count": 4,
+          "concentration_ratio": 1.16
+        },
+        {
+          "rank": 2,
+          "headline": "Navigate complexity: Understand global regulatory shifts impacting your business.",
+          "what_readers_get": "Clear and concise analysis of regulatory changes, political influences, and market access strategies worldwide.",
+          "why_it_matters": "Staying ahead of regulatory hurdles and understanding global market dynamics is vital for sustainable growth in the gaming industry.",
+          "evidence_summary": "Based on articles covering regulatory and market access events like Polymarket and European ringfencing.",
+          "confidence": "medium",
+          "original_type": "ai_discovered",
+          "internal_count": 3,
+          "concentration_ratio": 1.6
+        }
+      ],
+      "ai_discovered": [
+        {
+          "headline": "Understand M&A: Insightful analysis of gaming industry dealmaking.",
+          "what_readers_get": "In-depth analysis of acquisitions, mergers, and investment trends that are reshaping the competitive landscape.",
+          "why_it_matters": "Understanding M&A activity provides valuable insights into market consolidation and strategic growth opportunities.",
+          "evidence": "Based on articles covering the Genius Sports acquisition of Legend and the Betsson's acquisition of Yolo.",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "Clarion Gaming provides actionable insights and exclusive content to empower iGaming and affiliate professionals in a rapidly evolving global landscape.",
+      "overall_confidence": 0.85,
+      "fallback_used": false
+    },
+    "timestamp": "2026-05-01T09:53:24.018191",
+    "ttl_hours": 24
+  },
+  "be7487eaa1fc4dde472301ec776aa171": {
+    "result": {
+      "enhanced_cards": [
+        {
+          "rank": 1,
+          "headline": "Insider Event Coverage You Can't Miss",
+          "what_readers_get": "Readers get show floor insights, keynote coverage, and networking highlights that competitors miss.",
+          "why_it_matters": "Event coverage extends our reach beyond attendees and builds anticipation for future events.",
+          "evidence_summary": "51.3% of our content is event coverage vs 31.7% of competitors",
+          "confidence": "high",
+          "original_type": "event",
+          "internal_count": 39,
+          "concentration_ratio": 1.62
+        },
+        {
+          "rank": 2,
+          "headline": "Industry Moments That Set The Tone",
+          "what_readers_get": "Readers access exclusive rankings, awards, and recognitions that define industry benchmarks.",
+          "why_it_matters": "Franchises build anticipation and establish our voice as the industry authority.",
+          "evidence_summary": "5.3% of our content is franchise articles vs 2.8% of competitors",
+          "confidence": "medium",
+          "original_type": "franchise",
+          "internal_count": 4,
+          "concentration_ratio": 1.86
+        }
+      ],
+      "ai_discovered": [
+        {
+          "headline": "Regulatory Insights That Matter",
+          "what_readers_get": "Readers get in-depth analysis of regulatory changes and their impact on the industry.",
+          "why_it_matters": "Regulatory insights help readers navigate the complex and ever-changing landscape of the industry.",
+          "evidence": "Supporting articles: 'South Africa\u2019s gambling tax hike could \u2018disproportionately punish\u2019 licensed bett', 'New Brazil bill to prohibit retention by banning loyalty programmes and cashback'",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Market Expansion Updates",
+          "what_readers_get": "Readers get updates on market expansions and new entries.",
+          "why_it_matters": "Market expansion updates help readers stay ahead of the competition and identify new opportunities.",
+          "evidence": "Supporting articles: 'Kalshi announces Brazil predictions market entry in first launch outside US', 'Betsson expands Canadian presence with Rhino Entertainment acquisition'",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "Clarion Gaming's publications provide readers with exclusive insights, event coverage, and regulatory analysis that sets the tone for the industry.",
+      "overall_confidence": 0.85,
+      "fallback_used": false
+    },
+    "timestamp": "2026-06-05T14:39:44.367893",
+    "ttl_hours": 24
+  },
+  "6eeb6824bb26c5372d823989985db3c6": {
+    "result": {
+      "exhibitor_prospects": [
+        {
+          "company": "BETBY",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "BETBY expands Asian footprint as it strikes partnership with QTech Games",
+          "booth_pitch": "Silver package, highlighting their Asian expansion and QTech Games partnership, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "BetConstruct AI",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "BetConstruct AI to Showcase Full iGaming Ecosystem at iGaming AFRIKA 2026",
+          "booth_pitch": "Gold package, showcasing their full iGaming ecosystem and highlighting their presence at iGaming AFRIKA 2026, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "GR8 Tech",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "GR8 Tech looks to \u2018break barriers\u2019 around crypto betting",
+          "booth_pitch": "Bronze package, highlighting their innovative approach to crypto betting and targeting B2B networking and new business opportunities",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "PopOK Gaming",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "PopOK Gaming Brings Player-Favorite Titles to iGaming AFRIKA",
+          "booth_pitch": "Silver package, highlighting their player-favorite titles and presence at iGaming AFRIKA, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Amusnet",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "Amusnet: omnichannel is key to Greek casino success",
+          "booth_pitch": "Gold package, highlighting their omnichannel approach and success in the Greek casino market, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Hacksaw Gaming",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "Hacksaw Gaming CEO removed by board",
+          "booth_pitch": "Bronze package, targeting B2B networking and new business opportunities, and highlighting their resilience and adaptability in the face of change",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "QTech Games",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "BETBY expands Asian footprint as it strikes partnership with QTech Games",
+          "booth_pitch": "Silver package, highlighting their partnership with BETBY and Asian expansion, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "FanDuel",
+          "category_fit": "General iGaming/Sports Betting",
+          "news_trigger": "Sports broadcaster Erin Andrews joins FanDuel as a Responsible Gaming Ambassador",
+          "booth_pitch": "Gold package, highlighting their commitment to responsible gaming and their new ambassador, with a focus on B2B networking and new business opportunities",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        }
+      ],
+      "category_gaps": [
+        {
+          "category": "General iGaming/Sports Betting - Crypto Betting",
+          "opportunity": "The growing demand for crypto betting solutions creates an opportunity for companies to showcase their innovative products and services",
+          "target_company_types": [
+            "Crypto betting platforms",
+            "Blockchain-based gaming solutions"
+          ]
+        },
+        {
+          "category": "General iGaming/Sports Betting - Omnichannel Solutions",
+          "opportunity": "The success of omnichannel approaches in markets like Greece creates an opportunity for companies to showcase their omnichannel solutions and expertise",
+          "target_company_types": [
+            "Omnichannel platform providers",
+            "Gaming solutions with omnichannel capabilities"
+          ]
+        }
+      ],
+      "timing_note": "The best time to reach out to these prospects is immediately, as they are currently in the news and their interest in B2B networking and new business opportunities is likely high. Following up in 2-3 weeks to check on their interest and answer any questions they may have is also recommended."
+    },
+    "timestamp": "2026-06-05T14:39:48.312738",
+    "ttl_hours": 24
+  },
+  "9a6c811f62b85828b65e0f82544fa541": {
+    "result": {
+      "quick_wins": [
+        "Optimize meta titles and descriptions for 10 high-traffic pages to improve click-through rates",
+        "Add alt text to 50 images across the site to enhance image search visibility",
+        "Internal linking: Add 5-10 links from recent news articles to relevant evergreen content pieces",
+        "Conduct a technical SEO audit to identify and fix broken links, and optimize page load times",
+        "Create a comprehensive keyword list and categorize it by topic and intent"
+      ],
+      "content_calendar": [
+        {
+          "topic": "The Impact of Omnichannel on Greek Casino Success",
+          "timing": "Next week",
+          "format": "Article",
+          "target_keywords": [
+            "omnichannel gaming",
+            "Greek casino market",
+            "Amusnet"
+          ]
+        },
+        {
+          "topic": "Sportsbook Performance and the World Cup 2026",
+          "timing": "Before ICE",
+          "format": "Guide",
+          "target_keywords": [
+            "sportsbook performance",
+            "World Cup 2026",
+            "iGaming trends"
+          ]
+        },
+        {
+          "topic": "The Role of Social Media in iGaming Marketing",
+          "timing": "Within the next 2 weeks",
+          "format": "Infographic",
+          "target_keywords": [
+            "social media marketing",
+            "iGaming marketing",
+            "player engagement"
+          ]
+        }
+      ],
+      "competitor_keywords_to_target": [
+        "online gaming regulation",
+        "sports betting technology",
+        "iGaming industry trends",
+        "casino operator news",
+        "gambling commission updates",
+        "B2B gaming solutions",
+        "eSports betting market",
+        "responsible gaming practices",
+        "gaming innovation"
+      ],
+      "internal_linking_opportunities": [
+        {
+          "from_topic": "Recent news articles on sports betting",
+          "to_topic": "Evergreen content on sportsbook optimization",
+          "rationale": "Helps users find relevant, in-depth information and improves site authority"
+        },
+        {
+          "from_topic": "iGaming market analysis",
+          "to_topic": "Industry reports and research",
+          "rationale": "Enhances user experience and provides additional context"
+        }
+      ],
+      "technical_seo_notes": [
+        "Ensure all images are compressed and have descriptive alt text",
+        "Use header tags (H1-H6) to structure and organize content",
+        "Implement schema markup for events, articles, and organizations",
+        "Regularly update and refresh existing content to improve crawl frequency"
+      ],
+      "long_term_strategy": "Over the next 3-6 months, focus on creating comprehensive, data-driven content pieces that showcase iGaming industry trends, regulatory updates, and innovative technologies. Develop a content hub for thought leadership pieces, and utilize internal linking to connect relevant topics and improve user experience. Additionally, prioritize technical SEO by optimizing page load times, mobile responsiveness, and schema markup to enhance search engine crawlability and ranking. By doing so, we can establish the site as a trusted authority in the iGaming B2B space and drive organic traffic growth."
+    },
+    "timestamp": "2026-06-05T14:39:55.927561",
+    "ttl_hours": 24
+  },
+  "f2fc9beea8a756d5e0cc49e3b6211e01": {
+    "result": {
+      "quick_wins": [
+        "Optimize meta titles and descriptions for top 10 most visited pages to improve click-through rates",
+        "Use header tags (H1-H6) to structure content and highlight key points on recent articles",
+        "Internal linking: Link to relevant, existing content from recent articles, such as 'World Cup 2026: The importance of sportsbook performance' to 'Sportsbook technology' or 'Betting trends' articles",
+        "Use descriptive alt tags for all images on the website, including infographics and charts",
+        "Conduct a website crawl to identify and fix any broken links or 404 errors"
+      ],
+      "content_calendar": [
+        {
+          "topic": "The impact of omnichannel on Greek casino success",
+          "timing": "Next week",
+          "format": "Article",
+          "target_keywords": [
+            "omnichannel gaming",
+            "Greek casino market",
+            "Amusnet"
+          ]
+        },
+        {
+          "topic": "Sportsbook performance and the World Cup 2026",
+          "timing": "Before ICE",
+          "format": "Guide",
+          "target_keywords": [
+            "sportsbook performance",
+            "World Cup 2026",
+            "betting trends"
+          ]
+        },
+        {
+          "topic": "The role of social media in the iGaming industry",
+          "timing": "In 2 weeks",
+          "format": "Infographic",
+          "target_keywords": [
+            "social media gaming",
+            "iGaming industry",
+            "online betting"
+          ]
+        }
+      ],
+      "competitor_keywords_to_target": [
+        "online gaming regulation",
+        "sports betting technology",
+        "iGaming market trends",
+        "casino operator news",
+        "gambling industry insights",
+        "B2B gaming solutions",
+        "igaming conference",
+        "gaming innovation",
+        "betting software",
+        "gaming industry events"
+      ],
+      "internal_linking_opportunities": [
+        {
+          "from_topic": "Recent news articles",
+          "to_topic": "Related guides or in-depth articles",
+          "rationale": "Helps users find more detailed information and increases dwell time"
+        },
+        {
+          "from_topic": "Company profiles",
+          "to_topic": "Related news articles or industry insights",
+          "rationale": "Provides context and showcases expertise"
+        },
+        {
+          "from_topic": "Event pages (e.g. ICE)",
+          "to_topic": "Related content, such as speaker interviews or industry previews",
+          "rationale": "Enhances user experience and encourages exploration"
+        }
+      ],
+      "technical_seo_notes": [
+        "Ensure all pages have a unique and descriptive title tag",
+        "Use a consistent URL structure and avoid duplicate content",
+        "Optimize images by compressing and using descriptive file names",
+        "Use schema markup to highlight events, companies, and people in search results"
+      ],
+      "long_term_strategy": "Over the next 3-6 months, focus on creating in-depth, informative content that targets specific keywords and topics, such as 'iGaming market trends' or 'sports betting technology'. Develop a content calendar that highlights key events, such as ICE, and plan content around these events to maximize visibility and thought leadership. Additionally, prioritize technical SEO improvements, such as optimizing images and using schema markup, to enhance the overall user experience and search engine rankings."
+    },
+    "timestamp": "2026-06-05T14:40:01.457049",
+    "ttl_hours": 24
+  },
+  "8ebc61b41df05e6d54c9544c47582045": {
+    "result": {
+      "priority_keywords": [
+        {
+          "keyword": "igaming market trends",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article/Analysis",
+          "rationale": "Competitors outrank us for 'igaming' and 'market', so targeting a long-tail version with buying intent can help us gain traction"
+        },
+        {
+          "keyword": "online casino growth strategies",
+          "search_intent": "transactional",
+          "estimated_difficulty": "High",
+          "content_type": "Guide",
+          "rationale": "Competitors rank for 'casino' and 'growth', so targeting a long-tail version with buying intent can help us attract high-value traffic"
+        },
+        {
+          "keyword": "sports betting platform comparison",
+          "search_intent": "transactional",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article/Comparison",
+          "rationale": "Competitors rank for 'betting' and 'platform', so targeting a long-tail version with buying intent can help us attract high-value traffic"
+        },
+        {
+          "keyword": "brazilian igaming regulations",
+          "search_intent": "informational",
+          "estimated_difficulty": "Low",
+          "content_type": "Article/Guide",
+          "rationale": "We already lead for 'brazil', so targeting a long-tail version with buying intent can help us attract high-value traffic"
+        },
+        {
+          "keyword": "igaming industry partnerships",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article/Analysis",
+          "rationale": "Competitors outrank us for 'partnership', so targeting a long-tail version with buying intent can help us gain traction"
+        },
+        {
+          "keyword": "online gambling revenue growth",
+          "search_intent": "informational",
+          "estimated_difficulty": "High",
+          "content_type": "Article/Analysis",
+          "rationale": "Competitors rank for 'revenue' and 'growth', so targeting a long-tail version with buying intent can help us attract high-value traffic"
+        },
+        {
+          "keyword": "latin american igaming market",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article/Analysis",
+          "rationale": "Emerging topic with growing search volume, and we already lead for 'brazil'"
+        },
+        {
+          "keyword": "igaming technology trends",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article/Analysis",
+          "rationale": "Emerging topic with growing search volume, and can help us attract high-value traffic"
+        }
+      ],
+      "quick_win_keywords": [
+        "brazilian online gaming",
+        "igaming africa",
+        "latin american casino market"
+      ],
+      "avoid_keywords": [
+        "online poker",
+        "free slots",
+        "gambling addiction"
+      ],
+      "content_strategy_note": "Focus on creating high-quality, informative content that targets long-tail keywords with buying intent. Utilize a mix of article types, such as guides, analyses, and comparisons, to attract high-value traffic. Leverage our existing lead for 'brazil' to target related long-tail keywords, and explore emerging topics with growing search volume to stay ahead of the competition."
+    },
+    "timestamp": "2026-06-05T14:40:27.056973",
+    "ttl_hours": 24
+  },
+  "9b019886de27eca0015c6620b7710872": {
+    "result": {
+      "enhanced_cards": [
+        {
+          "rank": 1,
+          "headline": "Live Event Insights You\u2019ll Miss Without Our Coverage",
+          "what_readers_get": "Readers receive on\u2011the\u2011ground reports, keynote takeaways, and networking highlights from major conferences.",
+          "why_it_matters": "Live event intel helps operators anticipate trends and forge connections before competitors.",
+          "evidence_summary": "Our event pieces account for about 56% of our coverage, versus roughly 31% for competitors.",
+          "confidence": "medium",
+          "original_type": "event",
+          "internal_count": 53,
+          "concentration_ratio": 1.81
+        },
+        {
+          "rank": 2,
+          "headline": "Exclusive Rankings and Awards Shaping the iGaming Landscape",
+          "what_readers_get": "Readers access exclusive rankings, award winners, and benchmark data unavailable elsewhere.",
+          "why_it_matters": "Industry benchmarks guide strategic planning and validate performance against peers.",
+          "evidence_summary": "Our franchise pieces represent roughly 5% of our output, compared with about 3% from rivals.",
+          "confidence": "medium",
+          "original_type": "franchise",
+          "internal_count": 5,
+          "concentration_ratio": 1.78
+        }
+      ],
+      "ai_discovered": [
+        {
+          "headline": "Up\u2011to\u2011Date Regulatory Changes Across Key iGaming Markets That Impact Operators",
+          "what_readers_get": "Readers get concise analysis of new taxes, licensing rules, and policy shifts that affect their operations.",
+          "why_it_matters": "Regulatory shifts can dictate market entry viability and compliance costs.",
+          "evidence": "At least six internal articles cover tax hikes, loyalty bans, and market\u2011entry regulations in South Africa, Brazil and other jurisdictions, while competitors publish far fewer such pieces.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Strategic M&A Moves Driving Growth in Global iGaming",
+          "what_readers_get": "Readers see detailed breakdowns of acquisitions, partnerships, and market entries that reshape the competitive landscape.",
+          "why_it_matters": "M&A activity signals emerging opportunities and threats across regions.",
+          "evidence": "Four internal stories detail Betsson\u2019s Canadian acquisition, Allwyn\u2019s sportsbook hunt, and Kalshi\u2019s Brazil entry, outpacing rival coverage of similar deals.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Career Opportunities and Talent Trends Inside the iGaming Industry",
+          "what_readers_get": "Readers discover new job openings, hiring trends, and career advice from leading iGaming employers.",
+          "why_it_matters": "Talent mobility influences company capabilities and drives innovation in the sector.",
+          "evidence": "Four internal postings (media buying, outreach, SEO, solutions) highlight roles and hiring insights not commonly featured by other outlets.",
+          "confidence": "low"
+        }
+      ],
+      "strategic_summary": "Clarion Gaming delivers insider event intel, exclusive industry benchmarks, and timely regulatory, M&A, and talent insights that empower iGaming professionals to stay ahead of the curve.",
+      "overall_confidence": 0.84,
+      "fallback_used": false
+    },
+    "timestamp": "2026-06-05T14:58:05.488504",
+    "ttl_hours": 24
+  },
+  "5685c1660c4a0da3d951b5a9cd204e26": {
+    "result": {
+      "exhibitor_prospects": [
+        {
+          "company": "Bally's Corporation (Bally's Intralot)",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Confirmed \u00a3243m acquisition of evoke and announced strategic global shake\u2011up, signalling major expansion into new markets and product portfolios.",
+          "booth_pitch": "Premium Large Booth (50sqm+) with dedicated demo arena to showcase newly integrated evoke platform, plus a private meeting suite for high\u2011value operator discussions.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "BetMGM",
+          "category_fit": "Sports Betting",
+          "news_trigger": "CEO outlined top three priorities ahead of the Alberta launch, indicating imminent market entry and product rollout.",
+          "booth_pitch": "Medium Booth (20sqm) with live Alberta launch preview, interactive betting kiosks and a lounge for B2B partnership talks.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "LeoVegas",
+          "category_fit": "Sports Betting & iGaming",
+          "news_trigger": "Aggressive early\u2011bird World Cup campaign in Sweden, leveraging patriotic hype to drive traffic.",
+          "booth_pitch": "Medium Booth (20sqm) featuring a World Cup\u2011themed experience zone, live odds board and a content studio for co\u2011marketing opportunities.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "LSports",
+          "category_fit": "Sports Betting",
+          "news_trigger": "Rapid expansion in Latin America highlighted by the Caliente partnership, positioning LSports as a regional leader.",
+          "booth_pitch": "Small Booth (10sqm) with a digital map of Latin American market coverage and a meeting corner for regional operators.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "MrQ",
+          "category_fit": "iGaming",
+          "news_trigger": "Launch of a subscription\u2011based curated bundle, a novel monetisation model in the UK market.",
+          "booth_pitch": "Small Booth (10sqm) showcasing the subscription service via interactive tablets and a quick\u2011pitch area for affiliate recruitment.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Pragmatic Play",
+          "category_fit": "iGaming \u2013 Slots & Live Casino",
+          "news_trigger": "Strategic review leading to a double\u2011down on slots and live casino product development.",
+          "booth_pitch": "Medium Booth (20sqm) with a live demo of upcoming slot titles and a live casino mini\u2011table for hands\u2011on operator testing.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Genlot",
+          "category_fit": "Lottery & National Lotteries",
+          "news_trigger": "Partnership with Sizekhaya Holdings to modernise South Africa\u2019s national lottery platform, indicating a push into regulated lottery markets.",
+          "booth_pitch": "Small Booth (10sqm) focused on lottery technology showcase and a private briefing area for government and operator stakeholders.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Robinhood",
+          "category_fit": "Crypto & Prediction Markets",
+          "news_trigger": "Strategic shift away from Kalshi ahead of the World Cup, hinting at new crypto\u2011payment or prediction\u2011market offerings.",
+          "booth_pitch": "Small Booth (10sqm) with a live demo of upcoming crypto\u2011payment integration and a panel space for thought\u2011leadership on prediction markets.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
+        }
+      ],
+      "category_gaps": [
+        {
+          "category": "Lottery & National Lotteries",
+          "opportunity": "Few exhibitors currently represent regulated lottery operators, yet the sector is undergoing rapid modernisation in Africa and Latin America \u2013 a prime B2B networking niche.",
+          "target_company_types": [
+            "National Lottery Operators",
+            "Lottery Technology Providers"
+          ]
+        },
+        {
+          "category": "Crypto & Prediction Markets",
+          "opportunity": "Emerging crypto\u2011payment and prediction\u2011market platforms are under\u2011represented, despite growing regulator interest and cross\u2011border betting demand.",
+          "target_company_types": [
+            "Crypto Payment Gateways",
+            "Prediction Market Platforms"
+          ]
+        }
+      ],
+      "timing_note": "Begin outreach in Q3\u202f2024 (July\u2011September) to align with exhibitors' budgeting cycles and give prospects ample time to secure booth space and plan product launches ahead of the ICE/iGB event in early 2025."
+    },
+    "timestamp": "2026-06-05T14:58:07.514849",
+    "ttl_hours": 24
+  },
+  "14922cbd647efdbf377ae740d5b9b811": {
+    "result": {
+      "quick_wins": [
+        "Add schema.org Article and Breadcrumb markup to the last 10 published B2B posts to boost rich\u2011snippet eligibility.",
+        "Refresh meta titles and descriptions for all existing M&A and regulatory articles to include primary keywords (e.g., \"iGaming M&A 2024\", \"online gambling regulation UK\") and a compelling CTA.",
+        "Implement a 30\u2011day internal linking audit: insert 2\u20133 contextual links from high\u2011authority pages (e.g., Talent acquisition guide) to new gap topics such as \"Regulatory developments\" and \"Affiliate tracking automation\".",
+        "Compress and serve all hero images via WebP and enable lazy\u2011loading to improve Core Web Vitals on the iGB news hub.",
+        "Create a dedicated \u201cRegulatory Tracker\u201d sidebar widget that pulls in the latest regulator announcements (JSON\u2011LD) and adds keyword\u2011rich anchor text."
+      ],
+      "content_calendar": [
+        {
+          "topic": "2024 Global iGaming Regulatory Outlook: Key Jurisdictions & Upcoming Changes",
+          "timing": "Next week (before ICE)",
+          "format": "Guide",
+          "target_keywords": [
+            "iGaming regulatory outlook 2024",
+            "online gambling regulation Europe",
+            "new gambling licences 2024"
+          ]
+        },
+        {
+          "topic": "M&A Pulse: How Consolidation is Shaping the iGaming Landscape Post\u2011Caesars\u2011Fertitta Deal",
+          "timing": "In 2 weeks (aligned with ICE press briefings)",
+          "format": "Article + Infographic",
+          "target_keywords": [
+            "iGaming M&A trends 2024",
+            "gaming industry consolidation",
+            "Caesars Fertitta deal analysis"
+          ]
+        },
+        {
+          "topic": "Sports Betting Data Deep Dive: Market Share, Player Behaviour & Competitive Landscape",
+          "timing": "Mid\u2011June (ahead of World Cup campaign advice)",
+          "format": "Video + Data Sheet",
+          "target_keywords": [
+            "sports betting market share 2024",
+            "iGaming betting data analysis",
+            "sports betting competition"
+          ]
+        },
+        {
+          "topic": "Affiliate Tracking Automation: Tools, Best Practices & ROI for B2B Operators",
+          "timing": "End of June",
+          "format": "Article + Comparison Table",
+          "target_keywords": [
+            "affiliate tracking automation",
+            "iGaming affiliate software",
+            "affiliate performance analytics"
+          ]
+        },
+        {
+          "topic": "Market Expansion Playbook: Successful Partnerships & Entry Strategies in Africa & LATAM",
+          "timing": "Early July (leveraging \"What African Players Really Want\" theme)",
+          "format": "Guide",
+          "target_keywords": [
+            "iGaming market expansion Africa",
+            "LATAM iGaming partnership",
+            "iGaming entry strategy 2024"
+          ]
+        }
+      ],
+      "competitor_keywords_to_target": [
+        "iGaming regulatory developments 2024",
+        "online gambling M&A news",
+        "sports betting competition analysis",
+        "affiliate tracking software review",
+        "iGaming market expansion partnerships",
+        "gaming data analytics platform",
+        "iGaming consolidation trends",
+        "online casino licensing Europe",
+        "betting automation tools",
+        "iGaming industry partnership announcements"
+      ],
+      "internal_linking_opportunities": [
+        {
+          "from_topic": "Talent acquisition and industry recognition",
+          "to_topic": "2024 Global iGaming Regulatory Outlook",
+          "rationale": "Talent articles already rank high; linking to regulatory content passes authority to a new gap area and improves topical relevance."
+        },
+        {
+          "from_topic": "Funding and growth of iGaming analytics startup",
+          "to_topic": "Sports Betting Data Deep Dive",
+          "rationale": "Both discuss data; contextual linking reinforces expertise signals for data\u2011centric queries."
+        },
+        {
+          "from_topic": "Early coverage of major M&A \u2013 Caesars\u2011Fertitta deal",
+          "to_topic": "M&A Pulse: How Consolidation is Shaping the iGaming Landscape",
+          "rationale": "Leverages existing authority on M&A to boost the new comprehensive guide."
+        },
+        {
+          "from_topic": "Onboarding and player retention best practices",
+          "to_topic": "Affiliate Tracking Automation",
+          "rationale": "Retention and affiliate performance are tightly linked; cross\u2011linking captures broader B2B intent."
+        },
+        {
+          "from_topic": "Austria iGaming liberalisation insights",
+          "to_topic": "Market Expansion Playbook \u2013 Africa & LATAM",
+          "rationale": "Shows geographic expertise; linking signals a global expansion narrative."
+        }
+      ],
+      "technical_seo_notes": [
+        "Duplicate meta descriptions found on older news posts \u2013 consolidate to unique, keyword\u2011rich copies.",
+        "Missing hreflang tags for multilingual versions (e.g., German, Spanish) causing crawl inefficiency for international audiences.",
+        "Several long\u2011form articles exceed 2,500\u202fwords without sub\u2011heading hierarchy (H2/H3); add structured headings to improve readability and crawlability.",
+        "Canonical tags are absent on paginated archive pages; implement rel=canonical to the first page to prevent duplicate content dilution.",
+        "Current XML sitemap does not include newly created guide pages; update sitemap daily and submit to Google Search Console."
+      ],
+      "long_term_strategy": "Over the next 3\u20116 months, focus on establishing Clarion Events as the definitive B2B authority on iGaming regulatory changes, M&A activity, and data\u2011driven market expansion. Build a pillar\u2011cluster architecture around the three core gaps\u2014regulation, consolidation, and sports betting data\u2014each supported by in\u2011depth guides, case studies, and interactive assets. Amplify these pillars with strategic internal linking from high\u2011authority talent and startup coverage, while continuously optimizing technical signals (schema, hreflang, page speed) to capture global B2B search demand and outpace competitors in the high\u2011value keyword space."
+    },
+    "timestamp": "2026-06-05T14:58:08.856976",
+    "ttl_hours": 24
+  },
+  "c1df3efd5d60800221520afd19e4044a": {
+    "result": {
+      "priority_keywords": [
+        {
+          "keyword": "online casino regulatory updates Europe 2024",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Guide",
+          "rationale": "Matches the 'Regulatory developments' gap, targets emerging EU legislation, and captures buying intent from operators seeking compliance insights."
+        },
+        {
+          "keyword": "sports betting market expansion Africa partnership",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Analysis",
+          "rationale": "Addresses the 'Market expansion & partnership activity' gap, leverages growing interest in African markets where competitors rank but we do not."
+        },
+        {
+          "keyword": "crypto gambling licensing Brazil 2024",
+          "search_intent": "transactional",
+          "estimated_difficulty": "High",
+          "content_type": "Article",
+          "rationale": "Combines high\u2011value competitor keyword 'crypto' with emerging Brazilian regulatory news, attracting operators ready to invest in licensing."
+        },
+        {
+          "keyword": "iGaming M&A trends Q2 2024",
+          "search_intent": "informational",
+          "estimated_difficulty": "Low",
+          "content_type": "News",
+          "rationale": "Directly fills the 'M&A and consolidation' gap; short\u2011term relevance boosts chances of quick ranking and positions Clarion as a go\u2011to source for deal intelligence."
+        },
+        {
+          "keyword": "affiliate tracking automation software review",
+          "search_intent": "transactional",
+          "estimated_difficulty": "Low",
+          "content_type": "Guide",
+          "rationale": "Targets the 'Affiliate tracking and automation' gap with buying intent from affiliate managers evaluating tools."
+        },
+        {
+          "keyword": "sports betting data analytics platform comparison",
+          "search_intent": "transactional",
+          "estimated_difficulty": "Medium",
+          "content_type": "Analysis",
+          "rationale": "Fits the 'Sports betting data & competition' gap; long\u2011tail phrase attracts operators comparing vendors, a high\u2011value lead source."
+        },
+        {
+          "keyword": "launch checklist for new iGaming platform in LATAM",
+          "search_intent": "informational",
+          "estimated_difficulty": "Low",
+          "content_type": "Guide",
+          "rationale": "Leverages the generic competitor keyword 'launch' while adding regional specificity; serves operators planning market entry, delivering strong conversion potential."
+        },
+        {
+          "keyword": "US prediction market crypto payment integration",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article",
+          "rationale": "Emerging topic intersecting crypto, prediction markets, and US regulation; low competition but high relevance to forward\u2011thinking iGaming audiences."
+        },
+        {
+          "keyword": "online gambling revenue forecasts 2025 Europe",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Analysis",
+          "rationale": "Builds on our strength in 'growth' and 'market' keywords, offering data\u2011driven content that attracts investors and operators seeking market sizing."
+        },
+        {
+          "keyword": "how to comply with Swedish gambling regulator",
+          "search_intent": "informational",
+          "estimated_difficulty": "Low",
+          "content_type": "Guide",
+          "rationale": "Directly ties to recent Swedish regulator events; low competition and high utility for operators needing compliance steps."
+        },
+        {
+          "keyword": "iGaming market growth opportunities in Southeast Asia 2024",
+          "search_intent": "informational",
+          "estimated_difficulty": "Medium",
+          "content_type": "Article",
+          "rationale": "Expands geographic coverage beyond Europe, taps into fast\u2011growing Asian markets, and aligns with the 'Market expansion' gap."
+        },
+        {
+          "keyword": "betting operator acquisition strategy case study",
+          "search_intent": "informational",
+          "estimated_difficulty": "Low",
+          "content_type": "Case Study",
+          "rationale": "Combines M&A focus with practical examples, attracting decision\u2011makers looking for proven acquisition frameworks."
+        }
+      ],
+      "quick_win_keywords": [
+        "iGaming affiliate automation tools",
+        "sports betting data API pricing",
+        "Brazil gambling law 2024 update",
+        "African iGaming market size 2024",
+        "crypto casino licensing process"
+      ],
+      "avoid_keywords": [
+        "gambling",
+        "casino",
+        "online",
+        "sports",
+        "betting",
+        "revenue",
+        "brazil",
+        "crypto",
+        "launch",
+        "africa",
+        "betting odds"
+      ],
+      "content_strategy_note": "Prioritize the long\u2011tail, intent\u2011rich keywords in the 'priority_keywords' list to capture both informational seekers and buyers. Leverage our existing authority on market growth by embedding data and forecasts, while expanding into under\u2011served regions (Africa, LATAM, SE Asia) and emerging regulatory topics. Publish a mix of guides, analyses, and case studies to satisfy different search intents, and use the quick\u2011win list for rapid\u2011ranking blog posts or news briefs. Continuously monitor SERP difficulty and adjust focus away from the high\u2011competition generic terms listed in 'avoid_keywords'."
+    },
+    "timestamp": "2026-06-05T14:58:10.205459",
+    "ttl_hours": 24
+  }
+}

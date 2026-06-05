@@ -1,0 +1,105 @@
+name: Keep Streamlit Alive
+
+# Streamlit Cloud puts apps to sleep after ~7 days of websocket inactivity.
+# A simple HTTP GET only loads the bootstrap HTML and is NOT counted as a
+# session by the Streamlit backend. We need a real browser that establishes
+# a websocket connection and renders the app, so it counts as user activity.
+#
+# This workflow uses Playwright (headless Chromium) to:
+#   1. Open the public app URL
+#   2. Wait for the Streamlit websocket to connect and the app to render
+#   3. If a "Yes, get this app back up!" wake button is shown, click it
+#   4. Stay on the page long enough for Streamlit to record the session
+#
+# Runs every 2 days. Streamlit Cloud's idle window is 7 days, so this gives
+# 3x safety margin even if a single run fails.
+
+on:
+  schedule:
+    - cron: '0 9 */2 * *'  # 9:00 UTC every 2 days
+  workflow_dispatch:
+
+concurrency:
+  group: keep-alive
+  cancel-in-progress: false
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright==1.47.0
+          python -m playwright install --with-deps chromium
+
+      - name: Wake up Streamlit app
+        env:
+          APP_URL: https://igaming-competitor-newsfeed.streamlit.app/
+        run: |
+          python <<'PY'
+          import os
+          import sys
+          import time
+          from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
+          url = os.environ['APP_URL']
+          print(f'[{time.strftime("%Y-%m-%d %H:%M:%S")}] Opening {url}', flush=True)
+
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True)
+              context = browser.new_context(
+                  user_agent=(
+                      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                      '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+                  )
+              )
+              page = context.new_page()
+
+              try:
+                  page.goto(url, wait_until='domcontentloaded', timeout=60_000)
+              except PWTimeout:
+                  print('Initial navigation timed out, continuing anyway.', flush=True)
+
+              # If Streamlit shows the "app is asleep" interstitial, click wake.
+              wake_selectors = [
+                  'button:has-text("Yes, get this app back up!")',
+                  'button:has-text("get this app back up")',
+                  'button:has-text("Wake up app")',
+              ]
+              for selector in wake_selectors:
+                  try:
+                      btn = page.locator(selector).first
+                      if btn.is_visible(timeout=3_000):
+                          print(f'Found wake button: {selector}', flush=True)
+                          btn.click()
+                          break
+                  except Exception:
+                      continue
+
+              # Allow the app to boot + websocket session to register.
+              # Streamlit cold start can take 30-60s on the free tier.
+              print('Waiting for app to render (up to 90s)...', flush=True)
+              try:
+                  page.wait_for_selector('[data-testid="stApp"], .stApp, [data-testid="stMainBlockContainer"]', timeout=90_000)
+                  print('App rendered successfully.', flush=True)
+              except PWTimeout:
+                  print('App selector not found; app may still be warming up.', flush=True)
+
+              # Stay on the page for an additional 20s so the websocket
+              # session is logged as real activity, not a quick probe.
+              time.sleep(20)
+
+              title = page.title()
+              print(f'Final page title: {title!r}', flush=True)
+
+              browser.close()
+
+          print(f'[{time.strftime("%Y-%m-%d %H:%M:%S")}] Done.', flush=True)
+          PY
