@@ -1871,6 +1871,29 @@ def main():
             na_position='last'  # Push nulls to end
         )
 
+    # At-a-glance snapshot reflecting current filter selection
+    kpi_col1, kpi_col2, kpi_col3, kpi_col4 = st.columns(4)
+    with kpi_col1:
+        st.metric("📰 Articles", f"{len(filtered_df):,}")
+    with kpi_col2:
+        st.metric("📡 Sources", f"{filtered_df['source'].nunique()}")
+    with kpi_col3:
+        if 'published_dt' in filtered_df.columns and not filtered_df['published_dt'].isna().all():
+            latest = filtered_df['published_dt'].max()
+            st.metric("🆕 Latest article", latest.strftime("%b %d"))
+        else:
+            st.metric("🆕 Latest article", "—")
+    with kpi_col4:
+        pipeline_label = "—"
+        if PIPELINE_TIMESTAMP:
+            try:
+                pipeline_label = datetime.fromisoformat(PIPELINE_TIMESTAMP).strftime("%b %d, %H:%M UTC")
+            except (ValueError, TypeError):
+                pipeline_label = PIPELINE_TIMESTAMP
+        st.metric("🕒 Pipeline run", pipeline_label)
+
+    st.markdown("---")
+
     # Main content tabs - using radio button for persistent navigation
     # (st.tabs has issues on Streamlit Cloud where session state changes cause unwanted tab resets)
     TAB_OPTIONS = ["🧠 AI Briefing", "📰 News Feed", "⚔️ Intelligence Battleground"]
