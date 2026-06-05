@@ -45,6 +45,200 @@ from src.topic_classifier import article_matches_topic, classify_gap_topic
 load_dotenv()
 
 
+# ---------------------------------------------------------------------------
+# Aggregation tuning + JSON recovery helpers
+# ---------------------------------------------------------------------------
+
+# The aggregation prompt asks the LLM to deduplicate themes/gaps/wins AND
+# produce a three-array commercial_radar block. With the default 4096-token
+# cap the response was truncating mid-string (observed at ~16KB), losing the
+# tail of commercial_radar entirely. 32K leaves ample headroom across
+# Cerebras gpt-oss-120b, Groq llama-3.3-70b-versatile, and OpenRouter
+# llama-3.3-70b-instruct:free (all support >=32K completion tokens).
+AGGREGATION_MAX_TOKENS = 32768
+
+
+def _repair_truncated_json(text: str) -> dict | None:
+    """
+    Best-effort recovery for a JSON object truncated mid-stream.
+
+    Walks the string tracking the open-container stack (``{`` and ``[``)
+    while ignoring braces that appear inside strings. After every
+    balanced inner value at depth >=1 we record a "safe cut" index AND a
+    snapshot of the still-open containers at that point. We try the
+    deepest (latest) safe cut first, close each remaining open container
+    with its matching token, and attempt ``json.loads``. If that still
+    fails we walk back through earlier safe cuts.
+
+    Returns the parsed dict on success, or None if recovery was not
+    possible.
+    """
+    if not text:
+        return None
+
+    in_string = False
+    escape = False
+    stack: list[str] = []
+    # List of (cut_index_inclusive, stack_after_close_copy). The stack
+    # snapshot tells us exactly how many ``}`` / ``]`` to append.
+    cut_points: list[tuple[int, list[str]]] = []
+
+    for idx, ch in enumerate(text):
+        if escape:
+            escape = False
+            continue
+        if ch == '\\' and in_string:
+            escape = True
+            continue
+        if ch == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if ch == '{':
+            stack.append('}')
+        elif ch == '[':
+            stack.append(']')
+        elif ch == '}' or ch == ']':
+            if stack and stack[-1] == ch:
+                stack.pop()
+                # Record a cut after every completed inner value. We do
+                # NOT record cuts when the stack is now empty — that's
+                # the end of the document itself, no repair needed.
+                if stack:
+                    cut_points.append((idx, list(stack)))
+
+    if not cut_points:
+        return None
+
+    # Try the latest (deepest into the response) safe cut first, then
+    # walk back if it doesn't parse.
+    for cut_idx, open_containers in reversed(cut_points):
+        candidate = text[: cut_idx + 1]
+        stripped = candidate.rstrip()
+        if stripped.endswith(','):
+            stripped = stripped[:-1]
+        # Close each remaining open container in LIFO order.
+        repaired = stripped + ''.join(reversed(open_containers))
+        try:
+            parsed = json.loads(repaired)
+            if isinstance(parsed, dict):
+                return parsed
+        except json.JSONDecodeError:
+            continue
+
+    return None
+
+
+def _synthesize_commercial_radar_from_batches(batch_results: list[dict]) -> dict:
+    """
+    Build a commercial_radar payload from per-batch findings when the
+    aggregation LLM call fails or truncates.
+
+    Sponsors and speakers are drawn from ``batch_companies`` (companies the
+    per-batch model already flagged as relevant). Exhibitor categories are
+    seeded from ``batch_themes`` (High/Medium importance themes are a
+    reasonable proxy for emerging exhibitor interest areas).
+    """
+    # Aggregate company mentions with frequency + first-seen context.
+    company_to_meta: dict[str, dict] = {}
+    for batch in batch_results:
+        for company in batch.get('batch_companies', []) or []:
+            name = (company.get('company_name') or '').strip()
+            if not name:
+                continue
+            entry = company_to_meta.setdefault(
+                name,
+                {'count': 0, 'context': company.get('context', '') or ''},
+            )
+            entry['count'] += 1
+            # Prefer the longest non-empty context we have seen.
+            ctx = company.get('context', '') or ''
+            if ctx and len(ctx) > len(entry['context']):
+                entry['context'] = ctx
+
+    # Rank by mention frequency (most-cited first), then alphabetically.
+    ranked = sorted(
+        company_to_meta.items(),
+        key=lambda kv: (-kv[1]['count'], kv[0].lower()),
+    )
+
+    sponsors: list[dict] = []
+    speakers: list[dict] = []
+    for name, meta in ranked[:10]:
+        rationale = meta['context'] or (
+            f"Mentioned in {meta['count']} batch(es) of competitor/internal coverage."
+        )
+        sponsors.append({
+            'company_name': name,
+            'rationale': rationale,
+            'engagement_angle': (
+                'Auto-derived from batch-level company mentions; '
+                'validate fit before outreach.'
+            ),
+        })
+        speakers.append({
+            'name_or_company': name,
+            'expertise_area': rationale,
+            'session_fit': 'TBD — derived from batch-level mentions.',
+        })
+
+    # Emerging exhibitor categories: pull themes (deduplicated by name) from
+    # the per-batch results, keeping the highest-importance occurrence.
+    importance_rank = {'High': 0, 'Medium': 1, 'Low': 2}
+    theme_to_meta: dict[str, dict] = {}
+    for batch in batch_results:
+        for theme in batch.get('batch_themes', []) or []:
+            name = (theme.get('theme') or '').strip()
+            if not name:
+                continue
+            existing = theme_to_meta.get(name)
+            new_rank = importance_rank.get(theme.get('importance', 'Medium'), 1)
+            if existing is None or new_rank < importance_rank.get(existing.get('importance', 'Medium'), 1):
+                theme_to_meta[name] = theme
+
+    categories: list[dict] = []
+    for name, theme in list(theme_to_meta.items())[:5]:
+        categories.append({
+            'category': name,
+            'evidence': theme.get('narrative', '') or 'Recurring across batched coverage.',
+            'opportunity': (
+                'Auto-derived from batch themes; validate exhibitor demand before pitching.'
+            ),
+        })
+
+    return {
+        'potential_sponsors': sponsors,
+        'potential_speakers': speakers,
+        'emerging_exhibitor_categories': categories,
+    }
+
+
+def _ensure_commercial_radar(analysis: dict, batch_results: list[dict]) -> dict:
+    """
+    Guarantee the analysis dict carries a populated commercial_radar.
+
+    If repair produced a partial briefing where commercial_radar is missing
+    or empty, fill it in from batch_companies / batch_themes so the
+    dashboard surfaces non-zero counts.
+    """
+    radar = analysis.get('commercial_radar') or {}
+    needs_fill = (
+        not radar
+        or not radar.get('potential_sponsors')
+        or not radar.get('potential_speakers')
+        or not radar.get('emerging_exhibitor_categories')
+    )
+    if needs_fill:
+        synthesized = _synthesize_commercial_radar_from_batches(batch_results)
+        for key, value in synthesized.items():
+            # Only fill empty/missing keys; keep whatever the LLM did emit.
+            if not radar.get(key):
+                radar[key] = value
+        analysis['commercial_radar'] = radar
+    return analysis
+
+
 class NewsAnalyzer:
     """Analyzes iGaming news using the open-source LLM failover chain."""
 
@@ -434,7 +628,18 @@ Return ONLY the JSON object. No other text."""
                 response_text = response_text.rsplit("```", 1)[0]
             response_text = response_text.strip()
 
-            return json.loads(response_text)
+            try:
+                return json.loads(response_text)
+            except json.JSONDecodeError as parse_err:
+                # Salvage what we can if the model truncated mid-stream.
+                repaired = _repair_truncated_json(response_text)
+                if repaired is not None:
+                    print(
+                        f"    ⚠ Batch {batch_num} JSON truncated ({parse_err}); "
+                        f"recovered partial result via repair."
+                    )
+                    return repaired
+                raise
 
         except json.JSONDecodeError as e:
             print(f"    ⚠ JSON parse error in batch {batch_num}: {str(e)}")
@@ -486,7 +691,14 @@ Return ONLY the JSON object. No other text."""
         aggregation_prompt = self.create_aggregation_prompt(batch_results, stats)
 
         try:
-            response_text = llm_client.generate(aggregation_prompt)
+            # Aggregation prompt is large and the response JSON includes
+            # commercial_radar with three arrays — empirically truncates at
+            # the default 4096-token cap. Bump explicitly to 32K so the
+            # response fits whole.
+            response_text = llm_client.generate(
+                aggregation_prompt,
+                max_tokens=AGGREGATION_MAX_TOKENS,
+            )
             if not response_text:
                 raise json.JSONDecodeError("LLM returned no response", "", 0)
 
@@ -499,9 +711,24 @@ Return ONLY the JSON object. No other text."""
                 response_text = response_text.rsplit("```", 1)[0]
             response_text = response_text.strip()
 
-            final_analysis = json.loads(response_text)
-            print("✓ Successfully aggregated results!")
-            return final_analysis
+            try:
+                final_analysis = json.loads(response_text)
+                print("✓ Successfully aggregated results!")
+                return final_analysis
+            except json.JSONDecodeError as parse_err:
+                # The aggregation response is large; if the LLM still
+                # truncates we attempt to salvage what we have so the
+                # dashboard surfaces real data instead of empty arrays.
+                repaired = _repair_truncated_json(response_text)
+                if repaired is not None:
+                    print(
+                        f"⚠ Aggregation JSON truncated ({parse_err}); "
+                        f"recovered partial briefing via repair."
+                    )
+                    final_analysis = _ensure_commercial_radar(repaired, batch_results)
+                    return final_analysis
+                # Re-raise into the outer handler so we synthesize from batches.
+                raise
 
         except json.JSONDecodeError as e:
             print(f"⚠ JSON parse error in aggregation: {str(e)}")
@@ -514,6 +741,14 @@ Return ONLY the JSON object. No other text."""
                 all_themes.extend(batch.get('batch_themes', []))
                 all_gaps.extend(batch.get('batch_gaps', []))
                 all_wins.extend(batch.get('batch_wins', []))
+
+            commercial_radar = _synthesize_commercial_radar_from_batches(batch_results)
+            print(
+                f"⚠ Synthesized commercial_radar from batch_companies "
+                f"(sponsors={len(commercial_radar['potential_sponsors'])}, "
+                f"speakers={len(commercial_radar['potential_speakers'])}, "
+                f"exhibitors={len(commercial_radar['emerging_exhibitor_categories'])})."
+            )
 
             return {
                 "executive_summary": f"Analyzed {stats['total_window_articles']} articles ({stats['total_window_competitor']} competitor, {stats['total_window_internal']} internal). See differentiators and reader advantages sections for detailed topic analysis.",
@@ -539,24 +774,17 @@ Return ONLY the JSON object. No other text."""
                      "amplification_opportunity": "Leverage in upcoming events"}
                     for w in all_wins[:5]
                 ],
-                "commercial_radar": {
-                    "potential_sponsors": [],
-                    "potential_speakers": [],
-                    "emerging_exhibitor_categories": []
-                }
+                "commercial_radar": commercial_radar,
             }
         except Exception as e:
             print(f"⚠ Error in aggregation: {str(e)}")
+            commercial_radar = _synthesize_commercial_radar_from_batches(batch_results)
             return {
                 "executive_summary": f"Analyzed {stats['total_window_articles']} articles. See differentiators section for detailed topic analysis.",
                 "market_pulse": [],
                 "strategic_gaps": [],
                 "portfolio_wins": [],
-                "commercial_radar": {
-                    "potential_sponsors": [],
-                    "potential_speakers": [],
-                    "emerging_exhibitor_categories": []
-                }
+                "commercial_radar": commercial_radar,
             }
 
     def enrich_gaps_with_evidence(self, analysis: dict, competitor_df: pd.DataFrame, internal_df: pd.DataFrame) -> dict:

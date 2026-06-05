@@ -126,23 +126,18 @@ def _render_data_freshness():
             csv_mtime = datetime.fromtimestamp(NEWS_HISTORY_CSV.stat().st_mtime)
             st.caption(f"Data updated: {csv_mtime.strftime('%Y-%m-%d %H:%M')}")
 
-        # Cache status
-        if GEMINI_CACHE_JSON.exists():
-            stats = get_cache_stats()
-            if stats['valid_entries'] > 0:
-                cache_status = f"{stats['valid_entries']} cached"
-            else:
-                cache_status = "Empty"
-            st.caption(f"AI Cache: {cache_status}")
-        else:
-            st.caption("AI Cache: Not found")
-
         # Version info
         try:
             from src._version import DATA_VERSION, PIPELINE_TIMESTAMP
             st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
         except ImportError:
             pass
+
+        # Cache status (debug only)
+        if DEBUG_MODE and GEMINI_CACHE_JSON.exists():
+            stats = get_cache_stats()
+            cache_status = f"{stats['valid_entries']} cached" if stats['valid_entries'] > 0 else "Empty"
+            st.caption(f"Insight cache: {cache_status}")
 
 
 # Gemini search enhancement (optional - works without API key)
@@ -1567,20 +1562,15 @@ def _render_data_freshness():
         csv_mtime = datetime.fromtimestamp(NEWS_HISTORY_CSV.stat().st_mtime)
         st.caption(f"Data updated: {csv_mtime.strftime('%Y-%m-%d %H:%M')}")
 
-    # Cache status
-    if GEMINI_CACHE_JSON.exists():
-        stats = get_cache_stats()
-        if stats['valid_entries'] > 0:
-            cache_status = f"AI Cache: {stats['valid_entries']} cached"
-        else:
-            cache_status = "AI Cache: Empty"
-        st.caption(cache_status)
-    else:
-        st.caption("AI Cache: Not found")
-
     # Version info
     if DATA_VERSION is not None:
         st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
+
+    # Cache status (debug only)
+    if DEBUG_MODE and GEMINI_CACHE_JSON.exists():
+        stats = get_cache_stats()
+        cache_status = f"{stats['valid_entries']} cached" if stats['valid_entries'] > 0 else "Empty"
+        st.caption(f"Insight cache: {cache_status}")
 
 
 def main():
@@ -1792,7 +1782,7 @@ def main():
         )
 
         st.markdown("---")
-        st.caption(f"iGaming Intelligence Dashboard · v{__version__}")
+        st.caption("iGaming Intelligence Dashboard")
 
         # Display run information and check for mismatches
         if run_meta:
@@ -2149,9 +2139,9 @@ def main():
             elif python_cards:
                 # === PYTHON-ONLY FALLBACK ===
                 if GEMINI_NER_AVAILABLE:
-                    st.caption(f"📊 Pattern-based analysis • {internal_count} internal vs {comp_count} competitor articles • Last {reader_days} days")
+                    st.caption(f"📊 Coverage analysis • {internal_count} portfolio vs {comp_count} competitor articles • Last {reader_days} days")
                 else:
-                    st.caption(f"📊 Pattern-based analysis (AI unavailable) • {internal_count} internal vs {comp_count} competitor articles")
+                    st.caption(f"📊 Coverage analysis • {internal_count} portfolio vs {comp_count} competitor articles")
 
                 for idx, card in enumerate(python_cards[:5], 1):
                     headline = card.get('headline', card.get('headline_template', 'Coverage Advantage'))
@@ -2193,28 +2183,20 @@ def main():
 
             # How this is calculated
             with st.expander("📊 How this is calculated", expanded=False):
-                ai_status = "✅ Active" if use_ai else "❌ Inactive (using pattern detection only)"
                 st.markdown(f"""
-**Hybrid Analysis: Pattern Detection + AI Enhancement**
+**Coverage advantage analysis**
 
-**Step 1: Pattern Detection**
-Python analyzes {internal_count} internal and {comp_count} competitor articles to find coverage patterns:
+We compare {internal_count} portfolio articles against {comp_count} competitor articles to surface
+the topics where our coverage is materially deeper or more sustained than the wider market:
+
 - Explainer depth (analysis, guides, deep dives)
 - Editorial franchises (awards, rankings, series)
 - Geography focus (sustained market coverage)
 - Event coverage (conference reporting)
 - Follow-through (multi-article stories)
 
-**Step 2: AI Enhancement** {ai_status}
-When available, Gemini AI:
-- Validates patterns represent real reader value
-- Rewrites headlines to be reader-focused
-- Identifies additional patterns Python might miss
-- Ranks by actual reader value, not just counts
-
-**Key Metric: Concentration**
-We compare what % of OUR content covers each area vs competitors.
-A 2.0x ratio means we're twice as focused on that topic.
+Insights are validated against reader-value signals and ranked by how distinctively our portfolio
+owns each topic. A 2.0x ratio means we're twice as focused on that area as competitors.
 """)
 
             # CSV Download
@@ -2628,9 +2610,9 @@ A 2.0x ratio means we're twice as focused on that topic.
                         ai_keywords_result = st.session_state.get(ai_kw_key)
                         if ai_keywords_result:
                             if st.session_state.get(ai_kw_fallback_key):
-                                st.info("📊 Keyword analysis based on trend data (AI enhancement unavailable)")
+                                st.info("📊 Keyword analysis based on trend data")
                             else:
-                                st.success("✅ AI keyword analysis complete")
+                                st.success("✅ Keyword analysis complete")
 
                             # Priority Keywords Table
                             priority_kws = ai_keywords_result.get('priority_keywords', [])
