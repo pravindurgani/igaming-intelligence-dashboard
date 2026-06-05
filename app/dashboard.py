@@ -49,6 +49,23 @@ def _get_width_kwargs():
     else:
         return {"use_container_width": True}
 
+
+def _smart_truncate_title(title: str, max_len: int = 110) -> str:
+    """Truncate title at a word boundary so we never cut mid-word.
+
+    Keeps the full title when it fits within max_len. Falls back to a hard
+    truncate only when no whitespace is available before the limit.
+    """
+    if not title:
+        return ''
+    if len(title) <= max_len:
+        return title
+    boundary = title.rfind(' ', 0, max_len)
+    if boundary == -1 or boundary < max_len * 0.6:
+        # Fall back to hard cut if no decent word break exists
+        return title[:max_len].rstrip() + '…'
+    return title[:boundary].rstrip() + '…'
+
 # Debug mode flag - set DEBUG_MODE=1 to show debug tools
 DEBUG_MODE = os.getenv('DEBUG_MODE', '').lower() in ('1', 'true', 'yes')
 
@@ -121,17 +138,26 @@ def _render_data_freshness():
         st.divider()
         st.caption("Data Freshness")
 
-        # CSV last modified
-        if NEWS_HISTORY_CSV.exists():
-            csv_mtime = datetime.fromtimestamp(NEWS_HISTORY_CSV.stat().st_mtime)
-            st.caption(f"Data updated: {csv_mtime.strftime('%Y-%m-%d %H:%M')}")
-
-        # Version info
+        # Single, canonical freshness label. Prefer the pipeline run timestamp
+        # (set by the daily pipeline) so the date reflects the *content* run,
+        # not the moment the file was rsynced or rebuilt.
         try:
-            from src._version import DATA_VERSION, PIPELINE_TIMESTAMP
-            st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
+            from src._version import PIPELINE_TIMESTAMP
         except ImportError:
-            pass
+            PIPELINE_TIMESTAMP = None
+
+        freshness_label = None
+        if PIPELINE_TIMESTAMP:
+            try:
+                freshness_label = datetime.fromisoformat(PIPELINE_TIMESTAMP).strftime('%Y-%m-%d %H:%M UTC')
+            except ValueError:
+                freshness_label = PIPELINE_TIMESTAMP
+        elif NEWS_HISTORY_CSV.exists():
+            csv_mtime = datetime.fromtimestamp(NEWS_HISTORY_CSV.stat().st_mtime)
+            freshness_label = csv_mtime.strftime('%Y-%m-%d %H:%M')
+
+        if freshness_label:
+            st.caption(f"Pipeline last run: {freshness_label}")
 
         # Cache status (debug only)
         if DEBUG_MODE and GEMINI_CACHE_JSON.exists():
@@ -411,14 +437,12 @@ PUBLISHER_DOMAINS = {
 EXCLUDED_DOMAINS = set(PUBLISHER_DOMAINS.values())
 
 
-# Internal brand domains for robust category detection
-# Note: ice365.com and ice365.news redirect to icegaming.com and are excluded
+# Internal brand domains for robust category detection.
 INTERNAL_DOMAINS = {
     'igamingbusiness.com',
     'igbaffiliate.com',
     'ggbmagazine.com',
     'ggbdirectory.com',
-    'clarionevents.com'
 }
 
 # Non-gambling organizations to exclude from sponsor candidate lists
@@ -555,8 +579,6 @@ def is_internal(source: str, link: str) -> bool:
         'igb affiliate',
         'ggb magazine',
         'ggb directory',
-        'ice365',
-        'clarion events'
     }
 
     return source_normalized in internal_source_names
@@ -1443,10 +1465,12 @@ def generate_seo_insights(strategic_gaps, portfolio_wins, market_pulse, df):
         # Take top 15 most significant
         insights['trending_keywords'] = trending[:15]
 
-        # Calculate balanced metrics
-        comp_focus = len([k for k in trending[:15] if k['trend'] == 'competitor_focus'])
-        our_strength = len([k for k in trending[:15] if k['trend'] == 'our_strength'])
-        balanced = len([k for k in trending[:15] if k['trend'] == 'balanced'])
+        # Calculate balanced metrics across ALL trending keywords (not just top 15),
+        # because the top-15 slice is sorted by largest absolute rate gap and
+        # would otherwise exclude balanced keywords by definition.
+        comp_focus = len([k for k in trending if k['trend'] == 'competitor_focus'])
+        our_strength = len([k for k in trending if k['trend'] == 'our_strength'])
+        balanced = len([k for k in trending if k['trend'] == 'balanced'])
 
         insights['keyword_analysis'] = {
             'total_keywords_analyzed': len(all_keywords),
@@ -1557,14 +1581,20 @@ def _render_data_freshness():
     st.divider()
     st.caption("Data Freshness")
 
-    # CSV last modified
-    if NEWS_HISTORY_CSV.exists():
+    # Single, canonical freshness label. Prefer the pipeline run timestamp
+    # over the CSV mtime so the date reflects the *content* run.
+    freshness_label = None
+    if PIPELINE_TIMESTAMP:
+        try:
+            freshness_label = datetime.fromisoformat(PIPELINE_TIMESTAMP).strftime('%Y-%m-%d %H:%M UTC')
+        except ValueError:
+            freshness_label = PIPELINE_TIMESTAMP
+    elif NEWS_HISTORY_CSV.exists():
         csv_mtime = datetime.fromtimestamp(NEWS_HISTORY_CSV.stat().st_mtime)
-        st.caption(f"Data updated: {csv_mtime.strftime('%Y-%m-%d %H:%M')}")
+        freshness_label = csv_mtime.strftime('%Y-%m-%d %H:%M')
 
-    # Version info
-    if DATA_VERSION is not None:
-        st.caption(f"Updated {PIPELINE_TIMESTAMP[:10] if PIPELINE_TIMESTAMP else 'today'}")
+    if freshness_label:
+        st.caption(f"Pipeline last run: {freshness_label}")
 
     # Cache status (debug only)
     if DEBUG_MODE and GEMINI_CACHE_JSON.exists():
@@ -1942,7 +1972,7 @@ def main():
                         st.markdown(f"**Competitors Covering:** {', '.join(theme.get('competitors_covering', []))}")
                         st.markdown("**Narrative:**")
                         st.write(theme.get('narrative', 'N/A'))
-                        st.markdown("**ICE/iGB Relevance:**")
+                        st.markdown("**Portfolio Relevance:**")
                         st.write(theme.get('recommended_action', 'N/A'))
             else:
                 st.info("No market pulse themes identified.")
@@ -2079,7 +2109,7 @@ def main():
             # STEP 3: Display results
             if use_ai:
                 # === AI-ENHANCED DISPLAY ===
-                st.caption(f"🤖 AI-enhanced analysis • {internal_count} internal vs {comp_count} competitor articles • Last {reader_days} days")
+                st.caption(f"AI-enhanced analysis • {internal_count} internal vs {comp_count} competitor articles • Last {reader_days} days")
 
                 # Strategic summary
                 if gemini_result.get('strategic_summary'):
@@ -2116,9 +2146,9 @@ def main():
                         if matching_python and matching_python.get('internal_examples'):
                             st.markdown("**📰 Example articles:**")
                             for ex in matching_python['internal_examples'][:3]:
-                                title = ex.get('title', 'Article')[:55]
+                                title = _smart_truncate_title(ex.get('title', 'Article'))
                                 link = ex.get('link', '#')
-                                st.markdown(f"- [{title}...]({link})")
+                                st.markdown(f"- [{title}]({link})")
 
                 # AI-discovered advantages
                 ai_discovered = gemini_result.get('ai_discovered', [])
@@ -2165,7 +2195,9 @@ def main():
                         if examples:
                             st.markdown("**📰 Example articles:**")
                             for ex in examples[:3]:
-                                st.markdown(f"- [{ex.get('title', 'Article')[:55]}...]({ex.get('link', '#')})")
+                                title = _smart_truncate_title(ex.get('title', 'Article'))
+                                link = ex.get('link', '#')
+                                st.markdown(f"- [{title}]({link})")
 
                         st.markdown(f"*Why it matters: {why_matters}*")
 
@@ -2307,7 +2339,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
             # ========== TAB 2: EXHIBITOR PROSPECTING ==========
             with biz_tab2:
                 st.markdown("### 🎯 Exhibitor Prospecting")
-                st.caption("AI-powered recommendations for ICE/iGB exhibition booth sales")
+                st.caption("AI-powered recommendations for trade-show booth sales")
 
                 # Get context data
                 exhibitor_categories = analysis_json.get('commercial_radar', {}).get('emerging_exhibitor_categories', [])
@@ -2421,7 +2453,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 else:
                     # Gemini not available - show static content
                     st.markdown("### 📋 Emerging Exhibitor Categories")
-                    st.caption("Categories identified for ICE/iGB exhibition halls")
+                    st.caption("Categories identified for trade-show exhibition halls")
                     _display_static_exhibitor_categories(exhibitor_categories)
 
             # ========== TAB 3: SEO & CONTENT STRATEGY ==========
@@ -2554,7 +2586,13 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
 
                 # ===== SECTION 3: Keyword Intelligence (Collapsed) =====
                 with st.expander("🔑 Keyword Analysis", expanded=False):
-                    if trending:
+                    # Hide rows where both sides round to 0.0% — those carry no signal.
+                    meaningful_trending = [
+                        k for k in trending
+                        if (k.get('competitor_rate', 0) or 0) > 0
+                        or (k.get('internal_rate', 0) or 0) > 0
+                    ]
+                    if meaningful_trending:
                         st.caption("Comparing % of articles mentioning each keyword (normalized for article volume)")
 
                         # Simple table view instead of cards
@@ -2564,7 +2602,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                             'Competitor Coverage': f"{k.get('competitor_rate', 0)}%",
                             'Gap': f"{k.get('rate_gap', 0):+.1f}pp",
                             'Status': k.get('trend', '').replace('_', ' ').title()
-                        } for k in trending[:12]])
+                        } for k in meaningful_trending[:12]])
 
                         st.dataframe(keyword_df, hide_index=True, **_get_width_kwargs())
 
@@ -2574,7 +2612,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
 
                 # ===== AI KEYWORD RECOMMENDATIONS =====
                 if GEMINI_NER_AVAILABLE:
-                    with st.expander("🤖 AI Keyword Recommendations", expanded=True):
+                    with st.expander("AI Keyword Recommendations", expanded=True):
 
                         # Filter-keyed session state for AI keywords
                         ai_kw_key = get_ai_cache_key('ai_keywords')
@@ -2856,7 +2894,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
             # Gemini AI search suggestions (optional)
             if GEMINI_SEARCH_AVAILABLE and expand_query is not None:
                 try:
-                    with st.expander("🤖 AI Search Suggestions", expanded=False):
+                    with st.expander("AI Search Suggestions", expanded=False):
                         suggestions = expand_query(search_query)
                         if suggestions:
                             st.caption("Related terms you might want to search:")
@@ -3075,8 +3113,9 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 title='Geographic Market Focus: Percentage of Coverage',
                 xaxis_title='Location (GPE)',
                 yaxis_title='Percentage of Articles (%)',
-                xaxis_tickangle=-45,
-                height=500,
+                xaxis=dict(tickangle=-45, automargin=True, tickfont=dict(size=11)),
+                height=560,
+                margin=dict(l=40, r=20, t=60, b=140),
                 hovermode='x unified'
             )
 
@@ -3144,7 +3183,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                     )
                     st.session_state[geo_insight_key] = geo_insight
                 if geo_insight and not geo_insight.startswith("Unable"):
-                    st.info(f"🤖 **AI Insight:** {geo_insight}")
+                    st.info(f"**AI Insight:** {geo_insight}")
 
         else:
             st.info("📍 No geographic entities (GPE) detected in articles.")
@@ -3303,8 +3342,13 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                     title='Most Mentioned Companies (Potential Sponsors)',
                     xaxis_title='Company (ORG)',
                     yaxis_title='Total Mentions',
-                    xaxis_tickangle=-45,
-                    height=500
+                    xaxis=dict(
+                        tickangle=-45,
+                        automargin=True,
+                        tickfont=dict(size=11),
+                    ),
+                    height=560,
+                    margin=dict(l=40, r=20, t=60, b=140),
                 )
 
                 st.plotly_chart(fig_companies, **_get_width_kwargs())
@@ -3335,7 +3379,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                     company_insight = get_company_insight(json.dumps(top_companies[:15]))
                     st.session_state[company_insight_key] = company_insight
                 if company_insight and not company_insight.startswith("Unable"):
-                    st.info(f"🤖 **AI Insight:** {company_insight}")
+                    st.info(f"**AI Insight:** {company_insight}")
 
         else:
             st.info("🔍 No significant company entities (ORG) detected.")
@@ -3382,8 +3426,9 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 title='Strategic Topic Coverage: Keyword-Based Clusters',
                 xaxis_title='Topic Cluster',
                 yaxis_title='Percentage of Articles (%)',
-                xaxis_tickangle=-45,
-                height=500,
+                xaxis=dict(tickangle=-45, automargin=True, tickfont=dict(size=11)),
+                height=560,
+                margin=dict(l=40, r=20, t=60, b=140),
                 hovermode='x unified'
             )
 
@@ -3426,7 +3471,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                     topic_insight = get_topic_insight(json.dumps(topic_comparison))
                     st.session_state[topic_insight_key] = topic_insight
                 if topic_insight and not topic_insight.startswith("Unable"):
-                    st.info(f"🤖 **AI Insight:** {topic_insight}")
+                    st.info(f"**AI Insight:** {topic_insight}")
 
         # Fallback: Show strategic gaps from JSON even if no topics detected via NER
         elif analysis_json and 'strategic_gaps' in analysis_json:
@@ -3447,29 +3492,36 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
 
         # CHART D: Regional Breakdown (Pie Chart)
         st.subheader("🌎 Chart D: Regional Breakdown - Geographic Distribution")
-        st.caption("Distribution of coverage across major geographic regions")
+        st.caption("Share of articles mentioning each region (matches the % methodology used in Chart A and the Geo Gap Table — slices may sum to >100% since articles can mention multiple regions).")
 
-        # Count regions from normalized locations
-        all_competitor_regions = Counter(nlp_results['competitor_locations'])
-        all_internal_regions = Counter(nlp_results['internal_locations'])
+        # Use per-article coverage (same methodology as Chart A and Geo Gap Table)
+        # so the regional numbers reconcile across the page.
+        competitor_region_coverage = calculate_entity_article_coverage(
+            nlp_results['competitor_locations_per_article']
+        )
+        internal_region_coverage = calculate_entity_article_coverage(
+            nlp_results['internal_locations_per_article']
+        )
 
         # Create side-by-side pie charts
         col1, col2 = st.columns(2)
 
         with col1:
-            if all_competitor_regions:
-                regions_comp = list(all_competitor_regions.keys())
-                counts_comp = list(all_competitor_regions.values())
+            if competitor_region_coverage:
+                regions_comp = [item['entity'] for item in competitor_region_coverage]
+                values_comp = [item['percentage'] for item in competitor_region_coverage]
 
                 fig_pie_comp = go.Figure(data=[go.Pie(
                     labels=regions_comp,
-                    values=counts_comp,
+                    values=values_comp,
                     marker=dict(colors=['#FF4B4B', '#FF6B6B', '#FF8B8B', '#FFABAB', '#FFCBCB']),
-                    hole=0.3
+                    hole=0.3,
+                    texttemplate='%{label}<br>%{value:.1f}%',
+                    hovertemplate='<b>%{label}</b><br>%{value:.1f}% of competitor articles<extra></extra>',
                 )])
 
                 fig_pie_comp.update_layout(
-                    title='Competitor Regional Focus',
+                    title='Competitor Regional Focus (% of articles)',
                     height=400
                 )
 
@@ -3478,19 +3530,21 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 st.info("No competitor regional data")
 
         with col2:
-            if all_internal_regions:
-                regions_int = list(all_internal_regions.keys())
-                counts_int = list(all_internal_regions.values())
+            if internal_region_coverage:
+                regions_int = [item['entity'] for item in internal_region_coverage]
+                values_int = [item['percentage'] for item in internal_region_coverage]
 
                 fig_pie_int = go.Figure(data=[go.Pie(
                     labels=regions_int,
-                    values=counts_int,
+                    values=values_int,
                     marker=dict(colors=['#0068C9', '#2078D9', '#4088E9', '#6098F9', '#80A8FF']),
-                    hole=0.3
+                    hole=0.3,
+                    texttemplate='%{label}<br>%{value:.1f}%',
+                    hovertemplate='<b>%{label}</b><br>%{value:.1f}% of portfolio articles<extra></extra>',
                 )])
 
                 fig_pie_int.update_layout(
-                    title='Portfolio Regional Focus',
+                    title='Portfolio Regional Focus (% of articles)',
                     height=400
                 )
 
@@ -3499,27 +3553,29 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 st.info("No portfolio regional data")
 
         # Regional insights
-        if all_competitor_regions and all_internal_regions:
+        if competitor_region_coverage and internal_region_coverage:
+            comp_region_pcts = {item['entity']: item['percentage'] for item in competitor_region_coverage}
+            int_region_pcts = {item['entity']: item['percentage'] for item in internal_region_coverage}
+
             # Find regions competitors cover but we don't
-            competitor_only = set(all_competitor_regions.keys()) - set(all_internal_regions.keys())
+            competitor_only = set(comp_region_pcts.keys()) - set(int_region_pcts.keys())
             if competitor_only:
-                st.warning(f"⚠️ **Regional Gaps:** Competitors are covering {', '.join(competitor_only)} but we have zero coverage in these regions!")
+                st.warning(f"⚠️ **Regional Gaps:** Competitors are covering {', '.join(sorted(competitor_only))} but we have zero coverage in these regions!")
 
             # AI Insight for Chart D (Regional) - filter-keyed for instant retrieval
             if GEMINI_NER_AVAILABLE and get_regional_insight is not None:
                 regional_insight_key = get_ai_cache_key('regional_insight')
                 regional_insight = st.session_state.get(regional_insight_key)
                 if regional_insight is None:
-                    # Prepare regional data for insight
-                    competitor_regions = dict(all_competitor_regions.most_common(5))
-                    internal_regions = dict(all_internal_regions.most_common(5))
+                    competitor_regions = dict(list(comp_region_pcts.items())[:5])
+                    internal_regions = dict(list(int_region_pcts.items())[:5])
                     regional_insight = get_regional_insight(
                         json.dumps(competitor_regions),
                         json.dumps(internal_regions)
                     )
                     st.session_state[regional_insight_key] = regional_insight
                 if regional_insight and not regional_insight.startswith("Unable"):
-                    st.info(f"🤖 **AI Insight:** {regional_insight}")
+                    st.info(f"**AI Insight:** {regional_insight}")
 
         # ========================================
         # AFFILIATE ANALYSIS SECTION
@@ -3606,8 +3662,9 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                 fig.update_layout(
                     barmode='group',
                     title='Topic Coverage: Affiliate vs Non-Affiliate',
-                    xaxis_tickangle=-45,
-                    height=400,
+                    xaxis=dict(tickangle=-45, automargin=True, tickfont=dict(size=11)),
+                    height=460,
+                    margin=dict(l=40, r=20, t=60, b=140),
                     yaxis_title='% of Articles',
                     legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
                 )
@@ -3624,7 +3681,7 @@ owns each topic. A 2.0x ratio means we're twice as focused on that area as compe
                             len(non_affiliate_df)
                         )
                         if affiliate_insight and not affiliate_insight.startswith("Unable"):
-                            st.info(f"🤖 **AI Insight:** {affiliate_insight}")
+                            st.info(f"**AI Insight:** {affiliate_insight}")
                     except ImportError:
                         pass  # Function not yet available
         else:
