@@ -32,12 +32,11 @@ from __future__ import annotations
 
 import os
 import time
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
 
 try:
-    from openai import OpenAI  # type: ignore
-    from openai import APIError, APITimeoutError, RateLimitError
+    from openai import APIError, APITimeoutError, OpenAI, RateLimitError  # type: ignore
 except ImportError:  # pragma: no cover - openai is in requirements.txt
     OpenAI = None  # type: ignore[assignment]
     APIError = APITimeoutError = RateLimitError = Exception  # type: ignore[assignment,misc]
