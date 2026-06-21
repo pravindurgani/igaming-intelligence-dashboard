@@ -5,7 +5,7 @@ DO NOT EDIT MANUALLY - This file is generated automatically.
 """
 
 # Last pipeline run timestamp
-PIPELINE_TIMESTAMP = "2026-06-20T10:39:36.443942+00:00"
+PIPELINE_TIMESTAMP = "2026-06-21T11:11:27.253971+00:00"
 
 # Data version (incremented on each run)
-DATA_VERSION = 137
+DATA_VERSION = 138
