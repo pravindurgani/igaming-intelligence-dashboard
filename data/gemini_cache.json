@@ -1,237 +1,133 @@
 {
-  "1ccc2c78de767b7e64f314246541b8da": {
+  "b7f72add182bf44afdf5bb3524002cd6": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live Event Coverage Gives Readers Insider Access to Industry Trends",
-          "what_readers_get": "On\u2011site reports, keynote summaries, and networking highlights that you can\u2019t get from the floor.",
-          "why_it_matters": "Events shape market direction, and timely insights help operators and affiliates stay ahead of emerging opportunities.",
-          "evidence_summary": "Our event pieces account for about 86% of our coverage versus roughly 30% for competitors\u2014a 2.9\u2011times higher focus.",
+          "headline": "Live Event Reporting Gives Readers Insider Access to Industry Happenings",
+          "what_readers_get": "On\u2011the\u2011ground summaries of show floors, keynote speeches, and networking moments that other outlets miss.",
+          "why_it_matters": "Real\u2011time event intel helps operators spot emerging trends, regulatory cues, and partnership opportunities before they become public.",
+          "evidence_summary": "Our event coverage makes up about 86% of our content versus roughly 30% for competitors.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 366,
+          "internal_count": 371,
           "concentration_ratio": 2.91
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Regulatory Deep Dives Keep Readers Ahead of Compliance Shifts",
-          "what_readers_get": "Detailed analysis of new taxes, licensing changes, and enforcement tools that directly affect operators.",
-          "why_it_matters": "Regulatory moves can reshape market access and profitability, so early awareness is critical.",
-          "evidence": "Includes articles such as \u2018Uganda proposes uniform 30% GGR tax\u2026\u2019, \u2018South Africa regulator launches online verification portal\u2026\u2019, \u2018A defining moment for US state and tribal gaming regulators\u2026\u2019, \u2018Portugal launches centralised self\u2011exclusion portal\u2026\u2019.",
+          "headline": "In\u2011Depth Regulatory Analysis Keeps Readers Ahead of Policy Shifts",
+          "what_readers_get": "Detailed breakdowns of tax proposals, licensing changes, and compliance mandates affecting iGaming operators.",
+          "why_it_matters": "Regulatory moves directly impact market entry costs and operational risk, so staying informed is critical.",
+          "evidence": "Internal articles such as Uganda tax proposal, South Africa verification portal, Evolution lawsuit, US tribal regulator review, Portugal self\u2011exclusion portal (5 pieces) versus limited comparable coverage from competitors.",
           "confidence": "medium"
         },
         {
-          "headline": "Job Market Intelligence Shows Where iGaming Talent Is Moving",
-          "what_readers_get": "Curated listings and analysis of hiring trends, from affiliate leads to engineering roles.",
-          "why_it_matters": "Talent availability drives operational capacity and competitive advantage for firms.",
-          "evidence": "Based on internal posts like \u2018Team Lead Affiliate Marketing Services\u2019, \u2018Financial Analyst \u2013 India\u2019, \u2018Middle QA Engineer\u2019, \u2018Business Development Manager\u2019, \u2018Senior PPC Media Buyer\u2019.",
-          "confidence": "medium"
+          "headline": "Curated iGaming Job Listings Connect Talent with Leading Operators",
+          "what_readers_get": "A regularly updated feed of vetted career opportunities across development, marketing, and compliance roles.",
+          "why_it_matters": "Access to specialized jobs helps professionals advance in a fast\u2011growing sector and firms attract top talent.",
+          "evidence": "Internal posts include Middle QA Engineer, Financial Analyst \u2013 India, Business Development Manager, Senior PPC Media Buyer, Team Lead Affiliate Marketing Services (5+ listings) with no comparable job\u2011focused pieces from competitors.",
+          "confidence": "high"
         }
       ],
-      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event, regulatory and talent intelligence that drives strategic decisions in iGaming.",
-      "overall_confidence": 0.85,
+      "strategic_summary": "The portfolio delivers exclusive event intel, deep regulatory insight, and targeted career opportunities that empower iGaming professionals to stay ahead of market dynamics.",
+      "overall_confidence": 0.88,
       "fallback_used": false
     },
-    "timestamp": "2026-07-03T10:40:00.477535",
+    "timestamp": "2026-07-04T10:14:37.107892",
     "ttl_hours": 24
   },
-  "1d0ba03e6d4a2cb4fe7847056b536bf9": {
-    "result": {
-      "additional_sponsor_opportunities": [
-        {
-          "company": "Ainsworth",
-          "news_trigger": "Kjerulf Ainsworth raised his stake to 9.55%, signalling confidence in the operator\u2019s growth trajectory.",
-          "pitch_angle": "Offer data\u2011driven affiliate tracking and player\u2011insights platforms to help Ainsworth maximise ROI on its expanded ownership stake.",
-          "urgency": "High"
-        },
-        {
-          "company": "Potawatomi Sportsbook",
-          "news_trigger": "Named official betting partner of the Green Bay Packers NFL franchise.",
-          "pitch_angle": "Position your brand as the exclusive technology or payment partner for the NFL\u2011related betting experience, leveraging the high\u2011visibility partnership.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "LSports",
-          "news_trigger": "Secured a landmark deal with Caliente, marking the start of a rapid LATAM expansion.",
-          "pitch_angle": "Provide localized compliance, AML and payment solutions to accelerate LSports\u2019 rollout across Latin America.",
-          "urgency": "High"
-        },
-        {
-          "company": "Zitro Digital",
-          "news_trigger": "Expanded its Brazilian footprint through a partnership with Brazino777.",
-          "pitch_angle": "Pitch a joint\u2011marketing programme that bundles your ad\u2011tech or player\u2011acquisition tools with Zitro\u2019s new Brazilian catalogue.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "EGT",
-          "news_trigger": "Completed its first casino installation in Iceland, entering a new regulated market.",
-          "pitch_angle": "Offer regulatory\u2011consulting and risk\u2011management services to help EGT scale quickly in Nordic jurisdictions.",
-          "urgency": "Low"
-        }
-      ],
-      "speaker_recommendations": [
-        {
-          "person_or_company": "Kjerulf Ainsworth (Ainsworth)",
-          "topic_expertise": "Operator growth strategy & shareholder activism",
-          "news_relevance": "Recent stake increase highlights his confidence and strategic direction for the brand.",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "John Doe (Chief Commercial Officer, Potawatomi Sportsbook)",
-          "topic_expertise": "Sports\u2011betting partnerships with major sports franchises",
-          "news_relevance": "Just announced partnership with the Green Bay Packers, a first\u2011ever NFL betting tie\u2011up.",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "Maria Alvarez (Head of LATAM, LSports)",
-          "topic_expertise": "Building betting platforms in Latin America",
-          "news_relevance": "LSports\u2011Caliente deal positions her as a leading voice on LATAM market entry.",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Rafael Silva (CEO, Zitro Digital)",
-          "topic_expertise": "Brazilian market expansion & localized product development",
-          "news_relevance": "Recent Brazino777 partnership gives him fresh insights on Brazil\u2019s fast\u2011growing iGaming ecosystem.",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Lars Jensen (Senior Advisor, Danish Gambling Authority)",
-          "topic_expertise": "Nordic regulatory landscape & player protection",
-          "news_relevance": "Will speak at the Gaming in the Nordics launch event, offering timely regulatory perspective.",
-          "session_type": "Keynote"
-        }
-      ],
-      "partnership_alerts": [
-        {
-          "companies_involved": [
-            "Bally\u2019s Intralot",
-            "Evoke"
-          ],
-          "partnership_type": "M&A",
-          "opportunity": "Cover the integration story and explore cross\u2011selling of Bally\u2019s Intralot\u2019s B2B suite to Evoke\u2019s existing operator base."
-        },
-        {
-          "companies_involved": [
-            "LSports",
-            "Caliente"
-          ],
-          "partnership_type": "Product/Deal",
-          "opportunity": "Co\u2011host webinars on LATAM market entry, positioning your data\u2011analytics or payment platform as the preferred tech partner."
-        },
-        {
-          "companies_involved": [
-            "Zitro Digital",
-            "Brazino777"
-          ],
-          "partnership_type": "Product",
-          "opportunity": "Create joint case studies showcasing how your ad\u2011tech can boost player acquisition for new Brazilian titles."
-        },
-        {
-          "companies_involved": [
-            "LeoVegas",
-            "bet365",
-            "Unibet"
-          ],
-          "partnership_type": "Regulatory scrutiny (Swedish)",
-          "opportunity": "Develop a compliance\u2011focused roundtable to help operators navigate the upcoming Swedish regulator review."
-        }
-      ],
-      "timing_recommendations": "Capitalize on the FIFA World Cup (June\u2011July 2026) by securing sponsorships or speaking slots with operators launching World\u2011Cup\u2011related products (e.g., bet365\u2019s free\u2011to\u2011play mobile game, LeoVegas\u2019 hype campaign). Additionally, target the Affiliate Leaders Summit in Lisbon (early Q3 2026) for brand exposure and partnership announcements, especially around the LATAM expansion wave driven by LSports and Caliente."
-    },
-    "timestamp": "2026-07-03T10:40:02.301673",
-    "ttl_hours": 24
-  },
-  "4a20d3e5a7881daf7992ffeb30b5b8be": {
+  "54dab6a1e7ac6acacf9aa65e5d6184c9": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Pragmatic Play",
-          "category_fit": "General iGaming \u2013 Slots & Live Casino",
-          "news_trigger": "Exclusive: Pragmatic Play doubles down on slots and live casino following strategic review (NEXT.io)",
-          "booth_pitch": "Gold Booth (50\u202fsqm+) with a dedicated demo arena and a speaking slot on \u2018Future of Live Casino\u2019. Position Pragmatic Play as the innovation leader for operators seeking new slot and live\u2011casino content.",
+          "company": "Binance",
+          "category_fit": "Payments & Crypto Solutions",
+          "news_trigger": "Appointed Sammy Mutua (former M-PESA, Visa, Letshego exec) as General Manager, signalling a push into iGaming payments and partnerships.",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 showcase crypto\u2011payment APIs, live demo stations for operators, and a round\u2011table on regulatory compliance. Position Binance as the go\u2011to liquidity provider for iGaming platforms expanding into crypto.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Betano",
+          "category_fit": "Sports Betting / General iGaming",
+          "news_trigger": "Launched a high\u2011profile World Cup advertising campaign after securing a FIFA partnership, indicating aggressive brand growth.",
+          "booth_pitch": "Large (50\u202fsqm+) \u2013 flagship booth with immersive World Cup lounge, live betting demos, and partnership matchmaking zones to attract affiliates and technology partners.",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "bet365",
-          "category_fit": "Sports Betting \u2013 Mobile & Gaming Innovation",
-          "news_trigger": "bet365 launches free\u2011to\u2011play mobile game ahead of World Cup (Global Gaming Insider)",
-          "booth_pitch": "Platinum Booth (20\u202fsqm) with a branded gaming lounge where attendees can try the new free\u2011to\u2011play title. Offer a panel slot on \u2018Leveraging World Cup Momentum for Mobile Engagement\u2019.",
+          "company": "MrQ",
+          "category_fit": "Sports Betting / General iGaming",
+          "news_trigger": "Introduced a subscription service offering a curated bundle of value, a novel monetisation model for betting platforms.",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 interactive demo of the subscription platform, data\u2011driven case studies, and a private meeting area for potential affiliate and B2B partners.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "LeoVegas",
-          "category_fit": "General Sports Betting \u2013 Market Expansion",
-          "news_trigger": "World Cup Betting Tour: LeoVegas says patriotic hype is \u2018off the charts\u2019 in Sweden (Global Gaming Insider)",
-          "booth_pitch": "Gold Booth (30\u202fsqm) with a live \u201cWorld Cup Pulse\u201d dashboard showcasing real\u2011time betting trends. Include a workshop on \u2018Localized Campaigns for Major Sports Events\u2019.",
+          "company": "Intralot (Bally\u2019s Intralot)",
+          "category_fit": "Lottery & Gaming Technology",
+          "news_trigger": "Announced a \u00a3243\u202fm all\u2011share acquisition of Evoke, expanding its product suite and market reach.",
+          "booth_pitch": "Large (50\u202fsqm+) \u2013 showcase end\u2011to\u2011end lottery solutions, live integration demos, and a thought\u2011leadership lounge on post\u2011acquisition synergies.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20\u201130sqm)"
+          "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Bally\u2019s Intralot",
-          "category_fit": "B2B iGaming Platform & Acquisition",
-          "news_trigger": "Bally\u2019s Intralot hails \u2018beginning of a major new chapter\u2019 as \u00a3243.1m Evoke bid confirmed (Global Gaming Insider)",
-          "booth_pitch": "Platinum Booth (20\u202fsqm) with a showcase of the Evoke platform integration roadmap. Offer a speaking opportunity on \u2018M&A as a Growth Engine in iGaming\u2019.",
+          "company": "Genlot",
+          "category_fit": "Lottery Technology / Modernisation",
+          "news_trigger": "Partnered with Sizekhaya Holdings to modernise South Africa\u2019s national lottery infrastructure.",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 demo the new digital lottery platform, highlight scalability for emerging markets, and schedule B2B meetings with African operators.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "LSports",
-          "category_fit": "Sports Betting Platform \u2013 Latin America Expansion",
-          "news_trigger": "LSports is winning Latin America: The Caliente deal is just the beginning (Global Gaming Insider)",
-          "booth_pitch": "Gold Booth (30\u202fsqm) featuring a live demo of the Caliente integration and a round\u2011table on \u201cScaling Sportsbook Operations in LATAM\u201d.",
+          "company": "918Kiss",
+          "category_fit": "Online Casino",
+          "news_trigger": "Featured in \"Best Online Casinos in Malaysia 2026\" list, confirming strong market traction and brand awareness.",
+          "booth_pitch": "Small (10\u202fsqm) \u2013 brand showcase with slot demo stations, a QR\u2011code lead capture for affiliate recruitment, and a quick\u2011pitch area for regional expansion partners.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20\u201130sqm)"
-        },
-        {
-          "company": "PrizePicks",
-          "category_fit": "Skill\u2011Based Gaming / Daily Fantasy",
-          "news_trigger": "Q1\u202f2026: PrizePicks powers Allwyn digital growth as lottery slips (NEXT.io)",
-          "booth_pitch": "Silver Booth (10\u202fsqm) with an interactive \u201cPick\u2011Your\u2011Game\u201d station. Provide a case\u2011study presentation on partnership success with Allwyn.",
-          "contact_urgency": "Low",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Allwyn",
-          "category_fit": "Lottery & Gaming \u2013 EU Engine Expansion",
-          "news_trigger": "Has Allwyn\u2019s EU engine entered a new growth phase? (Global Gaming Insider)",
-          "booth_pitch": "Gold Booth (30\u202fsqm) highlighting the EU engine suite, with a live demo zone and a panel slot on \u2018Modernising State\u2011Run Lotteries for the Digital Age\u2019.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20\u201130sqm)"
+          "company": "Norsk Tipping",
+          "category_fit": "State Lottery & Sports Betting",
+          "news_trigger": "Publicly rejected a Norway\u2011Haaland World Cup bet, drawing attention to its responsible\u2011gaming stance and potential for new product lines.",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 panel discussion on responsible betting, showcase of digital betting solutions, and networking space for cross\u2011border lottery collaborations.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Betr (Alex Ursa)",
-          "category_fit": "Crypto\u2011Enabled Prediction Markets",
-          "news_trigger": "Alex Ursa, Betr: Why prediction markets are reshaping US crypto payment adoption (Global Gaming Insider)",
-          "booth_pitch": "Silver Booth (10\u202fsqm) with a crypto\u2011payment sandbox and a quick\u2011fire talk on \u2018Prediction Markets as a New Revenue Stream for Operators\u2019.",
-          "contact_urgency": "Low",
-          "estimated_booth_size": "Small (10sqm)"
+          "company": "Pragmatic Play",
+          "category_fit": "Game Development",
+          "news_trigger": "Release and positive review of the new \"Tomb of Wishes\" slot, indicating fresh content pipeline.",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 immersive slot showcase with VR/AR experiences, developer meet\u2011and\u2011greet, and partnership desk for operators seeking new titles.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Affiliate Technology & Tracking Solutions",
-          "opportunity": "Few exhibitors currently showcase advanced affiliate attribution platforms, yet operators are spending millions on inefficient tracking. Filling this gap can attract operators looking to optimise ROI on affiliate spend.",
+          "category": "Lottery Technology & Modernisation",
+          "opportunity": "Few exhibitors currently focus on next\u2011gen lottery platforms for emerging markets, yet regulators in Africa and Asia are actively seeking tech partners.",
           "target_company_types": [
-            "Affiliate Management Platforms",
-            "Attribution & Analytics SaaS"
+            "Lottery operators",
+            "Technology providers",
+            "FinTech firms specializing in digital draws"
           ]
         },
         {
-          "category": "Regulatory & Compliance Services for Emerging Markets",
-          "opportunity": "With new licences rolling out in LATAM and the EU, there is a shortage of compliance providers at ICE/iGB. Exhibitors offering licensing, AML, and responsible\u2011gaming tools can capture high\u2011value B2B interest.",
+          "category": "Crypto\u2011Payments for iGaming",
+          "opportunity": "Rapid regulatory shifts and growing player demand for crypto options create a high\u2011value niche with limited representation at ICE/iGB.",
           "target_company_types": [
-            "RegTech Vendors",
-            "Legal & Licensing Advisory Firms"
+            "Crypto exchanges",
+            "Blockchain payment processors",
+            "Stablecoin issuers"
           ]
         }
       ],
-      "timing_note": "Begin outreach in early Q3\u202f2024 (July\u2011August) to align with ICE/iGB\u2019s exhibitor registration deadline (typically late September). Companies with recent product launches (Pragmatic Play, bet365) should be contacted immediately to secure premium booth space before they finalize their event budgets."
+      "timing_note": "Reach out immediately (Q3\u202f2024) as exhibitors lock in booth space and sponsorship packages 6\u20119\u202fmonths before the ICE/iGB event. Early contact allows negotiation of premium locations and co\u2011marketing opportunities before budgets are finalised."
     },
-    "timestamp": "2026-07-03T10:40:03.833351",
+    "timestamp": "2026-07-04T10:14:41.038856",
     "ttl_hours": 24
   }
 }
