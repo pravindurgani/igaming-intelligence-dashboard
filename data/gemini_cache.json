@@ -1,235 +1,277 @@
 {
-  "06af0e6a2cb32e2f636979d1a2ac3c85": {
+  "4bfbf8c97c87653b65afc77f348b3e57": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage Gives Readers Real\u2011Time Industry Access",
-          "what_readers_get": "Readers receive on\u2011the\u2011floor insights, keynote summaries, and networking highlights that they would otherwise miss.",
-          "why_it_matters": "Live event intelligence shapes strategic decisions in a fast\u2011moving iGaming market.",
-          "evidence_summary": "86.7% of our articles cover events versus 29.4% of competitors.",
+          "headline": "Live Event Insights You Can\u2019t Get Anywhere Else",
+          "what_readers_get": "Readers receive on\u2011the\u2011ground reports, keynote takeaways, and networking highlights from major iGaming conferences.",
+          "why_it_matters": "Conference coverage drives strategic planning and partnership opportunities for operators and suppliers.",
+          "evidence_summary": "About 87% of our pieces cover events versus roughly 29% from other outlets.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 386,
-          "concentration_ratio": 2.95
+          "internal_count": 391,
+          "concentration_ratio": 2.97
+        },
+        {
+          "rank": 2,
+          "headline": "Industry Rankings & Awards That Shape the Market",
+          "what_readers_get": "Readers access exclusive rankings, award nominations, and benchmark reports that define industry performance.",
+          "why_it_matters": "Rankings influence brand reputation and guide B2B decision\u2011making.",
+          "evidence_summary": "Our franchise pieces make up about 3% of our output, similar to the 2.6% share of rivals.",
+          "confidence": "low",
+          "original_type": "franchise",
+          "internal_count": 12,
+          "concentration_ratio": 1.01
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Deep Regulatory Insight Keeps Readers Ahead of Compliance Shifts",
-          "what_readers_get": "Readers get detailed analysis of new licensing portals, self\u2011exclusion tools, and policy debates across key jurisdictions.",
-          "why_it_matters": "Regulatory changes directly impact market entry, operator risk, and player protection in the iGaming sector.",
-          "evidence": "Articles such as \u201cSouth Africa regulator launches online verification portal\u2026\u201d, \u201cPortugal launches centralised self\u2011exclusion portal\u2026\u201d, \u201cAustralia takes aim at gambling ads\u2026\u201d, and \u201cIBJR counters Lula\u2019s appeal to ban betting in Brazil\u201d demonstrate the focus.",
-          "confidence": "medium"
+          "headline": "Regulatory Moves Analyzed Before They Hit the Headlines",
+          "what_readers_get": "Readers get early analysis of regulator decisions, policy changes, and compliance requirements before they become mainstream news.",
+          "why_it_matters": "Regulatory shifts dictate market entry, licensing, and risk management for all iGaming stakeholders.",
+          "evidence": "Roughly 26% of our 451 articles (about 120 pieces) focus on regulator actions, while competitors allocate only ~6% (\u2248200 of 3,124).",
+          "confidence": "high"
         },
         {
-          "headline": "M&A and Litigation Tracking Reveals Strategic Moves in the Industry",
-          "what_readers_get": "Readers receive timely updates on lawsuits, acquisition talks, and expansion plans that shape competitive dynamics.",
-          "why_it_matters": "Deal activity and legal battles signal market consolidation and emerging opportunities for operators and investors.",
-          "evidence": "Coverage includes \u201cEvolution seeks to add Playtech to New Jersey defamation suit\u201d, \u201cEvoke confirms sale talks with Bally\u2019s Intralot\u201d, and \u201cBally\u2019s Interactive eyes Italy, Romania entries\u2026\u201d.",
-          "confidence": "medium"
-        },
-        {
-          "headline": "Tech & Innovation Spotlight Highlights Emerging Industry Divides",
-          "what_readers_get": "Readers gain early insight into AI adoption, digital\u2011gaming revenue trends, and platform restrictions affecting product strategy.",
-          "why_it_matters": "Technological advances and regulatory tech decisions drive the next wave of competitive advantage in iGaming.",
-          "evidence": "Key pieces include \u201cIs AI poised to become the next big industry divide\u2026\u201d, \u201cRobinhood restricts some prediction markets contracts\u2026\u201d, and \u201cDigital Gaming Accounted for Over 50% of 2025 GGR\u2026\u201d.",
-          "confidence": "medium"
+          "headline": "Spotlight on Fast\u2011Growing Emerging Gambling Markets",
+          "what_readers_get": "Readers gain exclusive updates on fast\u2011growing gambling markets in Africa, Latin America, and Asia.",
+          "why_it_matters": "Emerging regions represent the next wave of revenue growth and investment focus.",
+          "evidence": "Approximately 18% of our coverage (around 80 articles) highlights emerging markets, compared with only about 5% (\u2248150 articles) from rival outlets.",
+          "confidence": "high"
         }
       ],
-      "strategic_summary": "The portfolio delivers unrivaled event intelligence, regulatory depth, and deal tracking that empower iGaming professionals to anticipate and act on market shifts.",
-      "overall_confidence": 0.82,
+      "strategic_summary": "The portfolio delivers insider event coverage, deep regulatory analysis, and exclusive market insights that empower iGaming professionals to stay ahead of industry shifts.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-06T12:09:45.379140",
+    "timestamp": "2026-07-07T10:57:45.162897",
     "ttl_hours": 24
   },
-  "dae0909550f055ba8494b6b2bda764ae": {
+  "c2c9d8b279561bb05c3e1f5438c3eb6e": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "BGaming",
-          "news_trigger": "Launch of Penalty Duel slot featuring football legend J\u00falio C\u00e9sar (iGaming Future)",
-          "pitch_angle": "Position BGaming as a premier slot developer by sponsoring a series of slot demo videos and exclusive behind\u2011the\u2011scenes content that highlights their celebrity IP collaborations.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "LSports",
-          "news_trigger": "Expansion into Latin America via a landmark partnership with Caliente (iGaming Today)",
-          "pitch_angle": "Offer LSports a sponsorship slot for a Latin\u2011America market insights webinar series, leveraging their new partnership to attract regional operators and affiliates.",
+          "company": "Gaming Realms",
+          "news_trigger": "Partnered with SportyBet to launch operations in Kenya, Ghana and Nigeria (iGaming Afrika)",
+          "pitch_angle": "Offer a regional compliance, payment\u2011gateway and brand\u2011building partnership to accelerate market entry and player acquisition in East Africa",
           "urgency": "High"
         },
         {
-          "company": "Caliente",
-          "news_trigger": "Strategic partnership with LSports to boost its Latin American footprint (iGaming Today)",
-          "pitch_angle": "Invite Caliente to co\u2011host a regional operator showcase, providing branding on all event assets and access to our B2B audience seeking LATAM expansion partners.",
+          "company": "SportyBet",
+          "news_trigger": "Joint launch with Gaming Realms across three African markets (iGaming Afrika)",
+          "pitch_angle": "Co\u2011marketing and technology integration sponsorship for a multi\u2011country sportsbook rollout, highlighting responsible\u2011gaming tools",
           "urgency": "High"
         },
         {
-          "company": "Bally\u2019s Intralot",
-          "news_trigger": "CEO discussion on technology synergies and integration (EGR Global)",
-          "pitch_angle": "Sponsor a tech\u2011innovation round\u2011table focused on next\u2011gen betting platforms, positioning Bally\u2019s Intralot as a thought leader in platform convergence.",
+          "company": "1xBet",
+          "news_trigger": "Joined Africa stakeholder round\u2011table emphasizing responsible gambling (SBC News)",
+          "pitch_angle": "Sponsor a continent\u2011wide responsible\u2011gaming education programme and gain visibility as a leader in player protection",
           "urgency": "Medium"
         },
         {
-          "company": "Cammegh",
-          "news_trigger": "Announcement of a new UAE gambling license as a major growth step (iGaming Today)",
-          "pitch_angle": "Create a regulatory\u2011navigation series for Middle\u2011East market entrants, with Cammegh as the headline sponsor to showcase its pioneering licensing success.",
+          "company": "Ontario Lottery and Gaming Corporation (OLG)",
+          "news_trigger": "Introduced mandatory deposit limits for under\u201125 players in Ontario (iGaming Today)",
+          "pitch_angle": "Provide age\u2011verification and limit\u2011management technology as a strategic sponsor for OLG\u2019s responsible\u2011gaming initiative",
           "urgency": "Medium"
+        },
+        {
+          "company": "BC.GAME",
+          "news_trigger": "Integrated BETBY into its engine and surpassed $2.5\u202fM in staker rewards (iGaming Future)",
+          "pitch_angle": "Partner on blockchain\u2011based reward schemes and showcase token\u2011economics to attract crypto\u2011savvy bettors",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Flutter",
+          "news_trigger": "Released product upgrades ahead of the World Cup (EGR Global)",
+          "pitch_angle": "Sponsor a product\u2011innovation showcase at the World Cup, positioning Flutter as the go\u2011to platform for high\u2011traffic events",
+          "urgency": "High"
+        },
+        {
+          "company": "Flutterwave",
+          "news_trigger": "Partnered with Tempo to promote stable\u2011coin payments across Africa (iGaming Afrika)",
+          "pitch_angle": "Become the exclusive fintech sponsor for stable\u2011coin payment solutions, offering white\u2011label integration for operators",
+          "urgency": "High"
+        },
+        {
+          "company": "BETBY",
+          "news_trigger": "Multiple mentions as a social\u2011betting platform integrating with BC.GAME (SBC News, iGaming Future)",
+          "pitch_angle": "Sponsor a social\u2011betting hub that blends community features with blockchain rewards, targeting younger demographics",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Duelbits",
+          "news_trigger": "Launched a Solana\u2011based Tap Trading game (iGaming Future)",
+          "pitch_angle": "Support the rollout of innovative crypto\u2011gaming titles and gain exposure in the fast\u2011growing Solana ecosystem",
+          "urgency": "Medium"
+        },
+        {
+          "company": "SportsAfrica",
+          "news_trigger": "Introduced exclusive World Cup 2026 advertising solutions for betting operators (iGaming Afrika)",
+          "pitch_angle": "Sponsor the World Cup advertising platform to secure premium brand placement and data insights for betting partners",
+          "urgency": "High"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "BGaming \u2013 Head of Product",
-          "topic_expertise": "Slot development, celebrity IP integration, product innovation",
-          "news_relevance": "Just launched Penalty Duel featuring J\u00falio C\u00e9sar, generating buzz around branded slots",
+          "person_or_company": "Aviv Sher (CEO, Codere Online)",
+          "topic_expertise": "Regulatory navigation and market resilience in volatile environments",
+          "news_relevance": "Quoted on the industry's recent difficulties (SBC News)",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "LSports \u2013 Chief Operating Officer",
-          "topic_expertise": "Sports\u2011betting expansion, Latin American market strategy, partnership execution",
-          "news_relevance": "Recent partnership with Caliente signals aggressive LATAM growth",
+          "person_or_company": "Gaming Realms Executive Team",
+          "topic_expertise": "Cross\u2011border sportsbook launches and African market entry strategy",
+          "news_relevance": "Just announced expansion into Kenya, Ghana and Nigeria (iGaming Afrika)",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "SportyBet Regional Director",
+          "topic_expertise": "Scaling sportsbook operations across emerging markets",
+          "news_relevance": "Partnered with Gaming Realms for multi\u2011country rollout (iGaming Afrika)",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Flutterwave Head of Partnerships",
+          "topic_expertise": "Stable\u2011coin payments and fintech integration for iGaming",
+          "news_relevance": "New partnership with Tempo to promote stable\u2011coin usage in Africa (iGaming Afrika)",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Caliente \u2013 CEO",
-          "topic_expertise": "LATAM operator landscape, cross\u2011border collaborations, regulatory compliance",
-          "news_relevance": "Partnered with LSports to accelerate market penetration in Latin America",
+          "person_or_company": "BC.GAME Product Lead",
+          "topic_expertise": "Blockchain reward engines and tokenomics for betting platforms",
+          "news_relevance": "Integrated BETBY and reported $2.5\u202fM in rewards (iGaming Future)",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Bally\u2019s Intralot \u2013 CTO",
-          "topic_expertise": "Betting platform architecture, tech integration, AI\u2011driven product roadmaps",
-          "news_relevance": "Publicly discussed tech synergies and integration philosophy, indicating openness to collaboration",
+          "person_or_company": "SportsAfrica Business Development Head",
+          "topic_expertise": "World Cup advertising solutions and sponsorship activation",
+          "news_relevance": "Launch of exclusive 2026 World Cup advertising package (iGaming Afrika)",
           "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Cammegh \u2013 Founder/CEO",
-          "topic_expertise": "Regulatory navigation, entering high\u2011growth regulated markets, UAE licensing",
-          "news_relevance": "Secured a new UAE gambling license, positioning the company as a pioneer in the region",
-          "session_type": "Workshop"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "LSports",
-            "Caliente"
+            "Gaming Realms",
+            "SportyBet"
           ],
-          "partnership_type": "Strategic Partnership / Product Integration",
-          "opportunity": "Co\u2011branded promotions, joint webinars, and shared data\u2011feeds to accelerate user acquisition in Latin America."
+          "partnership_type": "Product/Market Expansion",
+          "opportunity": "Co\u2011develop localized sportsbook platforms and joint marketing campaigns across Kenya, Ghana and Nigeria; our portfolio can host joint webinars and case\u2011study sessions."
         },
         {
           "companies_involved": [
-            "BGaming",
-            "Kalshi"
+            "Flutterwave",
+            "Tempo"
           ],
-          "partnership_type": "Product Collaboration",
-          "opportunity": "Explore a hybrid offering that combines BGaming\u2019s slot mechanics with Kalshi\u2019s prediction\u2011market infrastructure for a novel betting experience."
+          "partnership_type": "Payment Integration / Investment",
+          "opportunity": "Showcase the stable\u2011coin payment stack to operators seeking crypto solutions; arrange a live demo series and sponsor a fintech round\u2011table."
         },
         {
           "companies_involved": [
-            "Bally\u2019s Intralot",
-            "Entain"
+            "BC.GAME",
+            "BETBY"
           ],
-          "partnership_type": "M&A / Joint Venture Exploration",
-          "opportunity": "Facilitate a round\u2011table on consolidation trends in the European betting market, positioning our portfolio as a neutral convenor for potential deals."
+          "partnership_type": "Product Integration",
+          "opportunity": "Promote the combined blockchain rewards engine to a broader audience; facilitate a joint press release and a cross\u2011promotion package for our sponsors."
         }
       ],
-      "timing_recommendations": "Act now on the LSports\u2011Caliente partnership and Cammegh UAE licensing news\u2014both stories are fresh (within the past week) and signal immediate market moves. Prioritize outreach to LSports, Caliente, and Cammegh within the next 7\u201110 days to secure sponsorships and speaking slots before competitors engage. Simultaneously, schedule a follow\u2011up with Kalshi to discuss the BGaming collaboration while the advanced trading terminal announcement is still top\u2011of\u2011mind. Monitor the Singapore police investigation closely; a regulatory crackdown could create urgency for compliance\u2011focused content and sponsor interest from risk\u2011management solution providers."
+      "timing_recommendations": "The lead\u2011up to the 2026 FIFA World Cup is a high\u2011visibility window\u2014prioritize engagements with Flutter, SportsAfrica, and the Gaming Realms/SportyBet partnership to secure sponsorships and speaking slots before Q4 2024. Simultaneously, act quickly on the OLG under\u201125 deposit\u2011limit rollout (effective immediately) and the Kenya PayPal restrictions (ongoing) to position compliance\u2011tech sponsors. Crypto\u2011focused operators (BC.GAME, Duelbits) should be approached now to capitalize on the growing Solana and stable\u2011coin momentum before the Q2 2025 regulatory reviews in Africa."
     },
-    "timestamp": "2026-07-06T12:09:48.013443",
+    "timestamp": "2026-07-07T10:57:47.496429",
     "ttl_hours": 24
   },
-  "e7bcd998b8d50a8c4b4be4740e65b635": {
+  "a15fde1b2b21df7894ea0f974d6f0a57": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "BGaming",
-          "category_fit": "Game Development / Slot Provider",
-          "news_trigger": "Launch of the new Penalty Duel slot featuring football legend J\u00falio C\u00e9sar (iGB Affiliate)",
-          "booth_pitch": "Medium (20\u202fsqm) premium booth with a live demo zone and a speaking slot on emerging football\u2011themed slots",
+          "company": "Gaming Realms",
+          "category_fit": "General iGaming / Sports Betting \u2013 African market expansion",
+          "news_trigger": "Partnership with SportyBet to launch in Kenya, Ghana and Nigeria",
+          "booth_pitch": "Medium (20\u202fsqm) booth with live demo of the new localized platform, a private meeting area for B2B matchmaking, and a speaking slot on African market entry strategies",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Kalshi",
-          "category_fit": "Prediction Markets / Trading Platform",
-          "news_trigger": "Release of an advanced trading terminal to broaden prediction\u2011market offerings (iGamingToday)",
-          "booth_pitch": "Large (50\u202fsqm+) flagship booth with a dedicated trading lounge and a panel opportunity on regulated prediction markets",
+          "company": "1xBet",
+          "category_fit": "General iGaming / Sports Betting \u2013 Responsible Gaming focus",
+          "news_trigger": "Stakeholder emphasis on responsibility as 1xBet joins the conversation in Africa",
+          "booth_pitch": "Large (50\u202fsqm+) booth featuring a responsibility hub, interactive compliance demos, and a panel discussion on player protection in emerging markets",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "LSports",
-          "category_fit": "Sports\u2011Betting Technology / B2B Platform",
-          "news_trigger": "Strategic expansion into Latin America via a landmark partnership with Caliente (iGamingToday)",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a live integration demo and a round\u2011table on LATAM market entry strategies",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Cammegh",
-          "category_fit": "Operator / Market Expansion",
-          "news_trigger": "Securing a UAE gambling licence, signalling a major growth step into the Middle East (iGamingToday)",
-          "booth_pitch": "Small (10\u202fsqm) booth with a focus on brand awareness and a meet\u2011and\u2011greet with regional regulators",
+          "company": "BC.GAME",
+          "category_fit": "Crypto Gaming / Sportsbook Integration",
+          "news_trigger": "Integration of BETBY into the BC Engine and $2.5\u202fM in staker rewards",
+          "booth_pitch": "Small (10\u202fsqm) booth with crypto\u2011gaming demo stations, QR\u2011code wallet onboarding, and a quick\u2011fire presentation on token\u2011based loyalty programs",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Bally's Intralot",
-          "category_fit": "Integrated Gaming Solutions / Tech Synergy",
-          "news_trigger": "CEO discussion on new tech synergies and product roadmap (eGR Global)",
-          "booth_pitch": "Medium (20\u202fsqm) booth showcasing joint\u2011venture solutions, plus a workshop on cross\u2011platform integration",
+          "company": "Duelbits",
+          "category_fit": "Crypto Gaming \u2013 Solana\u2011based products",
+          "news_trigger": "Launch of a Solana\u2011based Tap Trading game",
+          "booth_pitch": "Medium (20\u202fsqm) booth showcasing the new Solana game, live leaderboards, and a developer round\u2011table on blockchain gaming trends",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Entain",
-          "category_fit": "Sports Betting Operator / Event\u2011Driven Campaigns",
-          "news_trigger": "World Cup Betting Tour partnership with SuperSport to create unique odds (iGB Affiliate)",
-          "booth_pitch": "Large (50\u202fsqm+) experiential booth with a World\u2011Cup themed activation and a speaking slot on high\u2011stakes event marketing",
-          "contact_urgency": "Low",
+          "company": "Flutterwave",
+          "category_fit": "FinTech / Payments \u2013 Stable\u2011coin solutions for iGaming",
+          "news_trigger": "Partnership with Tempo to promote stable\u2011coin payments across Africa",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a live payment sandbox, case\u2011study videos on cross\u2011border settlements, and a workshop on integrating stable\u2011coin APIs",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Founder Deals",
+          "category_fit": "B2B Platform \u2013 Social Marketplace for iGaming",
+          "news_trigger": "Launch of a free B2B social platform and marketplace for the global iGaming industry",
+          "booth_pitch": "Small (10\u202fsqm) booth with interactive UI demos, networking lounge for potential partners, and a short pitch session on marketplace benefits",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "bet365",
+          "category_fit": "General iGaming / Sports Betting \u2013 Product upgrades & Fantasy Sports",
+          "news_trigger": "Product upgrades ahead of the World Cup and launch of bet365 Fantasy Sports game",
+          "booth_pitch": "Large (50\u202fsqm+) booth with a World Cup\u2011themed experience zone, live fantasy\u2011sports demo, and a thought\u2011leadership panel on post\u2011World Cup betting trends",
+          "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "BetConstruct",
-          "category_fit": "B2B Sports\u2011Betting Platform",
-          "news_trigger": "Recent rollout of a cloud\u2011native sportsbook solution for emerging markets (industry rumor, corroborated by partner announcements)",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a live sandbox demo and a panel on cloud\u2011first sportsbook deployments",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
+          "company": "Crystalbet",
+          "category_fit": "General iGaming \u2013 Regional content expansion",
+          "news_trigger": "Addition of Octoplay content in Georgia",
+          "booth_pitch": "Small (10\u202fsqm) booth highlighting new Georgian portfolio, with localized demo reels and a brief briefing on market entry tactics",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Prediction Markets / Regulated Trading Platforms",
-          "opportunity": "Few exhibitors currently address regulated prediction\u2011market products, yet investor interest is surging post\u2011Kalshi launch. Positioning this niche at ICE will attract both traditional iGaming operators and fintech investors.",
+          "category": "Crypto Gaming & Payments",
+          "opportunity": "Few exhibitors combine blockchain gaming with regulated payment solutions, yet operators are actively seeking crypto\u2011friendly partners for the next wave of growth.",
           "target_company_types": [
-            "Prediction\u2011market exchanges",
-            "FinTech platforms entering betting"
+            "Crypto casino platforms",
+            "Stable\u2011coin payment processors",
+            "Blockchain game developers"
           ]
         },
         {
-          "category": "Latin America Sports\u2011Betting Technology",
-          "opportunity": "Latin America is a high\u2011growth region but under\u2011represented among exhibitors. Companies like LSports and Caliente are just entering, creating demand for B2B tech partners.",
+          "category": "Regulatory & Compliance Solutions",
+          "opportunity": "With new jurisdictional moves (e.g., OLG deposit limits, New Mexico lawsuit), there is a demand for compliance tech providers, but the exhibition currently lacks dedicated compliance exhibitors.",
           "target_company_types": [
-            "Sports\u2011betting platform providers",
-            "Regional payment & compliance solutions"
-          ]
-        },
-        {
-          "category": "RegTech & Compliance Solutions for Emerging Licences",
-          "opportunity": "With new licences (e.g., UAE, Singapore investigations) operators need compliance tooling. Exhibitors offering KYC, AML, and licensing advisory can fill a critical gap.",
-          "target_company_types": [
-            "RegTech vendors",
-            "Legal & licensing consultancies"
+            "KYC/AML SaaS vendors",
+            "Responsible\u2011gaming technology firms",
+            "Legal advisory boutiques"
           ]
         }
       ],
-      "timing_note": "Begin outreach in March (3\u20114 months before ICE) to secure preferred booth locations and speaking slots. Companies launching new products (e.g., BGaming, Kalshi) are finalising marketing plans now, so early contact maximises partnership relevance and ensures they lock in premium exhibition assets before budgets are allocated."
+      "timing_note": "Begin outreach immediately (Q3\u202f2024) to secure speaking slots and preferred booth locations before the ICE/iGB early\u20112025 booking window closes. Companies with recent product launches (Gaming Realms, 1xBet, Flutterwave) should be contacted this month to capitalize on their momentum."
     },
-    "timestamp": "2026-07-06T12:09:52.983537",
+    "timestamp": "2026-07-07T10:57:48.504411",
     "ttl_hours": 24
   }
 }
