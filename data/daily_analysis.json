@@ -1,35 +1,34 @@
 {
-  "executive_summary": "Analyzed 1583 articles (1285 competitor, 298 internal). See differentiators and reader advantages sections for detailed topic analysis.",
+  "executive_summary": "Analyzed 1575 articles (1297 competitor, 278 internal). See differentiators and reader advantages sections for detailed topic analysis.",
   "market_pulse": [
     {
-      "theme": "Regulatory tightening and compliance actions across multiple jurisdictions",
-      "narrative": "A wave of new legislation, enforcement actions and tax shortfalls is reshaping the iGaming landscape in Thailand, Bangladesh, Ukraine, the Netherlands, Brazil and South Africa, forcing operators to adapt compliance programs and reassess market entry strategies.",
+      "theme": "Regulatory crackdown on illegal gambling",
+      "narrative": "Several jurisdictions in Asia, Africa and Latin America are tightening enforcement against illegal online gambling, with new laws, police actions and financial restrictions.",
       "competitors_covering": [
         "iGaming Today",
-        "Global Gaming Insider",
-        "EGR Global",
-        "Gambling Insider"
+        "iGaming Expert",
+        "SBC News",
+        "iGaming Afrika"
       ],
       "importance": "High",
       "recommended_action": "Review competitor coverage for opportunities"
     },
     {
-      "theme": "Growth of prediction markets and innovative betting products",
-      "narrative": "Major tech players (Meta) and betting exchanges (Matchbook) are launching prediction‑market platforms, while traditional operators (Sporting Risk, Entain) are forming partnerships to integrate these new product lines, signalling a shift toward data‑driven wagering experiences.",
+      "theme": "Slot game releases and reviews",
+      "narrative": "New slot titles such as Coco Rush, Golden Empire 1000, Dusty Duel and Pocket Games Soft offerings are being reviewed and promoted.",
       "competitors_covering": [
-        "EGR Global",
-        "SBC News",
         "iGaming Today"
       ],
       "importance": "Medium",
       "recommended_action": "Review competitor coverage for opportunities"
     },
     {
-      "theme": "Strategic partnerships and product launches by operators and suppliers",
-      "narrative": "Companies such as Super, ThrillTech, BetMGM, EveryMatrix, EGT Digital and Superbet are announcing joint ventures, technology roll‑outs and new lottery divisions, highlighting a competitive focus on expanding product portfolios and entering new verticals.",
+      "theme": "Strategic partnerships and technology integrations",
+      "narrative": "Operators and technology providers are forming alliances to enhance jackpot capabilities, prediction markets, lottery platforms and front‑end solutions.",
       "competitors_covering": [
         "iGaming Expert",
-        "EGR Global",
+        "iGaming Today",
+        "SBC News",
         "iGaming Afrika",
         "Global Gaming Insider"
       ],
@@ -37,127 +36,75 @@
       "recommended_action": "Review competitor coverage for opportunities"
     },
     {
-      "theme": "New slot game releases and reviews",
-      "narrative": "Multiple publishers are promoting fresh slot titles (Coco Rush, Golden Empire 1000, Dusty Duel, Pocket Games Soft) to attract players, indicating continued demand for fresh content and the importance of game‑centric marketing.",
+      "theme": "Market expansion and regional trends",
+      "narrative": "Growth in Latin America, Africa and Gibraltar is highlighted, with focus on mobile adoption, sports betting and new licensing opportunities.",
       "competitors_covering": [
-        "iGaming Today",
-        "iGaming Expert"
+        "iGaming Expert",
+        "iGaming Future",
+        "iGaming Afrika"
       ],
-      "importance": "Low",
+      "importance": "Medium",
       "recommended_action": "Review competitor coverage for opportunities"
     },
     {
-      "theme": "Regulatory enforcement and policy shifts",
-      "narrative": "Multiple regulators across the UK, Malta, Nevada and the Netherlands are tightening oversight, targeting illegal gambling promotion, crypto payment pathways, trademark misuse and budget allocations for enforcement.",
+      "theme": "Corporate hires and governance moves",
+      "narrative": "Key executive appointments and board changes at companies such as Aristocrat, BetBlocker, GRAI and ATG signal strategic shifts.",
       "competitors_covering": [
         "EGR Global",
-        "SBC News",
-        "iGaming Expert",
-        "iGaming Today"
+        "Global Gaming Insider",
+        "SBC News"
       ],
-      "importance": "High",
+      "importance": "Low",
       "recommended_action": "Review competitor coverage for opportunities"
     }
   ],
   "strategic_gaps": [
     {
-      "gap_title": "Insufficient coverage of global regulatory developments",
-      "description": "Competitors are publishing detailed analyses of new gambling laws and enforcement actions in Thailand, Bangladesh, Ukraine, the Netherlands and Brazil, while our internal feed contains only generic iGB Affiliate notices with no regulatory insight.",
-      "competitor_coverage": "Multiple articles detail tightening legislation, tax shortfalls and enforcement actions across key markets, providing strategic guidance for compliance and market entry.",
-      "our_coverage": "Minimal – internal articles are generic placeholders without substantive regulatory content.",
+      "gap_title": "Regulatory enforcement coverage",
+      "description": "Competitors are publishing frequent updates on government crackdowns and legal actions against illegal gambling, which our portfolio does not address.",
+      "competitor_coverage": "Articles on Thailand tightening online gambling, Indonesia deportations, Brazil financial enforcement, South Africa black‑market concerns, etc.",
+      "our_coverage": "Minimal – internal articles are limited to iGB Affiliate event news and staffing announcements.",
       "priority": "High",
       "opportunity": "Opportunity to fill coverage gap",
       "potential_impact": "Increase audience relevance",
       "supporting_articles": [
         {
-          "source": "iGaming Today",
-          "title": "Bangladesh Moves to Replace 159-Year-Old Gambling Law as Online Betting Crackdown Intensifies - iGamingToday.com",
-          "date": "2026-06-23 09:47",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNXN2bDhlN3hQdHo0bHZERVZaaGVXZlZMdHBVVG1Lc3JOTUlGb0Y3N1AxcG5BLVQwUURCSzBZVTZ0OUFJZ0gyUURQVFBaMVl2UmhuUzhsb3BBSFAyZnFJMG0yOWYxbDRjbzlKbGtSdVJnSmVaWkFfcktHeUtLdHBaeDFJbEw5SjZNMUdLUVctY0ZIQm4xb0d4bXZvampVQTQ2U1dzbnNtTlFQQzlyWlNVdTZNSk1pTmh4NS1zd0o4aGY?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-          "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "iGaming Future",
-          "title": "Between The Rock And A New Place, Gibraltar Opens The Door To NWiG",
-          "date": "2026-06-18 08:59",
-          "link": "https://igamingfuture.com/between-the-rock-and-a-new-place-gibraltar-opens-the-door-to-nwig",
-          "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "SBC News",
-          "title": "Legal affiliates can’t out-SEO the black market so they’ll have to out-trust it",
-          "date": "2026-06-18 08:30",
-          "link": "https://sbcnews.co.uk/features/2026/06/18/affiliates-seo-black-market",
-          "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "iGaming Today",
-          "title": "Brazil Expands Financial Enforcement Against Illegal Betting Operators - iGamingToday.com",
-          "date": "2026-06-22 01:47",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLWlSdTB3ZzJtQXhlb2FNcWRQbHNGX1ZuQjViSDVWcVRaRV9sQ1duNEdVQzNNZUlhZHN4WVl0VHpVd2dqbmEtUlpqZTdaazBheV90N2NFWnFSV0dLNW5LNG5BSnlCdVdKZGYxMmF3YTJLYUZZX3RmYnlFTzN4Yld0WVkwMHdPbFo3b1F6YWhlVXJta3o1Uk5LSS12SXRhYkFaWnc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-          "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "iGaming Today",
-          "title": "New SMS Regulations Target Gambling Ads in Mozambique - iGamingToday.com",
-          "date": "2026-06-30 16:31",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYU9ha05SNFNTbVphTzZCcGc2Ny1MR1lrZ3FwVGtZTVQtc0ppc0ZUcVBZMWh2a1N0QlBQLVdzdk5aTlVjYjdPNGZqWkpmeFQ1dVBvaEJ6TS1WbUpVb2hhUU42YURLQm1ZQkxtRXJEYTIwbFZ4VzJiY1F5YkJyUE9Hd0JlRDNaal9LNXFJ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-          "category": "competitor",
-          "match_type": "topic"
-        }
-      ],
-      "match_method": "topic_fallback"
-    },
-    {
-      "gap_title": "Lack of insight on prediction‑market and betting‑innovation trends",
-      "description": "Competitors are covering emerging prediction‑market products (Meta, Matchbook) and partnerships that integrate these offerings, yet our internal stream does not address this fast‑moving segment.",
-      "competitor_coverage": "Articles discuss Meta’s planned prediction‑market app, Matchbook’s ADI Predictstreet launch, and Sporting Risk’s partnership with Entain NCE, highlighting a shift toward data‑driven wagering.",
-      "our_coverage": "Minimal – no internal articles reference prediction markets or related product innovation.",
-      "priority": "Medium",
-      "opportunity": "Opportunity to fill coverage gap",
-      "potential_impact": "Increase audience relevance",
-      "supporting_articles": [
-        {
-          "source": "SBC News",
-          "title": "Legal affiliates can’t out-SEO the black market so they’ll have to out-trust it",
-          "date": "2026-06-18 08:30",
-          "link": "https://sbcnews.co.uk/features/2026/06/18/affiliates-seo-black-market",
-          "category": "competitor",
-          "match_type": "keyword"
-        },
-        {
-          "source": "EGR Global",
-          "title": "Betting and Gaming Council unveils five-point action plan to combat black market - egr.global",
-          "date": "2026-06-08 15:02",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmxqZjNnMGRjOEd5Y2N4Rzkzb0UtRlg3a2lyVl92WkxmdHBNYVpDdS1ubVRSY1VmdEMwV2ZOS0tmRXNyWlZrSjJlaEFMb0pFUTJmTXd5ODdiRGNfMVZZakdnbjZkQTNQV0x2RXhlN0x1THFyT19QczVNeGMtOGlxeVF3UGxNNGgxc2dEdjlSNmpiTzFiclR3bnpKeFRGaVRKYlc0TGNMTGMyWnVxT05mOFc3cVZQZw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-          "category": "competitor",
-          "match_type": "keyword"
-        },
-        {
           "source": "iGaming Expert",
-          "title": "Portugal’s Economy Minister warns black market ‘a plague’ that must be stopped",
-          "date": "2026-06-12 10:35",
-          "link": "https://igamingexpert.com/regions/europe/portugals-black-market-plague",
+          "title": "SkyCity to pay hefty fine for Adelaide casino regulatory issues",
+          "date": "2026-06-19 13:07",
+          "link": "https://igamingexpert.com/news/regulation/skycity-fine-to-settle-adelaide-issues",
           "category": "competitor",
           "match_type": "keyword"
         },
         {
-          "source": "iGaming Today",
-          "title": "California Court Blocks Blackjack Restrictions, Hands Major Victory to Card Rooms - iGamingToday.com",
-          "date": "2026-07-01 10:03",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkY3YlhhQXFETjBIaE5kV0pybHdQYWIxYUVpcUxRUWctTzV3TEZ6dGpxdHJhUnFXR29rZzhWUFhMcDkwRmk2Vk5TWEVVOTBGb3lTOWdiZWVUcktxTjBXWEtLZnhYWU5SLXFYb3pOckdrRDJfWmE4ZGpyQ09XQlZtYzRyejFZRHlWOWRNYlhMZFdJdXZISVlkZFF0MnpEd2phX1FWSXM3RGJHVzNES1Bz?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "source": "iGaming Afrika",
+          "title": "Denis Mudene on How Digital Oversight and Regional Collaboration Are Shaping Uganda’s Gaming Landscape",
+          "date": "2026-07-02 14:19",
+          "link": "https://igamingafrika.com/denis-mudene-on-how-digital-oversight-and-regional-collaboration-are-shaping-ugandas-gaming-landscape",
           "category": "competitor",
           "match_type": "keyword"
         },
         {
-          "source": "iGaming Future",
-          "title": "Black Market Bets on Royal Ascot Forecast at £40m",
-          "date": "2026-06-18 07:00",
-          "link": "https://igamingfuture.com/black-market-bets-on-royal-ascot-forecast-at-40m",
+          "source": "SBC News",
+          "title": "Isabelle Falque-Pierrotin: Regulatory consistency stops the normalisation of gambling",
+          "date": "2026-06-10 09:30",
+          "link": "https://sbcnews.co.uk/features/interviews/2026/06/10/falque-pierrotin-exit-interview",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "NLGRB Urges Media to Uphold Ethical Standards in Gaming Reporting",
+          "date": "2026-06-11 07:51",
+          "link": "https://igamingafrika.com/nlgrb-urges-media-to-uphold-ethical-standards-in-gaming-reporting",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "Global Gaming Insider",
+          "title": "Is there a regulatory blind spot for prediction markets in Europe? - Global Gaming Insider",
+          "date": "2026-06-30 14:47",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMFpDNzlQcHNGc2RyQkFNZ0dxRWxtU1RPWWNTcHBmMXlvN3ZjUzJnR3J0LW9JNTNxWno1RXhTNlFseFF5VFc3OEhQZEFUbnpMR1ZXSFZqR1BUeWFCMWVDUjhnRWhFYnpmZ0I2cndZTkR1aFp1aGJUY1hRT0EzYXBoaHRZd3g1Rjd2TXZMbmY1SXpyajhtandZa3Vxc0ZINkhoUGZzdExmWDhXQndROXVVWQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
           "category": "competitor",
           "match_type": "keyword"
         }
@@ -165,61 +112,113 @@
       "match_method": "keyword_fallback"
     },
     {
-      "gap_title": "No internal coverage of new slot game launches",
-      "description": "Competitors are actively reviewing and promoting new slot titles, a key driver of player acquisition, but our portfolio lacks any dedicated content on these releases.",
-      "competitor_coverage": "Reviews of Coco Rush, Golden Empire 1000 and Dusty Duel provide game‑specific insights and marketing angles.",
-      "our_coverage": "Minimal – internal articles contain no slot‑game information.",
+      "gap_title": "Technology partnership announcements",
+      "description": "Competitors highlight multiple new tech collaborations (jackpot integration, prediction‑market platforms, lottery front‑ends) that we are not covering.",
+      "competitor_coverage": "Super‑ThrillTech jackpot deal, Sporting Risk‑Entain NCE partnership, Matchbook ADI Predictstreet launch, EveryMatrix lottery division, BetAhoy front‑end rollout.",
+      "our_coverage": "Minimal – no internal articles on tech partnerships.",
       "priority": "Medium",
       "opportunity": "Opportunity to fill coverage gap",
       "potential_impact": "Increase audience relevance",
       "supporting_articles": [
         {
-          "source": "iGaming Expert",
-          "title": "IGT PlayDigital: raising the stakes on player engagement in Latin America",
-          "date": "2026-06-26 10:15",
-          "link": "https://igamingexpert.com/news/games/igt-playdigital-player-engagement-latam",
+          "source": "iGaming Afrika",
+          "title": "EveryMatrix expands lottery focus with  dedicated Lottery division",
+          "date": "2026-06-23 08:32",
+          "link": "https://igamingafrika.com/everymatrix-expands-lottery-focus-with-dedicated-lottery-division",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "EGT Digital and Superbet Expand Collaboration with Popular Jackpot Content in Greece",
+          "date": "2026-06-25 12:27",
+          "link": "https://igamingafrika.com/egt-digital-and-superbet-expand-collaboration-with-popular-jackpot-content-in-greece",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "BetAhoy first UK brand live with new EveryMatrix front-end",
+          "date": "2026-06-16 08:09",
+          "link": "https://igamingafrika.com/betahoy-first-uk-brand-live-with-new-everymatrix-front-end",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "South Africa’s Hollywoodbets Strikes a Strategic Partnership with Gaming Tech Provider Beon.",
+          "date": "2026-06-23 14:07",
+          "link": "https://igamingafrika.com/south-africas-hollywoodbets-strikes-a-strategic-partnership-with-gaming-tech-provider-beon",
+          "category": "competitor",
+          "match_type": "keyword"
         },
         {
           "source": "iGaming Expert",
-          "title": "Super steps up jackpot capabilities with ThrillTech",
-          "date": "2026-06-26 09:32",
-          "link": "https://igamingexpert.com/regions/europe/super-jackpot-capabilities-thrilltech",
+          "title": "Studio ecosystem roundtable: how multi-studio thinking drives better content",
+          "date": "2026-06-26 10:00",
+          "link": "https://igamingexpert.com/news/studio-ecosystem-multi-studio",
           "category": "competitor",
-          "match_type": "topic"
-        },
+          "match_type": "keyword"
+        }
+      ],
+      "match_method": "keyword_fallback"
+    },
+    {
+      "gap_title": "Slot product reviews",
+      "description": "Competitors are producing regular slot reviews that drive traffic and brand awareness; our internal feed lacks any slot‑related content.",
+      "competitor_coverage": "Coco Rush, Golden Empire 1000, Dusty Duel, Pocket Games Soft slot reviews.",
+      "our_coverage": "Minimal – internal articles do not mention slot games.",
+      "priority": "Low",
+      "opportunity": "Opportunity to fill coverage gap",
+      "potential_impact": "Increase audience relevance",
+      "supporting_articles": [
         {
-          "source": "Global Gaming Insider",
-          "title": "Monica Shafaq joins BetBlocker as Director of Strategy and Partnerships - Global Gaming Insider",
-          "date": "2026-06-09 08:32",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVVDYmNRbXljVmtUVXVuUHdyZFB1Njl0NTZYSm9rNFJTdkFVUlUxUnZoSlAxVmptb2YzMWVKQ1F2RlRvNEtrdEpyd1Q5MFRRSEVSN0drRVV4R1ltNXZyaWxkWnU0bUgtQUpDY0Zydm9VbDNHdVdLTUxJdkZUSngxN3ZSRlZpVFNzN3FDekhGc1NkY1U4dVJQOWdfMGdDNU1mQjBmUk43Wm0wNXBRYVNnZ2lyWQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "source": "iGaming Today",
+          "title": "Coco Rush Slot Review - iGamingToday.com",
+          "date": "2026-06-22 09:55",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SbHdUaWo5UXRWUWlxRkF3bHhZdUlZdm9zZ1lhaVlUYTZxa2ZLdUpab0V5MWdrM1RVX2ZVRjBZN1RYUk5wR29pSDZKSmw5a3dyM1YwVGpJNnRmU2dfQU4xMg?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
         },
         {
           "source": "iGaming Today",
-          "title": "Sporting Risk partners with Entain NCE - iGamingToday.com",
-          "date": "2026-06-30 06:52",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zMnpNQmZIUGpfbFVtVWlPcGNWenB2Y01paFFPaHVPZ3doR0R3azJaNE9VUnhsbjNpSXZKWklMQ055SnBSMklmVmZEX2UzR1JweDRCajNVSW9ERVVBX1R6MWxkanNnV09XQ2U1TTZiZm12ODZ5SG9j?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "title": "Golden Empire 1000 Slot Review - iGamingToday.com",
+          "date": "2026-06-30 21:29",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qUEVJVnM5M2FTVDhBbGhFWXpuZmhxTTVYLVktdXdleTN2ODVjNTRBUVN1Wjl0RGEzU2NvYTFzRUk4cG9rQldFUVJLUjVlRDJIME5Xa0V4akdFUUFqeUxjajBiMzk1S2Jwb3JRNg?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
         },
         {
-          "source": "iGaming Expert",
-          "title": "Vyking Ventures invests in PlayAIO data and AI iGaming services",
-          "date": "2026-06-18 13:40",
-          "link": "https://igamingexpert.com/news/business/vyking-ventures-playaio-data-ai",
+          "source": "iGaming Today",
+          "title": "Pocket Games Soft Slots Reviews - iGamingToday.com",
+          "date": "2026-06-26 12:36",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ySmJXT3ZCUHFIRzBSVG5Dc1dSeXA0N3VkQ0cwb0RhdzhLWDNNengzejVCcTV4eDc4Mm9MUVNjWW43RTlPaVd0YWVJY1dUY2tZQ01KdWJTbWt6RklIcGRsWXhyWXFXanlVZTRZVnhiTGhkVDlVdjdqd0Vn?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Today",
+          "title": "Dusty Duel Slot Review - iGamingToday.com",
+          "date": "2026-06-14 08:39",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wSFQ2X1VpUVI1b1Jxei1FdDk4MHY3bFF5XzVvOWdaNERiYm0wblRNZ2FFMWxHZXRDcXZUQktucUhXZGlFeEFvRS1sakNiLUdHQXBHODFTdmpvRmtFQ0lKTHd3?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "Gambling Insider",
+          "title": "Best Sites Like LuckyLand Slots for US Players in 2026 - Gambling Insider",
+          "date": "2026-06-19 17:02",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82ZU9NanlDRllFMlVmQnRxT05fa1FGb2tZdjlXR0hTUHJLTmtITklIdElWN0JmUEVmLU1KNDIxLW1ZLTBtQzlyTUdIMTdvOWdNeEVUdlM2QzAwd0pIcUd3XzczNGFiT0h1WVJhOHFn?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "category": "competitor",
+          "match_type": "keyword"
         }
       ],
-      "match_method": "topic_fallback"
+      "match_method": "keyword_fallback"
     },
     {
-      "gap_title": "Regulatory enforcement and policy shifts",
-      "description": "Our internal coverage does not address the wave of regulatory actions and policy updates that competitors are reporting.",
-      "competitor_coverage": "Articles detail UK Gambling Commission budget priorities, MGA alerts on World Cup gambling, Entain’s trademark campaign, and Nevada’s contempt request against Kalshi.",
+      "gap_title": "Regulatory enforcement coverage",
+      "description": "Competitors are publishing detailed analyses of new enforcement actions, budget allocations and legal battles that our portfolio does not address.",
+      "competitor_coverage": "Betting and Gaming Council unveils five‑point action plan to combat black market; Gambling Commission hints at sensible pathway for crypto payments; UK regulator outlines key priorities for spending extra budget; Nevada regulator requests Kalshi be held in contempt of court; ADI Predictstreet rollercoaster continues with ban in Germany; Entain: Illegal gambling promotion operating at scale across social networks in the UK; Entain Pushes for Trademark Ban on Unregulated Firms in the UK; Dutch Supreme Court dismisses post‑regulation claims against operators; Entain demands UKIPO intervene on unlicensed gambling trademarks.",
       "our_coverage": "Minimal",
       "priority": "High",
       "opportunity": "Opportunity to fill coverage gap",
@@ -269,86 +268,86 @@
       "match_method": "keyword_fallback"
     },
     {
-      "gap_title": "Geographic expansion and partnership activity in emerging markets",
-      "description": "We lack reporting on the strategic market entries and partnership deals that competitors are highlighting across the Balkans and Africa.",
-      "competitor_coverage": "Coverage includes 7777 Gaming’s Serbian expansion, Kenya‑South Africa AI/Fintech pact, Uganda’s NLGRB collaboration, PlaylogiQ‑BGaming partnership, and LONASE’s LPbet launch in Senegal.",
+      "gap_title": "African market partnership intelligence",
+      "description": "Competitors are reporting on multiple partnership announcements and market‑entry strategies in Africa that are absent from our internal feed.",
+      "competitor_coverage": "7777 Gaming expands Serbian reach through Balkan Bet agreement; PlaylogiQ strengthens iGaming content in Africa with BGaming; Kenya And South Africa Agree to Work Together on AI, Fintech and Cross‑Border Investment; SOFTSWISS Creates a Dedicated Space for Partner Meetings at iGB L!VE 2026; LONASE Launches LPbet to Reclaim Senegal’s Online Sports Betting Market from Foreign Firms; Uganda’s NLGRB Collaborates with the Country’s Communications Regulators and Licensed ISPs to Combat Illegal Gambling.",
       "our_coverage": "Minimal",
       "priority": "Medium",
       "opportunity": "Opportunity to fill coverage gap",
       "potential_impact": "Increase audience relevance",
       "supporting_articles": [
         {
-          "source": "iGaming Expert",
-          "title": "IGT PlayDigital: raising the stakes on player engagement in Latin America",
-          "date": "2026-06-26 10:15",
-          "link": "https://igamingexpert.com/news/games/igt-playdigital-player-engagement-latam",
+          "source": "SBC News",
+          "title": "South African trade body wants less talk and more action against growing black market",
+          "date": "2026-07-07 15:57",
+          "link": "https://sbcnews.co.uk/africa/2026/07/07/south-africa-saba-2",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "Kenya And South Africa Agree to Work Together on AI, Fintech and Cross-Border Investment.",
+          "date": "2026-06-08 12:09",
+          "link": "https://igamingafrika.com/kenya-and-south-africa-agree-to-work-together-on-ai-fintech-and-cross-border-investment",
+          "category": "competitor",
+          "match_type": "keyword"
+        },
+        {
+          "source": "iGaming Afrika",
+          "title": "Egypt alone, then everyone else: Africa’s Blask Index at the 2026 World Cup group stage",
+          "date": "2026-07-03 06:18",
+          "link": "https://igamingafrika.com/egypt-alone-then-everyone-else-africas-blask-index-at-the-2026-world-cup-group-stage",
+          "category": "competitor",
+          "match_type": "keyword"
         },
         {
           "source": "iGaming Expert",
-          "title": "Super steps up jackpot capabilities with ThrillTech",
-          "date": "2026-06-26 09:32",
-          "link": "https://igamingexpert.com/regions/europe/super-jackpot-capabilities-thrilltech",
+          "title": "PlaylogiQ strengthens iGaming content in Africa with BGaming",
+          "date": "2026-06-26 12:01",
+          "link": "https://igamingexpert.com/news/games/playlogiq-bgaming-africa-content-deal",
           "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
         },
         {
-          "source": "Global Gaming Insider",
-          "title": "Monica Shafaq joins BetBlocker as Director of Strategy and Partnerships - Global Gaming Insider",
-          "date": "2026-06-09 08:32",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVVDYmNRbXljVmtUVXVuUHdyZFB1Njl0NTZYSm9rNFJTdkFVUlUxUnZoSlAxVmptb2YzMWVKQ1F2RlRvNEtrdEpyd1Q5MFRRSEVSN0drRVV4R1ltNXZyaWxkWnU0bUgtQUpDY0Zydm9VbDNHdVdLTUxJdkZUSngxN3ZSRlZpVFNzN3FDekhGc1NkY1U4dVJQOWdfMGdDNU1mQjBmUk43Wm0wNXBRYVNnZ2lyWQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+          "source": "SBC News",
+          "title": "PopOK building up name in Botswana via major horse racing sponsorship",
+          "date": "2026-07-03 12:13",
+          "link": "https://sbcnews.co.uk/marketing/2026/07/03/botswana-horse-racing-popok",
           "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "iGaming Today",
-          "title": "Sporting Risk partners with Entain NCE - iGamingToday.com",
-          "date": "2026-06-30 06:52",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zMnpNQmZIUGpfbFVtVWlPcGNWenB2Y01paFFPaHVPZ3doR0R3azJaNE9VUnhsbjNpSXZKWklMQ055SnBSMklmVmZEX2UzR1JweDRCajNVSW9ERVVBX1R6MWxkanNnV09XQ2U1TTZiZm12ODZ5SG9j?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-          "category": "competitor",
-          "match_type": "topic"
-        },
-        {
-          "source": "iGaming Expert",
-          "title": "Vyking Ventures invests in PlayAIO data and AI iGaming services",
-          "date": "2026-06-18 13:40",
-          "link": "https://igamingexpert.com/news/business/vyking-ventures-playaio-data-ai",
-          "category": "competitor",
-          "match_type": "topic"
+          "match_type": "keyword"
         }
       ],
-      "match_method": "topic_fallback"
+      "match_method": "keyword_fallback"
     }
   ],
   "portfolio_wins": [
     {
-      "topic": "Brand visibility at major industry event (iGB Affiliate Barcelona)",
-      "our_narrative": "Our internal article highlights participation in the iGB Affiliate Barcelona exhibition, demonstrating continued presence at a key networking venue and reinforcing our market relevance.",
+      "topic": "Industry event visibility and internal talent development",
+      "our_narrative": "Our portfolio showcases presence at iGB Affiliate Barcelona and announces senior content leadership, indicating strong brand visibility and internal capability.",
       "competitive_gap": "Competitors have limited coverage",
       "amplification_opportunity": "Leverage in upcoming events"
     },
     {
-      "topic": "World Cup influencer marketing strategy",
-      "our_narrative": "Provides actionable guidance on leveraging influencers to boost World Cup engagement, a proactive marketing angle not covered by competitors who only report user‑growth statistics.",
+      "topic": "Affiliate marketing insights",
+      "our_narrative": "Our internal iGB Affiliate feed provides regular updates on affiliate trends and industry news, positioning us as a go‑to source for affiliate‑focused intelligence.",
       "competitive_gap": "Competitors have limited coverage",
       "amplification_opportunity": "Leverage in upcoming events"
     },
     {
-      "topic": "BetBlocker leadership in responsible gambling",
-      "our_narrative": "The portfolio strengthens its responsible‑gaming position by appointing Monica Shafaq as Director of Strategy and Partnerships, signaling proactive talent acquisition and strategic focus on self‑exclusion tools—a differentiator amid competitor scrutiny of self‑exclusion compliance.",
+      "topic": "World Cup Influencer Engagement Guidance",
+      "our_narrative": "Provides actionable tactics for leveraging influencers to boost FIFA World Cup engagement, positioning us as a thought leader ahead of the tournament.",
       "competitive_gap": "Competitors have limited coverage",
       "amplification_opportunity": "Leverage in upcoming events"
     },
     {
-      "topic": "Industry event sponsorship and brand visibility",
-      "our_narrative": "Our portfolio demonstrates active participation in key industry gatherings, exemplified by the Food Court Sponsorship at iGB Affiliate Barcelona, reinforcing brand presence among affiliates and operators.",
+      "topic": "Cross‑Border Underground Sports Betting Enforcement in Taiwan",
+      "our_narrative": "Unique coverage of Taiwanese police expanding investigations into illegal sports betting, offering insight into regulatory risk in the Asia‑Pacific region.",
       "competitive_gap": "Competitors have limited coverage",
       "amplification_opportunity": "Leverage in upcoming events"
     },
     {
-      "topic": "iGaming Business and Market Trends",
-      "our_narrative": "Our portfolio provides in-depth analysis and insights on the iGaming business and market trends, including regulatory updates and industry developments.",
+      "topic": "Talent acquisition and internal staffing",
+      "our_narrative": "Our portfolio demonstrates active growth of the team with senior hires and new specialist roles, underscoring a focus on strengthening internal capabilities.",
       "competitive_gap": "Competitors have limited coverage",
       "amplification_opportunity": "Leverage in upcoming events"
     }
@@ -356,158 +355,158 @@
   "commercial_radar": {
     "potential_sponsors": [
       {
+        "company_name": "Entain",
+        "rationale": "Active legal campaigns against illegal gambling promotion and unlicensed trademark use in the UK.",
+        "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
+      },
+      {
         "company_name": "Kalshi",
-        "rationale": "Launching in Canada via Wealthsimple and considering an IPO; also tightening trader screening for prediction‑market integrity.",
+        "rationale": "Prediction‑market platform partnering with Sportradar and promoted by Messi, highlighting high‑profile sports collaborations.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
         "company_name": "EveryMatrix",
-        "rationale": "Created a dedicated Lottery division and partnered with BetAhoy for a UK launch, expanding its B2B offering.",
+        "rationale": "Secured a sportsbook technology deal with Betcenter, expanding its omnichannel footprint.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
         "company_name": "Polymarket",
-        "rationale": "Facing illegal gambling allegations in South Korea, illustrating regulatory scrutiny of prediction‑market platforms.",
+        "rationale": "Fined €420,000 by the Dutch regulator for operating a predictions market, illustrating enforcement of illegal gambling activities.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
-        "company_name": "Entain",
-        "rationale": "Internal analysis of its exit from Poland and Croatia highlights strategic market shifts.",
-        "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
-      },
-      {
-        "company_name": "ADI Predictstreet",
-        "rationale": "Planning to enter political prediction markets after securing a Gibraltar licence.",
-        "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
-      },
-      {
-        "company_name": "bet365",
-        "rationale": "Australian regulator AUSTRAC mandating AML improvements, illustrating operator compliance pressure.",
+        "company_name": "1xBet",
+        "rationale": "Discussed for its global licensing strategy and the launch of the 1xCare player‑protection initiative.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
         "company_name": "Betano",
-        "rationale": "Launched an inclusive sports partnership in Argentina, highlighting ESG‑focused brand initiatives.",
+        "rationale": "Partnered with Kaizen Gaming to roll out AI trivia, reflecting a focus on interactive betting experiences.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
-        "company_name": "Novig",
-        "rationale": "Secured CFTC approval to operate prediction markets across the United States.",
+        "company_name": "Meta",
+        "rationale": "Legal action by Dutch gambling association and exploration of prediction markets shows tech giant involvement.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
-        "company_name": "Banijay Gaming",
-        "rationale": "Seeking acquisition of Groupe JOA’s casino network to boost French market presence.",
+        "company_name": "bet365",
+        "rationale": "Launching new multiplayer slot 99Royale and running the ‘Sub On Play On’ World Cup promotion.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       },
       {
-        "company_name": "BetBlocker",
-        "rationale": "Internal hiring of a new director of strategy and partnerships highlights the portfolio’s commitment to responsible gambling tools.",
+        "company_name": "BetMGM",
+        "rationale": "Launched a new casino brand campaign in the UK, highlighting marketing investment and brand positioning.",
+        "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
+      },
+      {
+        "company_name": "FanDuel",
+        "rationale": "Announced departure of its casino MD after more than a decade, indicating leadership turnover in a major US operator.",
         "engagement_angle": "Auto-derived from batch-level company mentions; validate fit before outreach."
       }
     ],
     "potential_speakers": [
       {
+        "name_or_company": "Entain",
+        "expertise_area": "Active legal campaigns against illegal gambling promotion and unlicensed trademark use in the UK.",
+        "session_fit": "TBD — derived from batch-level mentions."
+      },
+      {
         "name_or_company": "Kalshi",
-        "expertise_area": "Launching in Canada via Wealthsimple and considering an IPO; also tightening trader screening for prediction‑market integrity.",
+        "expertise_area": "Prediction‑market platform partnering with Sportradar and promoted by Messi, highlighting high‑profile sports collaborations.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
         "name_or_company": "EveryMatrix",
-        "expertise_area": "Created a dedicated Lottery division and partnered with BetAhoy for a UK launch, expanding its B2B offering.",
+        "expertise_area": "Secured a sportsbook technology deal with Betcenter, expanding its omnichannel footprint.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
         "name_or_company": "Polymarket",
-        "expertise_area": "Facing illegal gambling allegations in South Korea, illustrating regulatory scrutiny of prediction‑market platforms.",
+        "expertise_area": "Fined €420,000 by the Dutch regulator for operating a predictions market, illustrating enforcement of illegal gambling activities.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
-        "name_or_company": "Entain",
-        "expertise_area": "Internal analysis of its exit from Poland and Croatia highlights strategic market shifts.",
-        "session_fit": "TBD — derived from batch-level mentions."
-      },
-      {
-        "name_or_company": "ADI Predictstreet",
-        "expertise_area": "Planning to enter political prediction markets after securing a Gibraltar licence.",
-        "session_fit": "TBD — derived from batch-level mentions."
-      },
-      {
-        "name_or_company": "bet365",
-        "expertise_area": "Australian regulator AUSTRAC mandating AML improvements, illustrating operator compliance pressure.",
+        "name_or_company": "1xBet",
+        "expertise_area": "Discussed for its global licensing strategy and the launch of the 1xCare player‑protection initiative.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
         "name_or_company": "Betano",
-        "expertise_area": "Launched an inclusive sports partnership in Argentina, highlighting ESG‑focused brand initiatives.",
+        "expertise_area": "Partnered with Kaizen Gaming to roll out AI trivia, reflecting a focus on interactive betting experiences.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
-        "name_or_company": "Novig",
-        "expertise_area": "Secured CFTC approval to operate prediction markets across the United States.",
+        "name_or_company": "Meta",
+        "expertise_area": "Legal action by Dutch gambling association and exploration of prediction markets shows tech giant involvement.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
-        "name_or_company": "Banijay Gaming",
-        "expertise_area": "Seeking acquisition of Groupe JOA’s casino network to boost French market presence.",
+        "name_or_company": "bet365",
+        "expertise_area": "Launching new multiplayer slot 99Royale and running the ‘Sub On Play On’ World Cup promotion.",
         "session_fit": "TBD — derived from batch-level mentions."
       },
       {
-        "name_or_company": "BetBlocker",
-        "expertise_area": "Internal hiring of a new director of strategy and partnerships highlights the portfolio’s commitment to responsible gambling tools.",
+        "name_or_company": "BetMGM",
+        "expertise_area": "Launched a new casino brand campaign in the UK, highlighting marketing investment and brand positioning.",
+        "session_fit": "TBD — derived from batch-level mentions."
+      },
+      {
+        "name_or_company": "FanDuel",
+        "expertise_area": "Announced departure of its casino MD after more than a decade, indicating leadership turnover in a major US operator.",
         "session_fit": "TBD — derived from batch-level mentions."
       }
     ],
     "emerging_exhibitor_categories": [
       {
-        "category": "Regulatory tightening and compliance actions across multiple jurisdictions",
-        "evidence": "A wave of new legislation, enforcement actions and tax shortfalls is reshaping the iGaming landscape in Thailand, Bangladesh, Ukraine, the Netherlands, Brazil and South Africa, forcing operators to adapt compliance programs and reassess market entry strategies.",
+        "category": "Regulatory crackdown on illegal gambling",
+        "evidence": "Several jurisdictions in Asia, Africa and Latin America are tightening enforcement against illegal online gambling, with new laws, police actions and financial restrictions.",
         "opportunity": "Auto-derived from batch themes; validate exhibitor demand before pitching."
       },
       {
-        "category": "Growth of prediction markets and innovative betting products",
-        "evidence": "Major tech players (Meta) and betting exchanges (Matchbook) are launching prediction‑market platforms, while traditional operators (Sporting Risk, Entain) are forming partnerships to integrate these new product lines, signalling a shift toward data‑driven wagering experiences.",
+        "category": "Slot game releases and reviews",
+        "evidence": "New slot titles such as Coco Rush, Golden Empire 1000, Dusty Duel and Pocket Games Soft offerings are being reviewed and promoted.",
         "opportunity": "Auto-derived from batch themes; validate exhibitor demand before pitching."
       },
       {
-        "category": "Strategic partnerships and product launches by operators and suppliers",
-        "evidence": "Companies such as Super, ThrillTech, BetMGM, EveryMatrix, EGT Digital and Superbet are announcing joint ventures, technology roll‑outs and new lottery divisions, highlighting a competitive focus on expanding product portfolios and entering new verticals.",
+        "category": "Strategic partnerships and technology integrations",
+        "evidence": "Operators and technology providers are forming alliances to enhance jackpot capabilities, prediction markets, lottery platforms and front‑end solutions.",
         "opportunity": "Auto-derived from batch themes; validate exhibitor demand before pitching."
       },
       {
-        "category": "New slot game releases and reviews",
-        "evidence": "Multiple publishers are promoting fresh slot titles (Coco Rush, Golden Empire 1000, Dusty Duel, Pocket Games Soft) to attract players, indicating continued demand for fresh content and the importance of game‑centric marketing.",
+        "category": "Market expansion and regional trends",
+        "evidence": "Growth in Latin America, Africa and Gibraltar is highlighted, with focus on mobile adoption, sports betting and new licensing opportunities.",
         "opportunity": "Auto-derived from batch themes; validate exhibitor demand before pitching."
       },
       {
-        "category": "Regulatory enforcement and policy shifts",
-        "evidence": "Multiple regulators across the UK, Malta, Nevada and the Netherlands are tightening oversight, targeting illegal gambling promotion, crypto payment pathways, trademark misuse and budget allocations for enforcement.",
+        "category": "Corporate hires and governance moves",
+        "evidence": "Key executive appointments and board changes at companies such as Aristocrat, BetBlocker, GRAI and ATG signal strategic shifts.",
         "opportunity": "Auto-derived from batch themes; validate exhibitor demand before pitching."
       }
     ]
   },
   "differentiators": {
-    "generated_at": "2026-07-07T10:57:24.534931+00:00",
+    "generated_at": "2026-07-08T10:18:51.488795+00:00",
     "analysis_window_days": 30,
     "corpus_stats": {
-      "internal_articles": 298,
-      "competitor_articles": 1285,
-      "internal_ngrams": 1175,
+      "internal_articles": 278,
+      "competitor_articles": 1297,
+      "internal_ngrams": 1182,
       "competitor_ngrams": 10000
     },
     "language_differentiators": [
       {
         "term": "igbaffiliate com",
-        "log_odds": 8.802,
-        "internal_count": 538,
+        "log_odds": 8.774,
+        "internal_count": 498,
         "competitor_count": 0,
         "advantage": "portfolio",
         "examples": []
       },
       {
         "term": "igbaffiliate",
-        "log_odds": 8.802,
-        "internal_count": 538,
+        "log_odds": 8.774,
+        "internal_count": 498,
         "competitor_count": 0,
         "advantage": "portfolio",
         "examples": [
@@ -525,16 +524,16 @@
       },
       {
         "term": "com igbaffiliate com",
-        "log_odds": 8.632,
-        "internal_count": 454,
+        "log_odds": 8.595,
+        "internal_count": 416,
         "competitor_count": 0,
         "advantage": "portfolio",
         "examples": []
       },
       {
         "term": "com igbaffiliate",
-        "log_odds": 8.632,
-        "internal_count": 454,
+        "log_odds": 8.595,
+        "internal_count": 416,
         "competitor_count": 0,
         "advantage": "portfolio",
         "examples": [
@@ -552,113 +551,113 @@
       },
       {
         "term": "igbaffiliate com igbaffiliate",
-        "log_odds": 8.608,
-        "internal_count": 443,
+        "log_odds": 8.568,
+        "internal_count": 405,
         "competitor_count": 0,
         "advantage": "portfolio",
         "examples": []
       },
       {
         "term": "igamingbusiness com",
-        "log_odds": 5.879,
+        "log_odds": 5.929,
         "internal_count": 28,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
         "term": "igamingbusiness",
-        "log_odds": 5.879,
+        "log_odds": 5.929,
         "internal_count": 28,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
-        "term": "magazine",
-        "log_odds": 5.456,
+        "term": "ggb magazine",
+        "log_odds": 5.506,
         "internal_count": 18,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
-        "term": "ggb magazine",
-        "log_odds": 5.456,
+        "term": "magazine",
+        "log_odds": 5.506,
         "internal_count": 18,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
         "term": "ggb",
-        "log_odds": 5.456,
+        "log_odds": 5.506,
         "internal_count": 18,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
-        "term": "manager igbaffiliate com",
-        "log_odds": 5.077,
-        "internal_count": 12,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
-        "term": "manager igbaffiliate",
-        "log_odds": 5.077,
-        "internal_count": 12,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
         "term": "igamingbusiness com igbaffiliate",
-        "log_odds": 4.997,
+        "log_odds": 5.046,
         "internal_count": 11,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
         "term": "walkway",
-        "log_odds": 4.91,
-        "internal_count": 10,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
-        "term": "igbaffiliate com senior",
-        "log_odds": 4.91,
-        "internal_count": 10,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
-        "term": "com affiliate",
-        "log_odds": 4.91,
-        "internal_count": 10,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
-        "term": "com senior",
-        "log_odds": 4.91,
-        "internal_count": 10,
-        "competitor_count": 0,
-        "advantage": "portfolio"
-      },
-      {
-        "term": "igbaffiliate com affiliate",
-        "log_odds": 4.91,
+        "log_odds": 4.959,
         "internal_count": 10,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
         "term": "travelator",
-        "log_odds": 4.709,
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "igbaffiliate com affiliate",
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "magazine igbaffiliate",
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "com affiliate",
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "com senior",
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "magazine igbaffiliate com",
+        "log_odds": 4.759,
         "internal_count": 8,
         "competitor_count": 0,
         "advantage": "portfolio"
       },
       {
         "term": "ggb magazine igbaffiliate",
-        "log_odds": 4.709,
+        "log_odds": 4.759,
+        "internal_count": 8,
+        "competitor_count": 0,
+        "advantage": "portfolio"
+      },
+      {
+        "term": "walkway travelator",
+        "log_odds": 4.759,
         "internal_count": 8,
         "competitor_count": 0,
         "advantage": "portfolio"
@@ -675,36 +674,36 @@
       },
       {
         "region": "Latam",
-        "internal_mentions": 10,
-        "competitor_mentions": 143,
-        "advantage_ratio": 0.36,
+        "internal_mentions": 8,
+        "competitor_mentions": 137,
+        "advantage_ratio": 0.34,
         "advantage": "competitor"
       },
       {
         "region": "Asia",
         "internal_mentions": 0,
-        "competitor_mentions": 58,
+        "competitor_mentions": 61,
         "advantage_ratio": 0.18,
         "advantage": "competitor"
       },
       {
         "region": "North America",
         "internal_mentions": 4,
-        "competitor_mentions": 203,
-        "advantage_ratio": 0.14,
+        "competitor_mentions": 194,
+        "advantage_ratio": 0.15,
         "advantage": "competitor"
       },
       {
         "region": "Africa",
         "internal_mentions": 0,
-        "competitor_mentions": 350,
+        "competitor_mentions": 352,
         "advantage_ratio": 0.04,
         "advantage": "competitor"
       },
       {
         "region": "Europe",
         "internal_mentions": 0,
-        "competitor_mentions": 284,
+        "competitor_mentions": 291,
         "advantage_ratio": 0.04,
         "advantage": "competitor"
       }
@@ -712,38 +711,38 @@
     "format_differentiators": [
       {
         "format": "News",
-        "internal_count": 295,
-        "competitor_count": 1088,
-        "internal_pct": 99.0,
-        "competitor_pct": 84.7,
-        "advantage_ratio": 1.17,
+        "internal_count": 275,
+        "competitor_count": 1104,
+        "internal_pct": 98.9,
+        "competitor_pct": 85.1,
+        "advantage_ratio": 1.16,
         "advantage": "portfolio"
       },
       {
         "format": "Guide",
         "internal_count": 1,
-        "competitor_count": 4,
-        "internal_pct": 0.3,
-        "competitor_pct": 0.3,
-        "advantage_ratio": 1.06,
-        "advantage": "portfolio"
+        "competitor_count": 5,
+        "internal_pct": 0.4,
+        "competitor_pct": 0.4,
+        "advantage_ratio": 0.95,
+        "advantage": "competitor"
       },
       {
         "format": "Analysis",
         "internal_count": 1,
         "competitor_count": 5,
-        "internal_pct": 0.3,
+        "internal_pct": 0.4,
         "competitor_pct": 0.4,
-        "advantage_ratio": 0.89,
+        "advantage_ratio": 0.95,
         "advantage": "competitor"
       },
       {
         "format": "Opinion",
         "internal_count": 0,
-        "competitor_count": 3,
+        "competitor_count": 4,
         "internal_pct": 0.0,
-        "competitor_pct": 0.2,
-        "advantage_ratio": 0.3,
+        "competitor_pct": 0.3,
+        "advantage_ratio": 0.24,
         "advantage": "competitor"
       },
       {
@@ -758,40 +757,40 @@
       {
         "format": "Report",
         "internal_count": 1,
-        "competitor_count": 39,
-        "internal_pct": 0.3,
-        "competitor_pct": 3.0,
-        "advantage_ratio": 0.14,
+        "competitor_count": 38,
+        "internal_pct": 0.4,
+        "competitor_pct": 2.9,
+        "advantage_ratio": 0.15,
         "advantage": "competitor"
       },
       {
         "format": "Interview",
         "internal_count": 0,
-        "competitor_count": 10,
+        "competitor_count": 9,
         "internal_pct": 0.0,
-        "competitor_pct": 0.8,
-        "advantage_ratio": 0.11,
+        "competitor_pct": 0.7,
+        "advantage_ratio": 0.13,
         "advantage": "competitor"
       },
       {
         "format": "Review",
         "internal_count": 0,
-        "competitor_count": 130,
+        "competitor_count": 126,
         "internal_pct": 0.0,
-        "competitor_pct": 10.1,
+        "competitor_pct": 9.7,
         "advantage_ratio": 0.01,
         "advantage": "competitor"
       }
     ],
     "cadence_metrics": {
       "analysis_days": 30,
-      "internal_articles": 298,
-      "competitor_articles": 1285,
-      "internal_daily_rate": 9.93,
-      "competitor_daily_rate": 42.83,
-      "rate_ratio": 0.23,
-      "internal_weekend_pct": 27.5,
-      "competitor_weekend_pct": 4.0,
+      "internal_articles": 278,
+      "competitor_articles": 1297,
+      "internal_daily_rate": 9.27,
+      "competitor_daily_rate": 43.23,
+      "rate_ratio": 0.22,
+      "internal_weekend_pct": 24.8,
+      "competitor_weekend_pct": 3.7,
       "weekend_advantage": "portfolio"
     },
     "summary": {
@@ -808,45 +807,45 @@
     }
   },
   "differentiators_v2": {
-    "generated_at_utc": "2026-07-07T10:57:27.454816+00:00",
+    "generated_at_utc": "2026-07-08T10:18:54.294844+00:00",
     "window_days": 30,
-    "total_articles_in_window": 1583,
-    "internal_articles": 298,
-    "competitor_articles": 1285,
-    "topics_surfaced": 3,
+    "total_articles_in_window": 1572,
+    "internal_articles": 278,
+    "competitor_articles": 1294,
+    "topics_surfaced": 2,
     "topics": [
       {
-        "topic_id": "t_003",
-        "label": "igbaffiliate, igbaffiliate com, com",
-        "score": 0.795,
+        "topic_id": "t_001",
+        "label": "igbaffiliate com, igbaffiliate, com",
+        "score": 0.79,
         "ownership": 1.0,
         "exclusivity": 1.0,
-        "timeliness": 0.8,
+        "timeliness": 0.769,
         "depth": 0.5,
         "format_edge": 0.0,
-        "internal_count": 234,
+        "internal_count": 215,
         "competitor_count": 0,
         "examples": [
           {
             "title": "- igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50Wi1aSU5TSzVWM3hXV3k2NHFFNkZ6blZzWkNaRmc5ZEdhUGtnNW1mNk9kY3JtLWQ3aFlveVRFdktaZTNSNXFWY3gwS19OYTNnMlFkMnF6YlM1RzBFMEdtRjJ1SDVTRFZoTFV0V1JNZVM5ejhGb0E?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "published_date_utc": "2026-07-08T08:45:00+00:00"
+          },
+          {
+            "title": "- igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vQzU5Q0kxTUNJbGJteV9BWHBNQ1JfVmlyQUtpQUMzM3I4MVRvSFdRUEZXWDJVdmRrWTNmYUxHTUh6TUROVUUxSUFxeFRjT3BOS0dMM3NjXzR5S0ZHLUpJQVIwdUpmeTdSNE4wR1kyNzBVTVNPbEE?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "published_date_utc": "2026-07-07T13:37:00+00:00"
+          },
+          {
+            "title": "- igbaffiliate.com",
             "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBY0NPSTc4VjZ6WTJOaG9ScnJRcmh0aF9ESHlLZ2N0SF9jaElIQmtLVVBHbFJabUhhcmQtS2ozaHFHMjJVcFo4dUlxeGlsR1Rpb1RjY2o3YVQ2Qm5uZWg1V1Zad0h0WGVvLU9TNzlUYXBaNHcwSGc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "published_date_utc": "2026-07-07T07:23:00+00:00"
-          },
-          {
-            "title": "- igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNZU5KTDlWZzloNlpyWHZEZnNOanE0RTUzTG5MU2VNWFg1TWI5MFJDSXZaZE9BNjRSRm1MaVFtQk5keXBTbktWenNfSzZZLWhTV3c5MGlBRWRJUkRuSi1PTHlSY3pKMmsyRHpaWDJCODA3SmpJS0E?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "published_date_utc": "2026-07-07T03:33:00+00:00"
-          },
-          {
-            "title": "- igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vbnNEbE1aV3JHTXROdWdzcWtlcmlHSC1yX2xxS2RvVjQ3NjZfRllrd2xmZVRKTDIxVkFpV1N3OUpWZVJMaEhjSUNPM3RIWGNiNGV3TjBSdk1tMXVfQmlySmc3bkFzajdReTB0bGh1SkpjTTZzanc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "published_date_utc": "2026-07-06T15:27:00+00:00"
           }
         ],
         "diagnostics": {
           "median_words_internal": 3,
           "median_words_competitor": 0,
-          "internal_weekend_pct": 34.6,
+          "internal_weekend_pct": 31.6,
           "competitor_weekend_pct": 0
         },
         "actions": [
@@ -857,7 +856,7 @@
         "risk": "High exclusivity protects you, but competitors can close the gap in 4-6 weeks if they prioritize this topic."
       },
       {
-        "topic_id": "t_014",
+        "topic_id": "t_011",
         "label": "magazine, ggb magazine, ggb",
         "score": 0.735,
         "ownership": 1.0,
@@ -896,76 +895,35 @@
           "Expand us coverage with local expert interviews and market analysis."
         ],
         "risk": "High exclusivity protects you, but competitors can close the gap in 4-6 weeks if they prioritize this topic."
-      },
-      {
-        "topic_id": "t_009",
-        "label": "gb, gb ve, ve",
-        "score": 0.272,
-        "ownership": 0.368,
-        "exclusivity": 0.553,
-        "timeliness": 0.033,
-        "depth": 0.0,
-        "format_edge": 0.0,
-        "internal_count": 7,
-        "competitor_count": 12,
-        "examples": [
-          {
-            "title": "Brian Christopher and Blask stand out in iGB Affiliate Awards 2026 - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMW9JRjhZZzhkdzFCS3NIMkdWX0VLblN1ZlRXVmVTQVVSLTJWdTdVbjluQXFnLXhDT3dLSXJaaUZQTUtyQzhZNTFMWDg4NnhsejVVTWtrajFVT1lvbWVaZ0ZRLThYMm1Zd3NzbHRPSGVlaFBackpYN0RGZjcya0RZUTExaDRCOGFYN0hxeDJDTHg1MjBaWmRyQVJQLWN6b0hkMUtaaEQyUVowN3pLOHZqUlJMSmxTZw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "published_date_utc": "2026-07-03T01:35:00+00:00"
-          },
-          {
-            "title": "North Walkway Canvas Drop Banners - iGB Affiliate Barcelona",
-            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmxwNWZiTDYtcG96cm94Z2s0VnprZ0d6a1dMZGxQMk5xMHBsR3ZFZzVtUjByQVEtR1JOQXlxSFk0QnNjdXVRVlhHeFVNcVlFeU1yVXplbnNOWmQ3dmtRcHd0MTRZaFZTX3QtSFdJYXdvY0lXU21MSWZjTnJYZDhzNnJuSkl4VDByZkVvQzFhbXphQVFrdU0yTllkYw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "published_date_utc": "2026-06-26T21:17:00+00:00"
-          },
-          {
-            "title": "Food Court Sponsorship - iGB Affiliate Barcelona",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc3k4YVBUQlk2ZW1iYWJNUjh5elZUSU4xUjZ3NGNDa1hsS1JLWmlZOC04UjNGMFhteWNsZjhiSmx2cHA0VHplUU11SmtIUW5uMG1fb0dDamVUOF9BNEZseng4R0lkeVpiX3hNVTBidGhicVk3dXRpZTRxQXg1eDA1NTZGOFpVVHJ4RnVkTA?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "published_date_utc": "2026-06-26T13:59:00+00:00"
-          }
-        ],
-        "diagnostics": {
-          "median_words_internal": 15,
-          "median_words_competitor": 57,
-          "internal_weekend_pct": 0.0,
-          "competitor_weekend_pct": 0.0
-        },
-        "actions": [
-          "Add explainer or data story content to increase depth and differentiation.",
-          "Improve publish cadence - consider weekend coverage to reach audiences competitors miss.",
-          "Launch an editorial series to defend your exclusive position in this topic."
-        ],
-        "risk": "Competitors can close the gap in 2-3 weeks based on their current cadence."
       }
     ],
     "global_notes": {
-      "weekend_advantage": "Portfolio leads with 27.5% weekend coverage vs competitors' 4.0%",
+      "weekend_advantage": "Portfolio leads with 24.8% weekend coverage vs competitors' 3.7%",
       "region_edge": [],
       "format_summary": [
         {
           "format": "News",
-          "internal_share": 98.7,
-          "competitor_share": 81.5,
-          "ratio_vs_comp": 1.21
+          "internal_share": 98.6,
+          "competitor_share": 81.8,
+          "ratio_vs_comp": 1.2
         },
         {
           "format": "Guide",
-          "internal_share": 0.3,
-          "competitor_share": 0.3,
-          "ratio_vs_comp": 1.08
+          "internal_share": 0.4,
+          "competitor_share": 0.4,
+          "ratio_vs_comp": 0.93
         },
         {
           "format": "Analysis",
-          "internal_share": 0.3,
+          "internal_share": 0.4,
           "competitor_share": 1.3,
-          "ratio_vs_comp": 0.25
+          "ratio_vs_comp": 0.27
         },
         {
           "format": "Data Story",
           "internal_share": 0.7,
           "competitor_share": 5.5,
-          "ratio_vs_comp": 0.12
+          "ratio_vs_comp": 0.13
         },
         {
           "format": "Explainer",
@@ -976,13 +934,13 @@
         {
           "format": "Interview",
           "internal_share": 0.0,
-          "competitor_share": 0.8,
+          "competitor_share": 0.7,
           "ratio_vs_comp": 0.0
         },
         {
           "format": "Opinion",
           "internal_share": 0.0,
-          "competitor_share": 0.2,
+          "competitor_share": 0.3,
           "ratio_vs_comp": 0.0
         },
         {
@@ -994,7 +952,7 @@
         {
           "format": "Review",
           "internal_share": 0.0,
-          "competitor_share": 9.4,
+          "competitor_share": 9.0,
           "ratio_vs_comp": 0.0
         }
       ]
@@ -1002,17 +960,17 @@
   },
   "reader_advantages": {
     "window_days": 30,
-    "generated_at": "2026-07-07T10:57:39.804721+00:00",
+    "generated_at": "2026-07-08T10:19:07.265860+00:00",
     "topics": [
       {
-        "topic": "igb affiliate",
-        "our_count": 6,
+        "topic": "travelator",
+        "our_count": 4,
         "their_count": 0,
-        "total": 6,
+        "total": 4,
         "our_share": 1.0,
         "their_share": 0.0,
         "share_diff": 1.0,
-        "our_count_7d": 1,
+        "our_count_7d": 0,
         "their_count_7d": 0,
         "examples_us": [
           {
@@ -1041,43 +999,7 @@
         "score": 4.5
       },
       {
-        "topic": "affiliate",
-        "our_count": 5,
-        "their_count": 0,
-        "total": 5,
-        "our_share": 1.0,
-        "their_share": 0.0,
-        "share_diff": 1.0,
-        "our_count_7d": 0,
-        "their_count_7d": 0,
-        "examples_us": [
-          {
-            "article_id": "c1ea388528d5b996",
-            "title": "Affiliate Partnerships Manager - Brazil - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU19zbGMySDV4QUItYjlnaHJCZ2xLM3dJTjRFQlJFcDl5cUlUSVFrN09oOFJLYVZrSndOLTdqWUVhbjdBbUhMbUdMQ2ttUE9DeHRFX1ZZRm54a3RILXQ4ell4b2xTOURFbFVtOHA4LV92S3BTa2hkZmVfcDEtVm4yUXZsSQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          },
-          {
-            "article_id": "d0ca40d9d24051a5",
-            "title": "Affiliate Sales manager - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1doNVBESTV4anpxZHVjSzJSTUR3SHJzbER3bWtnTjl2alplQ3gxUExBREV0eGRwNnFsQ3F6WnlPVHNnd2IyMzBYTGEyU2pzR3RRMDNmdFBQZERxV2lzRXhnWnd5WS1hdFo4ckRkVC1xMGR4R0xxelBOS2gtSG5vRnJRY1pyMlpDRXMwZ3loTlVKSHMwN0d3OQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          },
-          {
-            "article_id": "24420f5cfc302c3b",
-            "title": "Affiliate Executive - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWTFdxZlhXOTFUV3lrWlJvekFMNTU2RDVKSWRfbWNoeDhmZkt6QUduVDNqOHctbGwzTzdSR2xmbDR4Zml0bGdBcndqWGhLelFlVVM4NW1DVVBqc21hNmFXMEo4UFJFZEVjdXc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          }
-        ],
-        "examples_them": [],
-        "ownership": true,
-        "edge": true,
-        "momentum_7d": false,
-        "score": 4.5
-      },
-      {
-        "topic": "com junior",
+        "topic": "junior",
         "our_count": 3,
         "their_count": 0,
         "total": 3,
@@ -1113,7 +1035,7 @@
         "score": 3.0
       },
       {
-        "topic": "operations",
+        "topic": "north walkway",
         "our_count": 3,
         "their_count": 0,
         "total": 3,
@@ -1124,21 +1046,21 @@
         "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "4dcddc7c5f087a00",
-            "title": "Operations Manager - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjYVhvUVVCd0ZTN19rV2N5dHA0SVhwYW1RSklRX2ZFSXZ2MkpZUUc2ZnI0blkzSnRsOFFJRHVJdV9QdHlYcGN1VjdOUHAxVXh5cG1xaWdXa0NoYTFBR1ZXRmVHNkdCbVNu?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "00e38d14fb3788a8",
+            "title": "North Walkway Travelator Screens - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSHQ1VF9wbGFrbmZkNkRZWVByQjVnNUlEMVFWTkNKWUw1UzF0REJ2czdJNVJERnpBLVZfN2F5NU5NLUpYSkYxNFZ3T19VLUE3TTU4cFYzMjk1MlotMmlUWnNEUjIyWTZDWWhhZTdmMy1idlgzYWM5MzRHRktyVkxxbkZ0cDdKWU9Rc1M5XzBsTzFZTHk3NG9Tb2l3?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           },
           {
-            "article_id": "28f214a60aab3e4b",
-            "title": "Billing Operations Specialist - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSdzdCRzMxUW1HMXpBOVRHT045MmZKNjFOTFJQcU8zUjZaZndaRjY1dVFEY2RmN2k1X1U1TXFMeE9fSXB6dy00Z082YktTdWl0NHpfVk9Zd1VydGlTY2tOdEdmZHAzNEFkNk1DeDctS3RNZkg0aXpN?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "6a5bd761838fc562",
+            "title": "North Walkway Travelator Screens - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSHQ1VF9wbGFrbmZkNkRZWVByQjVnNUlEMVFWTkNKWUw1UzF0REJ2czdJNVJERnpBLVZfN2F5NU5NLUpYSkYxNFZ3T19VLUE3TTU4cFYzMjk1MlotMmlUWnNEUjIyWTZDWWhhZTdmMy1idlgzYWM5MzRHRktyVkxxbkZ0cDdKWU9Rc1M5XzBsTzFZTHk3NG9Tb2l3?oc=5",
             "date": ""
           },
           {
-            "article_id": "8f0ceccddd5a5c46",
-            "title": "Billing Operations Specialist - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSdzdCRzMxUW1HMXpBOVRHT045MmZKNjFOTFJQcU8zUjZaZndaRjY1dVFEY2RmN2k1X1U1TXFMeE9fSXB6dy00Z082YktTdWl0NHpfVk9Zd1VydGlTY2tOdEdmZHAzNEFkNk1DeDctS3RNZkg0aXpN?oc=5",
+            "article_id": "fbadf8da35fb4eab",
+            "title": "North Walkway Canvas Drop Banners - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNmxwNWZiTDYtcG96cm94Z2s0VnprZ0d6a1dMZGxQMk5xMHBsR3ZFZzVtUjByQVEtR1JOQXlxSFk0QnNjdXVRVlhHeFVNcVlFeU1yVXplbnNOWmQ3dmtRcHd0MTRZaFZTX3QtSFdJYXdvY0lXU21MSWZjTnJYZDhzNnJuSkl4VDByZkVvQzFhbXphQVFrdU0yTllkYw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           }
         ],
@@ -1149,7 +1071,86 @@
         "score": 3.0
       },
       {
-        "topic": "systems",
+        "topic": "seo",
+        "our_count": 3,
+        "their_count": 0,
+        "total": 3,
+        "our_share": 1.0,
+        "their_share": 0.0,
+        "share_diff": 1.0,
+        "our_count_7d": 0,
+        "their_count_7d": 0,
+        "examples_us": [
+          {
+            "article_id": "bd5ecf98c9c6e74e",
+            "title": "SEO is not dead, but the version you learned probably is - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVNDaGFvVU9sZmNQNzhkM1lWX2FDUk1ieWlZQ3FsY3BLZGtKNkdiNU8yYTgzS014ZUpjeXVDNzlRR3ZLUEl4T3BiaFJjRU9uVGpKeVFtbldKdWYzNllaRmItZE5ieWNqUTNSczRKTGtQZXNGNGRYZ3k0Ri1HSlB6RmJ1bmNvcGhUcEFaNnFuUHBjR3NaMWZILXZmUFlfOUx4RlE0?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "474a635704d432f6",
+            "title": "Not just keywords: Sweeps and prediction markets SEO in 2026 - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWw3U3BCcjZnalRZNzdtVU8ybDlkOWpyXzI5SjltdzBBZm11UTJLRGc3U1JocWlHYVk5ZVBSU05USVpUUFBxZktKdEhpdnEwU2EwZnJpdzNTeE5CemZPaHUtVk1zUl83TTVSUHZyWTU5c0VHdHAwN19LamZJMVpxNTBHcGZIQ1VVa29fcWJUZWs4NUhHRnFQX0JpdkFQbXdFX1NsV01lNmo?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "5fca2bf8705c7f27",
+            "title": "SEO is not dead, but the version you learned probably is - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVNDaGFvVU9sZmNQNzhkM1lWX2FDUk1ieWlZQ3FsY3BLZGtKNkdiNU8yYTgzS014ZUpjeXVDNzlRR3ZLUEl4T3BiaFJjRU9uVGpKeVFtbldKdWYzNllaRmItZE5ieWNqUTNSczRKTGtQZXNGNGRYZ3k0Ri1HSlB6RmJ1bmNvcGhUcEFaNnFuUHBjR3NaMWZILXZmUFlfOUx4RlE0?oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [],
+        "ownership": true,
+        "edge": false,
+        "momentum_7d": false,
+        "score": 3.0
+      },
+      {
+        "topic": "affiliate",
+        "our_count": 12,
+        "their_count": 1,
+        "total": 13,
+        "our_share": 0.92,
+        "their_share": 0.08,
+        "share_diff": 0.85,
+        "our_count_7d": 1,
+        "their_count_7d": 0,
+        "examples_us": [
+          {
+            "article_id": "bbf53bab9b64845b",
+            "title": "iGB Walkway Travelator Branding - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFNpWWl5ZExzNUtLajkxQXl5X2xhVkllaFY1WldzTGxwS3VSazBrTEpVRnI4UlNyU0dqU0pmTHZ5MWxjU3NZWFRpamRRaGFmWVV1bldzckMtZVVvanh2b1E0cElJdUNIc0VENDJvZmd5MHIxSk0zbmxGdmZfVjhxYjFPWmZTZlZMSXIxY2I2RlpYOXRrbERqeA?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "00e38d14fb3788a8",
+            "title": "North Walkway Travelator Screens - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSHQ1VF9wbGFrbmZkNkRZWVByQjVnNUlEMVFWTkNKWUw1UzF0REJ2czdJNVJERnpBLVZfN2F5NU5NLUpYSkYxNFZ3T19VLUE3TTU4cFYzMjk1MlotMmlUWnNEUjIyWTZDWWhhZTdmMy1idlgzYWM5MzRHRktyVkxxbkZ0cDdKWU9Rc1M5XzBsTzFZTHk3NG9Tb2l3?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "24420f5cfc302c3b",
+            "title": "Affiliate Executive - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWTFdxZlhXOTFUV3lrWlJvekFMNTU2RDVKSWRfbWNoeDhmZkt6QUduVDNqOHctbGwzTzdSR2xmbDR4Zml0bGdBcndqWGhLelFlVVM4NW1DVVBqc21hNmFXMEo4UFJFZEVjdXc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [
+          {
+            "article_id": "f20bc5b13584aaa1",
+            "title": "Exclusive: Betfred branding mimicked by black market affiliate - egr.global",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEhnQ0lYdEduby1EWjhRLTgzQjVXNUxJV3dlalllV1FoZC1zdWw2cjJYLXdRMl9jcVA0cmg3cHhxd3hTSEdsNmpzd3VZQjY4Vl9UbnMzaThSb3hMV1R2a1Y2c2djQjBEU0xFYnU1LTBscjROd296azB0MWtsQm54Um11Sk1UeFgwandyUXB2dmpqMVZ0XzBYcjlDemM?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          }
+        ],
+        "ownership": false,
+        "edge": true,
+        "momentum_7d": false,
+        "score": 2.35
+      },
+      {
+        "topic": "sales",
         "our_count": 2,
         "their_count": 1,
         "total": 3,
@@ -1160,23 +1161,23 @@
         "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "c9ce9e58aa2c275e",
-            "title": "Development Operations/Cloud Systems Administrator (m/f/d) - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHd3OWY5VUozMUNRdllqb1dXdUxScW5jUnNyWVFDTFlpS0ZHZzFINUlaLURMODdmb3NYVGt1eDJJei1LVkxKWUtVX05WaU1ZZFVDcDhfQzVQTkVnU0hTanA5TTRuV0Nrd2U3VGpKaFYzMENEbTU3VVhUcVd3QzVaOEczNWZXVUZvMjl3SUFnbG84akVPV2c?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "d0ca40d9d24051a5",
+            "title": "Affiliate Sales manager - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1doNVBESTV4anpxZHVjSzJSTUR3SHJzbER3bWtnTjl2alplQ3gxUExBREV0eGRwNnFsQ3F6WnlPVHNnd2IyMzBYTGEyU2pzR3RRMDNmdFBQZERxV2lzRXhnWnd5WS1hdFo4ckRkVC1xMGR4R0xxelBOS2gtSG5vRnJRY1pyMlpDRXMwZ3loTlVKSHMwN0d3OQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           },
           {
-            "article_id": "72cdd80f731d4bac",
-            "title": "Development Operations/Cloud Systems Administrator (m/f/d) - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHd3OWY5VUozMUNRdllqb1dXdUxScW5jUnNyWVFDTFlpS0ZHZzFINUlaLURMODdmb3NYVGt1eDJJei1LVkxKWUtVX05WaU1ZZFVDcDhfQzVQTkVnU0hTanA5TTRuV0Nrd2U3VGpKaFYzMENEbTU3VVhUcVd3QzVaOEczNWZXVUZvMjl3SUFnbG84akVPV2c?oc=5",
+            "article_id": "94986854eccd9879",
+            "title": "Affiliate Sales manager - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1doNVBESTV4anpxZHVjSzJSTUR3SHJzbER3bWtnTjl2alplQ3gxUExBREV0eGRwNnFsQ3F6WnlPVHNnd2IyMzBYTGEyU2pzR3RRMDNmdFBQZERxV2lzRXhnWnd5WS1hdFo4ckRkVC1xMGR4R0xxelBOS2gtSG5vRnJRY1pyMlpDRXMwZ3loTlVKSHMwN0d3OQ?oc=5",
             "date": ""
           }
         ],
         "examples_them": [
           {
-            "article_id": "318c2c79aeeda3f0",
-            "title": "AI’s increasingly important role in making iGaming more efficient",
-            "link": "https://igamingexpert.com/features/ais-increasingly-important-role-in-making-igaming-more-efficient",
+            "article_id": "9d60a2556f765b9b",
+            "title": "Spain: SELAE profits fall despite record €10.58bn sales for 2025 - Global Gaming Insider",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzJSbElJZDZfbGR2Qmo3VWV2TlRaUkJSTmI4TEc2STh4dC0wLU9CM0EwVjRhb1NtcERuSk1hZW9UbDJicDQ1S21aSDZHWlc0OFlPbG54ZmtNR041ckRjZDN0bVZLUGFiN2hmWFYtQUROS1hnVmY0ekxiTV9UWVpvLVJRYlo5eXBjUFBlLVNEcVBZai0wNHZuRlJlX3lCTlpPV3UyS2djb0JkUQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           }
         ],
@@ -1186,167 +1187,181 @@
         "score": 0.33
       },
       {
-        "topic": "acquisition",
-        "our_count": 3,
-        "their_count": 10,
-        "total": 13,
-        "our_share": 0.23,
-        "their_share": 0.77,
-        "share_diff": -0.54,
+        "topic": "branding",
+        "our_count": 2,
+        "their_count": 1,
+        "total": 3,
+        "our_share": 0.67,
+        "their_share": 0.33,
+        "share_diff": 0.33,
         "our_count_7d": 0,
-        "their_count_7d": 3,
+        "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "3a105b8f06232035",
-            "title": "Primores brings owned-audience acquisition to operators and affiliates - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc3B4ZWZ5SDg3Zk1wR1N3UUdCWmdvblA2U1BmdFMwUXNIWS1TdWhXWkNQZzNWLWM1UVdvYWlfd0R0S3BscDYyNHV3VUNHeTdTenZIN3RLdzFodW9XRXQwTWZLcFl4N3RrU2xxZm51VF9Ldm1mT0dtTlNUMG1ZMUh0eXJTb0pwZDlyamFxV2xxRGhJZFZVdjdpTlp6eXdUdUJDWlpReUc5UV9GZlZialhNUm5Zdnp2eHFnUWxjTTJB?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "bbf53bab9b64845b",
+            "title": "iGB Walkway Travelator Branding - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFNpWWl5ZExzNUtLajkxQXl5X2xhVkllaFY1WldzTGxwS3VSazBrTEpVRnI4UlNyU0dqU0pmTHZ5MWxjU3NZWFRpamRRaGFmWVV1bldzckMtZVVvanh2b1E0cElJdUNIc0VENDJvZmd5MHIxSk0zbmxGdmZfVjhxYjFPWmZTZlZMSXIxY2I2RlpYOXRrbERqeA?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           },
           {
-            "article_id": "1eb9fe98c9f4feb1",
-            "title": "Senior User Acquisition Manager (Snapchat focus + Meta) - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaGtkaEx4WDJCT0ViMWotdEpNd1NNZndwLUdmQTBvN0NwVlZBWm1Xdy1YVFNJYVY0YmhESjhvdUZsbWs5SzlfbUNUX0lfX1RhcldENGVNa3RQeHQzVC1ESEEtOHFKaWtVd1JfLVBSc1ZLWmQ4dGhZczhQbGhnN0JnQ0NRUVFiZDRxQTRPTVExRzl1N0pvTnc?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          },
-          {
-            "article_id": "8cbdbb043f37eac8",
-            "title": "Senior User Acquisition Manager (Snapchat focus + Meta) - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaGtkaEx4WDJCT0ViMWotdEpNd1NNZndwLUdmQTBvN0NwVlZBWm1Xdy1YVFNJYVY0YmhESjhvdUZsbWs5SzlfbUNUX0lfX1RhcldENGVNa3RQeHQzVC1ESEEtOHFKaWtVd1JfLVBSc1ZLWmQ4dGhZczhQbGhnN0JnQ0NRUVFiZDRxQTRPTVExRzl1N0pvTnc?oc=5",
+            "article_id": "c360b27e775410f7",
+            "title": "iGB Walkway Travelator Branding - iGB Affiliate Barcelona",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFNpWWl5ZExzNUtLajkxQXl5X2xhVkllaFY1WldzTGxwS3VSazBrTEpVRnI4UlNyU0dqU0pmTHZ5MWxjU3NZWFRpamRRaGFmWVV1bldzckMtZVVvanh2b1E0cElJdUNIc0VENDJvZmd5MHIxSk0zbmxGdmZfVjhxYjFPWmZTZlZMSXIxY2I2RlpYOXRrbERqeA?oc=5",
             "date": ""
           }
         ],
         "examples_them": [
           {
-            "article_id": "dbedade597bb8e34",
-            "title": "BETBY: sportsbooks are not your competitors – social media is",
-            "link": "https://sbcnews.co.uk/features/2026/06/08/betby-sportsbooks-competitors-social-media",
-            "date": ""
-          },
-          {
-            "article_id": "97ddd4f3698c40ee",
-            "title": "Jennings Bet CEO dismisses negativity around UK retail betting as company passes 200 shops",
-            "link": "https://sbcnews.co.uk/features/interviews/2026/06/11/jennings-bet-ceo-on-retail-betting",
-            "date": ""
-          },
-          {
-            "article_id": "724cd6a8efef8c72",
-            "title": "South Africa’s Lesaka Technologies (Net1) Pauses Digital Lender Bank Zero Acquisition As Approval Li",
-            "link": "https://igamingafrika.com/south-africas-lesaka-technologies-net1-pauses-digital-lender-bank-zero-acquisition-as-approval-lingers",
+            "article_id": "f20bc5b13584aaa1",
+            "title": "Exclusive: Betfred branding mimicked by black market affiliate - egr.global",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEhnQ0lYdEduby1EWjhRLTgzQjVXNUxJV3dlalllV1FoZC1zdWw2cjJYLXdRMl9jcVA0cmg3cHhxd3hTSEdsNmpzd3VZQjY4Vl9UbnMzaThSb3hMV1R2a1Y2c2djQjBEU0xFYnU1LTBscjROd296azB0MWtsQm54Um11Sk1UeFgwandyUXB2dmpqMVZ0XzBYcjlDemM?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           }
         ],
         "ownership": false,
         "edge": false,
         "momentum_7d": false,
-        "score": -0.54
+        "score": 0.33
       },
       {
-        "topic": "strategy",
-        "our_count": 3,
-        "their_count": 15,
-        "total": 18,
-        "our_share": 0.17,
-        "their_share": 0.83,
-        "share_diff": -0.67,
+        "topic": "system",
+        "our_count": 2,
+        "their_count": 2,
+        "total": 4,
+        "our_share": 0.5,
+        "their_share": 0.5,
+        "share_diff": 0.0,
         "our_count_7d": 0,
-        "their_count_7d": 2,
+        "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "220fd77f65f0e8cc",
-            "title": "BetBlocker hires Monica Shafaq as director of strategy and partnerships - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYzBUWFpZR1JiQXJzQTQtWTVPZUxScWhYZFNsRG52cFEyTXRTNXhIRi10ZVlKWjZtWktYQ3NvTUF0WFpmRnZZd0dQZlhEcmV0T3pqbDdkaWlyd3FtS3NCOUpTZUhsdUpWWnlqOXFPSDVyMTVqSEh3XzJBdkZ2MEd3RnBCc1FFNG5YT2poR3N3dFBXRFNkVmd1cDlxaWV4YWU1Q2VrNy01NFExMkhzMS1lOUluWVMweHhJOVFaOEdmQVlQQy02SFBMM0hIbjFsdzln?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "a091f45ce3495e93",
+            "title": "Flashscore launches enhanced player rating system with Petr Cech - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWWQ0TGJwUm9DVUhsSHBtLUJVbGwzOHpHUTRHQVFITUpZdWItZ3pPbWZFb3huT0NjRGJCdk9aVDFSeEtRQ1h5ZHpzbmFIN3l3aFYwelBfUjQ4Qml2NnFza2FyM1dIcTZDX0FEOGJiSW9PNzc2QVhWWmVhVVRfMU5VTU8wUWluVmVCTXl3RnhyTVlJN0tabDBBNU1nSjBzblVFMzRVQUZTQjAweG1wU1FtNU9FU2dTZw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           },
           {
-            "article_id": "6a3f1d802afad21a",
-            "title": "Netherlands eyes near-total online ad ban in new gambling harm strategy - igamingbusiness.com",
-            "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFVYaWZicDl1Q190MVRRa3YtaHEyZnJ0VmZIdmRWdk1kVjdERml2NGZSV09oZmtFVFBRTWF0ODJYVmE5cnE4S1REd0h2UThwMjczQzEyNHl2MW9sVVV1YUtPZk1tNVE1TTVnZ0VBWkg3a2EydHNfMTgxc2FjY0ZVOVZQcFotc25BUW9xTXBhcUsyVWIta0hYU0VzYVZIVk4xV21vQWY2endDcUtoelBHLVdqTUstd1JDcFE?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          },
-          {
-            "article_id": "373dc6da0198cc3c",
-            "title": "Exclusive: Momentum and Fanatics launch UAE gaming joint venture - Strategy - iGB - igamingbusiness.",
-            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSHQ3SWZQc2N4cDJYWWRmZUxkUnluSkNad0NMRHhVX3kxb2F3RXpfaUFyTHBmMjdZRFlkT3QxeHUtOEZOVHAzejhCUnpGdVNhS0lMcFRhUmFxY1BPRjdwM1hlNmx2ZndVbEZRb1FNa2F6dUx0bUlyMXFFVFNLeEozRlJNRjllMVU?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "3b8b161a0a9ed31a",
+            "title": "Flashscore launches enhanced player rating system with Petr Cech - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWWQ0TGJwUm9DVUhsSHBtLUJVbGwzOHpHUTRHQVFITUpZdWItZ3pPbWZFb3huT0NjRGJCdk9aVDFSeEtRQ1h5ZHpzbmFIN3l3aFYwelBfUjQ4Qml2NnFza2FyM1dIcTZDX0FEOGJiSW9PNzc2QVhWWmVhVVRfMU5VTU8wUWluVmVCTXl3RnhyTVlJN0tabDBBNU1nSjBzblVFMzRVQUZTQjAweG1wU1FtNU9FU2dTZw?oc=5",
             "date": ""
           }
         ],
         "examples_them": [
           {
-            "article_id": "7aefef94166013ea",
-            "title": "LSports Expands Its Latin American Strategy With Landmark Caliente Partnership - iGamingToday.com",
-            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMFphci05LWdtV2owdkszSXJxZmV0dFZ1MHlxR2lVNjl5QkMxSFgya1VEbHpESk5vRHNYWEU3REphNzhnSDkyWldIbHM0dEU2OW5JMjFfYzVLVFE5c19XTUxaXy13M3pQUmRjR2l0dXpPZW9zc1VoeFBram8xSEJfQThFbVVNLVdhSDExSGwzMGdKV1pQQXZ1MmNMUWp0Yy15YUtVN1lmbjB5aFZC?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "625305167102514b",
+            "title": "Kenya Plans Real-Time Gambling Monitoring System to Boost Tax Revenue - iGamingToday.com",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTzdhTDRxWjdpTEo5blVYTEdrek4wWXBkMHFyZmEwUi0xWk51cDl1TGdvWVI0cUUxVmkzazEzaDdaM042T1FqS0pkUUROb0k1bWVVano0R0o3Q0RxaGxQZ2RFNlFDVC02cldOdWZ2OE9vbzN1MURGQWdOTUN2bDctLXR1dGdON3U1dk5jS0ZUcXQyTmJyWnVFNGc2aEh2ZVFn?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           },
           {
-            "article_id": "9f9ee61678b1617d",
-            "title": "LatAm Expansion & the UAE question: BetConstruct breaks down iGaming’s biggest opportunities",
-            "link": "https://igamingexpert.com/features/betconstruct-igaming-biggest-opportunities",
-            "date": ""
-          },
-          {
-            "article_id": "02abb298e73b8d16",
-            "title": "Monica Shafaq joins BetBlocker as Director of Strategy and Partnerships - Global Gaming Insider",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdVVDYmNRbXljVmtUVXVuUHdyZFB1Njl0NTZYSm9rNFJTdkFVUlUxUnZoSlAxVmptb2YzMWVKQ1F2RlRvNEtrdEpyd1Q5MFRRSEVSN0drRVV4R1ltNXZyaWxkWnU0bUgtQUpDY0Zydm9VbDNHdVdLTUxJdkZUSngxN3ZSRlZpVFNzN3FDekhGc1NkY1U4dVJQOWdfMGdDNU1mQjBmUk43Wm0wNXBRYVNnZ2lyWQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "cf2e2c70d56f11be",
+            "title": "PartnerMatrix launches exclusive collaboration with Broadway Platform focused on agent  system expan",
+            "link": "https://igamingafrika.com/partnermatrix-launches-exclusive-collaboration-with-broadway-platform-focused-on-agent-system-expansion",
             "date": ""
           }
         ],
         "ownership": false,
         "edge": false,
         "momentum_7d": false,
-        "score": -0.67
+        "score": 0.0
+      },
+      {
+        "topic": "financial",
+        "our_count": 2,
+        "their_count": 2,
+        "total": 4,
+        "our_share": 0.5,
+        "their_share": 0.5,
+        "share_diff": 0.0,
+        "our_count_7d": 0,
+        "their_count_7d": 1,
+        "examples_us": [
+          {
+            "article_id": "f6ed819e0183732d",
+            "title": "Junior+ Financial Controller - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcjU1WUlxa0ZUSW4wYVl3QzZHeklFa255NHNUQW9SZUo5SmQzbGNWb0lFSFo0LWZzS0RvM1VpYkZtUkkwekFJcXpvX0V1bEFOTXdtZkFsdmpLX2k5bW5walZ1MGFPRDkyZnF1X0RWSng3bDYzR2t1TGNxMUhCUUJvSWFzNHZvSU1hYWhj?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "2d318fe2507db2cf",
+            "title": "Junior+ Financial Controller - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcjU1WUlxa0ZUSW4wYVl3QzZHeklFa255NHNUQW9SZUo5SmQzbGNWb0lFSFo0LWZzS0RvM1VpYkZtUkkwekFJcXpvX0V1bEFOTXdtZkFsdmpLX2k5bW5walZ1MGFPRDkyZnF1X0RWSng3bDYzR2t1TGNxMUhCUUJvSWFzNHZvSU1hYWhj?oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [
+          {
+            "article_id": "9da5f1b48ea66048",
+            "title": "Ireland sets out plan to tackle financial crime in gambling - NEXT.io",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV19lQVJzU042bjEzYXJkU3hIdV9BNlpLRFNLb3hxRnV4dnpySEpTNjYzUEpCZWFlZ0ZfU0xkeFJsMFg0Smp3NTVZem5xX0E1S0VoQmdiSlU2UGdnY0haNzRHTGNUZVU5a212dTBwV1liSGJyOXB1WXR4X19XWldGV1UzUQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "7ab0f6646f4d035a",
+            "title": "Financial risk assessments to be implemented, confirms Gambling Commission - egr.global",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeGhmQWpvbzJXZzFxVzQwU3NpMG56RWN0MGhlcWQ5a3B5MExjUXd5Z094UEZMNE92ckhwLXd3SVNnSUJOVUxKRDJFVG1HR0N3N00tTE9oWVdISGI4Z2J5Z0VoUW5ERWhybU03X0cwX29DSEstaTVaalJFbjZOaHZrdmh2TnBXLW9QQ0Nxc1RpT0tRcHZ6ZjBLRFpadDNuT09zN2ZOeUcwS2txRHZF?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          }
+        ],
+        "ownership": false,
+        "edge": false,
+        "momentum_7d": false,
+        "score": 0.0
+      },
+      {
+        "topic": "introduces",
+        "our_count": 2,
+        "their_count": 3,
+        "total": 5,
+        "our_share": 0.4,
+        "their_share": 0.6,
+        "share_diff": -0.2,
+        "our_count_7d": 0,
+        "their_count_7d": 0,
+        "examples_us": [
+          {
+            "article_id": "a5e061fe627f9d6b",
+            "title": "Better Collective introduces Playbook to Brazil - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjFRZkFkTEdPT2NodVAxQkZLUElreVhpRmw5MHhXTlhEWmViWWtSeEFaYnEyZ081ZTVMQkFob0RLVDN5MzJnd1NCOE1yNVFyYmlBQkpnQWZsZjgtdmFZa1ZLd3Z1alFucHhCM3BrOVdXWGRSQUV2ZkxaeWNwd1YtLUduN2U4SHBRc0V5QWwyMTZTNnZiNjBGRFBwTXdWdlU?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "f9386119a8cfaef8",
+            "title": "Better Collective introduces Playbook to Brazil - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjFRZkFkTEdPT2NodVAxQkZLUElreVhpRmw5MHhXTlhEWmViWWtSeEFaYnEyZ081ZTVMQkFob0RLVDN5MzJnd1NCOE1yNVFyYmlBQkpnQWZsZjgtdmFZa1ZLd3Z1alFucHhCM3BrOVdXWGRSQUV2ZkxaeWNwd1YtLUduN2U4SHBRc0V5QWwyMTZTNnZiNjBGRFBwTXdWdlU?oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [
+          {
+            "article_id": "c6efa1462bced37e",
+            "title": "OLG Introduces Mandatory Deposit Limits for Under-25 Players in Ontario - iGamingToday.com",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1AxRUIxVzVvZjFBckdvOXBJU2dOZjF0YkpZZDBPeFZEMUhLQlp2NjNnWVpjbXNPbjdvTVY4V3Z4cXlZMHU1eDNZb25wRkF1YU9OcWhEYVNSMkp3NDRPWUZlV1pXOUx0LVJQMG1YeDNMeUlGS1V0cXNOaXFYV3ZSZVVrd0FfaDZkaFJ1VTZKT3g5d0JVQlhvdnY2ekZQM1c5MXM0?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "89df276bc6bd466d",
+            "title": "Royal Decree Introduces Joint Deposit Limit for Online Gambling in Spain - iGamingToday.com",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXFLcmRUSVhkNmRnMXp3WTBkemlLU01teHRtR3ZSOGRDRUlTVDBBaEJ6TG9YbzVydlpRMGsxY1BLcUJNYm0xYUJLSXh6akoxMlpuM0R2ZV82OEtoSG9SOVRUckJTb3lXeXRib0hIa1YydVpKYkJSR3BGRnVZSHZzdDlTaG5TMEw4MzlDcTh0T0J5UDdxeEZCcHdPSTJSUnBsUXdCYw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "6f6a70390c7ed7f8",
+            "title": "Feature Coins strike the reels in Playson’s 3 Thunder Coins: Hold and Win",
+            "link": "https://igamingafrika.com/feature-coins-strike-the-reels-in-playsons-3-thunder-coins-hold-and-win",
+            "date": ""
+          }
+        ],
+        "ownership": false,
+        "edge": false,
+        "momentum_7d": false,
+        "score": -0.2
       }
     ],
     "near_advantages": [
       {
-        "topic": "media buyer",
-        "our_count": 1,
-        "their_count": 0,
-        "total": 1,
-        "our_share": 1.0,
-        "their_share": 0.0,
-        "share_diff": 1.0,
-        "our_count_7d": 0,
-        "their_count_7d": 0,
-        "examples_us": [
-          {
-            "article_id": "7aef5e6622d5416b",
-            "title": "Media Buyer (PPC) - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15SzVyVFdycGtLcGI4TXdWSHEwQWo4Q1Z5cEU3MV9HYUlRaWI4OEg1djFoajVob2tZaENYVjY0V19ZTTdQZjMtSk9xRkp3Qk5RWXRSSGN2YVVGZy12R1hTckdIM0Y?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          }
-        ],
-        "examples_them": [],
-        "ownership": false,
-        "edge": false,
-        "momentum_7d": false,
-        "score": 1.0
-      },
-      {
-        "topic": "operations manager",
-        "our_count": 1,
-        "their_count": 0,
-        "total": 1,
-        "our_share": 1.0,
-        "their_share": 0.0,
-        "share_diff": 1.0,
-        "our_count_7d": 0,
-        "their_count_7d": 0,
-        "examples_us": [
-          {
-            "article_id": "4dcddc7c5f087a00",
-            "title": "Operations Manager - igbaffiliate.com",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjYVhvUVVCd0ZTN19rV2N5dHA0SVhwYW1RSklRX2ZFSXZ2MkpZUUc2ZnI0blkzSnRsOFFJRHVJdV9QdHlYcGN1VjdOUHAxVXh5cG1xaWdXa0NoYTFBR1ZXRmVHNkdCbVNu?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
-            "date": ""
-          }
-        ],
-        "examples_them": [],
-        "ownership": false,
-        "edge": false,
-        "momentum_7d": false,
-        "score": 1.0
-      },
-      {
-        "topic": "better",
+        "topic": "collective",
         "our_count": 2,
         "their_count": 0,
         "total": 2,
@@ -1376,7 +1391,37 @@
         "score": 3.0
       },
       {
-        "topic": "com austria",
+        "topic": "administrator m",
+        "our_count": 2,
+        "their_count": 0,
+        "total": 2,
+        "our_share": 1.0,
+        "their_share": 0.0,
+        "share_diff": 1.0,
+        "our_count_7d": 0,
+        "their_count_7d": 0,
+        "examples_us": [
+          {
+            "article_id": "c9ce9e58aa2c275e",
+            "title": "Development Operations/Cloud Systems Administrator (m/f/d) - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHd3OWY5VUozMUNRdllqb1dXdUxScW5jUnNyWVFDTFlpS0ZHZzFINUlaLURMODdmb3NYVGt1eDJJei1LVkxKWUtVX05WaU1ZZFVDcDhfQzVQTkVnU0hTanA5TTRuV0Nrd2U3VGpKaFYzMENEbTU3VVhUcVd3QzVaOEczNWZXVUZvMjl3SUFnbG84akVPV2c?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          },
+          {
+            "article_id": "72cdd80f731d4bac",
+            "title": "Development Operations/Cloud Systems Administrator (m/f/d) - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHd3OWY5VUozMUNRdllqb1dXdUxScW5jUnNyWVFDTFlpS0ZHZzFINUlaLURMODdmb3NYVGt1eDJJei1LVkxKWUtVX05WaU1ZZFVDcDhfQzVQTkVnU0hTanA5TTRuV0Nrd2U3VGpKaFYzMENEbTU3VVhUcVd3QzVaOEczNWZXVUZvMjl3SUFnbG84akVPV2c?oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [],
+        "ownership": true,
+        "edge": false,
+        "momentum_7d": false,
+        "score": 3.0
+      },
+      {
+        "topic": "group",
         "our_count": 1,
         "their_count": 0,
         "total": 1,
@@ -1387,9 +1432,9 @@
         "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "3e27928060941f1c",
-            "title": "Austria weighs cooling-off period for grey-market operators - igamingbusiness.com",
-            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMFF2OHNqNm5rSGthX21JSGlwMS1pQkExdTNyTEczUTM1WWtNU095c1ozQTBsTHFhcVdtcFo5dVlUbkNFdHJRWXBkSzRUd1NqeUFUNVpTbjJyV1dCMnRLTGV0OUFTd0VpMDliaTNNQ01IZGE5N2lPcXBJWTVhVU5pbDgtWG5QajVvX042LUJTYmtDbnB3WE03Q0EyQQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "c7c434f5bb2ac904",
+            "title": "Huffson Group - igbaffiliate.com",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03dFBzaXhUQi12X1BwVk8xd284TGp2Ty1VSmRmaEFxcXNMc0M5MTNCUUwybVF6R0U2SUNCTEpVMndSLTZvQXBPVTU2ak1RWXVjSmpuMDRWRlBmOEZEVHlROGU1c0UwMUk?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           }
         ],
@@ -1400,7 +1445,7 @@
         "score": 1.0
       },
       {
-        "topic": "snuneymuxw tribe",
+        "topic": "malta mep",
         "our_count": 1,
         "their_count": 0,
         "total": 1,
@@ -1411,9 +1456,33 @@
         "their_count_7d": 0,
         "examples_us": [
           {
-            "article_id": "81511731e2dd8054",
-            "title": "Snuneymuxw Tribe Acquires River Rock Casino to Extend Reach in British Columbia - GGB Magazine",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjhiN2lDbjN5cHBUdTVyaFBXSlRncWtsUnhoQmppSENCakdRMloweE9vWTloNVhCWDVTQTY4MXJvU1ZYNXR3TTRrcHNKQjZXenpBWjBuYXllUVVPT2tGN3BfRVRjVmRrODdZNEdIS1BoRFIxcW5JMXF6Y1B4WUwzZmRFUFJUNzJPb0FSUnFsdkxSNUpybHhTTWFmdmpRX1djWFk4YkUtTUR5aDA?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "article_id": "6c315c7740840193",
+            "title": "Malta MEP warns online gambling ad ban could boost illegal market - igamingbusiness.com",
+            "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSFkwNFpPVlAxVkgtWWttRDFYenhncUhyOGN4Q3doTmpDSjc3NmJZTElvVXo5ZzZOeV9aSC1TREtha3ZHOGE4ZUpWRlRUVXhMc1V6TDh4SVdqYWc3NEw4U2RRUEhiLVJqdC03VDg4ZHFkZkVNRnpfRy03SURjTEFPUjdGdFktWmEtNFRBNktvVWlmUEVjcEZxMFlTck96OFdIVVc3UFVQZnVoVUVXWTQ2bkE5RjNFZ2NQbGNneEFvbm1IUQ?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
+            "date": ""
+          }
+        ],
+        "examples_them": [],
+        "ownership": false,
+        "edge": false,
+        "momentum_7d": false,
+        "score": 1.0
+      },
+      {
+        "topic": "breaches ggb",
+        "our_count": 1,
+        "their_count": 0,
+        "total": 1,
+        "our_share": 1.0,
+        "their_share": 0.0,
+        "share_diff": 1.0,
+        "our_count_7d": 0,
+        "their_count_7d": 0,
+        "examples_us": [
+          {
+            "article_id": "49f863baa22ac814",
+            "title": "Australian Federal Court Penalizes Star Executives for AML Breaches - GGB Magazine",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWNVcE9FNHl2ZlAwcjdyNjdGVGZWZm1seklZRE5GNlNReWctOFF3VGNPcTZ5QkhlRmRUV2JKMTNuRUZ4cElPUDhadk9pdHhkbDVlNUVWTHNwYk5OZEhyVkN6djE0YnZ2UVBObEdxdTF2Z0dZb2IxUHREeW9lZHVEX1BLVUF0MlhWRWxZMkxvcFJlMGdyR2Vjam0teDNwZw?ceid=US%3Aen&gl=US&hl=en-US&oc=5",
             "date": ""
           }
         ],
@@ -1426,26 +1495,26 @@
     ],
     "metadata": {
       "brand_tokens_used": [
-        "press release",
-        "read more",
-        "www",
-        "htm",
-        "igamingbusiness",
-        "sponsored",
-        "article",
-        "igba",
-        "advertisement",
-        "php",
-        "igamingbusiness.com",
-        "www.igbaffiliate.com",
-        "com",
-        "www.igamingbusiness.com",
-        "news",
-        "igb",
-        "igbaffiliate.com",
-        "terms of service",
         "privacy policy",
-        "http"
+        "igamingbusiness.com",
+        "advertisement",
+        "read more",
+        "html",
+        "click here",
+        "https",
+        "htm",
+        "igba",
+        "editorial",
+        "http",
+        "cookie policy",
+        "www.igamingbusiness.com",
+        "www.igbaffiliate.com",
+        "igbaffiliate.com",
+        "barcelona.igbaffiliate.com",
+        "www",
+        "aspx",
+        "press release",
+        "news"
       ],
       "thresholds": {
         "min_total": 3,
@@ -1462,28 +1531,28 @@
       }
     },
     "diagnostics": {
-      "total_internal_articles": 298,
-      "total_competitor_articles": 1285,
-      "total_topics_extracted": 2158,
-      "topics_passing_gates": 7,
-      "near_advantages_count": 76
+      "total_internal_articles": 278,
+      "total_competitor_articles": 1294,
+      "total_topics_extracted": 2337,
+      "topics_passing_gates": 15,
+      "near_advantages_count": 78
     }
   },
-  "run_id": "20260707104609",
-  "generated_at": "2026-07-07T10:46:09.164455+00:00",
+  "run_id": "20260708100734",
+  "generated_at": "2026-07-08T10:07:34.077191+00:00",
   "analysis_period_days": 30,
   "metadata": {
-    "total_window_articles": 1583,
-    "total_window_competitor": 1285,
-    "total_window_internal": 298,
-    "articles_analyzed": 1583,
-    "analysis_date": "2026-07-07",
+    "total_window_articles": 1575,
+    "total_window_competitor": 1297,
+    "total_window_internal": 278,
+    "articles_analyzed": 1575,
+    "analysis_date": "2026-07-08",
     "analysis_period_days": 30,
-    "window_start_utc": "2026-06-07T10:46:11.553174+00:00",
-    "window_end_utc": "2026-07-07T10:46:11.553174+00:00",
+    "window_start_utc": "2026-06-08T10:07:36.470725+00:00",
+    "window_end_utc": "2026-07-08T10:07:36.470725+00:00",
     "batched": true,
     "batch_size_articles": 60,
     "soft_capped": false
   },
-  "articles_analyzed_count": 1583
+  "articles_analyzed_count": 1575
 }
