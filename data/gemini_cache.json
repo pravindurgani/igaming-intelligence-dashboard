@@ -1,273 +1,238 @@
 {
-  "e17b6abc6c532e528230d9d217e3da95": {
+  "cc431dfd9102c1ea88fc5e5bab2cafa6": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live event intel you won\u2019t find elsewhere",
-          "what_readers_get": "On\u2011site reports, keynote takeaways, and behind\u2011the\u2011scenes networking moments from industry conferences.",
-          "why_it_matters": "Event insights shape product roadmaps and regulatory strategies, giving readers a competitive edge.",
-          "evidence_summary": "Our event pieces make up 88% of our coverage versus 30% for rivals (\u22483\u2011times higher focus).",
+          "headline": "Insider Event Coverage Gives Readers Front\u2011Row Access to Industry Action",
+          "what_readers_get": "Live updates, keynote takeaways, and networking highlights that only insiders capture.",
+          "why_it_matters": "Event insights shape product roadmaps and investment decisions across iGaming.",
+          "evidence_summary": "Our portfolio devotes 88% of its content to events versus 30% by competitors\u2014a 2.97\u2011times higher concentration.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 416,
-          "concentration_ratio": 2.98
+          "internal_count": 425,
+          "concentration_ratio": 2.97
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Exclusive iGaming job listings and talent trends",
-          "what_readers_get": "Access to curated openings and insider hiring data across the sector.",
-          "why_it_matters": "Talent moves drive market shifts, so staying ahead on hiring informs business decisions.",
-          "evidence": "Four internal job\u2011posting articles (Software Engineer, Solutions Specialist, Finance Executive, Customer Support Intern) with no comparable competitor pieces.",
-          "confidence": "high"
+          "headline": "Regulatory Deep Dives Unpack Policy Shifts Impacting iGaming Operators",
+          "what_readers_get": "Clear analysis of new laws, enforcement actions, and compliance implications.",
+          "why_it_matters": "Regulatory changes can alter market access and risk exposure for operators.",
+          "evidence": "Four internal articles dissecting Australian ad rules, UKGC VPN enforcement, Dutch channelisation, and Robinhood prediction market restrictions.",
+          "confidence": "medium"
         },
         {
-          "headline": "Deep\u2011dive analysis of global gambling regulations",
-          "what_readers_get": "Clear breakdowns of new laws, enforcement actions, and market impact across key jurisdictions.",
-          "why_it_matters": "Regulatory changes can instantly alter revenue streams, making timely insight essential for operators.",
-          "evidence": "Five internal regulatory stories (Robinhood, Australia ads, Philippines GGR, Netherlands channelisation, UKGC tracking) versus limited competitor coverage.",
+          "headline": "Country\u2011Specific Market Intel Reveals Growth Hotspots and Risks",
+          "what_readers_get": "Data\u2011driven insights on GGR trends, regulatory environments, and expansion opportunities per country.",
+          "why_it_matters": "Localized intelligence guides operators\u2019 market entry and investment strategies.",
+          "evidence": "Articles covering Philippine GGR surge, Australian ad regulations, and European expansion plans.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "M&A and Expansion Reporting Shows Where the Industry Is Moving",
+          "what_readers_get": "Timely details on deals, acquisitions, and market entry plans.",
+          "why_it_matters": "Deal flow signals competitive dynamics and future growth corridors.",
+          "evidence": "Coverage of Evoke sale talks and Bally\u2019s Interactive\u2019s Italy and Romania expansion.",
           "confidence": "medium"
         }
       ],
-      "strategic_summary": "The portfolio delivers unrivaled event intel, career opportunities, and regulatory deep\u2011dives that empower iGaming professionals to stay ahead of market shifts.",
-      "overall_confidence": 0.92,
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event coverage, regulatory analysis, and market intelligence that empower iGaming professionals to act ahead of the curve.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-10T10:58:16.867356",
+    "timestamp": "2026-07-11T09:29:07.973415",
     "ttl_hours": 24
   },
-  "956d6c20b1903edbcaf168891d593880": {
+  "1ddd6636f12dc9281c5b2f9f8faa1b7a": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "Flutter Entertainment",
-          "news_trigger": "Departure of long\u2011time executive Asaf Noifeld after 12+ years (Global Gaming Insider)",
-          "pitch_angle": "Position Flutter as a thought\u2011leader on leadership transition and governance \u2013 sponsor a post\u2011departure leadership summit or executive round\u2011table.",
+          "company": "1win",
+          "news_trigger": "Launch of a $100,000 FIFA World Cup 2026 tournament to drive traffic (iGaming Afrika)",
+          "pitch_angle": "Offer 1win a turnkey B2B solution for tournament management, real\u2011time odds feeds and cross\u2011promotional marketing to maximise player acquisition ahead of the World Cup.",
           "urgency": "High"
         },
         {
-          "company": "BetConstruct Africa",
-          "news_trigger": "Interview with CTO Siviwe Xegwana highlighting AI\u2011driven product roadmap (iGaming Future)",
-          "pitch_angle": "Offer a technology\u2011focused sponsorship package around AI, data analytics and African market expansion.",
+          "company": "DigiPlus",
+          "news_trigger": "Selected to lead International Entertainment Corporation\u2019s Philippines iGaming launch (iGaming Expert)",
+          "pitch_angle": "Position DigiPlus as the preferred payment\u2011gateway and compliance partner for IEC\u2019s new Philippine licence, leveraging our localized risk\u2011management suite.",
           "urgency": "Medium"
-        },
-        {
-          "company": "WagerWire",
-          "news_trigger": "Announced plan to become Gibraltar\u2019s second predictions platform (SBC News)",
-          "pitch_angle": "Partner on a predictions\u2011engine showcase \u2013 sponsor a live demo series and co\u2011host a predictions hackathon.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "BETBY",
-          "news_trigger": "Launch of new eTennis experience and expanded betting package ahead of the World Cup (iGaming Future)",
-          "pitch_angle": "Capitalize on the eSports momentum \u2013 sponsor the eTennis launch event and provide branded betting widgets.",
-          "urgency": "High"
         },
         {
           "company": "Matchbook",
-          "news_trigger": "Roll\u2011out of ADI Predictstreet prediction market across the UK (SBC News)",
-          "pitch_angle": "Secure a data\u2011analytics sponsorship for the Predictstreet platform \u2013 host a predictive\u2011markets workshop.",
-          "urgency": "High"
-        },
-        {
-          "company": "PowerPlay",
-          "news_trigger": "Addition of Gaming Corps content in Ontario (iGaming Future)",
-          "pitch_angle": "Target the Canadian market \u2013 sponsor a regional content\u2011distribution summit and co\u2011create localized promotions.",
+          "news_trigger": "Rollout of ADI Predictstreet prediction\u2011market product across the UK and partnership for World Cup prediction market (SBC News & EGR Global)",
+          "pitch_angle": "Provide Matchbook with advanced API integration, data\u2011analytics dashboards and joint marketing campaigns to accelerate user adoption of the new product.",
           "urgency": "Medium"
-        },
-        {
-          "company": "Melco",
-          "news_trigger": "Extension of US$1.94\u202fbn credit line to 2031 (iGaming Today)",
-          "pitch_angle": "Offer financial\u2011services branding \u2013 sponsor a fintech\u2011in\u2011gaming panel discussing capital strategies for operators.",
-          "urgency": "Low"
-        },
-        {
-          "company": "Underdog",
-          "news_trigger": "General counsel exit after nearly four years (EGR Global)",
-          "pitch_angle": "Position as a compliance\u2011tech innovator \u2013 sponsor a legal\u2011tech round\u2011table on AML and regulatory change.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "ATG",
-          "news_trigger": "Appointment of Anna Romboli as CEO for a new vision of Swedish racing (SBC News)",
-          "pitch_angle": "Leverage the Swedish racing revival \u2013 sponsor a racing\u2011innovation forum and showcase ATG\u2019s roadmap.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Tonybet",
-          "news_trigger": "World Cup campaign targeting Irish players (iGaming Future)",
-          "pitch_angle": "Align with the World Cup buzz \u2013 sponsor a campaign\u2011performance analytics session and provide co\u2011branded assets.",
-          "urgency": "High"
         },
         {
           "company": "Optimove",
-          "news_trigger": "Greece emerged as the strongest European performer in May (EGR Global)",
-          "pitch_angle": "Highlight data\u2011driven marketing success \u2013 sponsor a case\u2011study webinar on Greek market activation.",
+          "news_trigger": "Reported Greece as the strongest European performer in May (EGR Global)",
+          "pitch_angle": "Invite Optimove to sponsor a data\u2011driven player\u2011retention workshop, showcasing our AI\u2011personalisation engine that can replicate Greek success across other markets.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Bet365",
+          "news_trigger": "Announced partnership with an AI live\u2011casino supplier and collaboration with Genius Sports (EGR Global)",
+          "pitch_angle": "Offer Bet365 a co\u2011branding opportunity for a live\u2011casino AI sandbox, enabling beta testing of next\u2011gen game\u2011streaming tech with our developer community.",
           "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Asaf Noifeld",
-          "topic_expertise": "Corporate strategy, leadership transition, M&A integration",
-          "news_relevance": "Recent departure after 12\u202fyears at Flutter Entertainment signals potential strategic shift.",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "Siviwe Xegwana",
-          "topic_expertise": "AI integration, product development, African iGaming market",
-          "news_relevance": "Featured in a CTO interview discussing BetConstruct Africa\u2019s AI roadmap.",
+          "person_or_company": "U.S. Commodity Futures Trading Commission (CFTC)",
+          "topic_expertise": "Regulation of micro\u2011betting and prediction markets",
+          "news_relevance": "Currently scrutinising micro\u2011betting and prediction\u2011market activities (iGaming Expert)",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Anna Romboli",
-          "topic_expertise": "Swedish racing, market expansion, regulatory navigation",
-          "news_relevance": "Newly appointed CEO of ATG with a fresh vision for Swedish racing.",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Jennings Bet CEO",
-          "topic_expertise": "UK retail betting outlook, growth strategies, market resilience",
-          "news_relevance": "Publicly dismissed negativity around UK retail betting while reporting growth.",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Tonybet Marketing Lead (e.g., John O'Connor)",
-          "topic_expertise": "World Cup campaign design, localized betting offers, player acquisition",
-          "news_relevance": "Launch of a World Cup\u2011focused campaign for Irish players.",
+          "person_or_company": "UK Gambling Commission",
+          "topic_expertise": "Anti\u2011money\u2011laundering (AML) and player protection frameworks",
+          "news_relevance": "Issued a \u2018wake\u2011up call\u2019 to UK operators on AML compliance (SBC News)",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Matchbook Product Lead (e.g., Sarah Patel)",
-          "topic_expertise": "Predictive markets, ADI integration, UK product rollout",
-          "news_relevance": "Roll\u2011out of ADI Predictstreet across the UK and partnership announcements.",
+          "person_or_company": "Matchbook Executive Team",
+          "topic_expertise": "Launch and scaling of prediction\u2011market platforms",
+          "news_relevance": "Recently launched ADI Predictstreet and World Cup prediction market (EGR Global)",
           "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "Flutter Entertainment Executive (e.g., CEO or CFO)",
+          "topic_expertise": "Strategic impact of leadership changes on market positioning",
+          "news_relevance": "Recent LSE departure and its macro\u2011economic implications (iGaming Expert)",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "Kenyan Gaming Authority Representative",
+          "topic_expertise": "Digital fraud mitigation and player safety initiatives",
+          "news_relevance": "Kenya records highest digital fraud rate in Africa, yet also won a top player\u2011safety award (iGaming Afrika)",
+          "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "WagerWire",
-            "Matchbook"
+            "Matchbook",
+            "ADI Predictstreet"
           ],
           "partnership_type": "Product",
-          "opportunity": "Co\u2011develop a joint predictions marketplace leveraging WagerWire\u2019s platform and Matchbook\u2019s ADI Predictstreet data."
-        },
-        {
-          "companies_involved": [
-            "BetConstruct Africa",
-            "Optimove"
-          ],
-          "partnerhip_type": "Product",
-          "opportunity": "Integrate Optimove\u2019s data\u2011driven marketing engine with BetConstruct\u2019s AI tools to boost player acquisition in emerging African markets."
-        },
-        {
-          "companies_involved": [
-            "Melco",
-            "BetConstruct AI"
-          ],
-          "partnership_type": "Investment",
-          "opportunity": "Utilise Melco\u2019s extended credit line to fund BetConstruct AI\u2019s next\u2011gen platform enhancements."
+          "opportunity": "Co\u2011host a World Cup prediction\u2011market tournament series and jointly develop a branded analytics dashboard for bettors."
         },
         {
           "companies_involved": [
             "ATG",
-            "BetConstruct AI"
+            "Svenska Spel (via former VP)"
           ],
-          "partnership_type": "M&A",
-          "opportunity": "Explore acquisition of BetConstruct AI\u2019s racing\u2011data module to enrich ATG\u2019s Swedish racing product suite."
+          "partnership_type": "M&A/Leadership",
+          "opportunity": "Facilitate a strategic alliance to bring Swedish racing expertise into ATG\u2019s broader European betting portfolio."
+        },
+        {
+          "companies_involved": [
+            "Entain",
+            "UK Intellectual Property Office (UKIPO)"
+          ],
+          "partnership_type": "Legal/Regulatory",
+          "opportunity": "Offer Entain a consultancy partnership to navigate trademark disputes and shape future policy advocacy."
         }
       ],
-      "timing_recommendations": "World Cup\u2011related activities (BETBY, Tonybet, Matchbook, WagerWire) are time\u2011critical \u2013 aim to lock sponsorships and speaker slots before the tournament kickoff (mid\u2011June). Regulatory developments (Dutch penalty, UK AML wake\u2011up call, Gibraltar tax reshuffle) require immediate engagement \u2013 schedule compliance\u2011focused panels within the next 4\u20116 weeks. Mid\u2011term (Q3) opportunities include the Gibraltar innovation push and ATG\u2019s Swedish racing rollout, suitable for medium\u2011urgency sponsorships."
+      "timing_recommendations": "Capitalize on the imminent FIFA World Cup 2026 betting surge (Q4\u20112026) by securing sponsorships and speaking slots with tournament\u2011focused operators (e.g., 1win, Matchbook). Simultaneously, act quickly on Kenya\u2019s regulatory crackdown and player\u2011protection award (Q3\u20112024) to position compliance\u2011focused solutions. Monitor the Dutch regulator\u2019s \u20ac886k penalty case for immediate compliance\u2011product outreach, and leverage the UK Gambling Commission\u2019s AML wake\u2011up call for short\u2011term advisory engagements."
     },
-    "timestamp": "2026-07-10T10:58:18.934453",
+    "timestamp": "2026-07-11T09:29:09.613869",
     "ttl_hours": 24
   },
-  "42430142723a6ca0a06547fc3ef0f4f0": {
+  "9e3e9f287272645055718574cba5fc96": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "BETBY",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "BETBY announced a new eTennis experience and expanded betting package ahead of Wimbledon",
-          "booth_pitch": "Medium (\u224820\u202fsqm) booth with live eTennis demo stations, a lounge for partnership talks, and a showcase of the expanded betting suite targeting the Wimbledon audience",
+          "company": "1win Partners",
+          "category_fit": "General iGaming / Sports Betting \u2013 Affiliate & Operator Services",
+          "news_trigger": "Launch of a $100,000 FIFA World Cup 2026 tournament for affiliates to drive traffic (June 2026)",
+          "booth_pitch": "Medium (\u224820\u202fsqm) booth with a dedicated demo zone for the new affiliate tournament platform, live leader\u2011board display and networking lounge to attract operators and affiliate managers.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
+          "estimated_booth_size": "Medium (20\u202fsqm)"
         },
         {
-          "company": "WagerWire",
-          "category_fit": "Prediction Markets / Sports Betting Technology",
-          "news_trigger": "WagerWire is positioning itself as Gibraltar\u2019s second predictions platform",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth focused on quick product demos of the prediction engine, a meeting area for B2B talks, and a digital screen highlighting Gibraltar\u2019s regulatory advantages",
+          "company": "SOFTSWISS",
+          "category_fit": "General iGaming / Sports Betting \u2013 Platform & Prediction\u2011Market Solutions",
+          "news_trigger": "Hosted a live panel on prediction markets for iGaming operators, signalling rollout of a new prediction\u2011market product suite.",
+          "booth_pitch": "Large (\u224850\u202fsqm+) booth with multiple demo stations showcasing the prediction\u2011market engine, integration APIs and a mini\u2011lecture space for thought\u2011leadership sessions.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
+          "estimated_booth_size": "Large (50\u202fsqm+)"
+        },
+        {
+          "company": "DigiPlus",
+          "category_fit": "General iGaming / Sports Betting \u2013 Regional Expansion (Philippines)",
+          "news_trigger": "Appointed to lead International Entertainment Corporation\u2019s Philippines iGaming charge, indicating a fresh market entry.",
+          "booth_pitch": "Small (\u224810\u202fsqm) booth focused on regional partnership opportunities, with a video wall highlighting the Philippines rollout roadmap and a meeting table for B2B talks.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10\u202fsqm)"
         },
         {
           "company": "Matchbook",
-          "category_fit": "Prediction Markets / Sports Betting",
-          "news_trigger": "Matchbook launched ADI Predictstreet for a World Cup prediction market platform in the UK",
-          "booth_pitch": "Large (\u224850\u202fsqm+) exhibition space with a live World Cup prediction wall, interactive demo pods, and a dedicated area for partnership negotiations with UK operators",
+          "category_fit": "General iGaming / Sports Betting \u2013 Prediction Markets & Micro\u2011Betting",
+          "news_trigger": "Partnered with ADI Predictstreet to launch a World Cup prediction\u2011market platform across the UK.",
+          "booth_pitch": "Medium (\u224820\u202fsqm) booth featuring a live demo of the World Cup prediction market, real\u2011time betting odds display, and a private meeting area for sportsbook partners.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
+          "estimated_booth_size": "Medium (20\u202fsqm)"
         },
         {
-          "company": "PowerPlay",
-          "category_fit": "Content Provider / General iGaming",
-          "news_trigger": "PowerPlay added Gaming Corps content to its portfolio for the Ontario market",
-          "booth_pitch": "Medium (\u224820\u202fsqm) booth featuring a content showcase lounge, regulatory compliance briefings for Canadian operators, and a demo area for new game titles",
+          "company": "Entain",
+          "category_fit": "General iGaming / Sports Betting \u2013 Global Operator Expansion",
+          "news_trigger": "Announced a strategic push into the New\u202fZealand iGaming market, aiming for a significant market share.",
+          "booth_pitch": "Large (\u224850\u202fsqm+) booth highlighting Entain\u2019s full\u2011stack sportsbook and casino portfolio, with a focus on NZ regulatory compliance and partnership models.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
+          "estimated_booth_size": "Large (50\u202fsqm+)"
         },
         {
-          "company": "Kalshi",
-          "category_fit": "Prediction Markets / RegTech",
-          "news_trigger": "Kalshi is seeking to reverse Brazil\u2019s block on prediction markets",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth with a focus on regulatory dialogue, a briefing area for Latin\u2011American partners, and a demo of its prediction\u2011market platform",
+          "company": "1spin4win",
+          "category_fit": "General iGaming / Sports Betting \u2013 Latin America Growth",
+          "news_trigger": "Released a roadmap for meeting diverse user demands across LatAm, positioning itself for rapid expansion in the region.",
+          "booth_pitch": "Medium (\u224820\u202fsqm) booth with localized product demos, multilingual staff, and a lounge for Latin\u2011American operators seeking market\u2011entry partners.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
+          "estimated_booth_size": "Medium (20\u202fsqm)"
         },
         {
-          "company": "BetConstruct",
-          "category_fit": "AI & Platform Provider",
-          "news_trigger": "BetConstruct announced AI initiatives leveraging an ex\u2011Pragmatic Play executive and highlighted its CTO\u2019s interview on African expansion",
-          "booth_pitch": "Large (\u224850\u202fsqm+) booth with AI\u2011driven game development showcases, a dedicated African\u2011market lounge, and meeting rooms for platform integration discussions",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Large (50sqm+)"
+          "company": "Optimove",
+          "category_fit": "Marketing & Player Retention \u2013 Data\u2011Driven CRM",
+          "news_trigger": "Reported Greece as the strongest European performer in May, underscoring the platform\u2019s growth in regulated markets.",
+          "booth_pitch": "Small (\u224810\u202fsqm) booth showcasing case studies of AI\u2011driven retention campaigns, with a focus on compliance\u2011friendly data practices for iGaming operators.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10\u202fsqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "AI & Machine\u2011Learning Solutions for Game Development",
-          "opportunity": "Few exhibitors currently showcase AI\u2011driven content creation, yet operators are actively seeking efficiency gains and differentiated product pipelines.",
+          "category": "Prediction\u2011Market & Micro\u2011Betting Platforms",
+          "opportunity": "Few exhibitors currently showcase dedicated prediction\u2011market engines, yet demand is rising ahead of the 2026 World Cup and regulatory scrutiny.",
           "target_company_types": [
-            "AI platform providers",
-            "Game studios integrating ML",
-            "Tech\u2011focused B2B solution firms"
+            "Specialised prediction\u2011market providers",
+            "Micro\u2011betting platforms",
+            "Data\u2011analytics firms"
           ]
         },
         {
-          "category": "African Market Operators & Service Providers",
-          "opportunity": "Rapid growth in data\u2011driven marketing and regulatory changes in Africa create demand for networking, yet representation at ICE/iGB is limited.",
+          "category": "Player Protection & AML Technology",
+          "opportunity": "Regulators (e.g., UK Gambling Commission, Dutch regulator) are tightening AML and player\u2011protection rules, creating a need for dedicated compliance solutions.",
           "target_company_types": [
-            "Regional operators",
-            "Marketing tech firms targeting Africa",
-            "Payment and compliance providers with African licences"
-          ]
-        },
-        {
-          "category": "RegTech & AML Compliance Solutions",
-          "opportunity": "Recent regulator warnings (e.g., UK Gambling Commission) increase appetite for compliance tech, but few compliance\u2011focused exhibitors are present.",
-          "target_company_types": [
-            "AML software vendors",
-            "Regulatory advisory firms",
+            "KYC/AML SaaS vendors",
+            "Responsible\u2011gaming toolkits",
             "Risk\u2011management platforms"
+          ]
+        },
+        {
+          "category": "Affiliate Management & Performance Marketing",
+          "opportunity": "Affiliate\u2011driven traffic is a core growth engine (e.g., 1win\u2019s $100k tournament), yet the affiliate\u2011tech space remains under\u2011represented at ICE/iGB.",
+          "target_company_types": [
+            "Affiliate network platforms",
+            "Performance\u2011marketing agencies",
+            "Tracking & attribution solutions"
           ]
         }
       ],
-      "timing_note": "Reach out immediately (June\u2011July) to align with product launch cycles: BETBY\u2019s Wimbledon rollout (July), Matchbook\u2019s World Cup prediction platform (June\u2011July), and Kalshi\u2019s Brazil regulatory push. Early contact allows sponsors to secure prime booth locations and integrate pre\u2011event marketing activities."
+      "timing_note": "Begin outreach in early Q3 (July\u2013August 2026) to align with the pre\u2011World Cup hype and give prospects ample time to plan budgets and booth designs before the November ICE/iGB event. High\u2011urgency contacts (e.g., 1win Partners, Matchbook) should be engaged immediately to secure prime booth locations."
     },
-    "timestamp": "2026-07-10T10:58:19.897593",
+    "timestamp": "2026-07-11T09:29:10.982971",
     "ttl_hours": 24
   }
 }
