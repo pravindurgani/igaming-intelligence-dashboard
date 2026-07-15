@@ -1,111 +1,167 @@
 {
-  "7fceb86266b01224dfd1c5deca3636a2": {
+  "735493f5e98b3aba17c36801c2df0c0d": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage That Goes Beyond the Main Stage",
-          "what_readers_get": "On\u2011the\u2011ground insights, keynote takeaways, and networking highlights you won\u2019t find elsewhere.",
-          "why_it_matters": "Live event intel lets operators anticipate trends and act faster than rivals who only report headlines.",
-          "evidence_summary": "Our portfolio delivers 33% of all event\u2011related stories (446 of 1,346) while competitors cover only 22% (900 of 4,023), a concentration ratio of 2.97.",
+          "headline": "Live event coverage with exclusive floor\u2011level insights",
+          "what_readers_get": "Instant access to keynote takeaways, behind\u2011the\u2011scenes interviews, and networking highlights that other outlets miss.",
+          "why_it_matters": "Industry events set the agenda for product launches, regulatory shifts, and partnership deals, so missing them means missing the next big move.",
+          "evidence_summary": "Our event stories make up about 89% of our output versus roughly 30% for competitors \u2013 a 2.9\u2011times higher concentration.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 446,
-          "concentration_ratio": 2.97
+          "internal_count": 447,
+          "concentration_ratio": 2.95
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Exclusive Career & Hiring Insights for the iGaming Workforce",
-          "what_readers_get": "Early access to new job listings, role descriptions, and talent trends across the sector.",
-          "why_it_matters": "Knowing who\u2019s hiring and what skills are in demand helps operators plan recruitment and stay competitive.",
-          "evidence": "Four internal articles titled \u201cSoftware Engineer in Test\u201d, \u201cSolutions Specialist\u201d, \u201cCustomer Support Intern\u201d, and \u201cFinance Executive \u2013 Account Receivables\u201d were identified, while competitor feeds contain no comparable hiring content.",
+          "headline": "In\u2011depth regulatory analysis that keeps you ahead of legal change",
+          "what_readers_get": "Clear, actionable breakdowns of new gambling laws, enforcement actions, and policy trends across key markets.",
+          "why_it_matters": "Regulatory shifts can instantly alter market viability and risk exposure for operators and investors.",
+          "evidence": "6 of the last 12 internal articles focus on regulation (e.g., Philippine regulator GGR data, UKGC VPN tracking), while only 3 of 12 competitor pieces address policy.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Early warnings on illegal and prediction\u2011market gambling trends",
+          "what_readers_get": "Timely alerts about emerging illicit betting activities and prediction\u2011market crackdowns before they impact mainstream markets.",
+          "why_it_matters": "Underground gambling can erode revenue, attract regulatory fines, and signal shifting consumer behavior.",
+          "evidence": "3 internal pieces spotlight illegal prediction markets (Singapore, Brazil, H2GC analysis) with no comparable competitor coverage.",
           "confidence": "high"
+        },
+        {
+          "headline": "Strategic M&A and partnership intelligence for growth planning",
+          "what_readers_get": "Detailed reporting on merger talks, acquisition targets, and expansion strategies of leading operators.",
+          "why_it_matters": "Deal activity reshapes market concentration and opens new opportunities for investors and service providers.",
+          "evidence": "2 internal articles cover major talks (Evoke\u2011Bally\u2019s Intralot sale, Bally\u2019s Interactive expansion) while competitors largely miss these deals.",
+          "confidence": "medium"
         }
       ],
-      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event intel and exclusive hiring intelligence that keep iGaming professionals ahead of market shifts.",
-      "overall_confidence": 0.88,
+      "strategic_summary": "The portfolio delivers the industry\u2019s most actionable event, regulatory, and market\u2011risk intelligence, empowering readers to anticipate and act on the forces shaping iGaming.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-14T09:58:16.646721",
+    "timestamp": "2026-07-15T10:02:07.561681",
     "ttl_hours": 24
   },
-  "361abbb481362f9f6087f703880ebb36": {
+  "201017a4c17f0fd7fd681ffac2c45b43": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "BGaming",
-          "news_trigger": "BGaming reflected on the impact of its charity gala and announced the return of the TRUE WAYS Online Conference",
-          "pitch_angle": "Position your brand as a CSR partner for upcoming BGaming events and leverage their conference audience for brand visibility",
-          "urgency": "High"
-        },
-        {
-          "company": "Spinomenal",
-          "news_trigger": "Launch of the new slot 'Tornado Treasure \u2013 Hold & Hit 3\u00d73' generating buzz in the slot market",
-          "pitch_angle": "Offer co\u2011marketing support and exclusive promotional assets to boost launch performance across key regulated markets",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Genius Sports",
-          "news_trigger": "CEO interview on winning with Legend platform, highlighting data\u2011driven sports betting solutions",
-          "pitch_angle": "Invite Genius Sports to present a case\u2011study workshop on data integration for operators looking to enhance live\u2011betting odds",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Crossmint",
-          "news_trigger": "Crossmint and Paga bringing multi\u2011chain stablecoins to Africa",
-          "pitch_angle": "Partner on a fintech\u2011gaming sandbox to explore stablecoin payments for African operators and attract crypto\u2011savvy audiences",
-          "urgency": "High"
-        },
-        {
           "company": "Logifuture",
-          "news_trigger": "Launch of virtual football product Zoom in Kenya through Betika partnership",
-          "pitch_angle": "Sponsor a regional demo tour and provide integration support to accelerate adoption of virtual sports in East Africa",
-          "urgency": "Low"
+          "news_trigger": "Launch of Zoom virtual football product in Kenya via Betika (multiple sources)",
+          "pitch_angle": "Position Logifuture as the leading provider of virtual sports in emerging African markets; offer co\u2011branding at regional conferences and data\u2011driven case studies on player acquisition.",
+          "urgency": "High"
+        },
+        {
+          "company": "LeoVegas",
+          "news_trigger": "Swedish court overturns SEK\u202f8\u202fm fine for RG breaches",
+          "pitch_angle": "Highlight LeoVegas' regulatory resilience and invite them to sponsor a panel on navigating European gambling litigation.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Evolution",
+          "news_trigger": "Court denies Evolution's request to add Playtech as a defendant in a lawsuit",
+          "pitch_angle": "Leverage Evolution's high\u2011profile legal battle to secure a thought\u2011leadership slot on risk management and litigation strategy for live\u2011dealer platforms.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "DraftKings",
+          "news_trigger": "SVP urges CTFC to create a level playing field; Nevada regulator seeks contempt action against Kalshi (related regulatory focus)",
+          "pitch_angle": "Capitalize on DraftKings' advocacy for fair regulation; propose a keynote on US regulatory harmonisation and a workshop on responsible gaming compliance.",
+          "urgency": "High"
         },
         {
           "company": "Sportybet",
-          "news_trigger": "Sportybet backs Kenyan talent with VURUGU 2 sponsorship",
-          "pitch_angle": "Co\u2011sponsor grassroots esports initiatives and leverage Sportybet\u2019s local reach for brand activation in Kenya",
+          "news_trigger": "Backs Kenyan talent with VURUGU 2 sponsorship",
+          "pitch_angle": "Target Sportybet for sponsorship of talent\u2011development tracks at African iGaming summits, emphasizing community impact and brand visibility.",
+          "urgency": "Low"
+        },
+        {
+          "company": "Playtech",
+          "news_trigger": "Featured in multiple slot\u2011chart successes (bet365, Evolution lawsuit) and top Spanish slots rankings",
+          "pitch_angle": "Offer Playtech a showcase slot for its new slot releases and a joint research partnership on slot performance analytics in Europe.",
           "urgency": "Medium"
+        },
+        {
+          "company": "Luckia",
+          "news_trigger": "Celebrates Galicia Champion with new office opening",
+          "pitch_angle": "Invite Luckia to sponsor a regional networking event focused on Iberian market expansion and cross\u2011border licensing.",
+          "urgency": "Low"
+        },
+        {
+          "company": "21.com",
+          "news_trigger": "Launch under Michael Carlton",
+          "pitch_angle": "Position 21.com as a fresh entrant for brand\u2011building opportunities at upcoming launch\u2011focused workshops and digital\u2011media panels.",
+          "urgency": "Low"
+        },
+        {
+          "company": "SiGMA North America",
+          "news_trigger": "Industry leaders back its upcoming Mexico launch",
+          "pitch_angle": "Partner with SiGMA to co\u2011host a cross\u2011border market entry summit, leveraging their network for sponsor exposure in North America.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Blask",
+          "news_trigger": "Launch of real\u2011time interest map tracking World Cup 2026 nations",
+          "pitch_angle": "Secure Blask as a data\u2011partner for World Cup\u2011related analytics sessions and offer a showcase booth at the 2026 tournament events.",
+          "urgency": "High"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Grainne Hurst (CEO, BGC)",
-          "topic_expertise": "Regulatory policy, taxation, and digital advertising in iGaming",
-          "news_relevance": "Recent interview on politics, taxes and Google positioning BGC as a thought leader",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "CEO, Genius Sports",
-          "topic_expertise": "Sports data integration and AI\u2011driven betting platforms",
-          "news_relevance": "Featured discussing the Legend platform and its market impact",
+          "person_or_company": "LeoVegas \u2013 Head of Regulatory Affairs",
+          "topic_expertise": "European gambling compliance and litigation strategy",
+          "news_relevance": "Recent court overturn of a multi\u2011million\u2011euro fine highlights regulatory expertise",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Head of Partnerships, Crossmint",
-          "topic_expertise": "Stablecoin and multi\u2011chain solutions for gaming payments",
-          "news_relevance": "Announced partnership with Paga to bring stablecoins to Africa",
+          "person_or_company": "Evolution \u2013 Chief Legal Officer",
+          "topic_expertise": "Live\u2011dealer platform risk management and litigation",
+          "news_relevance": "Active lawsuit involving Playtech underscores need for legal insight",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "DraftKings \u2013 Senior Vice President of Public Policy",
+          "topic_expertise": "US regulatory harmonisation and responsible gaming",
+          "news_relevance": "Public call for a level playing field and recent Nevada regulator actions",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "KSA Regulatory Authority Representative",
+          "topic_expertise": "Self\u2011exclusion enforcement and advertising standards in Saudi Arabia",
+          "news_relevance": "Recent reprimands to Betnation and TOTO Online for ad and self\u2011exclusion breaches",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "Poland Ministry of Finance \u2013 Gaming Streams Taskforce Lead",
+          "topic_expertise": "Youth protection and gambling stream regulation",
+          "news_relevance": "Poland criminalises gambling streams to protect minors",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Sportybet \u2013 Marketing Director",
+          "topic_expertise": "Sports sponsorship and talent development in emerging markets",
+          "news_relevance": "VURUGU\u202f2 sponsorship of Kenyan talent",
           "session_type": "Workshop"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "RubyPlay",
-            "Fanatics Casino"
+            "Evolution",
+            "Playtech"
           ],
-          "partnership_type": "Product Integration",
-          "opportunity": "Facilitate a joint promotional campaign highlighting RubyPlay\u2019s slot portfolio within Fanatics\u2019 New Jersey market"
+          "partnership_type": "Litigation/Product",
+          "opportunity": "Monitor the outcome of the lawsuit for potential joint\u2011venture or acquisition talks; position our portfolio as a neutral mediator or data\u2011provider for settlement negotiations."
         },
         {
           "companies_involved": [
-            "bet365",
-            "G Games (99Royale)"
+            "Bet Ahoy",
+            "EveryMatrix"
           ],
-          "partnerhip_type": "Product Launch",
-          "opportunity": "Co\u2011host a launch event and provide exclusive bonus codes to drive early adoption of 99Royale on bet365"
+          "partnership_type": "Product Integration",
+          "opportunity": "Leverage Bet Ahoy's UK launch on the EveryMatrix platform to co\u2011host a UK\u2011focused operator summit, offering sponsorship slots and joint branding."
         },
         {
           "companies_involved": [
@@ -113,95 +169,112 @@
             "Betika"
           ],
           "partnership_type": "Market Expansion",
-          "opportunity": "Create a regional showcase for the Zoom virtual football product, targeting Kenyan operators and regulators"
+          "opportunity": "Facilitate introductions to regional payment providers and regulators to accelerate virtual sports adoption across East Africa."
+        },
+        {
+          "companies_involved": [
+            "DraftKings",
+            "Kalshi"
+          ],
+          "partnership_type": "Regulatory Advocacy",
+          "opportunity": "Create a coalition for US market fairness, positioning our portfolio as a strategic advisor on policy lobbying."
         }
       ],
-      "timing_recommendations": "Capitalize on the upcoming World Cup 2026 momentum: fast\u2011track sponsorship talks with companies active in the Middle East (TOTO Online, KSA regulators) and Eastern Europe (BGaming, Fortuna CZ) before licensing windows close. Leverage the Q3\u2011Q4 2026 window for African stablecoin initiatives (Crossmint, Paga) as regulatory frameworks are being drafted."
+      "timing_recommendations": "Prioritize outreach to Logifuture, DraftKings, and Blask before the World Cup 2026 kickoff (June\u202f2026) to secure sponsorship and speaking slots tied to the tournament. Additionally, engage KSA regulators and Polish authorities within the next 4\u20116 weeks to align with their newly announced enforcement actions and youth\u2011protection measures."
     },
-    "timestamp": "2026-07-14T09:58:18.019546",
+    "timestamp": "2026-07-15T10:02:15.014290",
     "ttl_hours": 24
   },
-  "f67e41aef9962ebf3f39ecd82c6c5fcf": {
+  "1ba9c576ed4505501cd80fd02209e9a4": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Spinomenal",
-          "category_fit": "General iGaming \u2013 Slot & Game Provider",
-          "news_trigger": "Launch of the new Tornado Treasure \u2013 Hold & Hit 3\u00d73 slot",
-          "booth_pitch": "Medium (20\u202fsqm) booth with multiple demo stations, live streaming of the new slot, and a speaking slot at the Game Innovation Forum to showcase the Tornado Treasure mechanics.",
+          "company": "Logifuture",
+          "category_fit": "B2B \u2013 Virtual Sports Provider",
+          "news_trigger": "Launch of Zoom Virtual Football in Kenya through Betika partnership",
+          "booth_pitch": "Medium (20\u202fsqm) booth to demo the Zoom platform live, host demo sessions for African operators, and position Logifuture as the go\u2011to virtual sports partner for emerging markets.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "RubyPlay",
-          "category_fit": "General iGaming \u2013 US Market Expansion",
-          "news_trigger": "Partnership with Fanatics Casino to launch in New Jersey, signalling a major US market entry.",
-          "booth_pitch": "Large (50\u202fsqm+) flagship booth with a dedicated US\u2011market lounge, live demo of the New Jersey offering, and a panel slot on \u201cNavigating US Regulatory Landscapes\u201d.",
-          "contact_urgency": "High",
+          "company": "LeoVegas",
+          "category_fit": "Operator \u2013 Online Casino & Sportsbook",
+          "news_trigger": "Swedish court overturns SEK\u202f8\u202fm fine, freeing capital for expansion",
+          "booth_pitch": "Large (50\u202fsqm+) exhibition space to showcase new product road\u2011map, highlight regulatory compliance, and attract B2B partners for Nordic and EU growth.",
+          "contact_urgency": "Medium",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "G Games",
-          "category_fit": "General iGaming \u2013 New Slot Title",
-          "news_trigger": "bet365 to launch G\u202fGames\u2019 99Royale, a high\u2011stakes slot targeting premium players.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a high\u2011resolution demo of 99Royale, lead\u2011capture technology, and a 5\u2011minute product showcase on the main stage.",
+          "company": "Kalshi",
+          "category_fit": "Regulated Betting Exchange \u2013 US Market",
+          "news_trigger": "Nevada regulator request to hold Kalshi in contempt of court \u2013 high\u2011profile regulatory spotlight",
+          "booth_pitch": "Small (10\u202fsqm) booth focused on compliance education, US market entry strategy, and partnership opportunities with US operators and data providers.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Boomberries",
+          "category_fit": "Game Developer \u2013 Slots",
+          "news_trigger": "Positive slot review and increasing demand for fresh content",
+          "booth_pitch": "Medium (20\u202fsqm) interactive booth with live slot demos, a content library showcase, and scheduled meetings with operators looking for new titles.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Logifuture",
-          "category_fit": "Virtual Sports & Emerging Markets",
-          "news_trigger": "Launch of the virtual football product \u201cZoom\u201d in Kenya via Betika partnership.",
-          "booth_pitch": "Small (10\u202fsqm) booth focused on African market outreach, featuring interactive kiosks that let attendees try Zoom and a networking area for regional operators.",
+          "company": "DraftKings",
+          "category_fit": "Operator \u2013 US Sportsbook & Daily Fantasy",
+          "news_trigger": "SVP urges CTFC for a level playing field \u2013 signals strategic lobbying and market expansion",
+          "booth_pitch": "Large (50\u202fsqm+) flagship booth to present US sportsbook innovations, data\u2011analytics capabilities, and partnership models for international operators.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "21.com",
+          "category_fit": "Operator \u2013 Emerging Online Casino",
+          "news_trigger": "Launch under Michael Carlton, indicating fresh market entry",
+          "booth_pitch": "Small (10\u202fsqm) booth to introduce the brand, showcase flagship games, and secure early\u2011stage B2B relationships.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "BGaming",
-          "category_fit": "General iGaming \u2013 Slot Provider & Community Builder",
-          "news_trigger": "Recent charity gala and announcement of the return of the TRUE WAYS Online Conference, indicating heightened brand activity.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a mini\u2011conference space for workshop sessions on responsible gaming and a showcase of upcoming slot titles.",
+          "company": "Polymarket",
+          "category_fit": "Prediction Market Platform",
+          "news_trigger": "YouTuber highlights influencer ad campaign targeting UK market \u2013 growing brand awareness",
+          "booth_pitch": "Small (10\u202fsqm) space to discuss regulatory approach, influencer marketing best practices, and partnership opportunities with data and media firms.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Sporting Risk",
+          "category_fit": "Risk Management & Compliance Provider",
+          "news_trigger": "New partnership with BOYLE Sports, signalling expansion of risk solutions",
+          "booth_pitch": "Medium (20\u202fsqm) booth to demonstrate risk\u2011modelling tools, compliance dashboards, and case studies from the BOYLE partnership.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Genius Sports",
-          "category_fit": "Sports Betting \u2013 Data & Integrity Solutions",
-          "news_trigger": "CEO interview on the success of the Legend platform and its ambition\u2011driven growth.",
-          "booth_pitch": "Large (50\u202fsqm+) booth with a data\u2011visualisation arena, live demos of the Legend suite, and a thought\u2011leadership panel on \u201cData\u2011Driven Betting in 2026\u201d.",
-          "contact_urgency": "Low",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "bet365",
-          "category_fit": "General iGaming \u2013 Integrated Operator",
-          "news_trigger": "Multiple product launches \u2013 partnership with G\u202fGames for 99Royale and collaboration with Playtech to dominate Spanish slots charts.",
-          "booth_pitch": "Large (50\u202fsqm+) flagship presence with a full\u2011scale betting floor replica, live demos of new slots, and a high\u2011visibility speaking slot on \u201cScaling Operator Success Across Markets\u201d.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Regulatory & Compliance Services",
-          "opportunity": "Few exhibitors currently offer specialised compliance, licensing and tax advisory services, yet operators are seeking partners to navigate tightening global regulations ahead of World Cup 2026.",
+          "category": "African & Emerging Market Operators",
+          "opportunity": "Few exhibitors currently focus on Africa and other high\u2011growth emerging markets, yet operators like Betika and new entrants are actively expanding product suites. Filling this gap would attract regional B2B partners and sponsors seeking market entry.",
           "target_company_types": [
-            "Legal & Compliance consultancies",
-            "RegTech solution providers"
+            "Regional operators",
+            "Virtual sports providers",
+            "Payment solutions"
           ]
         },
         {
-          "category": "Emerging Market Operators (Africa & Middle East)",
-          "opportunity": "The African and Middle\u2011East iGaming segments are experiencing rapid growth, but representation at ICE/iGB is limited, creating a chance to attract new regional operators and technology partners.",
+          "category": "Regulated Betting Exchanges (US)",
+          "opportunity": "Limited presence of exchange\u2011style platforms such as Kalshi at ICE/iGB. Showcasing these models can diversify the event portfolio and draw US\u2011focused investors and regulators.",
           "target_company_types": [
-            "Local operators",
-            "Payment & KYC providers targeting emerging markets"
+            "Exchange platforms",
+            "Compliance tech firms"
           ]
         }
       ],
-      "timing_note": "Reach out immediately (within the next 2\u20113 weeks) while the product launches are still fresh in the market. Early engagement (by early May) allows prospects to secure prime booth locations and integrate ICE/iGB into their Q2\u2011Q3 marketing calendars, maximizing ROI before the event registration deadline."
+      "timing_note": "Begin outreach in early July (Q3) to align with budget planning cycles and give prospects ample time to allocate marketing spend before the September ICE/iGB event. Follow\u2011up with a second wave in early August to secure commitments and finalize booth logistics."
     },
-    "timestamp": "2026-07-14T09:58:19.350261",
+    "timestamp": "2026-07-15T10:02:16.110006",
     "ttl_hours": 24
   }
 }
