@@ -1,237 +1,231 @@
 {
-  "049a3884e1e35cf4a6624765bd378820": {
+  "651e614209bdf0cae6ae503b4186dadf": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live event coverage with insider context and networking insights",
-          "what_readers_get": "On\u2011the\u2011ground details from conferences, keynotes, and behind\u2011the\u2011scenes networking that other outlets miss.",
-          "why_it_matters": "Industry events shape product launches, partnerships, and regulatory direction, so timely insights give readers a strategic edge.",
-          "evidence_summary": "Our portfolio\u2019s event coverage makes up 88% of its event articles versus competitors\u2019 30%, a concentration ratio of 2.9.",
+          "headline": "Exclusive event coverage with insider floor\u2011level insights",
+          "what_readers_get": "Live takeaways from keynotes, panel debates, and networking moments you won\u2019t find elsewhere.",
+          "why_it_matters": "Event intelligence lets operators anticipate trends and act before competitors absorb the same information.",
+          "evidence_summary": "Our portfolio publishes about 34% of all event\u2011related pieces, a 2.94\u2011times higher concentration than rivals.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 454,
-          "concentration_ratio": 2.92
+          "internal_count": 468,
+          "concentration_ratio": 2.94
         }
       ],
       "ai_discovered": [
         {
-          "headline": "In\u2011depth regulatory analysis that keeps you ahead of legal shifts",
-          "what_readers_get": "Clear, up\u2011to\u2011date breakdowns of new gambling laws, enforcement actions, and policy trends across key markets.",
-          "why_it_matters": "Regulatory changes can instantly affect licensing, market access, and compliance costs, making timely insight essential for operators.",
-          "evidence": "Internal titles such as 'Netherlands channelisation falls below 50%', 'Tracking illegal gambling is harder with rising VPN use', 'New Zealand iGaming bill passes final parliament reading', and 'Brazil confirms prediction markets are illegal' demonstrate a focused regulatory beat not mirrored in competitor samples.",
-          "confidence": "medium"
+          "headline": "Deep\u2011dive regulatory analysis that keeps you ahead of legal shifts",
+          "what_readers_get": "Clear, actionable breakdowns of new gambling laws, enforcement actions, and market\u2011impact assessments.",
+          "why_it_matters": "Regulatory changes can reshape revenue streams overnight; timely insight protects compliance and strategic planning.",
+          "evidence": "5 internal articles covering jurisdictional rulings and illegal\u2011gambling trends versus only 1 comparable competitor piece.",
+          "confidence": "high"
         }
       ],
-      "strategic_summary": "By delivering exclusive event intel and proactive regulatory analysis, the portfolio equips iGaming professionals with the actionable insights they need to anticipate market shifts.",
-      "overall_confidence": 0.85,
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for actionable event intel and regulatory foresight that drive strategic advantage in iGaming.",
+      "overall_confidence": 0.88,
       "fallback_used": false
     },
-    "timestamp": "2026-07-16T10:08:41.654713",
+    "timestamp": "2026-07-17T09:57:15.340860",
     "ttl_hours": 24
   },
-  "cf8efd54442b18427ab44c9f651d5fa4": {
+  "bcff716749f45c7bdd250916ea859e44": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "21.com",
-          "news_trigger": "Former CEO of BetVictor launches 21.com with aim of becoming top\u2011three operator",
-          "pitch_angle": "Offer a headline branding slot and a thought\u2011leadership panel at the upcoming conference to showcase its launch strategy and growth roadmap",
+          "company": "Novig",
+          "news_trigger": "Secured CFTC approval to operate prediction markets across the US (Novig secures CFTC approval to operate prediction markets across the US)",
+          "pitch_angle": "Position our portfolio as a partner for market\u2011making, data analytics, and compliance tooling to accelerate US rollout and cross\u2011border product integration.",
           "urgency": "High"
         },
         {
-          "company": "Blask",
-          "news_trigger": "Blask launches real\u2011time interest map tracking World Cup 2026 nations",
-          "pitch_angle": "Sponsor a data\u2011analytics workshop focused on real\u2011time betting insights for mega\u2011events, positioning Blask as the go\u2011to provider for event\u2011driven intelligence",
+          "company": "Maxbet",
+          "news_trigger": "Added ICONIC21 content in Romania (Maxbet Adds ICONIC21 Content in Romania)",
+          "pitch_angle": "Offer content\u2011distribution, localized marketing, and affiliate\u2011network services to boost the new content line\u2011up and expand into adjacent EU markets.",
           "urgency": "Medium"
         },
         {
-          "company": "Mega Fortris",
-          "news_trigger": "Mega Fortris sees growing demand for smarter gaming security products",
-          "pitch_angle": "Partner on a security\u2011technology showcase, providing live demos and co\u2011authoring a white\u2011paper on next\u2011gen fraud detection for operators",
+          "company": "Evolution Gaming",
+          "news_trigger": "New Jersey court ruling against Evolution\u2019s request to add Playtech to defamation case (New Jersey court rules against Evolution\u2019s request to add Playtech to defamation)",
+          "pitch_angle": "Provide legal\u2011risk monitoring, brand\u2011protection, and PR support services to safeguard Evolution\u2019s US operations and reinforce compliance frameworks.",
           "urgency": "Medium"
         },
         {
-          "company": "Infingame",
-          "news_trigger": "How Infingame helps operators navigate Latin America",
-          "pitch_angle": "Lead a LATAM market\u2011entry panel, sharing case studies and offering consultancy services to operators looking to expand in the region",
-          "urgency": "Medium"
+          "company": "iGB Affiliate",
+          "news_trigger": "Multiple mentions in iGB Affiliate news feed highlighting affiliate\u2011network growth and regulatory scrutiny (iGB Affiliate citations)",
+          "pitch_angle": "Collaborate on affiliate\u2011technology platforms, data\u2011sharing APIs, and joint webinars to educate affiliates on new EU/UK regulations.",
+          "urgency": "Low"
         },
         {
-          "company": "The Esports Foundation",
-          "news_trigger": "The Esports Foundation launches the largest esports co\u2011creator program ahead of 2026",
-          "pitch_angle": "Sponsor the esports track and host a co\u2011creation hackathon, positioning the foundation as the catalyst for esports betting innovation",
+          "company": "StarCompliance",
+          "news_trigger": "Launched global solution with Kalshi to monitor employee trading (Kalshi and StarCompliance launch global solution to help monitor employee trading)",
+          "pitch_angle": "Integrate our compliance\u2011automation suite with StarCompliance\u2019s platform to broaden coverage across prediction\u2011market operators and traditional sportsbooks.",
           "urgency": "High"
+        },
+        {
+          "company": "Esports Foundation",
+          "news_trigger": "Launch of the largest Esports Co\u2011creator Program ahead of upcoming events (The Esports Foundation Launches the Largest Esports Co\u2011creator Program)",
+          "pitch_angle": "Sponsor the co\u2011creator program, provide tournament\u2011management tools, and co\u2011produce branded esports betting experiences.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Korean casino operators (e.g., Paradise Co.)",
+          "news_trigger": "Korean casino industry eyes reform ahead of rival Osaka IR opening (Korean casino industry eyes reform ahead of rival Osaka IR opening)",
+          "pitch_angle": "Offer advisory services on regulatory reform, technology upgrades, and cross\u2011border partnership opportunities with Japanese integrated resorts.",
+          "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Sam Brown (CEO, Wildz Group)",
-          "topic_expertise": "Regulated\u2011market pivot and product diversification",
-          "news_relevance": "Run wild: CEO Sam Brown on Wildz Group\u2019s pivot to regulated markets",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Tim Miller",
-          "topic_expertise": "Big\u2011Tech regulation and black\u2011market dynamics",
-          "news_relevance": "Tim Miller slams \u2018nonsensical\u2019 Big Tech treatment of black market",
+          "person_or_company": "Novig \u2013 CEO/Founder",
+          "topic_expertise": "US prediction\u2011market regulation and product launch strategy",
+          "news_relevance": "Just received CFTC approval, positioning Novig as a pioneer in US\u2011based prediction markets.",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Former CEO of BetVictor (launching 21.com)",
-          "topic_expertise": "Operator launch strategy and market positioning",
-          "news_relevance": "Former CEO of BetVictor launches 21.com with aim of becoming top\u2011three operator",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Saudi Gambling Authority Representative",
-          "topic_expertise": "Self\u2011exclusion compliance and consumer protection",
-          "news_relevance": "KSA issues warning to Betnation over self\u2011exclusion failures",
+          "person_or_company": "Maxbet \u2013 Head of Content Partnerships",
+          "topic_expertise": "Content acquisition, localization, and market expansion in Eastern Europe",
+          "news_relevance": "Recent ICONIC21 content rollout in Romania signals aggressive growth.",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Anders Svensson (Swedish Gaming Law Expert)",
-          "topic_expertise": "Duty\u2011of\u2011care regulations and court enforcement in Sweden",
-          "news_relevance": "Swedish court overturns regulator\u2019s duty of care decision on LeoVegas and confirms SEK12m fine against Videoslots",
+          "person_or_company": "Evolution Gaming \u2013 Chief Legal Officer",
+          "topic_expertise": "Legal risk management for live casino operators in North America",
+          "news_relevance": "Involved in high\u2011profile New Jersey defamation litigation.",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "StarCompliance \u2013 Co\u2011Founder",
+          "topic_expertise": "AI\u2011driven compliance monitoring for trading and betting firms",
+          "news_relevance": "Partnered with Kalshi to launch a global employee\u2011trading monitoring solution.",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Esports Foundation \u2013 Program Director",
+          "topic_expertise": "Esports ecosystem development and co\u2011creation models",
+          "news_relevance": "Launching the largest co\u2011creator program, aligning with the upcoming esports calendar.",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "ACMA \u2013 Senior Communications Regulator",
+          "topic_expertise": "Broadcast advertising standards for gambling in Australia",
+          "news_relevance": "Recent ruling on gambling ad breaches highlights tightening enforcement.",
           "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Betnation",
-            "Saudi Gambling Authority"
-          ],
-          "partnership_type": "Regulatory\u2011compliance / Technology",
-          "opportunity": "Facilitate a compliance\u2011tech partnership to help Betnation meet self\u2011exclusion standards and avoid further sanctions"
-        },
-        {
-          "companies_involved": [
-            "21.com",
-            "Mega Fortris"
+            "Novig",
+            "Kalshi"
           ],
           "partnership_type": "Product Integration",
-          "opportunity": "Integrate Mega Fortris\u2019 advanced security suite into 21.com\u2019s platform as a differentiator for its top\u2011three operator ambition"
+          "opportunity": "Facilitate a joint API layer that allows Kalshi\u2019s US customers to access Novig\u2019s prediction\u2011market offerings, creating a unified front against regulatory pressure."
         },
         {
           "companies_involved": [
-            "Blask",
-            "Infingame"
+            "Evolution Gaming",
+            "Playtech"
           ],
-          "partnership_type": "Data & Market Intelligence",
-          "opportunity": "Combine Blask\u2019s World Cup interest map with Infingame\u2019s LATAM market insights to create a cross\u2011regional betting\u2011trend product"
+          "partnership_type": "M&A Exploration",
+          "opportunity": "Monitor potential acquisition or strategic alliance as Evolution seeks to broaden its game portfolio after the New Jersey court decision."
         },
         {
           "companies_involved": [
-            "The Esports Foundation",
-            "EveryMatrix"
+            "StarCompliance",
+            "Entain"
           ],
-          "partnership_type": "Co\u2011development",
-          "opportunity": "Co\u2011develop an esports betting platform leveraging EveryMatrix\u2019s technology stack and the Foundation\u2019s creator network"
+          "partnership_type": "Compliance Solution",
+          "opportunity": "Leverage Entain\u2019s extensive operator network to pilot StarCompliance\u2019s employee\u2011trading monitoring platform across multiple jurisdictions."
         }
       ],
-      "timing_recommendations": "Prioritize outreach to 21.com, Blask, and The Esports Foundation immediately (within the next 2\u20114 weeks) to align with the World Cup 2026 build\u2011up and the upcoming esports co\u2011creator program launch. Schedule regulator\u2011focused panels (Saudi Authority, Swedish legal expert) before the end of Q3 to capture momentum from recent enforcement actions. Leverage the MAGLA 2026 licensing window (applications opening soon) to position Mega Fortris and Infingame as preferred security and market\u2011entry partners for new licensees."
+      "timing_recommendations": "Prioritize outreach to Novig and StarCompliance immediately (within the next 2\u20113 weeks) to capitalize on their recent regulatory approvals and product launches before Q3 2026 industry events. Align sponsor pitches for Maxbet and the Esports Foundation with the lead\u2011up to the 2026 World Cup and the SBC Summit Tbilisi (June 2026) to maximize visibility. Schedule a follow\u2011up with Evolution Gaming before the end of Q2 2026 to address ongoing litigation and potential partnership opportunities."
     },
-    "timestamp": "2026-07-16T10:08:43.446311",
+    "timestamp": "2026-07-17T09:57:17.237490",
     "ttl_hours": 24
   },
-  "c6e795551cc5a527299f5b766d0138a0": {
+  "3a4ab052b0542cde6c3726cc307cdc11": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Blask",
-          "category_fit": "Data & Analytics / Real\u2011time Market Intelligence",
-          "news_trigger": "Launched a real\u2011time interest map tracking World Cup 2026 nations, positioning the firm as a go\u2011to source for live betting demand insights.",
-          "booth_pitch": "Secure a Medium (20\u202fsqm) booth with a live demo zone showcasing the interest map dashboard. Emphasise networking with sportsbook product managers looking for instant market data to optimise odds and promotions.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "EveryMatrix",
-          "category_fit": "Platform & White\u2011label Solutions",
-          "news_trigger": "Continues to expand its UK client base through the BetAhoy partnership, signalling aggressive market penetration in a key regulated region.",
-          "booth_pitch": "Offer a Large (50\u202fsqm+) exhibition space with a dedicated integration lab where prospective operators can test the EveryMatrix suite alongside BetAhoy\u2019s sportsbook front\u2011end. Highlight ICE\u2019s B2B matchmaking for new UK licences.",
+          "company": "Novig",
+          "category_fit": "Prediction Markets / Sports Betting",
+          "news_trigger": "Secured CFTC approval to operate prediction markets across the US (multiple news items).",
+          "booth_pitch": "Premium Large (50sqm+) package with a dedicated demo arena and speaking slot on regulatory compliance for prediction markets. Position Novig as the US\u2011first regulated prediction platform.",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "21.com",
-          "category_fit": "General iGaming / New Operator",
-          "news_trigger": "Founded by former BetVictor CEO with ambition to become a top\u2011three global operator, currently in beta launch phase.",
-          "booth_pitch": "Recommend a Small (10\u202fsqm) booth with a high\u2011impact branding package (LED backdrop, QR\u2011code lead capture). Position 21.com as a fresh, tech\u2011driven brand seeking partnership deals with content providers and affiliate networks.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Mega Fortris",
-          "category_fit": "Gaming Security & Compliance",
-          "news_trigger": "Announced growing demand for smarter gaming security products, targeting fraud detection and AML compliance for operators worldwide.",
-          "booth_pitch": "Medium (20\u202fsqm) booth featuring a live fraud\u2011simulation station. Pair with ICE\u2019s regulatory track to attract compliance officers and security vendors looking for integrated solutions.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Wildz Group",
-          "category_fit": "General iGaming / Regulated Market Expansion",
-          "news_trigger": "CEO Sam Brown highlighted a strategic pivot toward fully regulated markets and the launch of the \u2018Beazt\u2019 brand.",
-          "booth_pitch": "Small (10\u202fsqm) booth with a focus on brand storytelling and partnership opportunities with regulated\u2011market service providers (payment, KYC, localisation).",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Betnation",
-          "category_fit": "Player Protection & Self\u2011Exclusion Services",
-          "news_trigger": "Recent KSA regulator reprimand for self\u2011exclusion failures, prompting a revamp of its responsible\u2011gaming suite.",
-          "booth_pitch": "Medium (20\u202fsqm) booth dedicated to showcasing upgraded self\u2011exclusion and verification tools. Leverage ICE\u2019s compliance workshops to attract regulators and operators seeking robust player\u2011protection tech.",
+          "company": "Entain",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Recent regulator scrutiny over illegal gambling promotion on social networks in the UK.",
+          "booth_pitch": "Medium (20sqm) package with a branded lounge for B2B meetings and a panel opportunity on responsible gambling and brand safety.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Optimove",
-          "category_fit": "AI\u2011Driven Marketing & Retention",
-          "news_trigger": "Announced a 10\u202f% workforce reduction to accelerate its AI pivot, signalling new AI\u2011centric product releases for iGaming marketers.",
-          "booth_pitch": "Small (10\u202fsqm) booth with an AI\u2011powered personalization demo. Emphasise ICE\u2019s affiliate and operator audience looking for next\u2011gen retention solutions.",
-          "contact_urgency": "Low",
+          "company": "Maxbet",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Added ICONIC21 content to its Romanian portfolio, signalling product expansion.",
+          "booth_pitch": "Small (10sqm) package with a video wall showcasing new content and a quick\u2011connect meeting space for regional partners.",
+          "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "MAGLA",
-          "category_fit": "Land\u2011Based Casino & Sports Betting Licences",
-          "news_trigger": "Opened 2026 applications for new sports betting and land\u2011based casino licences, attracting a wave of prospective operators.",
-          "booth_pitch": "Large (50\u202fsqm+) booth positioned as a hub for licence\u2011seeking operators, with private meeting rooms for one\u2011on\u2011one discussions with MAGLA officials and consultancy partners.",
+          "company": "Evolution Gaming",
+          "category_fit": "Live Casino Solutions",
+          "news_trigger": "Involved in a high\u2011profile New Jersey court case with Playtech, highlighting its market presence and legal focus.",
+          "booth_pitch": "Medium (20sqm) package with a live\u2011stream studio for real\u2011time demos and a speaking slot on the future of live casino regulation in North America.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Large (50sqm+)"
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Playtech",
+          "category_fit": "iGaming Platform / B2B Software",
+          "news_trigger": "Co\u2011defendant in the Evolution Gaming lawsuit, underscoring its continued relevance in the US market.",
+          "booth_pitch": "Medium (20sqm) package with a tech showcase area and a workshop on integrating legacy systems with new regulatory frameworks.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Kalshi",
+          "category_fit": "Prediction Markets / Financial Sports Betting",
+          "news_trigger": "Launched a global compliance solution with StarCompliance to monitor employee trading.",
+          "booth_pitch": "Small (10sqm) package featuring an interactive compliance demo and a round\u2011table for fintech partners.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Esports Foundation",
+          "category_fit": "Esports & Co\u2011creation Programs",
+          "news_trigger": "Announced the largest esports co\u2011creator program ahead of EWC 2026 and ENC.",
+          "booth_pitch": "Small (10sqm) package with a gaming zone for live co\u2011creation sessions and a speaking slot on building community\u2011driven esports ecosystems.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Gaming Security & Compliance",
-          "opportunity": "Few exhibitors currently showcase dedicated fraud\u2011detection, AML, or self\u2011exclusion technology, yet operators are prioritising risk\u2011mitigation ahead of tighter regulations.",
+          "category": "Prediction Markets / Financial Sports Betting",
+          "opportunity": "Few exhibitors currently showcase regulated prediction\u2011market platforms, yet regulatory approval is accelerating in the US and EU. Positioning exhibitors here can attract fintech, sportsbook, and compliance partners.",
           "target_company_types": [
-            "Security SaaS providers",
-            "Compliance platform vendors"
+            "Prediction market platforms",
+            "Fintech\u2011enabled sports betting providers"
           ]
         },
         {
-          "category": "AI & Data Analytics",
-          "opportunity": "AI\u2011driven player\u2011insights and real\u2011time market analytics are emerging but under\u2011represented, offering a chance to attract data\u2011focused sponsors and differentiate the exhibition.",
+          "category": "Esports Co\u2011creation & Community Platforms",
+          "opportunity": "Esports is growing fast, but dedicated B2B exhibitors are limited. Companies offering co\u2011creation tools, talent pipelines, or community\u2011driven content can leverage ICE/iGB to meet operators seeking new engagement models.",
           "target_company_types": [
-            "Predictive analytics firms",
-            "Machine\u2011learning platforms for betting"
-          ]
-        },
-        {
-          "category": "Regulatory Services & Consultancy",
-          "opportunity": "With multiple jurisdictions tightening rules (e.g., KSA, Sweden, New\u202fZealand), there is a shortage of consultancy firms that help operators navigate licensing and compliance.",
-          "target_company_types": [
-            "Legal advisory boutiques",
-            "Licensing consultants"
+            "Esports ecosystem builders",
+            "Community\u2011driven content platforms"
           ]
         }
       ],
-      "timing_note": "Begin outreach immediately (July\u2011August 2024) to catch decision\u2011makers before ICE/iGB\u2019s early\u2011bird registration deadline (early September). High\u2011urgency prospects (Blask, EveryMatrix, Betnation) should be contacted within the next two weeks to secure premium booth locations, while lower\u2011urgency targets can be engaged through a staggered Q3 campaign."
+      "timing_note": "Begin outreach immediately (Q3 2026) to secure speaking slots and premium booth locations, as decisions for ICE/iGB are typically finalized 3\u20134 months before the event. Follow\u2011up with a tailored proposal after the initial contact, aiming to close commitments by early November 2026."
     },
-    "timestamp": "2026-07-16T10:08:44.764373",
+    "timestamp": "2026-07-17T09:57:18.352465",
     "ttl_hours": 24
   }
 }
