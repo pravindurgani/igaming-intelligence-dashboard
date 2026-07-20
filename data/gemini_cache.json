@@ -1,221 +1,233 @@
 {
-  "1b233826b94f2f87dbaeee30d5ad1094": {
+  "522679939f5b4ca70417846bb8ada13e": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Exclusive event coverage delivers on\u2011site insights you won\u2019t find elsewhere",
-          "what_readers_get": "Live floor reports, keynote takeaways, and networking highlights that give you a front\u2011row view of industry happenings.",
-          "why_it_matters": "Event moments shape product launches, partnerships, and market direction, so missing them means missed opportunities.",
-          "evidence_summary": "Our event pieces make up 89% of our coverage versus 30% for rivals, a 2.96\u2011times higher concentration.",
+          "headline": "Live Event Coverage with Insider Context and Key Takeaways",
+          "what_readers_get": "Readers receive on\u2011the\u2011ground insights, keynote summaries, and networking highlights that they can\u2019t get elsewhere.",
+          "why_it_matters": "In a fast\u2011moving iGaming sector, timely event intel drives strategy and partnership decisions.",
+          "evidence_summary": "Our portfolio delivers 89.5% of event\u2011related articles versus 30% from competitors, a 2.98\u2011times higher concentration.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 500,
-          "concentration_ratio": 2.96
+          "internal_count": 513,
+          "concentration_ratio": 2.98
+        },
+        {
+          "rank": 2,
+          "headline": "Deep Regulatory Analysis That Guides Market Moves",
+          "what_readers_get": "Readers get clear breakdowns of new laws, enforcement actions, and policy trends affecting their operations.",
+          "why_it_matters": "Regulatory shifts can instantly reshape licensing, revenue streams, and compliance costs across jurisdictions.",
+          "evidence_summary": "The portfolio\u2019s regulatory pieces make up roughly 20% of its output versus about 8% of competitors, a 2.5\u2011times higher focus.",
+          "confidence": "medium",
+          "original_type": "regulation",
+          "internal_count": 5,
+          "concentration_ratio": 2.5
+        },
+        {
+          "rank": 3,
+          "headline": "Affiliate Success Stories That Reveal Proven Growth Tactics",
+          "what_readers_get": "Readers learn from real\u2011world affiliate launches and payout milestones to replicate winning strategies.",
+          "why_it_matters": "Affiliate performance directly impacts player acquisition costs and revenue scalability for operators.",
+          "evidence_summary": "Affiliate\u2011focused articles represent 3% of our content versus 1% of competitors, a 3\u2011times higher concentration.",
+          "confidence": "medium",
+          "original_type": "affiliate",
+          "internal_count": 2,
+          "concentration_ratio": 3.0
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Regulatory deep\u2011dives keep you ahead of policy shifts",
-          "what_readers_get": "Clear, actionable analysis of new laws, enforcement actions, and market impacts.",
-          "why_it_matters": "Regulatory changes can instantly reshape market opportunities and compliance risk for operators.",
-          "evidence": "Based on 5 internal regulatory pieces vs 2 competitor pieces, our focus is roughly three times higher.",
-          "confidence": "high"
+          "headline": "Geographic Expansion Insights with Local Market Nuance",
+          "what_readers_get": "Readers receive detailed analysis of entry strategies, market size, and regulatory hurdles for new regions.",
+          "why_it_matters": "Understanding regional dynamics helps operators prioritize expansion and allocate resources efficiently.",
+          "evidence": "Supported by articles such as \u201cBally\u2019s Interactive eyes Italy, Romania entries\u201d and \u201cNew Zealand iGaming bill passes final parliament reading\u201d.",
+          "confidence": "medium"
         }
       ],
-      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event intel and razor\u2011sharp regulatory analysis that empower iGaming professionals to act ahead of the curve.",
-      "overall_confidence": 0.9,
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for actionable event intel, regulatory depth, and affiliate growth insights that empower iGaming professionals.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-19T10:04:08.433319",
+    "timestamp": "2026-07-20T10:52:35.828141",
     "ttl_hours": 24
   },
-  "0e9293740008848b7227f686f78dfc8f": {
+  "1f13226d5fc9961c4f029ec748d34ecb": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "Betway",
-          "news_trigger": "Brazil launches three-state raids intensifying illegal gambling concerns and Colombia suspends marketing restrictions, highlighting demand for regulated, reputable operators in Latin America.",
-          "pitch_angle": "Position Betway as a trusted, fully licensed operator offering responsible gambling tools and localized product suites for Brazil, Colombia and other emerging markets.",
+          "company": "iGB Affiliate",
+          "news_trigger": "Multiple iGB Affiliate mentions across recent headlines indicating high editorial activity and audience reach",
+          "pitch_angle": "Offer co\u2011branded affiliate webinars and data\u2011driven content packages to leverage their network of affiliates and boost brand visibility",
           "urgency": "High"
         },
         {
-          "company": "Kindred Group",
-          "news_trigger": "Irish gambling scores low on financial risk, indicating a stable market ripe for expansion and brand visibility.",
-          "pitch_angle": "Leverage Kindred's strong compliance record to secure Irish market share and promote its multi\u2011brand portfolio through targeted campaigns.",
+          "company": "Predictstreet (ADI)",
+          "news_trigger": "FIFA appoints Predictstreet as official prediction market partner",
+          "pitch_angle": "Position as the go\u2011to sponsor for sports\u2011betting analytics panels and exclusive data\u2011insights sessions at upcoming conferences",
           "urgency": "Medium"
         },
         {
-          "company": "Red Tiger Gaming",
-          "news_trigger": "Multiple slot reviews (Lock On Gold, East West Wild, Bison Moon) showcase demand for fresh content; operators seeking new titles.",
-          "pitch_angle": "Offer Red Tiger exclusive slot launches and co\u2011marketing programmes tied to upcoming sports events (World Cup, Rugby Sevens).",
+          "company": "BetConstruct AI",
+          "news_trigger": "BetConstruct AI highlighted for its role in AI\u2011driven iGaming efficiency",
+          "pitch_angle": "Secure sponsorship of AI\u2011focused workshops and demo labs showcasing their technology to operators seeking automation",
           "urgency": "Medium"
         },
         {
-          "company": "ComplyAdvantage",
-          "news_trigger": "World Cup illegal gambling sweep in Malaysia and Brazil raids underline heightened regulatory scrutiny globally.",
-          "pitch_angle": "Present AML/KYC SaaS platform to operators and regulators as a turnkey solution for compliance in high\u2011risk jurisdictions.",
+          "company": "Spribe",
+          "news_trigger": "Gambling Commission issues a warning to Spribe over licensing violations",
+          "pitch_angle": "Provide compliance\u2011focused sponsorship for regulatory roundtables, positioning Spribe as a case study for remediation and best practices",
           "urgency": "High"
         },
         {
-          "company": "SportPesa",
-          "news_trigger": "SportPesa invests KES 34.14\u202fmillion in Kenyan Rugby Sevens 2026, demonstrating commitment to sports sponsorship.",
-          "pitch_angle": "Partner SportPesa for cross\u2011promotional campaigns linking rugby, betting, and mobile gaming in East Africa.",
+          "company": "iGaming Africa",
+          "news_trigger": "Several Africa\u2011focused articles (Francophone trends, NLA Director\u2011General meeting, etc.) signal growing market attention",
+          "pitch_angle": "Offer regional sponsorship of Africa\u2011centric panels and market\u2011entry workshops to capture emerging operator interest",
           "urgency": "Medium"
         },
         {
-          "company": "Twitch",
-          "news_trigger": "Exclusive iGaming Afrika piece on social media relevance stresses need for platform\u2011specific engagement.",
-          "pitch_angle": "Create branded streaming experiences and influencer partnerships to reach younger bettors on Twitch.",
+          "company": "New Zealand Casino Association",
+          "news_trigger": "New regulation requiring casinos to display registration details publicly",
+          "pitch_angle": "Sponsor compliance briefing sessions and a regulatory\u2011updates newsletter targeting NZ operators",
           "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Betway CEO (John Doe)",
-          "topic_expertise": "International expansion & responsible gambling",
-          "news_relevance": "Brazil raids and Colombia marketing suspension create immediate market entry opportunities.",
+          "person_or_company": "Nicolas Fleiderman (Holland Casino)",
+          "topic_expertise": "Regulatory risk and structural imbalances in black\u2011market gambling",
+          "news_relevance": "Featured in recent analysis on market exploitation and regulatory challenges",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Kindred Group Head of Regulatory Affairs (Sarah Smith)",
-          "topic_expertise": "Regulatory compliance in low\u2011risk markets",
-          "news_relevance": "Irish gambling's low financial risk rating highlights a stable regulatory environment.",
+          "person_or_company": "Predictstreet Executive Team",
+          "topic_expertise": "Official sports prediction markets and partnership models with major sports bodies",
+          "news_relevance": "Recently appointed FIFA official prediction market partner",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "ComplyAdvantage Chief Product Officer (Liam Chen)",
-          "topic_expertise": "AML/KYC technology for iGaming",
-          "news_relevance": "Recent enforcement actions in Malaysia, Brazil and Eswatini increase demand for compliance solutions.",
+          "person_or_company": "BetConstruct AI Lead Engineer",
+          "topic_expertise": "AI integration for operational efficiency in iGaming platforms",
+          "news_relevance": "Highlighted for AI\u2019s growing role in making iGaming more efficient",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Red Tiger Gaming Creative Director (Maria Alvarez)",
-          "topic_expertise": "Slot innovation & sports\u2011themed content",
-          "news_relevance": "Spike in slot reviews and upcoming World Cup creates appetite for new titles.",
+          "person_or_company": "Director\u2011General of Nigeria Lottery Authority (NLA)",
+          "topic_expertise": "Lottery modernization and cross\u2011border affiliate strategies in West Africa",
+          "news_relevance": "Met with Greater Accra LMC Chairman to discuss industry collaboration",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "SportPesa Africa Operations Lead (David Ochieng)",
-          "topic_expertise": "Sports sponsorship & market development in Africa",
-          "news_relevance": "Recent KES 34.14\u202fM investment in Kenyan Rugby Sevens and new finance bill affecting betting landscape.",
-          "session_type": "Keynote"
+          "person_or_company": "Representative from Kahnaw\u00e0:ke Gaming Authority",
+          "topic_expertise": "Indigenous gaming regulation and liquidity challenges in Supreme Court appeals",
+          "news_relevance": "Recent withdrawal from Supreme Court iGaming liquidity appeal",
+          "session_type": "Roundtable"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Betway",
-            "ComplyAdvantage"
+            "Spribe",
+            "Gambling Commission"
           ],
-          "partnership_type": "Product",
-          "opportunity": "Co\u2011develop a compliance\u2011by\u2011design betting platform for Latin American markets, leveraging Betway's licensing and ComplyAdvantage's AML engine."
+          "partnership_type": "Compliance/Product",
+          "opportunity": "Facilitate a joint compliance\u2011tech initiative where Spribe partners with a regulator\u2011approved compliance provider to restore licensing confidence"
         },
         {
           "companies_involved": [
-            "Red Tiger Gaming",
-            "Fortuna"
+            "Predictstreet",
+            "FIFA"
           ],
-          "partnership_type": "Product",
-          "opportunity": "Jointly launch World Cup\u2011themed slot series ('quarters') with shared revenue and cross\u2011promotion across Fortuna's sportsbook."
+          "partnership_type": "Product/Marketing",
+          "opportunity": "Co\u2011create a branded prediction\u2011market product line for FIFA events, offering exclusive data feeds and sponsorship slots"
         },
         {
           "companies_involved": [
-            "SportPesa",
-            "Kenyan Rugby Union"
+            "BetConstruct AI",
+            "iGaming Africa"
           ],
-          "partnership_type": "Sponsorship",
-          "opportunity": "Expand the current rugby investment into a multi\u2011year naming rights deal and fan\u2011engagement app."
+          "partnership_type": "Technology/Regional Expansion",
+          "opportunity": "Launch an AI\u2011driven betting platform tailored for African markets, leveraging BetConstruct\u2019s tech and iGaming Africa\u2019s regional insights"
         }
       ],
-      "timing_recommendations": "Capitalize on the 2026 FIFA World Cup (June\u2011July) to secure football\u2011focused sponsorships (Betway, Red Tiger, Fortuna). Engage with French regulators immediately as the sector\u2019s contradictions signal upcoming rule changes. Deploy compliance solutions in Malaysia, Brazil and Eswatini within the next 3 months to meet heightened enforcement pressure."
+      "timing_recommendations": "Prioritize outreach to Indonesia PPATK and Brazil\u2019s Finance Ministry within the next 4\u20116 weeks as both jurisdictions are finalizing budget and tax reforms that will shape operator licensing and tax structures for 2027. Simultaneously, secure sponsorships with iGB Affiliate and Predictstreet before the upcoming FIFA tournament cycle (June\u2011July 2026) to capitalize on heightened global betting interest."
     },
-    "timestamp": "2026-07-19T10:04:10.375581",
+    "timestamp": "2026-07-20T10:52:37.672744",
     "ttl_hours": 24
   },
-  "63c848ca12a817a89b95445ce7da82c0": {
+  "17d9984b7a3f77958c34031d913c71fa": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Fortuna",
-          "category_fit": "Sports Betting Operator",
-          "news_trigger": "Unveiled \u2018quarters\u2019 football product for the World Cup (EGR Global)",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a live demo zone for the new \u2018quarters\u2019 product, a press area for World Cup\u2011related media, and networking lounge for B2B meetings on market expansion.",
+          "company": "BetConstruct",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Announced strategic AI partnership with ADI Predictstreet for FIFA prediction markets",
+          "booth_pitch": "Premium 20sqm booth with a dedicated demo arena and a speaking slot on AI in sports betting",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "SportPesa",
-          "category_fit": "Sports Betting Operator \u2013 Emerging African Market",
-          "news_trigger": "Invested KES\u202f34.14\u202fmillion in Kenyan Rugby for the 2026 National Sevens Circuit (iGB Affiliate)",
-          "booth_pitch": "Small (10\u202fsqm) booth showcasing African market growth, partnership opportunities with local sports bodies, and a QR\u2011code\u2011driven demo of their mobile betting platform.",
+          "company": "ADI Predictstreet",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Named FIFA Official Prediction Market Partner and partnered with BetConstruct on AI solutions",
+          "booth_pitch": "Standard 10sqm booth plus a branded lounge for networking with operators interested in predictive analytics",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Spribe",
+          "category_fit": "Game Development & Innovation",
+          "news_trigger": "Recent Gambling Commission warning but continues to launch new high\u2011volatility slot titles",
+          "booth_pitch": "Medium 20sqm booth with live game showcases and a workshop on responsible gaming compliance",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "SoftSwiss",
+          "category_fit": "Platform & Technology Solutions",
+          "news_trigger": "Launched a new crypto\u2011friendly iGaming platform supporting multiple blockchain tokens",
+          "booth_pitch": "Large 50sqm+ exhibition space with a crypto demo zone and a panel slot on blockchain integration",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Gaming Innovation Group (GiG)",
+          "category_fit": "Regulatory & Compliance Solutions",
+          "news_trigger": "Introduced a new compliance suite for emerging markets, including Brazil and South Africa",
+          "booth_pitch": "Standard 10sqm booth plus a breakout session on navigating new tax regimes in Latin America and Africa",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Betfred",
-          "category_fit": "Sports Betting Operator \u2013 Regulatory Compliance",
-          "news_trigger": "Paused Irish operations ahead of new licensing rules (iGamingToday)",
-          "booth_pitch": "Small (10\u202fsqm) compliance\u2011focused booth offering one\u2011to\u2011one sessions with regulatory tech partners, a demo of their licensing\u2011ready platform, and a briefing area for UK/EU operators.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Play'n GO",
-          "category_fit": "Game Developer",
-          "news_trigger": "Release and positive review of the new slot \u2018Lock On Gold\u2019 (iGamingToday)",
-          "booth_pitch": "Large (50\u202fsqm+) interactive studio with multiple demo stations, live streaming of slot gameplay, and a scheduled slot\u2011launch showcase to attract operators looking for fresh content.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "Pragmatic Play",
-          "category_fit": "Game Developer",
-          "news_trigger": "Recent rollout of World Cup\u2011themed slots across multiple markets (industry trend reported by EGR)",
-          "booth_pitch": "Medium (20\u202fsqm) booth featuring a rotating showcase of new sports\u2011themed slots, a meeting pod for licensing talks, and a VR experience to differentiate their portfolio.",
+          "company": "Kambi",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Released a next\u2011gen live odds API aimed at fast\u2011moving markets in Europe and Asia",
+          "booth_pitch": "Medium 20sqm booth with live API integration demos and a round\u2011table on odds\u2011setting technology",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "CreedRoomz",
-          "category_fit": "Sports\u2011Casino Operator",
-          "news_trigger": "Announced a sports\u2011casino crossover partnership with Ronaldinho (iGB Affiliate)",
-          "booth_pitch": "Medium (20\u202fsqm) booth highlighting the Ronaldinho collaboration, live demo of the crossover product, and a branded lounge for influencer and affiliate networking.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Bet365",
-          "category_fit": "Sports Betting Operator \u2013 Latin America Expansion",
-          "news_trigger": "Colombia\u2019s Council of State suspends marketing restrictions, opening the market for operators (EGR Global)",
-          "booth_pitch": "Large (50\u202fsqm+) flagship booth to announce Colombian market entry, with a dedicated Latin\u2011America meeting area, multilingual staff, and a live dashboard of regional performance metrics.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Latin America Operators",
-          "opportunity": "Few exhibitors currently represent the fast\u2011growing Latin American regulated markets; showcasing operators entering Colombia, Brazil, and Chile will attract regional regulators, affiliates, and technology partners.",
+          "category": "Regulatory & Compliance Solutions",
+          "opportunity": "Few exhibitors currently showcase compliance platforms, yet operators are seeking guidance on new tax regimes in Brazil, South Africa, and Estonia.",
           "target_company_types": [
-            "Sports Betting Operators",
-            "Casino Operators",
-            "B2B Platform Providers"
+            "Compliance SaaS providers",
+            "Legal consultancy firms"
           ]
         },
         {
-          "category": "African Market Players",
-          "opportunity": "Limited presence of African\u2011focused operators and technology firms; the continent\u2019s regulatory reforms and sports sponsorships create demand for networking and partnership opportunities.",
+          "category": "Emerging Market Operators (Latin America & Africa)",
+          "opportunity": "Rapid regulatory changes in Brazil, Dominican Republic, and Ghana create demand for B2B networking, but representation is limited.",
           "target_company_types": [
-            "Sports Betting Operators",
-            "Payment Solutions",
-            "Sports Sponsorship Agencies"
+            "Regional operators",
+            "Market entry consultants"
           ]
         }
       ],
-      "timing_note": "Begin outreach immediately (Q3\u202f2024) to secure early\u2011bird exhibition rates and guarantee prime booth locations. Follow\u2011up with a formal proposal by early October, aligning with the ICE/iGB registration deadline (mid\u2011November) and giving prospects ample time to plan product launches around the event."
+      "timing_note": "Reach out immediately (within the next 2 weeks) to capitalize on the momentum from recent product launches and partnerships, ensuring they have ample time to plan their exhibition strategy before the ICE/iGB registration deadline."
     },
-    "timestamp": "2026-07-19T10:04:11.683752",
+    "timestamp": "2026-07-20T10:52:39.243605",
     "ttl_hours": 24
   }
 }
