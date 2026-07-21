@@ -1,233 +1,252 @@
 {
-  "522679939f5b4ca70417846bb8ada13e": {
+  "03fe465699892680b8b87db6545ff12b": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live Event Coverage with Insider Context and Key Takeaways",
-          "what_readers_get": "Readers receive on\u2011the\u2011ground insights, keynote summaries, and networking highlights that they can\u2019t get elsewhere.",
-          "why_it_matters": "In a fast\u2011moving iGaming sector, timely event intel drives strategy and partnership decisions.",
-          "evidence_summary": "Our portfolio delivers 89.5% of event\u2011related articles versus 30% from competitors, a 2.98\u2011times higher concentration.",
+          "headline": "Live event coverage with insider floor insights",
+          "what_readers_get": "Readers receive real\u2011time highlights, keynote takeaways, and behind\u2011the\u2011scenes networking moments from industry conferences.",
+          "why_it_matters": "Access to event details lets professionals act on emerging trends before they become public knowledge.",
+          "evidence_summary": "Our portfolio delivers 521 event articles (\u224837% of our output) while competitors publish 882 (\u224830% of theirs), a 3\u2011fold higher concentration.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 513,
-          "concentration_ratio": 2.98
-        },
-        {
-          "rank": 2,
-          "headline": "Deep Regulatory Analysis That Guides Market Moves",
-          "what_readers_get": "Readers get clear breakdowns of new laws, enforcement actions, and policy trends affecting their operations.",
-          "why_it_matters": "Regulatory shifts can instantly reshape licensing, revenue streams, and compliance costs across jurisdictions.",
-          "evidence_summary": "The portfolio\u2019s regulatory pieces make up roughly 20% of its output versus about 8% of competitors, a 2.5\u2011times higher focus.",
-          "confidence": "medium",
-          "original_type": "regulation",
-          "internal_count": 5,
-          "concentration_ratio": 2.5
-        },
-        {
-          "rank": 3,
-          "headline": "Affiliate Success Stories That Reveal Proven Growth Tactics",
-          "what_readers_get": "Readers learn from real\u2011world affiliate launches and payout milestones to replicate winning strategies.",
-          "why_it_matters": "Affiliate performance directly impacts player acquisition costs and revenue scalability for operators.",
-          "evidence_summary": "Affiliate\u2011focused articles represent 3% of our content versus 1% of competitors, a 3\u2011times higher concentration.",
-          "confidence": "medium",
-          "original_type": "affiliate",
-          "internal_count": 2,
+          "internal_count": 521,
           "concentration_ratio": 3.0
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Geographic Expansion Insights with Local Market Nuance",
-          "what_readers_get": "Readers receive detailed analysis of entry strategies, market size, and regulatory hurdles for new regions.",
-          "why_it_matters": "Understanding regional dynamics helps operators prioritize expansion and allocate resources efficiently.",
-          "evidence": "Supported by articles such as \u201cBally\u2019s Interactive eyes Italy, Romania entries\u201d and \u201cNew Zealand iGaming bill passes final parliament reading\u201d.",
-          "confidence": "medium"
+          "headline": "In\u2011depth regulatory analysis that keeps you ahead of legal changes",
+          "what_readers_get": "Readers get clear explanations of new laws, enforcement actions, and compliance implications across key markets.",
+          "why_it_matters": "Regulatory shifts can instantly impact licensing, product offerings, and revenue streams in the iGaming sector.",
+          "evidence": "Supported by articles on UKGC VPN enforcement, New\u202fZealand iGaming bill, Brazil\u2019s prediction\u2011market ban, and UK RTP adjustments (4 internal pieces) versus limited competitor coverage.",
+          "confidence": "high",
+          "concentration_ratio": 2.5
+        },
+        {
+          "headline": "Exclusive affiliate ecosystem insights for smarter partnership decisions",
+          "what_readers_get": "Readers learn about emerging affiliate platforms, revenue models, and mid\u2011tier network dynamics.",
+          "why_it_matters": "Affiliate strategies drive traffic and profitability, making nuanced ecosystem knowledge a competitive edge.",
+          "evidence": "Based on internal pieces such as \u2018How Slotoro was built for affiliates\u2019 and \u2018Brazil\u2019s long\u2011tail affiliates\u2019 (2 internal articles) with minimal competitor equivalents.",
+          "confidence": "medium",
+          "concentration_ratio": 2.0
         }
       ],
-      "strategic_summary": "The portfolio positions itself as the go\u2011to source for actionable event intel, regulatory depth, and affiliate growth insights that empower iGaming professionals.",
+      "strategic_summary": "The portfolio delivers superior event, regulatory, and affiliate intelligence that equips iGaming professionals with actionable insights competitors often miss.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-20T10:52:35.828141",
+    "timestamp": "2026-07-21T10:25:40.758221",
     "ttl_hours": 24
   },
-  "1f13226d5fc9961c4f029ec748d34ecb": {
+  "8e27717a9bdc4cd80cedb8f347223c3c": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "iGB Affiliate",
-          "news_trigger": "Multiple iGB Affiliate mentions across recent headlines indicating high editorial activity and audience reach",
-          "pitch_angle": "Offer co\u2011branded affiliate webinars and data\u2011driven content packages to leverage their network of affiliates and boost brand visibility",
+          "company": "SoftSwiss",
+          "news_trigger": "Launch of fiat display for crypto and Lite Mode for mobile (iGaming Afrika)",
+          "pitch_angle": "Position SoftSwiss as the go\u2011to crypto\u2011friendly sportsbook platform for mobile\u2011first operators seeking to attract younger, tech\u2011savvy players.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Betano",
+          "news_trigger": "Unveiling of AI\u2011generated trivia game as part of a broader innovation approach (EGR Global)",
+          "pitch_angle": "Offer Betano a showcase slot to demonstrate AI\u2011driven engagement tools and cross\u2011sell its trivia product across our affiliate network.",
           "urgency": "High"
         },
         {
-          "company": "Predictstreet (ADI)",
-          "news_trigger": "FIFA appoints Predictstreet as official prediction market partner",
-          "pitch_angle": "Position as the go\u2011to sponsor for sports\u2011betting analytics panels and exclusive data\u2011insights sessions at upcoming conferences",
-          "urgency": "Medium"
-        },
-        {
-          "company": "BetConstruct AI",
-          "news_trigger": "BetConstruct AI highlighted for its role in AI\u2011driven iGaming efficiency",
-          "pitch_angle": "Secure sponsorship of AI\u2011focused workshops and demo labs showcasing their technology to operators seeking automation",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Spribe",
-          "news_trigger": "Gambling Commission issues a warning to Spribe over licensing violations",
-          "pitch_angle": "Provide compliance\u2011focused sponsorship for regulatory roundtables, positioning Spribe as a case study for remediation and best practices",
+          "company": "ADI Predictstreet",
+          "news_trigger": "Partnership with BetConstruct AI and appointment as FIFA Official Prediction Market Partner (multiple sources)",
+          "pitch_angle": "Invite ADI to co\u2011host a prediction\u2011market masterclass, highlighting its AI capabilities and FIFA endorsement to attract sportsbook partners.",
           "urgency": "High"
         },
         {
-          "company": "iGaming Africa",
-          "news_trigger": "Several Africa\u2011focused articles (Francophone trends, NLA Director\u2011General meeting, etc.) signal growing market attention",
-          "pitch_angle": "Offer regional sponsorship of Africa\u2011centric panels and market\u2011entry workshops to capture emerging operator interest",
+          "company": "Codere",
+          "news_trigger": "World Cup Betting Tour: renewed hopes after Spain demolish Saudi (SBC News)",
+          "pitch_angle": "Leverage Codere\u2019s World Cup momentum for a high\u2011visibility sponsorship package tied to major football events.",
           "urgency": "Medium"
         },
         {
-          "company": "New Zealand Casino Association",
-          "news_trigger": "New regulation requiring casinos to display registration details publicly",
-          "pitch_angle": "Sponsor compliance briefing sessions and a regulatory\u2011updates newsletter targeting NZ operators",
-          "urgency": "Low"
+          "company": "7777 Gaming",
+          "news_trigger": "Expansion into Serbia through Balkan Bet agreement (Global Gaming Insider)",
+          "pitch_angle": "Present a joint affiliate\u2011traffic solution to accelerate 7777 Gaming\u2019s Balkan footprint and monetize the new Serbian license.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Super Group",
+          "news_trigger": "Acquisition of Crafting Technologies and launch of a Cluj\u2011Napoca tech hub (EGR Global)",
+          "pitch_angle": "Propose a strategic R&D partnership to tap into the new talent pool and co\u2011develop next\u2011gen iGaming platforms.",
+          "urgency": "Medium"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Nicolas Fleiderman (Holland Casino)",
-          "topic_expertise": "Regulatory risk and structural imbalances in black\u2011market gambling",
-          "news_relevance": "Featured in recent analysis on market exploitation and regulatory challenges",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "Predictstreet Executive Team",
-          "topic_expertise": "Official sports prediction markets and partnership models with major sports bodies",
-          "news_relevance": "Recently appointed FIFA official prediction market partner",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "BetConstruct AI Lead Engineer",
-          "topic_expertise": "AI integration for operational efficiency in iGaming platforms",
-          "news_relevance": "Highlighted for AI\u2019s growing role in making iGaming more efficient",
+          "person_or_company": "SoftSwiss CTO",
+          "topic_expertise": "Crypto integration, mobile Lite Mode, fintech compliance",
+          "news_relevance": "Recent rollout of fiat\u2011display for crypto and Lite Mode for mobile devices",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Director\u2011General of Nigeria Lottery Authority (NLA)",
-          "topic_expertise": "Lottery modernization and cross\u2011border affiliate strategies in West Africa",
-          "news_relevance": "Met with Greater Accra LMC Chairman to discuss industry collaboration",
+          "person_or_company": "Betano Head of Product Innovation",
+          "topic_expertise": "AI\u2011generated gaming experiences, player engagement",
+          "news_relevance": "Launch of AI\u2011generated trivia game",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Representative from Kahnaw\u00e0:ke Gaming Authority",
-          "topic_expertise": "Indigenous gaming regulation and liquidity challenges in Supreme Court appeals",
-          "news_relevance": "Recent withdrawal from Supreme Court iGaming liquidity appeal",
-          "session_type": "Roundtable"
+          "person_or_company": "ADI Predictstreet CEO",
+          "topic_expertise": "Prediction markets, AI analytics, FIFA partnership",
+          "news_relevance": "New partnership with BetConstruct AI and FIFA official prediction market role",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "Codere CEO",
+          "topic_expertise": "Sportsbook strategy during mega\u2011events, market activation",
+          "news_relevance": "World Cup Betting Tour momentum",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "7777 Gaming COO",
+          "topic_expertise": "Balkan market entry, licensing, affiliate scaling",
+          "news_relevance": "Serbian expansion via Balkan Bet agreement",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "Super Group VP of Innovation",
+          "topic_expertise": "M&A integration, tech\u2011hub development, AI platform creation",
+          "news_relevance": "Acquisition of Crafting Technologies and new Cluj\u2011Napoca hub",
+          "session_type": "Keynote"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Spribe",
-            "Gambling Commission"
-          ],
-          "partnership_type": "Compliance/Product",
-          "opportunity": "Facilitate a joint compliance\u2011tech initiative where Spribe partners with a regulator\u2011approved compliance provider to restore licensing confidence"
-        },
-        {
-          "companies_involved": [
-            "Predictstreet",
-            "FIFA"
-          ],
-          "partnership_type": "Product/Marketing",
-          "opportunity": "Co\u2011create a branded prediction\u2011market product line for FIFA events, offering exclusive data feeds and sponsorship slots"
-        },
-        {
-          "companies_involved": [
             "BetConstruct AI",
-            "iGaming Africa"
+            "ADI Predictstreet"
           ],
-          "partnership_type": "Technology/Regional Expansion",
-          "opportunity": "Launch an AI\u2011driven betting platform tailored for African markets, leveraging BetConstruct\u2019s tech and iGaming Africa\u2019s regional insights"
+          "partnership_type": "Product",
+          "opportunity": "Co\u2011develop AI\u2011powered prediction\u2011market tools and jointly market them to sportsbooks worldwide."
+        },
+        {
+          "companies_involved": [
+            "7777 Gaming",
+            "Balkan Bet"
+          ],
+          "partnership_type": "M&A/Strategic Alliance",
+          "opportunity": "Leverage Balkan Bet\u2019s local licensing expertise to accelerate 7777 Gaming\u2019s Serbian rollout and cross\u2011sell affiliate traffic."
+        },
+        {
+          "companies_involved": [
+            "Super Group",
+            "Crafting Technologies"
+          ],
+          "partnership_type": "M&A",
+          "opportunity": "Access Crafting\u2019s AI talent pool; co\u2011create a next\u2011generation gaming engine hosted in the new Cluj\u2011Napoca hub."
+        },
+        {
+          "companies_involved": [
+            "Brazilian Financial Enforcement Agency",
+            "South African Regulators"
+          ],
+          "partnership_type": "Regulatory Collaboration",
+          "opportunity": "Offer compliance and anti\u2011fraud solutions to operators facing heightened enforcement across LATAM and Africa."
+        },
+        {
+          "companies_involved": [
+            "Russian Regulatory Body",
+            "Online Casino Operators"
+          ],
+          "partnership_type": "Regulatory Change",
+          "opportunity": "Provide geo\u2011blocking and rapid\u2011response compliance tech to adapt to shortened casino blocking times."
         }
       ],
-      "timing_recommendations": "Prioritize outreach to Indonesia PPATK and Brazil\u2019s Finance Ministry within the next 4\u20116 weeks as both jurisdictions are finalizing budget and tax reforms that will shape operator licensing and tax structures for 2027. Simultaneously, secure sponsorships with iGB Affiliate and Predictstreet before the upcoming FIFA tournament cycle (June\u2011July 2026) to capitalize on heightened global betting interest."
+      "timing_recommendations": "Prioritise outreach to ADI Predictstreet and BetConstruct AI (AI\u2011prediction market partnership) and Betano (AI trivia launch) within the next 2\u20113 weeks to capture early\u2011stage interest. Follow up with SoftSwiss and 7777 Gaming in the next 4\u20116 weeks as their product rollouts and market expansion mature. Schedule medium\u2011term engagements (8\u201112 weeks) with Super Group\u2019s tech hub integration and the Brazil/Russia regulatory shifts, which will evolve over the next quarter."
     },
-    "timestamp": "2026-07-20T10:52:37.672744",
+    "timestamp": "2026-07-21T10:25:43.059539",
     "ttl_hours": 24
   },
-  "17d9984b7a3f77958c34031d913c71fa": {
+  "caa74fded53f7e87bc3e696a3585ec7a": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "BetConstruct",
+          "company": "Entain",
           "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Announced strategic AI partnership with ADI Predictstreet for FIFA prediction markets",
-          "booth_pitch": "Premium 20sqm booth with a dedicated demo arena and a speaking slot on AI in sports betting",
+          "news_trigger": "Publicly confronting illegal gambling on social media, signalling a push to reinforce brand legitimacy and expand regulated offerings.",
+          "booth_pitch": "Premium 20sqm package with a dedicated interview space for media, showcasing responsible\u2011gaming initiatives and upcoming product launches.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "ADI Predictstreet",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Named FIFA Official Prediction Market Partner and partnered with BetConstruct on AI solutions",
-          "booth_pitch": "Standard 10sqm booth plus a branded lounge for networking with operators interested in predictive analytics",
+          "company": "BetConstruct",
+          "category_fit": "Technology & Platform Solutions",
+          "news_trigger": "AI partnership with ADI Predictstreet to accelerate market presence, indicating new AI\u2011driven betting tools.",
+          "booth_pitch": "Large 50sqm+ exhibition hall with live demo stations for AI modules, positioning BetConstruct as the go\u2011to tech partner for operators seeking AI integration.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Small (10sqm)"
+          "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Spribe",
-          "category_fit": "Game Development & Innovation",
-          "news_trigger": "Recent Gambling Commission warning but continues to launch new high\u2011volatility slot titles",
-          "booth_pitch": "Medium 20sqm booth with live game showcases and a workshop on responsible gaming compliance",
+          "company": "Betano",
+          "category_fit": "General iGaming / Innovation",
+          "news_trigger": "Launch of an AI\u2011generated trivia game as part of a broader innovation strategy.",
+          "booth_pitch": "Medium 20sqm booth featuring an interactive trivia arena where attendees can experience the AI game live, driving buzz and partnership talks.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
           "company": "SoftSwiss",
-          "category_fit": "Platform & Technology Solutions",
-          "news_trigger": "Launched a new crypto\u2011friendly iGaming platform supporting multiple blockchain tokens",
-          "booth_pitch": "Large 50sqm+ exhibition space with a crypto demo zone and a panel slot on blockchain integration",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "Gaming Innovation Group (GiG)",
-          "category_fit": "Regulatory & Compliance Solutions",
-          "news_trigger": "Introduced a new compliance suite for emerging markets, including Brazil and South Africa",
-          "booth_pitch": "Standard 10sqm booth plus a breakout session on navigating new tax regimes in Latin America and Africa",
+          "category_fit": "Technology \u2013 Crypto & Mobile Solutions",
+          "news_trigger": "Introduction of fiat display for crypto and a lite mobile mode, highlighting a focus on hybrid payment experiences.",
+          "booth_pitch": "Small 10sqm kiosk with crypto\u2011fiat payment demos and a mobile\u2011first showcase, attracting operators interested in multi\u2011currency solutions.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Kambi",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Released a next\u2011gen live odds API aimed at fast\u2011moving markets in Europe and Asia",
-          "booth_pitch": "Medium 20sqm booth with live API integration demos and a round\u2011table on odds\u2011setting technology",
-          "contact_urgency": "High",
+          "company": "7777 Gaming",
+          "category_fit": "General iGaming \u2013 Regional Expansion",
+          "news_trigger": "Expansion into Serbia via a partnership with Balkan Bet, signalling a push into new European markets.",
+          "booth_pitch": "Medium 20sqm stand with a map of current and target markets, facilitating B2B matchmaking for regional licensing and distribution partners.",
+          "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Super (acquiring Crafting Technologies)",
+          "category_fit": "Technology \u2013 Development & Studio Services",
+          "news_trigger": "Acquisition of Crafting Technologies and launch of a new tech hub in Cluj\u2011Napoca, indicating growth in development capabilities.",
+          "booth_pitch": "Large 50sqm+ space with a mini studio setup to demonstrate game\u2011dev pipelines and partnership opportunities for content creators.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Codere",
+          "category_fit": "Sports Betting \u2013 Event\u2011Driven Marketing",
+          "news_trigger": "World Cup Betting Tour boosting brand visibility after Spain\u2019s win over Saudi Arabia, showing a focus on high\u2011profile event activations.",
+          "booth_pitch": "Small 10sqm activation booth with live World Cup highlights and a betting demo zone, perfect for showcasing event\u2011driven product bundles.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Regulatory & Compliance Solutions",
-          "opportunity": "Few exhibitors currently showcase compliance platforms, yet operators are seeking guidance on new tax regimes in Brazil, South Africa, and Estonia.",
+          "category": "Affiliate & Payments Solutions for Emerging African Markets",
+          "opportunity": "Few exhibitors currently address the unique regulatory, payment, and education challenges in Africa, yet demand is rising as operators seek localized growth.",
           "target_company_types": [
-            "Compliance SaaS providers",
-            "Legal consultancy firms"
+            "Affiliate Networks",
+            "Payment Processors",
+            "Player Education Platforms"
           ]
         },
         {
-          "category": "Emerging Market Operators (Latin America & Africa)",
-          "opportunity": "Rapid regulatory changes in Brazil, Dominican Republic, and Ghana create demand for B2B networking, but representation is limited.",
+          "category": "AI\u2011Driven Responsible\u2011Gaming Tools",
+          "opportunity": "While AI is being used for product innovation, there is a scarcity of exhibitors offering AI solutions focused on player protection and compliance, a growing priority for regulators.",
           "target_company_types": [
-            "Regional operators",
-            "Market entry consultants"
+            "RegTech Providers",
+            "AI Analytics Firms",
+            "Responsible\u2011Gaming Platforms"
           ]
         }
       ],
-      "timing_note": "Reach out immediately (within the next 2 weeks) to capitalize on the momentum from recent product launches and partnerships, ensuring they have ample time to plan their exhibition strategy before the ICE/iGB registration deadline."
+      "timing_note": "Initiate outreach immediately (early May) to align with the typical Q2 budgeting cycle and secure prime booth locations before the mid\u2011June booking deadline."
     },
-    "timestamp": "2026-07-20T10:52:39.243605",
+    "timestamp": "2026-07-21T10:25:43.996968",
     "ttl_hours": 24
   }
 }
