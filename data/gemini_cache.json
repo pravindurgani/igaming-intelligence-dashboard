@@ -1,252 +1,299 @@
 {
-  "03fe465699892680b8b87db6545ff12b": {
+  "1068cbdacba79fba67ffe9625ad4aca1": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live event coverage with insider floor insights",
-          "what_readers_get": "Readers receive real\u2011time highlights, keynote takeaways, and behind\u2011the\u2011scenes networking moments from industry conferences.",
-          "why_it_matters": "Access to event details lets professionals act on emerging trends before they become public knowledge.",
-          "evidence_summary": "Our portfolio delivers 521 event articles (\u224837% of our output) while competitors publish 882 (\u224830% of theirs), a 3\u2011fold higher concentration.",
+          "headline": "Live event coverage that delivers insider insights you won\u2019t miss",
+          "what_readers_get": "On\u2011the\u2011ground reports, keynote takeaways, and networking highlights from top iGaming conferences.",
+          "why_it_matters": "Industry decisions and product launches are often announced at events, shaping market direction.",
+          "evidence_summary": "Our portfolio delivers 38% of all event\u2011focused articles (531 of 587), three times the share of competitors.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 521,
+          "internal_count": 531,
           "concentration_ratio": 3.0
         }
       ],
       "ai_discovered": [
         {
-          "headline": "In\u2011depth regulatory analysis that keeps you ahead of legal changes",
-          "what_readers_get": "Readers get clear explanations of new laws, enforcement actions, and compliance implications across key markets.",
-          "why_it_matters": "Regulatory shifts can instantly impact licensing, product offerings, and revenue streams in the iGaming sector.",
-          "evidence": "Supported by articles on UKGC VPN enforcement, New\u202fZealand iGaming bill, Brazil\u2019s prediction\u2011market ban, and UK RTP adjustments (4 internal pieces) versus limited competitor coverage.",
-          "confidence": "high",
-          "concentration_ratio": 2.5
+          "headline": "In\u2011depth affiliate ecosystem analyses that reveal hidden growth opportunities",
+          "what_readers_get": "Detailed case studies of affiliate platforms, tier\u2011by\u2011tier market maps, and award insights.",
+          "why_it_matters": "Affiliates drive a large share of traffic and revenue, yet their dynamics are often opaque.",
+          "evidence": "Supported by three internal articles (Slotoro launch, Brazil long\u2011tail affiliates, iGB Affiliate Awards) with few comparable competitor pieces.",
+          "confidence": "high"
         },
         {
-          "headline": "Exclusive affiliate ecosystem insights for smarter partnership decisions",
-          "what_readers_get": "Readers learn about emerging affiliate platforms, revenue models, and mid\u2011tier network dynamics.",
-          "why_it_matters": "Affiliate strategies drive traffic and profitability, making nuanced ecosystem knowledge a competitive edge.",
-          "evidence": "Based on internal pieces such as \u2018How Slotoro was built for affiliates\u2019 and \u2018Brazil\u2019s long\u2011tail affiliates\u2019 (2 internal articles) with minimal competitor equivalents.",
-          "confidence": "medium",
-          "concentration_ratio": 2.0
+          "headline": "Clear regulatory breakdowns that help you anticipate market shifts",
+          "what_readers_get": "Concise explanations of new laws, licensing updates, and policy debates across key jurisdictions.",
+          "why_it_matters": "Regulatory changes can instantly alter operator strategies and investment priorities.",
+          "evidence": "Based on four internal pieces covering UK RTP, Brazil prediction markets, Austria liberalisation, and Unibet\u2019s UK strategy, outpacing competitor coverage.",
+          "confidence": "medium"
         }
       ],
-      "strategic_summary": "The portfolio delivers superior event, regulatory, and affiliate intelligence that equips iGaming professionals with actionable insights competitors often miss.",
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for actionable event intel, affiliate ecosystem insight, and regulatory analysis that directly inform iGaming strategy.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-21T10:25:40.758221",
+    "timestamp": "2026-07-22T10:26:04.235613",
     "ttl_hours": 24
   },
-  "8e27717a9bdc4cd80cedb8f347223c3c": {
+  "d4f11775a48dc3afeefc1624bdf5b921": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "SoftSwiss",
-          "news_trigger": "Launch of fiat display for crypto and Lite Mode for mobile (iGaming Afrika)",
-          "pitch_angle": "Position SoftSwiss as the go\u2011to crypto\u2011friendly sportsbook platform for mobile\u2011first operators seeking to attract younger, tech\u2011savvy players.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Betano",
-          "news_trigger": "Unveiling of AI\u2011generated trivia game as part of a broader innovation approach (EGR Global)",
-          "pitch_angle": "Offer Betano a showcase slot to demonstrate AI\u2011driven engagement tools and cross\u2011sell its trivia product across our affiliate network.",
-          "urgency": "High"
-        },
-        {
           "company": "ADI Predictstreet",
-          "news_trigger": "Partnership with BetConstruct AI and appointment as FIFA Official Prediction Market Partner (multiple sources)",
-          "pitch_angle": "Invite ADI to co\u2011host a prediction\u2011market masterclass, highlighting its AI capabilities and FIFA endorsement to attract sportsbook partners.",
+          "news_trigger": "Partnered with BetConstruct AI and announced FIFA Official Prediction Market partnership",
+          "pitch_angle": "Offer co\u2011branding on AI\u2011driven prediction products and sponsor a joint AI innovation summit to showcase predictive analytics capabilities",
+          "urgency": "Medium"
+        },
+        {
+          "company": "BetConstruct AI",
+          "news_trigger": "Multiple new AI partnerships, including with ADI Predictstreet and expansion of AI services",
+          "pitch_angle": "Position as a flagship AI sponsor for upcoming conferences, provide joint development of AI\u2011powered sportsbook tools, and secure exclusive branding on AI demos",
           "urgency": "High"
         },
         {
-          "company": "Codere",
-          "news_trigger": "World Cup Betting Tour: renewed hopes after Spain demolish Saudi (SBC News)",
-          "pitch_angle": "Leverage Codere\u2019s World Cup momentum for a high\u2011visibility sponsorship package tied to major football events.",
+          "company": "SoftSwiss",
+          "news_trigger": "Launch of fiat display for crypto and Lite Mode for mobile platforms",
+          "pitch_angle": "Sponsor a crypto\u2011friendly gaming track, showcase mobile\u2011first solutions, and run joint webinars on fiat\u2011crypto integration",
           "urgency": "Medium"
         },
         {
-          "company": "7777 Gaming",
-          "news_trigger": "Expansion into Serbia through Balkan Bet agreement (Global Gaming Insider)",
-          "pitch_angle": "Present a joint affiliate\u2011traffic solution to accelerate 7777 Gaming\u2019s Balkan footprint and monetize the new Serbian license.",
+          "company": "Super",
+          "news_trigger": "Acquisition of Crafting Technologies and launch of a new tech hub in Cluj\u2011Napoca",
+          "pitch_angle": "Collaborate on a tech\u2011hub partnership program, provide mentorship and branding for emerging iGaming developers in Eastern Europe",
           "urgency": "Medium"
         },
         {
-          "company": "Super Group",
-          "news_trigger": "Acquisition of Crafting Technologies and launch of a Cluj\u2011Napoca tech hub (EGR Global)",
-          "pitch_angle": "Propose a strategic R&D partnership to tap into the new talent pool and co\u2011develop next\u2011gen iGaming platforms.",
+          "company": "Yoco",
+          "news_trigger": "Acquired Dyner.ai to expand into business AI solutions",
+          "pitch_angle": "Create a fintech\u2011gaming integration package, sponsor payment\u2011solution workshops, and leverage Yoco\u2019s network for merchant onboarding",
+          "urgency": "High"
+        },
+        {
+          "company": "Kambi",
+          "news_trigger": "LatAm expansion with BetWarrior",
+          "pitch_angle": "Offer joint market\u2011entry research, co\u2011host regional panels on Latin American regulation, and provide branding on new product roll\u2011outs",
+          "urgency": "Medium"
+        },
+        {
+          "company": "BetWarrior",
+          "news_trigger": "Strategic partnership with Kambi for Latin American growth",
+          "pitch_angle": "Support BetWarrior\u2019s market launch with sponsorship of regional events and collaborative content on responsible gaming in LATAM",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Paf",
+          "news_trigger": "Director highlighted vulnerability of legal markets and proposed solutions",
+          "pitch_angle": "Facilitate a regulatory round\u2011table series, sponsor research on market protection, and align on responsible gambling initiatives",
+          "urgency": "Low"
+        },
+        {
+          "company": "PlayCity",
+          "news_trigger": "Added Kick as a partner to combat black\u2011market betting",
+          "pitch_angle": "Co\u2011develop anti\u2011black\u2011market campaigns, sponsor a dedicated workshop on fraud detection, and integrate Kick\u2019s technology into PlayCity\u2019s platform",
           "urgency": "Medium"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "SoftSwiss CTO",
-          "topic_expertise": "Crypto integration, mobile Lite Mode, fintech compliance",
-          "news_relevance": "Recent rollout of fiat\u2011display for crypto and Lite Mode for mobile devices",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Betano Head of Product Innovation",
-          "topic_expertise": "AI\u2011generated gaming experiences, player engagement",
-          "news_relevance": "Launch of AI\u2011generated trivia game",
+          "person_or_company": "Nicolas Fleiderman (Holland Casino)",
+          "topic_expertise": "Casino regulation and market imbalance",
+          "news_relevance": "Commented on the \u2018structural imbalance\u2019 exploited by black\u2011market operators",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "ADI Predictstreet CEO",
-          "topic_expertise": "Prediction markets, AI analytics, FIFA partnership",
-          "news_relevance": "New partnership with BetConstruct AI and FIFA official prediction market role",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "Codere CEO",
-          "topic_expertise": "Sportsbook strategy during mega\u2011events, market activation",
-          "news_relevance": "World Cup Betting Tour momentum",
+          "person_or_company": "NLA Director\u2011General",
+          "topic_expertise": "National lottery regulation and African market development",
+          "news_relevance": "Met with Greater Accra LMC Chairman to discuss industry challenges",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "7777 Gaming COO",
-          "topic_expertise": "Balkan market entry, licensing, affiliate scaling",
-          "news_relevance": "Serbian expansion via Balkan Bet agreement",
+          "person_or_company": "Greater Accra LMC Chairman",
+          "topic_expertise": "Local licensing and market conditions in Ghana",
+          "news_relevance": "Engaged in high\u2011level dialogue with NLA on industry challenges",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Super Group VP of Innovation",
-          "topic_expertise": "M&A integration, tech\u2011hub development, AI platform creation",
-          "news_relevance": "Acquisition of Crafting Technologies and new Cluj\u2011Napoca hub",
+          "person_or_company": "Giogi Tsutskiridze",
+          "topic_expertise": "iGB Live event strategy and industry networking",
+          "news_relevance": "Highlighted iGB Live as a unique learning and networking opportunity",
           "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "Giovanni Malago",
+          "topic_expertise": "Football governance and its impact on sports betting",
+          "news_relevance": "Elected as Italy football federation president, influencing betting markets",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Andy Burnham",
+          "topic_expertise": "Political influence on UK betting odds and regulation",
+          "news_relevance": "Featured in analysis of betting odds surrounding his resignation",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Paf Director",
+          "topic_expertise": "Legal market protection and responsible gambling",
+          "news_relevance": "Stated that legal markets are \u2018defenceless\u2019 and offered solutions",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "PlayCity Executive",
+          "topic_expertise": "Anti\u2011black\u2011market strategies and partnership integration",
+          "news_relevance": "Announced partnership with Kick to eradicate black\u2011market betting",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Yoco CEO",
+          "topic_expertise": "Fintech payments and AI integration for iGaming",
+          "news_relevance": "Recent acquisition of Dyner.ai to broaden AI capabilities",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "Dyner.ai CTO",
+          "topic_expertise": "AI solutions for gaming platforms",
+          "news_relevance": "Acquired by Yoco, positioning AI at the core of new product offerings",
+          "session_type": "Workshop"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "BetConstruct AI",
-            "ADI Predictstreet"
+            "ADI Predictstreet",
+            "BetConstruct AI"
           ],
           "partnership_type": "Product",
-          "opportunity": "Co\u2011develop AI\u2011powered prediction\u2011market tools and jointly market them to sportsbooks worldwide."
+          "opportunity": "Co\u2011host AI prediction market webinars and secure joint sponsorship of upcoming sports events"
         },
         {
           "companies_involved": [
-            "7777 Gaming",
-            "Balkan Bet"
-          ],
-          "partnership_type": "M&A/Strategic Alliance",
-          "opportunity": "Leverage Balkan Bet\u2019s local licensing expertise to accelerate 7777 Gaming\u2019s Serbian rollout and cross\u2011sell affiliate traffic."
-        },
-        {
-          "companies_involved": [
-            "Super Group",
+            "Super",
             "Crafting Technologies"
           ],
           "partnership_type": "M&A",
-          "opportunity": "Access Crafting\u2019s AI talent pool; co\u2011create a next\u2011generation gaming engine hosted in the new Cluj\u2011Napoca hub."
+          "opportunity": "Leverage the new Cluj\u2011Napoca tech hub for incubator programs and sponsor developer bootcamps"
         },
         {
           "companies_involved": [
-            "Brazilian Financial Enforcement Agency",
-            "South African Regulators"
+            "Yoco",
+            "Dyner.ai"
           ],
-          "partnership_type": "Regulatory Collaboration",
-          "opportunity": "Offer compliance and anti\u2011fraud solutions to operators facing heightened enforcement across LATAM and Africa."
+          "partnership_type": "Acquisition",
+          "opportunity": "Integrate payment solutions into iGaming platforms and sponsor fintech\u2011gaming hackathons"
         },
         {
           "companies_involved": [
-            "Russian Regulatory Body",
-            "Online Casino Operators"
+            "Kambi",
+            "BetWarrior"
           ],
-          "partnership_type": "Regulatory Change",
-          "opportunity": "Provide geo\u2011blocking and rapid\u2011response compliance tech to adapt to shortened casino blocking times."
+          "partnership_type": "Strategic Expansion",
+          "opportunity": "Jointly launch LATAM\u2011focused product suites and sponsor regional regulatory round\u2011tables"
+        },
+        {
+          "companies_involved": [
+            "PlayCity",
+            "Kick"
+          ],
+          "partnership_type": "Product",
+          "opportunity": "Develop anti\u2011black\u2011market tools and present case studies at compliance workshops"
         }
       ],
-      "timing_recommendations": "Prioritise outreach to ADI Predictstreet and BetConstruct AI (AI\u2011prediction market partnership) and Betano (AI trivia launch) within the next 2\u20113 weeks to capture early\u2011stage interest. Follow up with SoftSwiss and 7777 Gaming in the next 4\u20116 weeks as their product rollouts and market expansion mature. Schedule medium\u2011term engagements (8\u201112 weeks) with Super Group\u2019s tech hub integration and the Brazil/Russia regulatory shifts, which will evolve over the next quarter."
+      "timing_recommendations": "Prioritize outreach to BetConstruct AI and ADI Predictstreet within the next 2\u20113 weeks to align with their AI partnership announcements. Engage Yoco and Dyner.ai immediately, as the acquisition is fresh and they are likely seeking integration partners. Schedule meetings with Kambi and BetWarrior before their LATAM rollout Q4 2024 to secure joint branding. Monitor the Super\u2011Crafting Technologies acquisition timeline (Q4 2024) for tech\u2011hub sponsorship opportunities. Attend the iGB Live event in early Q1 2025 to lock in speaker slots for the recommended experts."
     },
-    "timestamp": "2026-07-21T10:25:43.059539",
+    "timestamp": "2026-07-22T10:26:06.306785",
     "ttl_hours": 24
   },
-  "caa74fded53f7e87bc3e696a3585ec7a": {
+  "7d8e708c6302558a638056d553d4ec8d": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Entain",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Publicly confronting illegal gambling on social media, signalling a push to reinforce brand legitimacy and expand regulated offerings.",
-          "booth_pitch": "Premium 20sqm package with a dedicated interview space for media, showcasing responsible\u2011gaming initiatives and upcoming product launches.",
+          "company": "ADI Predictstreet",
+          "category_fit": "General iGaming / Sports Betting \u2013 AI & Predictive Analytics",
+          "news_trigger": "Announced partnership with FIFA as Official Prediction Market Partner and a strategic partnership with BetConstruct AI to boost AI capabilities.",
+          "booth_pitch": "Premium 20sqm booth with a dedicated demo arena and a speaking slot on AI-driven sports betting trends. Position ADI as the go\u2011to partner for predictive tech in the sports betting ecosystem.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "BetConstruct",
-          "category_fit": "Technology & Platform Solutions",
-          "news_trigger": "AI partnership with ADI Predictstreet to accelerate market presence, indicating new AI\u2011driven betting tools.",
-          "booth_pitch": "Large 50sqm+ exhibition hall with live demo stations for AI modules, positioning BetConstruct as the go\u2011to tech partner for operators seeking AI integration.",
+          "company": "BetConstruct AI",
+          "category_fit": "General iGaming / Sports Betting \u2013 AI Solutions",
+          "news_trigger": "Launched a new AI\u2011powered sportsbook platform and entered a joint venture with ADI Predictstreet to expand market presence.",
+          "booth_pitch": "Standard 10sqm booth plus a live AI\u2011demo station. Offer a panel participation on \u2018AI\u2019s role in responsible gambling\u2019 to showcase thought leadership.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
+          "estimated_booth_size": "Small (10sqm)"
         },
         {
           "company": "Betano",
-          "category_fit": "General iGaming / Innovation",
-          "news_trigger": "Launch of an AI\u2011generated trivia game as part of a broader innovation strategy.",
-          "booth_pitch": "Medium 20sqm booth featuring an interactive trivia arena where attendees can experience the AI game live, driving buzz and partnership talks.",
+          "category_fit": "General iGaming / Sports Betting \u2013 Consumer Engagement",
+          "news_trigger": "Released an AI\u2011generated trivia game as part of a broader innovation strategy, highlighting new consumer\u2011engagement tools.",
+          "booth_pitch": "Medium 20sqm booth with interactive trivia stations where attendees can experience the game live. Include a workshop on gamification for retention.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "SoftSwiss",
-          "category_fit": "Technology \u2013 Crypto & Mobile Solutions",
-          "news_trigger": "Introduction of fiat display for crypto and a lite mobile mode, highlighting a focus on hybrid payment experiences.",
-          "booth_pitch": "Small 10sqm kiosk with crypto\u2011fiat payment demos and a mobile\u2011first showcase, attracting operators interested in multi\u2011currency solutions.",
+          "company": "SOFTSWISS",
+          "category_fit": "General iGaming / Sports Betting \u2013 Crypto & Mobile Solutions",
+          "news_trigger": "Added fiat display for crypto users and introduced a Lite Mode for mobile, signalling a push into hybrid crypto\u2011fiat markets.",
+          "booth_pitch": "Large 50sqm+ booth with a crypto\u2011fiat demo lounge and a mobile\u2011first showcase zone. Offer a keynote slot on \u2018Bridging Crypto and Traditional Betting.\u2019",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "7777 Gaming",
-          "category_fit": "General iGaming \u2013 Regional Expansion",
-          "news_trigger": "Expansion into Serbia via a partnership with Balkan Bet, signalling a push into new European markets.",
-          "booth_pitch": "Medium 20sqm stand with a map of current and target markets, facilitating B2B matchmaking for regional licensing and distribution partners.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Super (acquiring Crafting Technologies)",
-          "category_fit": "Technology \u2013 Development & Studio Services",
-          "news_trigger": "Acquisition of Crafting Technologies and launch of a new tech hub in Cluj\u2011Napoca, indicating growth in development capabilities.",
-          "booth_pitch": "Large 50sqm+ space with a mini studio setup to demonstrate game\u2011dev pipelines and partnership opportunities for content creators.",
-          "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Codere",
-          "category_fit": "Sports Betting \u2013 Event\u2011Driven Marketing",
-          "news_trigger": "World Cup Betting Tour boosting brand visibility after Spain\u2019s win over Saudi Arabia, showing a focus on high\u2011profile event activations.",
-          "booth_pitch": "Small 10sqm activation booth with live World Cup highlights and a betting demo zone, perfect for showcasing event\u2011driven product bundles.",
+          "company": "EveryMatrix",
+          "category_fit": "General iGaming / Sports Betting \u2013 Lottery & Gaming Expansion",
+          "news_trigger": "Created a dedicated Lottery division to broaden its product portfolio beyond sportsbook and casino offerings.",
+          "booth_pitch": "Standard 10sqm booth with a lottery\u2011product showcase and a round\u2011table discussion on integrating lottery and sportsbook platforms.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Kambi",
+          "category_fit": "General iGaming / Sports Betting \u2013 LatAm Expansion",
+          "news_trigger": "Announced a strategic expansion into Latin America through partnership with BetWarrior, targeting new regulated markets.",
+          "booth_pitch": "Medium 20sqm booth featuring a LatAm market map, live demos of localized sportsbook solutions, and a bilingual (Spanish/English) presentation slot.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Yoco",
+          "category_fit": "General iGaming / Sports Betting \u2013 Fintech & Business Management",
+          "news_trigger": "Acquired Dyner.ai to extend its portfolio into AI\u2011driven business management tools for iGaming operators.",
+          "booth_pitch": "Standard 10sqm booth with a live AI\u2011analytics dashboard and a workshop on \u2018Fintech solutions for iGaming operators.\u2019",
           "contact_urgency": "Low",
           "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Super",
+          "category_fit": "General iGaming / Sports Betting \u2013 Technology & Development Hubs",
+          "news_trigger": "Acquired Crafting Technologies and announced the launch of a new tech hub in Cluj\u2011Napoca, signalling a major R&D investment.",
+          "booth_pitch": "Large 50sqm+ booth with a showcase of upcoming tech projects, developer meet\u2011ups, and a speaking slot on \u2018Building iGaming innovation centers in Eastern Europe.\u2019",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Large (50sqm+)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Affiliate & Payments Solutions for Emerging African Markets",
-          "opportunity": "Few exhibitors currently address the unique regulatory, payment, and education challenges in Africa, yet demand is rising as operators seek localized growth.",
+          "category": "AI & Innovation Solutions",
+          "opportunity": "Few exhibitors currently showcase pure\u2011AI platforms, yet AI is becoming a decisive factor for product differentiation and responsible gambling. Securing AI\u2011focused exhibitors will attract operators looking for next\u2011gen tech.",
           "target_company_types": [
-            "Affiliate Networks",
-            "Payment Processors",
-            "Player Education Platforms"
+            "AI platform providers",
+            "Predictive analytics firms",
+            "Machine\u2011learning middleware developers"
           ]
         },
         {
-          "category": "AI\u2011Driven Responsible\u2011Gaming Tools",
-          "opportunity": "While AI is being used for product innovation, there is a scarcity of exhibitors offering AI solutions focused on player protection and compliance, a growing priority for regulators.",
+          "category": "Lottery & Hybrid Gaming",
+          "opportunity": "Lottery operators are under\u2011represented despite the rapid growth of hybrid sportsbook\u2011lottery products in Europe and LATAM. Adding dedicated lottery exhibitors can broaden the event\u2019s appeal to regulators and operators.",
           "target_company_types": [
-            "RegTech Providers",
-            "AI Analytics Firms",
-            "Responsible\u2011Gaming Platforms"
+            "Lottery platform providers",
+            "Hybrid sportsbook\u2011lottery solution developers"
           ]
         }
       ],
-      "timing_note": "Initiate outreach immediately (early May) to align with the typical Q2 budgeting cycle and secure prime booth locations before the mid\u2011June booking deadline."
+      "timing_note": "Begin outreach in early April (Q2) to align with ICE/iGB\u2019s exhibitor registration deadline (typically early May) and to give prospects ample time to plan product launches, secure booth space, and arrange speaking opportunities."
     },
-    "timestamp": "2026-07-21T10:25:43.996968",
+    "timestamp": "2026-07-22T10:26:07.330037",
     "ttl_hours": 24
   }
 }
