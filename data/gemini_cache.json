@@ -1,230 +1,276 @@
 {
-  "535a23bf988bedecd6e4f85e2099f794": {
+  "a9fe61a3b7c49935318248a2ecff0ef0": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Exclusive event coverage with insider floor\u2011level insights",
-          "what_readers_get": "Live\u2011style reporting of keynotes, product demos, and networking moments you won\u2019t find elsewhere.",
-          "why_it_matters": "Industry professionals rely on timely event intel to shape strategy and seize partnership opportunities.",
-          "evidence_summary": "Our portfolio delivers 38% of all event\u2011related content, a 2.97\u2011times higher concentration than competitors.",
+          "headline": "Live Event Coverage with Insider Context and Key Takeaways",
+          "what_readers_get": "Immediate access to floor\u2011level insights, keynote highlights, and exclusive networking moments that most rivals miss.",
+          "why_it_matters": "In a fast\u2011moving iGaming market, on\u2011the\u2011ground intelligence drives quicker strategic decisions and partnership opportunities.",
+          "evidence_summary": "Our portfolio delivers 39% of all event\u2011related content (557 articles) while competitors provide only 30% (887 articles), giving us a 2.96\u2011times higher concentration.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 545,
-          "concentration_ratio": 2.97
+          "internal_count": 557,
+          "concentration_ratio": 2.96
         }
       ],
       "ai_discovered": [
         {
-          "headline": "Deep\u2011dive affiliate case studies that reveal winning tactics",
-          "what_readers_get": "Step\u2011by\u2011step analyses of affiliate program launches and mid\u2011tier ecosystem dynamics.",
-          "why_it_matters": "Affiliates drive a large share of traffic and revenue; understanding their models accelerates growth for operators and partners.",
-          "evidence": "Internal articles such as \u201cHow Slotoro was built for affiliates\u201d and \u201cBrazil\u2019s long\u2011tail affiliates: Inside the mid\u2011tier iGaming ecosystem\u201d provide detailed affiliate examinations, while competitor sources show far fewer comparable pieces.",
+          "headline": "Deep\u2011Dive Affiliate Ecosystem Analyses for Strategic Growth",
+          "what_readers_get": "Detailed breakdowns of affiliate networks, from emerging mid\u2011tier players to niche market dynamics, enabling smarter partnership choices.",
+          "why_it_matters": "Affiliates are the primary acquisition channel in iGaming; understanding their structure unlocks revenue\u2011boosting opportunities.",
+          "evidence": "Internal articles such as \u201cHow Slotoro was built for affiliates: Inside the launch\u201d, \u201cBrazil\u2019s long\u2011tail affiliates: Inside the mid\u2011tier iGaming ecosystem\u201d, and \u201cNavigating the maze: US market decoded for European affiliates\u201d illustrate a focused affiliate\u2011centric editorial line.",
           "confidence": "medium"
         },
         {
-          "headline": "Localized market intelligence for emerging iGaming regions",
-          "what_readers_get": "Country\u2011specific regulatory updates, partnership news, and market\u2011size insights for fast\u2011growing territories.",
-          "why_it_matters": "Operators expanding into new jurisdictions need precise, on\u2011the\u2011ground information to mitigate risk and capture early\u2011market share.",
-          "evidence": "Internal coverage includes Mexican sports\u2011content partnership, Brazil affiliate ecosystem, and Austria liberalisation analysis\u2014three distinct regional deep dives not matched by competitor titles.",
+          "headline": "AI and Emerging Technology Insights Tailored for iGaming Professionals",
+          "what_readers_get": "Cutting\u2011edge analysis on AI applications, player development tools, and tech trends that directly affect product innovation and player engagement.",
+          "why_it_matters": "Technology drives competitive advantage; staying ahead of AI developments helps operators future\u2011proof their offerings.",
+          "evidence": "Internal pieces like \u201cAI & Player Development \u2013 GGB Magazine\u201d and other tech\u2011focused reports demonstrate a consistent emphasis on emerging technology.",
           "confidence": "medium"
         }
       ],
-      "strategic_summary": "The portfolio distinguishes itself by delivering insider event reporting, actionable affiliate case studies, and granular regional market intelligence that empower industry decision\u2011makers.",
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event intel, affiliate ecosystem depth, and forward\u2011looking technology analysis that empower iGaming professionals to act faster and smarter.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-24T10:17:57.756653",
+    "timestamp": "2026-07-25T09:39:32.021338",
     "ttl_hours": 24
   },
-  "f0c6cbf503985d75f3c406948ff31123": {
+  "f174681f133090df9529920ebe10e225": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "bet365",
-          "news_trigger": "\u2018Sub On Play On\u2019 feature generates \u00a330m payout in first 11 days of 2026",
-          "pitch_angle": "Sponsor a high\u2011visibility session on next\u2011gen betting features and player retention tactics",
+          "company": "Axom",
+          "news_trigger": "Predictive AI firm Axom secured $2.4m funding injection (EGR Global)",
+          "pitch_angle": "Position our data\u2011analytics and B2B media platforms as the go\u2011to channel for AI\u2011driven risk and player\u2011behavior solutions in iGaming.",
           "urgency": "High"
         },
         {
-          "company": "Midnite",
-          "news_trigger": "South Africa hub announced as a \u201cstatement of intent\u201d by co\u2011founder",
-          "pitch_angle": "Lead an Africa\u2011focused round\u2011table or showcase partnership opportunities for market entry",
+          "company": "EveryMatrix",
+          "news_trigger": "EveryMatrix announced a dedicated lottery division and extended its partnership with Betsson (EGR Global, iGaming Expert)",
+          "pitch_angle": "Offer co\u2011marketing and thought\u2011leadership opportunities around lottery integration, white\u2011label solutions, and cross\u2011sell of sportsbook & casino content.",
           "urgency": "Medium"
         },
         {
-          "company": "SOFTSWISS",
-          "news_trigger": "Launch of Game Aggregator that unifies portfolio management with Games List",
-          "pitch_angle": "Sponsor a tech\u2011demo booth and a panel on simplifying game integration for operators",
+          "company": "Superbet",
+          "news_trigger": "Superbet expanded its collaboration with EGT Digital to deliver popular jackpot content (iGaming Afrika)",
+          "pitch_angle": "Provide premium ad\u2011inventory and event\u2011sponsorship packages for jackpot\u2011driven campaigns across emerging African markets.",
           "urgency": "Medium"
         },
         {
-          "company": "Axom",
-          "news_trigger": "Predictive AI firm secures $2.4\u202fm funding injection",
-          "pitch_angle": "Host an AI\u2011in\u2011iGaming workshop, positioning Axom as the thought\u2011leader on predictive analytics",
+          "company": "betPawa",
+          "news_trigger": "betPawa now controls more than half of the DR Congo market (iGaming Afrika)",
+          "pitch_angle": "Leverage betPawa\u2019s market dominance to pilot localized brand activations and mobile\u2011first betting experiences in Central Africa.",
           "urgency": "High"
         },
         {
           "company": "Caesars Entertainment",
-          "news_trigger": "Plans to offer iCasino in Maine via partnership with Wabanaki Nations",
-          "pitch_angle": "Sponsor a discussion on indigenous\u2011focused gaming and US market expansion strategies",
+          "news_trigger": "Caesars will launch icasino in Maine through a partnership with the Wabanaki Nations (EGR Global)",
+          "pitch_angle": "Create joint\u2011venture content and tribal\u2011focused CSR programmes that showcase responsible gambling and community investment.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "UK Gambling Commission (UKGC)",
+          "news_trigger": "UKGC fined Stakelogic for breaching slot speed rules and is under scrutiny for deposit\u2011threshold limits (iGaming Today)",
+          "pitch_angle": "Offer compliance\u2011focused webinars and regulatory\u2011update newsletters targeting operators needing to align with new UKGC enforcement trends.",
+          "urgency": "High"
+        },
+        {
+          "company": "Hong Kong Jockey Club (HKJC)",
+          "news_trigger": "UK Tote Group commercial chief moving to HKJC (EGR Global)",
+          "pitch_angle": "Invite HKJC leadership to discuss cross\u2011regional betting innovation and potential Asia\u2011Europe partnership pilots.",
+          "urgency": "Low"
+        },
+        {
+          "company": "Las Vegas Sands",
+          "news_trigger": "Kalshi could surpass Las Vegas Sands in valuation if it reaches a $40bn market cap (SBC News)",
+          "pitch_angle": "Target Sands for strategic dialogue on diversification into regulated prediction markets and potential joint\u2011venture opportunities.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Flutter Entertainment",
+          "news_trigger": "Kalshi positioned as a potential rival to Flutter in valuation race (SBC News)",
+          "pitch_angle": "Propose a round\u2011table on the future of regulated prediction markets and how legacy operators can integrate such products.",
           "urgency": "Medium"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Meta",
-          "topic_expertise": "Blockchain\u2011based prediction markets and regulatory navigation",
-          "news_relevance": "Report on Meta planning a prediction\u2011markets app amid rising regulatory scrutiny",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Stakelogic",
-          "topic_expertise": "Regulatory compliance and rapid slot deployment",
-          "news_relevance": "Fined \u00a3122,835 for releasing slots too quickly \u2013 highlights compliance risk",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Stickyeyes",
-          "topic_expertise": "Mid\u2011tier online bingo competition and market consolidation",
-          "news_relevance": "Shrinking online bingo market spurs fierce competition among mid\u2011tier operators",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "VBET",
-          "topic_expertise": "Leveraging major sporting events for market breakout",
-          "news_relevance": "Aiming for Dutch breakout during World Cup summer \u2013 timing aligns with global sports calendar",
+          "person_or_company": "Axom CEO / Founder",
+          "topic_expertise": "Predictive AI, risk modelling, player\u2011behavior analytics",
+          "news_relevance": "Recent $2.4m funding round highlights growth and market interest",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "4G Capital",
-          "topic_expertise": "Fintech financing for emerging\u2011market iGaming operators",
-          "news_relevance": "Reached US$1\u202fbn in loans disbursed to Kenya and Uganda \u2013 illustrates fintech\u2011iGaming convergence",
+          "person_or_company": "Head of Lottery Division, EveryMatrix",
+          "topic_expertise": "Lottery product development, B2B integration",
+          "news_relevance": "Launch of dedicated lottery division and partnership extensions",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "CEO of Superbet",
+          "topic_expertise": "Jackpot strategy, market expansion in Africa",
+          "news_relevance": "New collaboration with EGT Digital to boost jackpot content",
           "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "CEO of betPawa",
+          "topic_expertise": "Mobile\u2011first betting, emerging African markets",
+          "news_relevance": "Dominates >50% of DR Congo betting market",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Chief Compliance Officer, UK Gambling Commission",
+          "topic_expertise": "Regulatory enforcement, deposit\u2011threshold policy",
+          "news_relevance": "Recent fines and study questioning UK deposit limits",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "Commercial Chief, Hong Kong Jockey Club",
+          "topic_expertise": "International betting operations, talent mobility",
+          "news_relevance": "Recent appointment from UK Tote Group",
+          "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Betsson",
-            "EveryMatrix"
+            "Caesars Entertainment",
+            "Wabanaki Nations"
           ],
-          "partnership_type": "Product",
-          "opportunity": "Leverage the extended Betsson\u2011EveryMatrix integration to co\u2011host a live demo of the platform for prospective operators"
+          "partnership_type": "Product Launch / Joint Venture",
+          "opportunity": "Co\u2011host a launch event and secure exclusive media rights for the icasino rollout in Maine."
+        },
+        {
+          "companies_involved": [
+            "EveryMatrix",
+            "Regional Lottery Operators"
+          ],
+          "partnerhip_type": "Product Development",
+          "opportunity": "Facilitate B2B matchmaking sessions to accelerate adoption of the new lottery platform across Europe."
         },
         {
           "companies_involved": [
             "Entain",
-            "Easygo"
+            "EMMA Capital"
           ],
-          "partnership_type": "Strategic/M&A",
-          "opportunity": "Monitor the headline\u2011driven location dispute for potential divestiture or acquisition interest from other operators"
+          "partnership_type": "M&A",
+          "opportunity": "Provide deal\u2011flow intelligence and post\u2011transaction branding support for the \u00a31.9bn CEE sale."
         },
         {
           "companies_involved": [
-            "Caesars Entertainment",
-            "Wabanaki Nations"
+            "UK Tote Group",
+            "Hong Kong Jockey Club"
           ],
-          "partnership_type": "Joint Venture",
-          "opportunity": "Facilitate a responsible\u2011gaming sponsorship package around the Maine iCasino launch, targeting indigenous community outreach"
+          "partnership_type": "Talent Transfer",
+          "opportunity": "Organize a knowledge\u2011exchange series on cross\u2011market commercial strategies."
+        },
+        {
+          "companies_involved": [
+            "Kalshi",
+            "Flutter Entertainment",
+            "Las Vegas Sands"
+          ],
+          "partnership_type": "Competitive Landscape",
+          "opportunity": "Host a strategic round\u2011table on valuation dynamics and potential collaboration or acquisition pathways."
         }
       ],
-      "timing_recommendations": "Capitalize on the SBC Summit in Tbilisi (early July 2026) to secure speaking slots for Meta, Axom and VBET; align sponsor outreach with the World Cup summer window for VBET and bet365 promotions; prioritize engagement with Irish regulators and Dutch tax authorities before Q3 2026 deadlines on AML and tax reforms; fast\u2011track discussions with Midnite and SOFTSWISS ahead of the Q4 2026 African and European market planning cycles."
+      "timing_recommendations": "Prioritize outreach to Axom, Kalshi (IPO speculation), and UKGC within the next 2\u20114 weeks to capitalize on funding announcements, regulatory scrutiny, and potential IPO momentum. Follow\u2011up with EveryMatrix and Superbet before their Q3 product roll\u2011outs to secure early\u2011stage sponsorship and speaking slots."
     },
-    "timestamp": "2026-07-24T10:18:00.630461",
+    "timestamp": "2026-07-25T09:39:33.815242",
     "ttl_hours": 24
   },
-  "5b356ef3de663c3847febcaed94d76e6": {
+  "f55795a7e9d9a18769e79fef87e3d46c": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "bet365",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Launch of the \u2018Sub On Play On\u2019 feature that generated a \u00a330m payout in the first 11 days of the 2026 World Cup.",
-          "booth_pitch": "Secure a Large (50sqm+) premium booth with a dedicated demo arena to showcase the new Sub On Play On live\u2011betting flow. Offer speaking slot on \u2018Live\u2011Betting Innovation during Mega\u2011Events\u2019 to position bet365 as the market leader in real\u2011time wagering.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "SoftSwiss",
-          "category_fit": "Platform / Game Aggregation",
-          "news_trigger": "Release of the SoftSwiss Games List that unifies portfolio management and reduces game\u2011integration friction.",
-          "booth_pitch": "Medium (20sqm) booth with interactive kiosks allowing operators to test the Games List API live. Pair with a panel discussion on \u2018Streamlining Game Management for Multi\u2011Operator Portfolios\u2019.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Betsson",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Extension of its partnership with EveryMatrix after early success, signalling continued platform expansion.",
-          "booth_pitch": "Small (10sqm) booth focused on partnership case studies, with a QR\u2011code\u2011driven demo of the integrated sportsbook and casino stack. Offer a co\u2011hosted workshop on \u2018Scaling Operator Platforms with EveryMatrix\u2019.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "VBET",
-          "category_fit": "Sports Betting \u2013 Emerging Markets",
-          "news_trigger": "Strategic push for a Dutch market breakout during the World Cup summer.",
-          "booth_pitch": "Medium (20sqm) booth highlighting Dutch\u2011specific product localisation, with live dashboards of real\u2011time betting volumes. Propose a round\u2011table on \u2018Capturing Seasonal Peaks in Regulated Markets\u2019.",
+          "company": "Kalshi",
+          "category_fit": "General iGaming / Prediction Markets",
+          "news_trigger": "CEO confirmed the business is \"thinking about\" an IPO, signalling growth and capital raising for product expansion.",
+          "booth_pitch": "Premium 20\u202fsqm booth with a dedicated demo arena and a speaking slot on regulated prediction markets \u2013 perfect to showcase upcoming product roadmap and attract investors.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
           "company": "Axom",
-          "category_fit": "AI & Predictive Analytics",
-          "news_trigger": "Secured $2.4\u202fm funding to accelerate its predictive AI platform for player behaviour and odds setting.",
-          "booth_pitch": "Small (10sqm) AI demo zone where attendees can upload sample data and see Axom\u2019s predictive models in action. Offer a speaking slot on \u2018AI\u2011Driven Odds Optimization for the 2026 World Cup\u2019.",
+          "category_fit": "AI & Predictive Analytics for iGaming",
+          "news_trigger": "Secured $2.4\u202fm funding to accelerate its predictive AI platform for betting operators.",
+          "booth_pitch": "Large 50\u202fsqm+ exhibition space with a live AI\u2011driven odds\u2011generation showcase and a panel discussion slot on AI\u2019s impact on player acquisition.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Caesars Entertainment",
-          "category_fit": "Online Casino / Land\u2011Based Partnerships",
-          "news_trigger": "Announcement to launch iCasino in Maine through a partnership with the Wabanaki Nations, marking a first\u2011of\u2011its\u2011kind tribal\u2011licensed online casino in the US.",
-          "booth_pitch": "Large (50sqm+) flagship booth with immersive VR casino experience showcasing the Maine iCasino product. Pair with a panel on \u2018Navigating Tribal Licensing in the US Market\u2019.",
-          "contact_urgency": "Medium",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Midnite",
-          "category_fit": "General iGaming \u2013 Expansion",
-          "news_trigger": "Opening of a South Africa hub described as a \u201cstatement of intent\u201d for African market growth.",
-          "booth_pitch": "Medium (20sqm) booth focused on African market entry strategies, with live case studies from the new hub. Offer a networking lounge for African operators and investors.",
+          "company": "Caesars Entertainment",
+          "category_fit": "Casino & Sports Betting Expansion",
+          "news_trigger": "Announced partnership with the Wabanaki Nations to launch an iCasino in Maine, marking a geographic expansion in the US market.",
+          "booth_pitch": "Medium 20\u202fsqm booth with a branded casino floor mock\u2011up and a round\u2011table on US market entry strategies.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Curacao Gaming Authority (CGA)",
-          "category_fit": "Regulatory / Licensing \u2013 Crypto Friendly",
-          "news_trigger": "Continued openness to crypto operators, positioning Curacao as a crypto\u2011friendly licensing jurisdiction.",
-          "booth_pitch": "Small (10sqm) informational booth with a crypto\u2011licensing guide, QR\u2011linked whitepaper, and on\u2011site legal experts for quick consultations. Suggest a side\u2011event on \u2018Crypto Licensing Trends in 2026\u2019.",
+          "company": "Betsson Group",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Extended its partnership with EveryMatrix, reinforcing its product suite and signalling continued platform investment.",
+          "booth_pitch": "Small 10\u202fsqm booth with a focus on partnership case studies and a quick\u2011fire demo of its integrated sportsbook solution.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "EveryMatrix",
+          "category_fit": "B2B Platform & Lottery Solutions",
+          "news_trigger": "Launched a dedicated lottery division, expanding its portfolio beyond sports betting.",
+          "booth_pitch": "Large 50\u202fsqm+ space with multiple demo stations (sportsbook, casino, lottery) and a keynote slot on platform diversification.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Superbet",
+          "category_fit": "Jackpot & Lottery Content",
+          "news_trigger": "Expanded collaboration with EGT Digital to deliver popular jackpot content in Greece, indicating a focus on high\u2011value jackpot products.",
+          "booth_pitch": "Medium 20\u202fsqm booth featuring a live jackpot draw experience and a workshop on jackpot monetisation strategies.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "ThrillTech",
+          "category_fit": "Jackpot & Gaming Innovation",
+          "news_trigger": "Partnered with Super steps up jackpot capabilities, highlighting its cutting\u2011edge jackpot technology.",
+          "booth_pitch": "Small 10\u202fsqm booth with interactive jackpot simulations and a short presentation on tech integration benefits.",
           "contact_urgency": "Low",
           "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "betPawa",
+          "category_fit": "Emerging Market Sports Betting",
+          "news_trigger": "Now controls more than half of the DR Congo market, showing rapid expansion in Africa.",
+          "booth_pitch": "Medium 20\u202fsqm booth focused on African market insights, with a networking lounge for regional operators and a panel on market entry challenges.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "AI & Predictive Analytics",
-          "opportunity": "Few exhibitors currently showcase AI\u2011driven odds, player\u2011risk, and personalization solutions. With operators looking to optimise the World Cup betting surge, AI providers can capture high\u2011value B2B leads.",
+          "category": "AI & Predictive Analytics Solutions",
+          "opportunity": "Few exhibitors currently showcase AI\u2011driven odds, player\u2011segmentation or risk\u2011management tools, yet operators are actively seeking these capabilities to stay competitive in 2026.",
           "target_company_types": [
-            "Predictive AI platforms",
-            "Data analytics firms",
-            "Machine\u2011learning consultancies"
+            "Predictive AI startups",
+            "Data\u2011analytics platforms",
+            "Machine\u2011learning consultancy firms"
           ]
         },
         {
-          "category": "Regulatory & Licensing \u2013 Crypto Focus",
-          "opportunity": "Regulators that actively support crypto gambling are under\u2011represented. As more operators seek crypto\u2011compatible licences, a dedicated regulatory zone would attract both licence issuers and crypto\u2011first operators.",
+          "category": "Lottery & Jackpot Content Providers",
+          "opportunity": "Lottery divisions are emerging (e.g., EveryMatrix) but dedicated jackpot content providers are under\u2011represented, creating space for innovators like ThrillTech and EGT Digital.",
           "target_company_types": [
-            "Gaming jurisdictions",
-            "Crypto\u2011friendly licensing bodies",
-            "Legal advisory firms specializing in crypto gambling"
+            "Jackpot engine developers",
+            "Lottery platform providers"
           ]
         }
       ],
-      "timing_note": "Begin outreach immediately (Q2\u202f2024) to secure speaking slots and premium booth locations before the ICE/iGB booking window closes in early Q3. Early contact maximises negotiation leverage and aligns with product launch calendars for the 2026 World Cup season."
+      "timing_note": "Begin outreach immediately (July\u2011August) to secure speaking slots and premium booth locations before the Q3 booking rush. Early contact also aligns with companies' fiscal planning for Q4 events and maximises the chance to lock in sponsorship rates before they rise in September."
     },
-    "timestamp": "2026-07-24T10:18:02.814156",
+    "timestamp": "2026-07-25T09:39:35.531874",
     "ttl_hours": 24
   }
 }
