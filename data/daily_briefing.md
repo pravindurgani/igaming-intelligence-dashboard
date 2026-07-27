@@ -1,53 +1,42 @@
 # iGaming Competitive Intelligence: Gap Analysis Briefing
-**Generated:** 2026-07-26 10:03:41 UTC
+**Generated:** 2026-07-27 11:13:10 UTC
 **Type:** Internal vs. Competitor Coverage Analysis
 **Purpose:** Identify content gaps, wins, and commercial opportunities
 **Analysis Period:** Last 30 days
-**Articles Analyzed:** 1348 (1059 competitors, 289 internal)
+**Articles Analyzed:** 1324 (1039 competitors, 285 internal)
 **Method:** Batched analysis (all articles processed, no cap loss)
 
 ---
 
 ## Executive Summary
-Analyzed 1348 articles (1059 competitor, 289 internal). See differentiators and reader advantages sections for detailed topic analysis.
+Analyzed 1324 articles (1039 competitor, 285 internal). See differentiators and reader advantages sections for detailed topic analysis.
 ## Market Pulse: Key Themes
-### 1. Prediction Markets & Regulatory Scrutiny
+### 1. Regulatory changes in emerging markets
 **Importance:** High
 
-Multiple competitors are reporting heightened regulatory focus and market volatility around prediction markets, including tribal gaming lobbying, sports betting shows driving new betting audiences, and analyst downgrades affecting major operators.
+Multiple jurisdictions across Africa and Asia are tightening gambling regulations – Rwanda issued new licenses, Kenya proposes penalties for delayed payouts, Mozambique introduces SMS advertising rules, and Alberta opens its iGaming market while Thailand cracks down on illegal operations.
 
-**Who's Covering:** iGaming Today, NEXT.io, EGR Global
-
-**Recommended Action:** Review competitor coverage for opportunities
-
----
-
-### 2. African Market Expansion & Regulation
-**Importance:** Medium
-
-African jurisdictions are issuing new gambling licences, tightening payout rules and SMS advertising limits, while operators chase growth in the region. The market is both expanding and facing tighter consumer‑protection measures.
-
-**Who's Covering:** iGaming Afrika, iGaming Today, SBC News
+**Who's Covering:** iGaming Afrika, iGaming Today, EGR Global, Global Gaming Insider
 
 **Recommended Action:** Review competitor coverage for opportunities
 
 ---
 
-### 3. Asian Regulatory Crackdowns & Emerging Threats
+### 2. Prediction markets and sports betting innovation
 **Importance:** High
 
-Southeast Asian regulators are intensifying enforcement against illegal gambling, piracy, and AI‑driven deep‑fake gambling networks, signalling a wave of compliance pressure for operators targeting the region.
+Prediction markets are becoming a focal point for both regulators and operators, with tribal gaming groups lobbying in Washington, DraftKings targets being revised by Morgan Stanley, and major operators like Crypto.com reshuffling leadership around prediction‑market products.
 
-**Who's Covering:** iGaming Today, iGaming Expert, Global Gaming Insider
+**Who's Covering:** iGaming Today, Next.io, EGR Global
 
 **Recommended Action:** Review competitor coverage for opportunities
 
 ---
 
-### 4. B2B Marketing, Partnerships & Corporate Governance Shifts
+### 3. B2B leadership and marketing shifts
 **Importance:** Medium
 
-The B2B landscape is evolving with new marketing tactics, strategic hires, and a push for stronger board oversight, as firms aim to navigate tighter margins and consolidation trends.
+Industry leaders are emphasizing board governance, B2B marketing transformation, and professional development, highlighted by SBC’s board‑focused event, a report on evolving B2B media buying, and CPD‑accredited learning at major summits.
 
 **Who's Covering:** SBC News, EGR Global
 
@@ -55,26 +44,59 @@ The B2B landscape is evolving with new marketing tactics, strategic hires, and a
 
 ---
 
-### 5. Responsible Gambling & Player Protection Initiatives
+### 4. Operator expansion and product launches
 **Importance:** Medium
 
-Competitors are highlighting studies on hidden bonus costs, advisory committees for player protection, and anonymity as a core element of harm‑reduction strategies.
+Operators are rapidly expanding into new markets and refreshing product lines – Play971 adds IGT and Endorphina games, Greentube launches in Alberta, BetMGM revamps its Borgata offering, and several operators gear up for the Alberta iGaming launch.
 
-**Who's Covering:** iGaming Today, iGaming Expert
+**Who's Covering:** iGaming Today, EGR Global
+
+**Recommended Action:** Review competitor coverage for opportunities
+
+---
+
+### 5. World Cup 2026 betting surge and related partnerships
+**Importance:** High
+
+Multiple operators and data providers are leveraging the 2026 FIFA World Cup to drive record betting volumes, forge data partnerships, and launch sponsorships, while also facing scrutiny over match‑fixing integrity claims.
+
+**Who's Covering:** EGR Global, SBC News, iGaming Today, iGaming Expert, iGaming Afrika
 
 **Recommended Action:** Review competitor coverage for opportunities
 
 ---
 
 ## Strategic Gaps: Where We're Missing Out
-### 1. Prediction Markets Coverage
+### 1. African licensing and regulatory developments
 **Priority:** High
 
-**Description:** Competitors are extensively covering prediction‑market regulation, valuation impacts and executive moves, while our portfolio provides only a single M&A story unrelated to prediction markets.
+**Description:** Competitors are reporting detailed licensing activity and new regulatory measures in African markets, which our internal feed lacks.
 
-**Competitor Coverage:** Articles on tribal gaming lobbying, Love Island betting craze, Morgan Stanley downgrading DraftKings, and Crypto.com exec exit all focus on prediction‑market dynamics.
+**Competitor Coverage:** Rwanda issued licenses to Betway, ElephantBet and ForteBet; Kenya proposes a 5% penalty for late payouts; Mozambique introduces SMS advertising restrictions.
 
-**Our Coverage:** Minimal – only internal staff announcements and a Caesars bid story, none address prediction‑market trends.
+**Our Coverage:** Minimal
+
+**Opportunity:** Opportunity to fill coverage gap
+
+**Potential Impact:** Increase audience relevance
+
+**Supporting Articles:**
+- [South African trade body wants less talk and more action against growing black market] - SBC News (2026-07-07 15:57)
+- [Egypt alone, then everyone else: Africa’s Blask Index at the 2026 World Cup group stage] - iGaming Afrika (2026-07-03 06:18)
+- [Digitain’s new CCO discusses European & African ambitions] - SBC News (2026-07-14 09:00)
+- [PopOK building up name in Botswana via major horse racing sponsorship] - SBC News (2026-07-03 12:13)
+- [ALERT, AFRICA ARE YOU READY? INTERPLAY’s Boda Boda Race Drives Local Gaming Innovation in Africa] - iGaming Afrika (2026-07-16 11:50)
+
+---
+
+### 2. Prediction markets and sports betting trends
+**Priority:** High
+
+**Description:** Competitors are covering the rise of prediction markets and related betting innovations, a topic not reflected in our internal articles.
+
+**Competitor Coverage:** Tribal gaming groups are lobbying over prediction markets, Love Island is driving new betting audiences, Morgan Stanley cuts DraftKings target due to prediction‑market pressure, and Crypto.com sees its prediction‑markets chief depart.
+
+**Our Coverage:** Minimal
 
 **Opportunity:** Opportunity to fill coverage gap
 
@@ -89,58 +111,36 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 2. African Licensing & Regulatory Updates
+### 3. B2B marketing evolution and leadership insights
 **Priority:** Medium
 
-**Description:** A wave of licensing activity and new consumer‑protection rules in Africa is being reported, but our internal feed lacks any coverage of these developments.
+**Description:** Competitors are publishing analyses on B2B marketing shifts and governance advice for founders, which we do not currently track.
 
-**Competitor Coverage:** Rwanda licences to Betway, ElephantBet, ForteBet; Kenya payout penalties; Mozambique SMS ad rules; sports‑betting trends in Africa.
-
-**Our Coverage:** Minimal – no internal articles reference African market licences or regulatory changes.
-
-**Opportunity:** Opportunity to fill coverage gap
-
-**Potential Impact:** Increase audience relevance
-
-**Supporting Articles:**
-- [South African trade body wants less talk and more action against growing black market] - SBC News (2026-07-07 15:57)
-- [Central Bank calls for junkets to be next in line for Philippines regulatory scrutiny] - iGaming Expert (2026-07-22 14:30)
-- [NLGRB Confiscates More Than 6,000 Illegal Gaming Machines in Nationwide Operation “Mashine Haramu”] - iGaming Afrika (2026-07-23 13:07)
-- [Denis Mudene on How Digital Oversight and Regional Collaboration Are Shaping Uganda’s Gaming Landscape] - iGaming Afrika (2026-07-02 14:19)
-- [Egypt alone, then everyone else: Africa’s Blask Index at the 2026 World Cup group stage] - iGaming Afrika (2026-07-03 06:18)
-
----
-
-### 3. Asian Regulatory Crackdowns & Emerging Tech Threats
-**Priority:** High
-
-**Description:** Competitors are reporting multiple enforcement actions in Thailand and broader Asia, including AI‑deep‑fake gambling networks, yet our portfolio provides no coverage of these regulatory pressures.
-
-**Competitor Coverage:** Thailand tightening online gambling, DSI probe linked to MP, AI‑powered gambling network using deepfakes, and broader illegal gambling crackdowns across Asia.
-
-**Our Coverage:** Minimal – internal articles do not mention Asian regulatory actions or technology‑driven threats.
-
-**Opportunity:** Opportunity to fill coverage gap
-
-**Potential Impact:** Increase audience relevance
-
-**Supporting Articles:**
-- [Thailand Tightens Online Gambling and Piracy Crackdown - iGamingToday.com] - iGaming Today (2026-07-06 00:27)
-- [REPORT: what’s changing in B2B marketing?] - SBC News (2026-07-16 09:20)
-- [IGT PlayDigital: raising the stakes on player engagement in Latin America] - iGaming Expert (2026-06-26 10:15)
-- [Sporting Risk partners with Entain NCE - iGamingToday.com] - iGaming Today (2026-06-30 06:52)
-- [Asian gambling continues illegal gambling crackdown] - iGaming Expert (2026-07-07 14:31)
-
----
-
-### 4. World Cup‑related market dynamics
-**Priority:** High
-
-**Description:** Competitors are analysing the impact of the 2026 World Cup on betting volumes, new product launches and regulatory scrutiny, which our portfolio does not currently cover.
-
-**Competitor Coverage:** Multiple articles detail World Cup‑driven betting spikes, new prediction‑market hubs, and operator revenue expectations.
+**Competitor Coverage:** SBC News highlights the need for a board for iGaming CEOs, a report details changing B2B marketing tactics, and SBC announces CPD‑accredited learning for industry events.
 
 **Our Coverage:** Minimal
+
+**Opportunity:** Opportunity to fill coverage gap
+
+**Potential Impact:** Increase audience relevance
+
+**Supporting Articles:**
+- [Mr. Moruntshi Kemorwale is the New Chief Executive Officer at Botswana’s Gambling Authority.] - iGaming Afrika (2026-07-10 10:59)
+- [BetConstruct CEO Lena Yasir outlines vision for operational excellence] - SBC News (2026-07-21 09:15)
+- [Rank Group to continue trajectory with Richard Harris CEO appointment] - iGaming Expert (2026-07-13 09:07)
+- [Digitain’s new CCO discusses European & African ambitions] - SBC News (2026-07-14 09:00)
+- [EGBA welcomes Super on its Board of Directors] - SBC News (2026-07-17 11:02)
+
+---
+
+### 4. World Cup 2026 betting and partnership coverage
+**Priority:** High
+
+**Description:** Competitors detail extensive World Cup‑related betting volumes, data‑partner agreements and sponsorships, while our portfolio has no comparable analysis or announcements.
+
+**Competitor Coverage:** Multiple articles describe data partnerships (LSports‑ADI PredictStreet), record betting totals (OpenBet > $3bn), operator strategies (Betsson World Cup trading), and sponsorship deals (Betano‑Aston Villa, Midnite‑Southampton).
+
+**Our Coverage:** Minimal – only a regulatory piece on Polymarket unrelated to World Cup activity.
 
 **Opportunity:** Opportunity to fill coverage gap
 
@@ -155,31 +155,31 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 5. Regulatory crackdown on prediction markets and gambling platforms
+### 5. Regulatory crackdown on prediction markets and illegal gambling
 **Priority:** High
 
-**Description:** Competitors report new regulations in France, Ireland, Germany and the Philippines targeting prediction markets and junket operations, a topic not reflected in our internal articles.
+**Description:** Competitors report a wave of regulatory actions in France, Ireland, Germany, the Philippines, South Africa and Uganda, yet our internal coverage is limited to a single Czech Republic ban on Polymarket.
 
-**Competitor Coverage:** Articles discuss RET Levy policies, French/Ireland regulator actions, German ban on ADI PredictStreet, and Philippine central bank calls for junket scrutiny.
+**Competitor Coverage:** Articles cover French/Irish regulator tightening, German ban on ADI PredictStreet, Philippine central‑bank junket scrutiny, South Africa’s request to block illegal sites, and Uganda’s confiscation of illegal machines.
 
-**Our Coverage:** Minimal
+**Our Coverage:** Only the Czech Republic Polymarket ban article; no broader analysis of global regulatory trends.
 
 **Opportunity:** Opportunity to fill coverage gap
 
 **Potential Impact:** Increase audience relevance
 
 **Supporting Articles:**
+- [South African trade body wants less talk and more action against growing black market] - SBC News (2026-07-07 15:57)
 - [Central Bank calls for junkets to be next in line for Philippines regulatory scrutiny] - iGaming Expert (2026-07-22 14:30)
 - [NLGRB Confiscates More Than 6,000 Illegal Gaming Machines in Nationwide Operation “Mashine Haramu”] - iGaming Afrika (2026-07-23 13:07)
 - [Denis Mudene on How Digital Oversight and Regional Collaboration Are Shaping Uganda’s Gaming Landscape] - iGaming Afrika (2026-07-02 14:19)
-- [Uganda’s Gaming Industry Booms to UGX 8 Trillion with Digital Transformation] - iGaming Afrika (2026-07-13 13:58)
-- [Hon. Henry Musasizi Launches NLGRB Strategic Plan for FY2025/26 – FY2029/30] - iGaming Afrika (2026-07-21 09:53)
+- [South Africa’s National Gambling Board Moves to Block Illegal Sites, Cutting off a R50 Billion Empire] - iGaming Afrika (2026-07-08 11:48)
 
 ---
 
 ## Portfolio Wins: Where We're Leading
-### 1. Regulatory monitoring – Polymarket ban in Czech Republic
-**Our Narrative:** Our internal coverage provides early insight into a national ban on a prediction‑market platform, demonstrating strong regulatory intelligence capabilities.
+### 1. US M&A activity
+**Our Narrative:** Our internal coverage provided early strategic insight into a high‑profile potential acquisition, demonstrating proactive monitoring of major U.S. casino‑gaming deals.
 
 **Competitive Gap:** Competitors have limited coverage
 
@@ -187,8 +187,8 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 2. Strategic analysis of media‑to‑gaming investment (Banijay)
-**Our Narrative:** The internal piece on Banijay’s €32bn bet offers a deep dive into cross‑industry investment trends, positioning our portfolio as a thought leader on emerging value maps in gaming.
+### 2. Strategic analysis of Banijay’s €32bn market bet
+**Our Narrative:** Our internal piece provides a deep dive into Banijay’s unprecedented investment and the emerging value‑map for gaming, offering insights not covered by any competitor in this batch.
 
 **Competitive Gap:** Competitors have limited coverage
 
@@ -196,8 +196,8 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 3. Cross‑border Underground Sports Betting Investigation in Taiwan
-**Our Narrative:** Our portfolio uniquely tracks the Taiwanese police expansion into cross‑border illegal sports betting, a story not covered by any competitor in this batch.
+### 3. Czech Republic bans Polymarket and mandates ISP blocking
+**Our Narrative:** Early coverage of a specific regulatory action against a prediction‑market platform, predating similar European moves reported by competitors.
 
 **Competitive Gap:** Competitors have limited coverage
 
@@ -205,8 +205,8 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 4. Evolution regulatory risk monitoring
-**Our Narrative:** Our portfolio demonstrates strong awareness of Evolution’s compliance challenges, having tracked the UK Gambling Commission’s consideration of licence suspension due to AML failings.
+### 4. Underground sports betting enforcement in Taiwan
+**Our Narrative:** Our portfolio includes a timely report on Taiwan police expanding investigations into cross‑border illegal sports betting, giving us early insight into enforcement actions in the Asian market.
 
 **Competitive Gap:** Competitors have limited coverage
 
@@ -214,8 +214,8 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 ---
 
-### 5. Greek market performance with land‑based dominance
-**Our Narrative:** Our internal report provides a detailed breakdown of Greece’s modest revenue rise and the continued strength of land‑based casinos, offering insight not fully captured by competitor summaries.
+### 5. Evolution licence AML scrutiny
+**Our Narrative:** Our portfolio monitors Evolution’s regulatory risk, highlighting the Gambling Commission’s consideration of licence suspension due to AML failings.
 
 **Competitive Gap:** Competitors have limited coverage
 
@@ -226,105 +226,105 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 ## Commercial Radar: Business Opportunities
 ### Potential Sponsors
 - **Evolution**
-  - Rationale: Featured in our internal settlement article and in competitor coverage of a terminated acquisition, highlighting regulatory and M&A activity.
-  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
-
-- **Entain**
-  - Rationale: Potential sale of its Italy business following a CEE deal, signaling strategic portfolio reshaping.
-  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
-
-- **Kalshi**
-  - Rationale: Mentioned in competitor pieces about AI‑driven odds display and a potential $40bn valuation, indicating a high‑profile IPO ambition.
+  - Rationale: Settled £4.75 m with the UK Gambling Commission over a black‑market review – only internal coverage.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
 - **Polymarket**
-  - Rationale: Fighting French regulator block, illustrating challenges for prediction‑market operators.
-  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
-
-- **Betano**
-  - Rationale: Defending sports betting advertising and praising Brazil’s regulatory approach.
-  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
-
-- **Amusnet**
-  - Rationale: Official gamification partner for South Africa’s Hollywoodbets Durban July horse racing event.
+  - Rationale: Facing illegal gambling allegations in South Korea, awaiting response.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
 - **Banijay Gaming**
-  - Rationale: Announced acquisition of JOA as part of its French casino expansion.
+  - Rationale: Acquiring JOA Groupe to strengthen its position in the French iCasino market.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
-- **Fanatics**
-  - Rationale: Co‑founder of the UAE joint venture; also appears in a competitor piece, reinforcing the relevance of the partnership.
+- **Betano**
+  - Rationale: Secured Tottenham Hotspur training‑kit sponsorship and defended sports‑betting advertising in Brazil.
+  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
+
+- **CIRSA**
+  - Rationale: Continues M&A drive with the purchase of Casino Figueira, indicating growth in casino operations.
+  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
+
+- **Entain**
+  - Rationale: Calls for voluntary ban on unlicensed sponsors and is speculated to consider selling its Italy business.
+  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
+
+- **FIRST.bet**
+  - Rationale: Added ex‑DraftKings B2B chief as co‑CEO, highlighting executive talent acquisition.
+  - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
+
+- **Kalshi**
+  - Rationale: Subject of CFTC order to keep offering sports event contracts and a New York court ruling on injunctions.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
 - **Merkur Group**
-  - Rationale: Announced acquisition of White Hat Studios to accelerate US market push.
+  - Rationale: Announced US expansion through acquisition of White Hat Studios – our only internal highlight.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
 - **Playson**
-  - Rationale: Partnered with African betting operator Hollywoodbets to expand market reach.
+  - Rationale: Released new slot feature ‘3 Thunder Coins: Hold and Win’ with sticky, multi, and boost features.
   - Engagement Angle: Auto-derived from batch-level company mentions; validate fit before outreach.
 
 ### Potential Speakers
 - **Evolution**
-  - Expertise: Featured in our internal settlement article and in competitor coverage of a terminated acquisition, highlighting regulatory and M&A activity.
-  - Session Fit: TBD — derived from batch-level mentions.
-
-- **Entain**
-  - Expertise: Potential sale of its Italy business following a CEE deal, signaling strategic portfolio reshaping.
-  - Session Fit: TBD — derived from batch-level mentions.
-
-- **Kalshi**
-  - Expertise: Mentioned in competitor pieces about AI‑driven odds display and a potential $40bn valuation, indicating a high‑profile IPO ambition.
+  - Expertise: Settled £4.75 m with the UK Gambling Commission over a black‑market review – only internal coverage.
   - Session Fit: TBD — derived from batch-level mentions.
 
 - **Polymarket**
-  - Expertise: Fighting French regulator block, illustrating challenges for prediction‑market operators.
-  - Session Fit: TBD — derived from batch-level mentions.
-
-- **Betano**
-  - Expertise: Defending sports betting advertising and praising Brazil’s regulatory approach.
-  - Session Fit: TBD — derived from batch-level mentions.
-
-- **Amusnet**
-  - Expertise: Official gamification partner for South Africa’s Hollywoodbets Durban July horse racing event.
+  - Expertise: Facing illegal gambling allegations in South Korea, awaiting response.
   - Session Fit: TBD — derived from batch-level mentions.
 
 - **Banijay Gaming**
-  - Expertise: Announced acquisition of JOA as part of its French casino expansion.
+  - Expertise: Acquiring JOA Groupe to strengthen its position in the French iCasino market.
   - Session Fit: TBD — derived from batch-level mentions.
 
-- **Fanatics**
-  - Expertise: Co‑founder of the UAE joint venture; also appears in a competitor piece, reinforcing the relevance of the partnership.
+- **Betano**
+  - Expertise: Secured Tottenham Hotspur training‑kit sponsorship and defended sports‑betting advertising in Brazil.
+  - Session Fit: TBD — derived from batch-level mentions.
+
+- **CIRSA**
+  - Expertise: Continues M&A drive with the purchase of Casino Figueira, indicating growth in casino operations.
+  - Session Fit: TBD — derived from batch-level mentions.
+
+- **Entain**
+  - Expertise: Calls for voluntary ban on unlicensed sponsors and is speculated to consider selling its Italy business.
+  - Session Fit: TBD — derived from batch-level mentions.
+
+- **FIRST.bet**
+  - Expertise: Added ex‑DraftKings B2B chief as co‑CEO, highlighting executive talent acquisition.
+  - Session Fit: TBD — derived from batch-level mentions.
+
+- **Kalshi**
+  - Expertise: Subject of CFTC order to keep offering sports event contracts and a New York court ruling on injunctions.
   - Session Fit: TBD — derived from batch-level mentions.
 
 - **Merkur Group**
-  - Expertise: Announced acquisition of White Hat Studios to accelerate US market push.
+  - Expertise: Announced US expansion through acquisition of White Hat Studios – our only internal highlight.
   - Session Fit: TBD — derived from batch-level mentions.
 
 - **Playson**
-  - Expertise: Partnered with African betting operator Hollywoodbets to expand market reach.
+  - Expertise: Released new slot feature ‘3 Thunder Coins: Hold and Win’ with sticky, multi, and boost features.
   - Session Fit: TBD — derived from batch-level mentions.
 
 ### Emerging Exhibitor Categories
-- **Prediction Markets & Regulatory Scrutiny**
-  - Evidence: Multiple competitors are reporting heightened regulatory focus and market volatility around prediction markets, including tribal gaming lobbying, sports betting shows driving new betting audiences, and analyst downgrades affecting major operators.
+- **Regulatory changes in emerging markets**
+  - Evidence: Multiple jurisdictions across Africa and Asia are tightening gambling regulations – Rwanda issued new licenses, Kenya proposes penalties for delayed payouts, Mozambique introduces SMS advertising rules, and Alberta opens its iGaming market while Thailand cracks down on illegal operations.
   - Opportunity: Auto-derived from batch themes; validate exhibitor demand before pitching.
 
-- **African Market Expansion & Regulation**
-  - Evidence: African jurisdictions are issuing new gambling licences, tightening payout rules and SMS advertising limits, while operators chase growth in the region. The market is both expanding and facing tighter consumer‑protection measures.
+- **Prediction markets and sports betting innovation**
+  - Evidence: Prediction markets are becoming a focal point for both regulators and operators, with tribal gaming groups lobbying in Washington, DraftKings targets being revised by Morgan Stanley, and major operators like Crypto.com reshuffling leadership around prediction‑market products.
   - Opportunity: Auto-derived from batch themes; validate exhibitor demand before pitching.
 
-- **Asian Regulatory Crackdowns & Emerging Threats**
-  - Evidence: Southeast Asian regulators are intensifying enforcement against illegal gambling, piracy, and AI‑driven deep‑fake gambling networks, signalling a wave of compliance pressure for operators targeting the region.
+- **B2B leadership and marketing shifts**
+  - Evidence: Industry leaders are emphasizing board governance, B2B marketing transformation, and professional development, highlighted by SBC’s board‑focused event, a report on evolving B2B media buying, and CPD‑accredited learning at major summits.
   - Opportunity: Auto-derived from batch themes; validate exhibitor demand before pitching.
 
-- **B2B Marketing, Partnerships & Corporate Governance Shifts**
-  - Evidence: The B2B landscape is evolving with new marketing tactics, strategic hires, and a push for stronger board oversight, as firms aim to navigate tighter margins and consolidation trends.
+- **Operator expansion and product launches**
+  - Evidence: Operators are rapidly expanding into new markets and refreshing product lines – Play971 adds IGT and Endorphina games, Greentube launches in Alberta, BetMGM revamps its Borgata offering, and several operators gear up for the Alberta iGaming launch.
   - Opportunity: Auto-derived from batch themes; validate exhibitor demand before pitching.
 
-- **Responsible Gambling & Player Protection Initiatives**
-  - Evidence: Multiple articles highlight self‑exclusion spikes (Gamstop), NHS funding for safer gambling, and community roadshows aimed at responsible gambling, showing a growing focus on player protection.
+- **World Cup 2026 betting surge and related partnerships**
+  - Evidence: Multiple operators and data providers are leveraging the 2026 FIFA World Cup to drive record betting volumes, forge data partnerships, and launch sponsorships, while also facing scrutiny over match‑fixing integrity claims.
   - Opportunity: Auto-derived from batch themes; validate exhibitor demand before pitching.
 
 
@@ -333,4 +333,4 @@ Competitors are highlighting studies on hidden bonus costs, advisory committees 
 
 *Generated by the Portfolio Competitive Intelligence System*
 *LLM backend: open-llm (cerebras/groq/openrouter)*
-*Run ID: 20260726095334*
+*Run ID: 20260727110259*
