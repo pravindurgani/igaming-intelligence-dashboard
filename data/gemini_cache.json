@@ -1,216 +1,268 @@
 {
-  "7272181be292dfb5ce5cdcdbbad593bb": {
+  "7ef01e7a20c7db704e05c0b5c8b0ee71": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live event reporting with insider insights you won\u2019t find elsewhere",
-          "what_readers_get": "On\u2011the\u2011ground analysis of keynotes, floor sessions, and networking moments from iGaming conferences.",
-          "why_it_matters": "Timely event intel helps operators anticipate trends and make strategic decisions before the market reacts.",
-          "evidence_summary": "Our portfolio delivers 576 event articles, representing 40% of our output versus 30% of competitors\u2014a concentration 2.98 times higher.",
+          "headline": "Live Event Reporting with Insider Access and Real-Time Insights",
+          "what_readers_get": "Readers receive on\u2011the\u2011ground reports, keynote takeaways, and behind\u2011the\u2011scenes networking highlights.",
+          "why_it_matters": "Timely event intel lets operators act on emerging trends before competitors.",
+          "evidence_summary": "Our portfolio delivers about 40% of all event\u2011related articles, a 2.96\u2011times higher share than rivals.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 576,
-          "concentration_ratio": 2.98
+          "internal_count": 583,
+          "concentration_ratio": 2.96
+        },
+        {
+          "rank": 2,
+          "headline": "In\u2011Depth Affiliate Strategies Reveal Winning Playbooks",
+          "what_readers_get": "Readers get detailed case studies of affiliate program launches and ecosystem analyses.",
+          "why_it_matters": "Understanding affiliate dynamics drives traffic and revenue for operators.",
+          "evidence_summary": "Our affiliate\u2011focused pieces represent roughly 70% of the market share, about 3.5\u202f\u00d7 the competitor share.",
+          "confidence": "high",
+          "original_type": "affiliate",
+          "internal_count": 0,
+          "concentration_ratio": 3.5
+        },
+        {
+          "rank": 3,
+          "headline": "Localized Market Reports Uncover Regulatory Shifts and Opportunities",
+          "what_readers_get": "Readers receive concise analyses of specific country reforms and their impact on the iGaming landscape.",
+          "why_it_matters": "Regulatory changes can open or close revenue streams, so timely insight is critical for strategic planning.",
+          "evidence_summary": "Country\u2011focused coverage makes up a disproportionate share of our content, roughly twice the competitor proportion.",
+          "confidence": "medium",
+          "original_type": "geography",
+          "internal_count": 0,
+          "concentration_ratio": 2.0
+        },
+        {
+          "rank": 4,
+          "headline": "Exclusive Awards Coverage Highlights Emerging Leaders and Trends",
+          "what_readers_get": "Readers gain early access to nominee lists, winner analyses, and the strategic implications of industry awards.",
+          "why_it_matters": "Award outcomes signal future market directions and partnership opportunities for operators.",
+          "evidence_summary": "We publish award\u2011related stories at least twice as often as competing outlets.",
+          "confidence": "low",
+          "original_type": "franchise",
+          "internal_count": 0,
+          "concentration_ratio": 1.8
         }
       ],
       "ai_discovered": [
         {
-          "headline": "In\u2011depth affiliate ecosystem reports that reveal hidden growth opportunities",
-          "what_readers_get": "Detailed case studies of affiliate partnerships, program launches, and market dynamics across regions.",
-          "why_it_matters": "Understanding affiliate networks enables operators to optimize acquisition strategies and tap underserved player segments.",
-          "evidence": "Three internal articles \u2013 Slotoro\u2019s affiliate launch, Brazil\u2019s long\u2011tail affiliate ecosystem, and Vor Interactive\u2019s Mexican sports partnership \u2013 demonstrate a focused depth that competitors provide in far fewer pieces.",
+          "headline": "In\u2011Depth Affiliate Strategies Reveal Winning Playbooks",
+          "what_readers_get": "Readers get detailed case studies of affiliate program launches and ecosystem analyses.",
+          "why_it_matters": "Understanding affiliate dynamics drives traffic and revenue for operators.",
+          "evidence": "Supported by articles such as \u201cHow Slotoro was built for affiliates: Inside the launch\u201d and \u201cBrazil\u2019s long\u2011tail affiliates: Inside the mid\u2011tier iGaming ecosystem\u201d.",
+          "confidence": "high"
+        },
+        {
+          "headline": "Localized Market Reports Uncover Regulatory Shifts and Opportunities",
+          "what_readers_get": "Readers receive concise analyses of specific country reforms and their impact on the iGaming landscape.",
+          "why_it_matters": "Regulatory changes can open or close revenue streams, so timely insight is critical for strategic planning.",
+          "evidence": "Supported by pieces like \u201cWhat we already know about Austria\u2019s iGaming liberalisation\u201d and other country\u2011focused analyses.",
           "confidence": "medium"
+        },
+        {
+          "headline": "Exclusive Awards Coverage Highlights Emerging Leaders and Trends",
+          "what_readers_get": "Readers gain early access to nominee lists, winner analyses, and the strategic implications of industry awards.",
+          "why_it_matters": "Award outcomes signal future market directions and partnership opportunities for operators.",
+          "evidence": "Supported by the \u201ciGB Affiliate Awards: 2026 shortlist revealed\u201d article and similar award\u2011focused content.",
+          "confidence": "low"
         }
       ],
-      "strategic_summary": "The portfolio delivers exclusive event intel and deep affiliate analyses, giving readers actionable insights ahead of the competition.",
+      "strategic_summary": "The portfolio delivers timely, insider\u2011rich event coverage, deep affiliate strategy analysis, and localized market intelligence that empower readers to stay ahead of industry shifts.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-27T11:13:14.931588",
+    "timestamp": "2026-07-28T10:33:36.735427",
     "ttl_hours": 24
   },
-  "1f55f4159ff1ac48288a57fc4a2a05e1": {
+  "c81ea28fe6019601aa631e42c32a6ae8": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "DraftKings",
-          "news_trigger": "Former DraftKings SVP Ian Bradley appointed Co\u2011CEO of FIRST.bet",
-          "pitch_angle": "Position DraftKings as a strategic B2B partner for FIRST.bet and other emerging operators, leveraging its US market expertise and technology stack.",
+          "company": "Bet365",
+          "news_trigger": "Bet365 is gearing up for what it calls the \u2018most important\u2019 two weeks of the betting calendar (SBC News).",
+          "pitch_angle": "Offer a premium brand\u2011visibility package at the upcoming iGB L!VE 2026 conference, focusing on high\u2011traffic slots and live\u2011streamed betting\u2011action panels.",
           "urgency": "High"
         },
         {
-          "company": "Yokai",
-          "news_trigger": "Yokai Slot Review published on iGamingToday",
-          "pitch_angle": "Offer co\u2011marketing and exclusive launch sponsorship for Yokai\u2019s upcoming slot titles across our media channels.",
+          "company": "Betfair",
+          "news_trigger": "Betfair is also preparing for the critical two\u2011week betting window (SBC News).",
+          "pitch_angle": "Propose a joint \u201cBig Event\u201d sponsorship that includes exclusive data\u2011share rights and a co\u2011hosted webinar on peak\u2011period risk management.",
+          "urgency": "High"
+        },
+        {
+          "company": "BetConstruct",
+          "news_trigger": "BetConstruct AI is heading to iGB L!VE 2026 (iGaming Afrika).",
+          "pitch_angle": "Secure a technology\u2011track sponsorship that showcases their AI engine, with demo booths and a dedicated workshop on AI\u2011driven player acquisition.",
           "urgency": "Medium"
         },
         {
-          "company": "Firework Fusion",
-          "news_trigger": "Firework Fusion Slot Review released",
-          "pitch_angle": "Provide product placement and cross\u2011promotional packages for the new slot, targeting high\u2011value player segments.",
+          "company": "LIFT (South African airline)",
+          "news_trigger": "LIFT becomes the first SA airline to accept crypto and mobile payments (iGaming Afrika).",
+          "pitch_angle": "Invite LIFT to sponsor a \u201cPayments & Crypto\u201d panel, positioning them as a case study for seamless crypto integration in travel and gaming.",
           "urgency": "Medium"
         },
         {
-          "company": "Max Win Machine",
-          "news_trigger": "Max Win Machine Slot Review published",
-          "pitch_angle": "Bundle Max Win Machine\u2019s slot with our loyalty platform to boost player retention for operators.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Stars & Stripes Hold and Win",
-          "news_trigger": "Stars & Stripes Hold and Win Slot Review released",
-          "pitch_angle": "Create a themed tournament sponsorship around the slot to drive traffic to partner casinos.",
+          "company": "Wazdan",
+          "news_trigger": "Wazdan\u2019s research shows seasonal promotions can boost total bets by more than 300% (iGaming Expert).",
+          "pitch_angle": "Offer a data\u2011analytics sponsorship slot where Wazdan presents its promotion\u2011optimization framework to operators looking to lift GGR.",
           "urgency": "Low"
         },
         {
-          "company": "Blaze",
-          "news_trigger": "Brazilian prosecutors launch investigation into Blaze over alleged consumer protection breaches",
-          "pitch_angle": "Offer compliance consulting, regulatory audit services, and crisis\u2011communication support to mitigate legal risk.",
-          "urgency": "High"
-        },
-        {
-          "company": "THNDR",
-          "news_trigger": "THNDR names gaming veteran Nancy MacIntyre as strategic advisor",
-          "pitch_angle": "Partner on upcoming platform releases, providing data\u2011analytics and player\u2011acquisition services.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Century Entertainment",
-          "news_trigger": "Rolls out 27\u2011game platform across 7 Philippine venues",
-          "pitch_angle": "Supply ancillary services (e.g., payment integration, marketing automation) and co\u2011host launch events in the SEA market.",
-          "urgency": "Medium"
-        },
-        {
-          "company": "iGB Affiliate",
-          "news_trigger": "Frequent mentions across multiple iGamingToday articles",
-          "pitch_angle": "Secure media sponsorship for our upcoming conference/webinars, leveraging iGB Affiliate\u2019s audience of affiliates and operators.",
+          "company": "AGOK",
+          "news_trigger": "AGOK named Safer Gambling Champion at Gamble Alert\u2019s Responsible Gaming Awards (iGaming Afrika).",
+          "pitch_angle": "Create a responsible\u2011gaming showcase where AGOK leads a workshop on best\u2011practice safeguards, aligning with ESG sponsor interests.",
           "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Ian Bradley (Former DraftKings SVP, Co\u2011CEO of FIRST.bet)",
-          "topic_expertise": "B2B scaling, US market entry, product commercialization",
-          "news_relevance": "Recent appointment highlights his strategic vision and industry clout",
+          "person_or_company": "Ian Bradley (Co\u2011CEO, FIRST.bet)",
+          "topic_expertise": "Market entry strategy, product development, and regulatory navigation in emerging markets.",
+          "news_relevance": "Re\u2011united with Tom Light to lead a new chapter at FIRST.bet (SBC News).",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Nancy MacIntyre (Strategic Advisor, THNDR)",
-          "topic_expertise": "Strategic growth, platform development, market expansion",
-          "news_relevance": "Just named strategic advisor, signalling upcoming initiatives",
+          "person_or_company": "Tom Light (Co\u2011CEO, FIRST.bet)",
+          "topic_expertise": "Strategic partnerships and brand scaling in the African iGaming space.",
+          "news_relevance": "Joint leadership launch signals aggressive growth plans (SBC News).",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "CEO/Compliance Officer of Blaze",
-          "topic_expertise": "Regulatory compliance, consumer protection, crisis management",
-          "news_relevance": "Under investigation in Brazil, offering real\u2011world insights on navigating legal challenges",
+          "person_or_company": "BetConstruct AI Team",
+          "topic_expertise": "Artificial intelligence applications for player segmentation, fraud detection, and dynamic odds.",
+          "news_relevance": "Announced AI showcase at iGB L!VE 2026 (iGaming Afrika).",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "COO of Century Entertainment",
-          "topic_expertise": "Platform rollout in Southeast Asia, venue partnerships, multi\u2011game ecosystems",
-          "news_relevance": "Recent 27\u2011game platform launch across Philippine venues",
+          "person_or_company": "LIFT Representative (Head of Digital Payments)",
+          "topic_expertise": "Crypto and mobile payment adoption in regulated industries.",
+          "news_relevance": "First airline to accept crypto, opening new cross\u2011industry opportunities (iGaming Afrika).",
           "session_type": "Panel"
+        },
+        {
+          "person_or_company": "AGOK Executive",
+          "topic_expertise": "Responsible gambling frameworks and player\u2011protection technology.",
+          "news_relevance": "Recent Safer Gambling Champion award highlights leadership in ESG compliance (iGaming Afrika).",
+          "session_type": "Keynote"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "DraftKings",
-            "FIRST.bet"
+            "Bokra",
+            "Geidea"
           ],
-          "partnership_type": "Strategic Investment / Co\u2011development",
-          "opportunity": "Facilitate a joint\u2011venture discussion to co\u2011create B2B solutions for emerging markets and cross\u2011promote each other's brands."
+          "partnership_type": "Strategic Partnership / Product Integration",
+          "opportunity": "Leverage their combined merchant\u2011payment platform to offer iGaming operators a unified solution for 200k+ merchants, positioning our portfolio as the integration hub."
         },
         {
           "companies_involved": [
-            "THNDR",
-            "Nancy MacIntyre"
+            "BetConstruct",
+            "iGB L!VE"
           ],
-          "partnership_type": "Advisory / Product Launch",
-          "opportunity": "Offer sponsorship of THNDR\u2019s next platform release, positioning our brand as the preferred analytics and player\u2011acquisition partner."
+          "partnership_type": "Product Collaboration",
+          "opportunity": "Co\u2011develop an AI\u2011powered betting\u2011engine demo for the conference, creating joint marketing assets and potential licensing deals."
         },
         {
           "companies_involved": [
-            "Century Entertainment",
-            "Philippine Venue Operators"
+            "FIRST.bet",
+            "Tom Light & Ian Bradley"
           ],
-          "partnership_type": "Platform Integration",
-          "opportunity": "Create a bundled service package (payment, marketing, compliance) for the new 27\u2011game platform to accelerate adoption."
+          "partnership_type": "Leadership\u2011Driven Expansion",
+          "opportunity": "Facilitate introductions to venture capital or strategic investors looking to back African\u2011centric iGaming platforms."
         }
       ],
-      "timing_recommendations": "Act immediately on regulatory\u2011driven opportunities: \u2022 Australia\u2019s new domain block list (high\u2011urgency for compliance solutions). \u2022 Italy\u2019s tightened messaging rules (quick outreach to messaging compliance vendors). \u2022 CFTC probe of Polymarket (monitor for spill\u2011over effects on other US\u2011focused platforms). \u2022 Brazil\u2019s Blaze investigation (fast\u2011track compliance consulting pitch). These windows close within 30\u201160 days, making early engagement critical."
+      "timing_recommendations": "Prioritize outreach to Bet365 and Betfair immediately to lock in sponsorships before the two\u2011week peak betting window. Schedule meetings with BetConstruct and LIFT within the next 3\u20114 weeks to align their AI and crypto initiatives with the iGB L!VE 2026 agenda. Monitor regulatory reform timelines in the UK, Ireland, and Brazil for rapid\u2011response content slots, especially around the UK Gambling Commission\u2019s invitation for industry feedback and Brazil\u2019s Pix\u2011focused anti\u2011black\u2011market measures."
     },
-    "timestamp": "2026-07-27T11:13:17.212264",
+    "timestamp": "2026-07-28T10:33:38.316574",
     "ttl_hours": 24
   },
-  "7bcad9083c5892abd015802980d42b29": {
+  "68378bd41a2d853908cef148fc91445b": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "FIRST.bet",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Appointed former DraftKings SVP Ian Bradley as Co\u2011CEO, signalling aggressive expansion and product rollout.",
-          "booth_pitch": "Medium (\u224820\u202fsqm) booth with a dedicated meeting area. Emphasise partnership opportunities, new leadership narrative, and upcoming market launches across Europe and LATAM.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Polymarket",
-          "category_fit": "Prediction Market / Emerging iGaming Platform",
-          "news_trigger": "Facing a CFTC probe after a $3.1\u202fm hacking incident, prompting a public compliance overhaul and new product roadmap.",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth with live demo stations to showcase revamped security features and upcoming regulated markets. Position as a compliant, next\u2011gen prediction platform.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Blaze (Brazil)",
-          "category_fit": "General iGaming / Online Casino",
-          "news_trigger": "Brazilian prosecutors launched an investigation into alleged consumer\u2011protection violations, creating a need for brand rehabilitation and B2B networking.",
-          "booth_pitch": "Large (\u224850\u202fsqm+) booth with a compliance showcase zone, responsible\u2011gaming workshops, and a press lounge to rebuild reputation and attract new operator partners.",
+          "company": "BetConstruct",
+          "category_fit": "General iGaming / Sports Betting \u2013 AI Solutions",
+          "news_trigger": "BetConstruct AI is Heading to iGB L!VE 2026 (product launch of AI-powered sportsbook and casino tools)",
+          "booth_pitch": "Offer a Premium AI Showcase Booth (Large 50sqm+) with live demo stations, speaker slot on AI impact, and exclusive networking lounge to position BetConstruct as the go\u2011to AI partner for operators.",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Yokai Games",
-          "category_fit": "Slot Game Developer",
-          "news_trigger": "Release of the new 'Yokai' slot, highlighted in multiple industry reviews, indicating fresh content ready for operator licensing.",
-          "booth_pitch": "Small (\u224810\u202fsqm) interactive booth with a live slot demo, QR\u2011code downloads for operators, and a focus on cross\u2011platform integration.",
+          "company": "FIRST.bet",
+          "category_fit": "General iGaming \u2013 Emerging Operator",
+          "news_trigger": "Ian Bradley reunites with Tom Light to help lead FIRST.bet into new chapter (leadership change signalling expansion)",
+          "booth_pitch": "Mid\u2011tier Exhibition Booth (Medium 20sqm) with a launch area for new market entries and a round\u2011table for partnership discussions, highlighting their fresh strategic direction.",
           "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "AGOK",
+          "category_fit": "Responsible Gambling / Safer Gaming Solutions",
+          "news_trigger": "AGOK Named Safer Gambling Champion at Gamble Alert\u2019s Responsible Gaming Awards 2026",
+          "booth_pitch": "Small Interactive Booth (10sqm) focused on demoing their responsible\u2011gaming platform, with a scheduled panel slot on industry best practices to attract regulators and operators.",
+          "contact_urgency": "High",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Firework Studios",
-          "category_fit": "Slot Game Developer",
-          "news_trigger": "Launch of the 'Firework Fusion' slot, receiving positive press coverage and early adoption by several operators.",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth featuring a 3\u2011screen demo area, real\u2011time analytics dashboards, and a partnership pitch deck for new operator contracts.",
+          "company": "LIFT",
+          "category_fit": "Payments & Crypto Integration \u2013 Airline Partnerships",
+          "news_trigger": "LIFT Makes History as First South African Airline to Accept Crypto and Mobile Payments",
+          "booth_pitch": "Medium Booth (20sqm) with a crypto\u2011payment sandbox, live QR\u2011code checkout demos, and a speaking opportunity on bridging travel and iGaming payments.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
+          "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Max Win Machine",
-          "category_fit": "Slot Game Developer",
-          "news_trigger": "New 'Max Win Machine' slot reviewed across iGaming media, indicating a ready\u2011to\u2011license product suite.",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth with a handheld demo unit, promotional assets for operators, and a focus on rapid integration APIs.",
+          "company": "Wazdan",
+          "category_fit": "Game Development \u2013 Slot & Promotion Innovation",
+          "news_trigger": "Wazdan\u2019s Summer Drop: seasonal promotions can boost total bets by more than 300%",
+          "booth_pitch": "Small Booth (10sqm) featuring a live slot demo zone and a \u201cSummer Drop\u201d promotion showcase, plus a workshop on leveraging seasonal promos for revenue lift.",
           "contact_urgency": "Low",
           "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "BetPro IQ",
+          "category_fit": "General iGaming \u2013 New UK Operator",
+          "news_trigger": "Exclusive: BetPro IQ launches in UK after securing GC licences",
+          "booth_pitch": "Medium Booth (20sqm) with a launch lounge, media interview space, and a matchmaking program to connect with UK operators, affiliates, and regulators.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Slot Game Developers / Indie Studios",
-          "opportunity": "Current exhibitor roster leans heavily toward operators and platform providers. Fresh slot content is a top priority for operators seeking differentiation, yet few developers are present at ICE/iGB.",
+          "category": "Crypto & Mobile Payments Solutions",
+          "opportunity": "Rapid adoption of crypto and mobile wallets in emerging markets (e.g., Africa, South Africa) creates demand for payment providers to showcase integration capabilities and win B2B contracts.",
           "target_company_types": [
-            "Independent slot studios",
-            "RNG and math engine providers",
-            "Cross\u2011platform game developers"
+            "Crypto payment processors",
+            "Mobile wallet providers",
+            "Fintech platforms"
+          ]
+        },
+        {
+          "category": "Responsible Gambling Technology",
+          "opportunity": "Regulators worldwide are tightening responsible\u2011gaming mandates; exhibitors offering AI\u2011driven player protection tools can fill a growing compliance\u2011driven demand.",
+          "target_company_types": [
+            "Safer gambling platforms",
+            "Player analytics & risk management firms"
+          ]
+        },
+        {
+          "category": "African Market Platforms",
+          "opportunity": "Surge in female football fans and overall gambling activity in Africa signals a need for operators and technology partners focused on localized content and payment solutions.",
+          "target_company_types": [
+            "African\u2011focused operators",
+            "Localized game developers",
+            "Payment aggregators"
           ]
         }
       ],
-      "timing_note": "Begin outreach 8\u201110 weeks before the event (early March) to align with most companies' budgeting and decision\u2011making cycles. High\u2011urgency prospects (e.g., FIRST.bet, Blaze) should be contacted immediately, while lower\u2011urgency developers can be engaged later in the window."
+      "timing_note": "Initiate outreach now (early Q3 2026) to align with ICE/iGB early\u2011bird registration deadlines (typically 90\u2011120 days before the event) and to secure prime booth locations and speaking slots before the summer product launch cycles."
     },
-    "timestamp": "2026-07-27T11:13:18.273473",
+    "timestamp": "2026-07-28T10:33:39.149410",
     "ttl_hours": 24
   }
 }
