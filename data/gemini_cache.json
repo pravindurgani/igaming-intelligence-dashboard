@@ -1,231 +1,109 @@
 {
-  "b83579e0b04271d578cda3fd49a7659c": {
+  "644179dfc0b68a9ad9ad9714bc8c0d1a": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Exclusive Event Coverage with Insider Context and Real\u2011Time Insights",
-          "what_readers_get": "Readers receive on\u2011the\u2011ground reports, keynote takeaways, and networking highlights that they can\u2019t find elsewhere.",
-          "why_it_matters": "Live event insights drive faster decision\u2011making in a rapidly evolving iGaming market.",
-          "evidence_summary": "Our portfolio accounts for 40% of event coverage, a 2.95\u2011times higher concentration than rivals.",
+          "headline": "Exclusive event floor insights you won\u2019t find elsewhere",
+          "what_readers_get": "Live\u2011room takeaways, keynote highlights, and networking moments from the biggest iGaming conferences.",
+          "why_it_matters": "Event reporting turns fleeting conference moments into actionable intelligence for operators and affiliates.",
+          "evidence_summary": "Event coverage makes up about 92% of our recent pieces versus roughly 31% for competitors \u2013 a three\u2011fold higher focus.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 588,
-          "concentration_ratio": 2.95
+          "internal_count": 599,
+          "concentration_ratio": 2.98
         }
       ],
       "ai_discovered": [
         {
-          "headline": "In\u2011Depth Geographic Market Analyses for Targeted Strategy",
-          "what_readers_get": "Readers gain region\u2011specific intelligence on market dynamics, regulatory shifts, and growth opportunities.",
-          "why_it_matters": "Localized insights enable operators to tailor products and expansion plans to distinct regulatory and consumer landscapes.",
-          "evidence": "Two internal articles \u2013 a Brazil affiliate ecosystem deep dive and a UK/Europe operator strategy piece \u2013 provide concrete examples of our geographic focus, a capability less evident in competitor output.",
-          "confidence": "medium"
+          "headline": "In\u2011depth regulatory and market analysis that outpaces rivals",
+          "what_readers_get": "Clear breakdowns of new laws, licensing shifts, and market trends that directly affect strategy decisions.",
+          "why_it_matters": "Regulatory changes reshape revenue streams and compliance costs across every iGaming jurisdiction.",
+          "evidence": "Internal titles such as \u201cWhat we already know about Austria\u2019s iGaming liberalisation\u201d and \u201cSPA launches ordinance\u2026\u201d show focused regulatory reporting; competitors largely rely on brief news bites.",
+          "confidence": "high"
         }
       ],
-      "strategic_summary": "The portfolio delivers exclusive, on\u2011the\u2011ground event intelligence and region\u2011specific market analysis that empower iGaming professionals to act faster than the competition.",
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event coverage and deep regulatory analysis that empower readers to act ahead of the market.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-07-29T10:39:51.291390",
+    "timestamp": "2026-07-30T10:25:00.599441",
     "ttl_hours": 24
   },
-  "9950d3e4bf5ab0277b29fd83953fd19f": {
-    "result": {
-      "additional_sponsor_opportunities": [
-        {
-          "company": "FIRST.bet",
-          "news_trigger": "FIRST.bet added an ex\u2011DraftKings B2B chief as co\u2011CEO",
-          "pitch_angle": "Position FIRST.bet as a thought\u2011leader on B2B transformation and offer a platform to showcase its new leadership at iGB LIVE",
-          "urgency": "High"
-        },
-        {
-          "company": "AGOK",
-          "news_trigger": "AGOK named Safer Gambling Champion at Gamble Alert\u2019s Responsible Gaming Awards",
-          "pitch_angle": "Leverage AGOK\u2019s responsible\u2011gambling credentials to co\u2011host a responsible\u2011gaming roundtable and provide sponsorship for related research",
-          "urgency": "Medium"
-        },
-        {
-          "company": "LIFT (South African airline)",
-          "news_trigger": "LIFT becomes the first South African airline to accept crypto and mobile payments",
-          "pitch_angle": "Partner on a crypto\u2011payments showcase, positioning LIFT as a case study for seamless fiat\u2011to\u2011crypto integration in iGaming",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Momentum",
-          "news_trigger": "Momentum teams up with Fanatics for a UAE iGaming joint venture",
-          "pitch_angle": "Sponsor a Middle\u2011East market\u2011entry panel and explore joint\u2011marketing of Momentum\u2019s platform within the new JV",
-          "urgency": "High"
-        },
-        {
-          "company": "Fanatics",
-          "news_trigger": "Fanatics partners with Momentum on a UAE iGaming joint venture",
-          "pitch_angle": "Offer Fanatics a branding slot in a sports\u2011betting innovation workshop and discuss integration of its retail data assets",
-          "urgency": "High"
-        },
-        {
-          "company": "Betfred",
-          "news_trigger": "Betfred announces a \u2018plan in action\u2019 after a \u00a3900k Gambling Commission settlement",
-          "pitch_angle": "Provide compliance\u2011technology sponsorship and a case\u2011study session on post\u2011settlement remediation",
-          "urgency": "High"
-        },
-        {
-          "company": "1xBet",
-          "news_trigger": "1xBet launches a dedicated responsible\u2011gambling division",
-          "pitch_angle": "Invite 1xBet to sponsor a responsible\u2011gaming panel and showcase its new tools to the audience",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Benin National Lottery",
-          "news_trigger": "Benin National Lottery appoints Marius Adanzounon as Director General",
-          "pitch_angle": "Offer consultancy sponsorship for modernising lottery operations and a speaking slot on African lottery reforms",
-          "urgency": "Low"
-        }
-      ],
-      "speaker_recommendations": [
-        {
-          "person_or_company": "Former DraftKings B2B Chief (now Co\u2011CEO of FIRST.bet)",
-          "topic_expertise": "B2B platform scaling and product strategy",
-          "news_relevance": "Recent appointment highlights strategic shift at FIRST.bet",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "AGOK Representative",
-          "topic_expertise": "Responsible gambling frameworks and player protection",
-          "news_relevance": "Awarded Safer Gambling Champion \u2013 strong credibility",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "LIFT Head of Crypto Payments",
-          "topic_expertise": "Cryptocurrency integration in travel and iGaming ecosystems",
-          "news_relevance": "First airline to accept crypto \u2013 pioneering use\u2011case",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Momentum CEO",
-          "topic_expertise": "Middle\u2011East iGaming market entry and joint\u2011venture structuring",
-          "news_relevance": "Joint venture with Fanatics in UAE announced",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "Fanatics Head of Sports Betting",
-          "topic_expertise": "Sports\u2011betting data integration and retail\u2011to\u2011online synergies",
-          "news_relevance": "Partnering with Momentum for UAE launch",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "Betfred Compliance Director",
-          "topic_expertise": "Regulatory remediation and post\u2011settlement strategy",
-          "news_relevance": "Publicly disclosed \u00a3900k settlement and corrective plan",
-          "session_type": "Workshop"
-        }
-      ],
-      "partnership_alerts": [
-        {
-          "companies_involved": [
-            "FIRST.bet",
-            "Ex\u2011DraftKings B2B Chief (as individual)"
-          ],
-          "partnership_type": "Investment/Product",
-          "opportunity": "Potential co\u2011investment in a new B2B SaaS offering; portfolio can facilitate introductions to venture capital and provide a showcase slot at iGB LIVE"
-        },
-        {
-          "companies_involved": [
-            "Momentum",
-            "Fanatics"
-          ],
-          "partnership_type": "Product",
-          "opportunity": "Joint\u2011venture needs a robust iGaming platform \u2013 opportunity to position our technology stack as the backbone for the UAE launch"
-        }
-      ],
-      "timing_recommendations": "Capitalize on the high\u2011urgency news items before the end of Q4 2026: secure sponsorships with FIRST.bet, Momentum, Fanatics and Betfred now to align with their imminent market\u2011entry and compliance initiatives. Additionally, prepare a responsible\u2011gaming panel with AGOK and 1xBet ahead of Italy\u2019s new bonus\u2011restriction messaging rules (effective early Q1 2027) to capture regulatory\u2011compliance interest across Europe."
-    },
-    "timestamp": "2026-07-29T10:39:52.842415",
-    "ttl_hours": 24
-  },
-  "624c844faf9d667b4aee2808dac4fdfe": {
+  "dda6f84192454359e1fd57eeb5f8b0b7": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "FIRST.bet",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Added ex-DraftKings B2B chief as co\u2011CEO, signalling aggressive expansion and new B2B product rollout.",
-          "booth_pitch": "Medium (20\u202fsqm) with a speaking slot \u2013 position FIRST.bet as the next\u2011gen B2B sportsbook leader and showcase its new executive talent.",
+          "company": "Kalshi",
+          "category_fit": "Sports Betting Operator / Market Maker",
+          "news_trigger": "Michigan Court orders Kalshi to halt sports betting and a high\u2011profile social\u2011media marketing push highlighted in iGamingToday",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a live demo zone to showcase new compliance\u2011first sportsbook UI and a private meeting space for regulator outreach. Emphasise brand rebuilding and market expansion post\u2011court ruling.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Polymarket",
-          "category_fit": "Prediction Markets / Crypto Betting",
-          "news_trigger": "Recent $3.1\u202fm cyber\u2011attack and CFTC probe have raised its profile; the platform is preparing a relaunch with enhanced compliance and new crypto\u2011based markets.",
-          "booth_pitch": "Small (10\u202fsqm) with a demo area \u2013 highlight Polymarket\u2019s revamped security, compliance roadmap and upcoming product line to attract B2B partners.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "LIFT (South African airline)",
-          "category_fit": "Payments & Crypto Solutions for iGaming",
-          "news_trigger": "First South African airline to accept crypto and mobile payments \u2013 demonstrates a payment infrastructure that can be repurposed for iGaming operators.",
-          "booth_pitch": "Small (10\u202fsqm) with a live checkout demo \u2013 position LIFT as a gateway for crypto payments and mobile wallets for iGaming platforms.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Momentum & Fanatics",
-          "category_fit": "General iGaming / Sports Betting \u2013 Middle East Expansion",
-          "news_trigger": "Joint venture announced to launch a UAE\u2011based iGaming operation, indicating a new market entry and product suite.",
-          "booth_pitch": "Large (50sqm+) with a joint\u2011branding lounge \u2013 showcase the partnership\u2019s market strategy, localisation capabilities and upcoming product catalogue.",
+          "company": "BetConstruct",
+          "category_fit": "iGaming Technology Provider (AI & Platform)",
+          "news_trigger": "BetConstruct AI and PopOK Gaming champion innovation and community sport in Botswana \u2013 signalling a push into AI\u2011driven solutions.",
+          "booth_pitch": "Large (50\u202fsqm+) exhibition space with an AI\u2011lab showcase, live API integrations, and a stage slot for thought\u2011leadership on AI in betting. Position BetConstruct as the go\u2011to tech partner for next\u2011gen operators.",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "1xCare",
-          "category_fit": "Responsible Gaming / Player Protection Solutions",
-          "news_trigger": "Launch of a new end\u2011to\u2011end player protection platform aimed at operators seeking tighter compliance and safer gambling tools.",
-          "booth_pitch": "Medium (20\u202fsqm) with a workshop slot \u2013 demonstrate the platform\u2019s analytics, self\u2011exclusion tools and integration ease to attract B2B buyers.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "ADI PredictStreet",
-          "category_fit": "Prediction Markets / Regulated Betting",
-          "news_trigger": "Recent ban in Germany paired with a strategic partnership with US exchange Kalshi, indicating a pivot to regulated prediction markets.",
-          "booth_pitch": "Small (10\u202fsqm) with a live market feed \u2013 position ADI as a bridge between European and US regulated prediction markets, targeting operators looking to diversify product portfolios.",
+          "company": "eCOGRA (now under BMM Testlabs)",
+          "category_fit": "Testing, Certification & Player Protection",
+          "news_trigger": "BMM Testlabs parent to acquire eCOGRA \u2013 creating a combined powerhouse for compliance and testing services.",
+          "booth_pitch": "Small (10\u202fsqm) booth highlighting the integrated testing suite, new certification pathways, and a quick\u2011consultation desk for operators seeking regulatory readiness.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "SmartSoft",
-          "category_fit": "African iGaming Platforms",
-          "news_trigger": "Highlighted at iGB LIVE! Africa Summit as a key player shaping the future of African iGaming, with new product launches for mobile\u2011first markets.",
-          "booth_pitch": "Medium (20\u202fsqm) with a regional round\u2011table \u2013 promote SmartSoft\u2019s African market expertise, localisation toolkit and upcoming mobile\u2011first sportsbook.",
+          "company": "Affilka",
+          "category_fit": "Affiliate Management Platform",
+          "news_trigger": "Affilka announced roadmap updates and new performance\u2011tracking tools, positioning it as a next\u2011gen affiliate solution.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with interactive dashboards, case\u2011study videos, and a networking lounge for affiliate managers looking to optimise ROI.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "ALGA (African Lottery Gaming Association)",
+          "category_fit": "Industry Body / Regulatory Standardisation",
+          "news_trigger": "ALGA and GlobalLab partnership to standardise the African gaming industry \u2013 a clear sign of regional consolidation and growth.",
+          "booth_pitch": "Medium (20\u202fsqm) booth focused on policy dialogue, partnership opportunities, and a \u201cAfrica Hub\u201d meeting area for operators entering the continent.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Stake (formerly part of Everton front\u2011of\u2011shirt deal)",
+          "category_fit": "Sports Betting Operator / Brand Activation",
+          "news_trigger": "Stake confirmed shift to Everton\u2019s sleeve sponsorship, indicating a major brand\u2011visibility campaign and market expansion.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a brand\u2011experience zone, fan\u2011engagement activations, and a private suite for partnership talks with clubs and media partners.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "SoftSwiss",
+          "category_fit": "iGaming Platform Provider / B2B SaaS",
+          "news_trigger": "SoftSwiss unveiled a refreshed visual identity and new positioning, signalling a growth phase and product refresh.",
+          "booth_pitch": "Medium (20\u202fsqm) booth showcasing the rebranded platform, modular casino solutions, and a demo area for prospective operators seeking turnkey deployments.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Crypto Payments & FinTech Solutions",
-          "opportunity": "Few exhibitors currently showcase crypto\u2011payment gateways or mobile\u2011wallet integrations, yet operators are actively seeking secure, compliant solutions to capture the growing crypto\u2011savvy player base.",
+          "category": "African Gaming Regulation & Compliance",
+          "opportunity": "Few exhibitors focus exclusively on African market standards, yet the continent is experiencing rapid growth and regulatory harmonisation. Filling this gap would attract operators and regulators looking for localized expertise.",
           "target_company_types": [
-            "Crypto payment processors",
-            "Mobile wallet providers",
-            "FinTech platforms targeting iGaming"
-          ]
-        },
-        {
-          "category": "Responsible Gaming Technology",
-          "opportunity": "Limited presence of dedicated player\u2011protection solution providers, despite increasing regulator focus on safer gambling and operator demand for data\u2011driven tools.",
-          "target_company_types": [
-            "Gambling\u2011tech SaaS firms",
-            "AI\u2011driven risk analytics",
-            "Self\u2011exclusion and player\u2011monitoring platforms"
+            "Regulatory bodies",
+            "Compliance testing firms",
+            "Regional payment solutions"
           ]
         }
       ],
-      "timing_note": "Begin outreach in early April \u2013 this aligns with the typical ICE iGB early\u2011bird registration window (mid\u2011May) and gives prospects ample time to plan budgets, secure booth space, and consider speaking or workshop opportunities."
+      "timing_note": "Begin outreach in early Q3 (July\u2011August) to secure preferred booth locations and speaking slots before the ICE/iGB event registration deadline in September. This window aligns with most companies' Q3 budgeting cycles and allows time for joint marketing activities."
     },
-    "timestamp": "2026-07-29T10:39:53.828330",
+    "timestamp": "2026-07-30T10:25:03.295326",
     "ttl_hours": 24
   }
 }
