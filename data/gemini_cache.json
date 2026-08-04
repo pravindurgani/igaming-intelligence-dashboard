@@ -1,221 +1,249 @@
 {
-  "60fdd45bf7c36e95985c1772d7f92317": {
+  "87fb1380a7cfb190d53f9368a786969a": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage Gives Readers Front\u2011Row Access to Industry Action",
-          "what_readers_get": "They receive on\u2011the\u2011ground insights, keynote highlights, and networking takeaways that other outlets miss.",
-          "why_it_matters": "Live event intel shapes betting trends and regulatory moves faster than post\u2011event reports.",
-          "evidence_summary": "Our portfolio delivers 41% of all event articles, a 2.95\u2011times higher concentration than competitors.",
+          "headline": "Live Event Coverage Gives Readers Insider Access to Industry Happenings",
+          "what_readers_get": "On\u2011the\u2011ground insights, keynote summaries, and networking highlights from major iGaming conferences.",
+          "why_it_matters": "Conference revelations shape product launches, regulatory shifts, and market strategies across the sector.",
+          "evidence_summary": "90.9% of our articles focus on events, versus 31.3% for competitors.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 619,
-          "concentration_ratio": 2.95
+          "internal_count": 621,
+          "concentration_ratio": 2.9
         }
       ],
-      "ai_discovered": [
-        {
-          "headline": "Deep Regional Regulatory Analyses Keep Readers Ahead of Legal Shifts",
-          "what_readers_get": "Readers gain detailed breakdowns of country\u2011specific licensing, tax, and compliance changes before they impact markets.",
-          "why_it_matters": "Regulatory moves drive product launches and market entry decisions, so early insight is a competitive edge.",
-          "evidence": "Internal pieces such as the Austria liberalisation overview and multiple other country\u2011focused regulatory briefs; competitors largely publish only headline news.",
-          "confidence": "medium"
-        },
-        {
-          "headline": "Exclusive Talent and Hiring Insights Reveal the Industry\u2019s Workforce Pulse",
-          "what_readers_get": "Readers access curated job announcements, hiring trends, and career advice that are not covered elsewhere.",
-          "why_it_matters": "Talent acquisition and retention are critical for operators facing rapid technology adoption and expansion.",
-          "evidence": "Internal articles featuring senior product manager, business operations lead, and global people operations roles; competitor sites rarely publish dedicated hiring content.",
-          "confidence": "high"
-        }
-      ],
-      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event intel, nuanced regulatory foresight, and exclusive talent intelligence in iGaming.",
-      "overall_confidence": 0.86,
+      "ai_discovered": [],
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for real\u2011time, insider event intelligence that drives strategic decisions in iGaming.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-03T11:24:00.088315",
+    "timestamp": "2026-08-04T10:39:39.722543",
     "ttl_hours": 24
   },
-  "bbe59534ace0965d6010c8158331c643": {
+  "e028ecd317252e147304a81ac21977fb": {
     "result": {
       "additional_sponsor_opportunities": [
         {
+          "company": "EveryMatrix",
+          "news_trigger": "EveryMatrix agrees Betcenter Belgium omnichannel partnership (iGaming Afrika)",
+          "pitch_angle": "Offer data\u2011integration and white\u2011label solutions to accelerate Betcenter's omnichannel rollout and position EveryMatrix as the preferred tech partner for Belgian operators.",
+          "urgency": "Medium"
+        },
+        {
           "company": "Banijay Gaming",
-          "news_trigger": "Acquired a French land\u2011based casino to expand omnichannel offering",
-          "pitch_angle": "Offer iGaming integration services to bridge land casino and online platform, leveraging our data and affiliate network",
+          "news_trigger": "Banijay Gaming acquires JOA casinos to bolster French appeal (SBC News)",
+          "pitch_angle": "Co\u2011create a joint French\u2011market activation campaign leveraging Banijay's media assets and JOA's casino portfolio to drive brand awareness and player acquisition.",
           "urgency": "High"
         },
         {
-          "company": "DigiPlus",
-          "news_trigger": "Facing criticism over an \u2018absurd\u2019 valuation from a major iGaming investment group",
-          "pitch_angle": "Propose strategic advisory and valuation support services to improve market perception and attract investors",
+          "company": "Kalamba Games",
+          "news_trigger": "How Kalamba Games turned gamification into a competitive edge (iGaming Expert)",
+          "pitch_angle": "Sponsor a workshop on gamification best\u2011practices and showcase Kalamba\u2019s engine to operators looking to refresh their product suites.",
           "urgency": "Medium"
+        },
+        {
+          "company": "LONASE",
+          "news_trigger": "LONASE launches LPbet to reclaim Senegal\u2019s online sports betting market (iGaming Afrika)",
+          "pitch_angle": "Partner on a market\u2011entry accelerator for West Africa, providing branding, affiliate, and payment\u2011gateway support for LPbet\u2019s launch.",
+          "urgency": "High"
         },
         {
           "company": "BOYLE Sports",
-          "news_trigger": "Opened its 400th retail shop in Galway, signalling aggressive retail expansion",
-          "pitch_angle": "Introduce omni\u2011channel sportsbook technology and affiliate partnership to accelerate retail\u2011online synergy",
-          "urgency": "High"
-        },
-        {
-          "company": "Kazakhstan Payment Service Providers (e.g., Qiwi, Yandex Money)",
-          "news_trigger": "Government crackdown on payment services linked to illegal online gambling",
-          "pitch_angle": "Provide compliance and AML solutions to help them navigate the regulatory landscape and retain legitimate gaming clients",
-          "urgency": "High"
-        },
-        {
-          "company": "Nevada Sports Betting Operators (e.g., Caesars Entertainment, MGM Resorts)",
-          "news_trigger": "May sports betting revenue fell 17.2%",
-          "pitch_angle": "Offer performance\u2011boosting marketing and data\u2011analytics tools to recapture lost wagering volume",
+          "news_trigger": "BOYLE Sports CEO on retail empire expansion as firm opens 400th shop at Galway R (SBC News)",
+          "pitch_angle": "Sponsor a case\u2011study series on retail\u2011to\u2011online integration, highlighting BOYLE\u2019s expansion strategy and offering analytics tools for omni\u2011channel optimisation.",
           "urgency": "Medium"
+        },
+        {
+          "company": "Vodacom Group",
+          "news_trigger": "Vodacom Group completes strategic 55% acquisition of Kenya\u2019s Safaricom PLC (iGaming Afrika)",
+          "pitch_angle": "Develop a joint mobile\u2011first gaming platform and co\u2011branded promotions that leverage Vodacom\u2019s network reach and Safaricom\u2019s subscriber base.",
+          "urgency": "High"
+        },
+        {
+          "company": "Bet365",
+          "news_trigger": "Bet365 enters enforceable undertaking after AUSTRAC probe into AML and CTF processes (EGR Global)",
+          "pitch_angle": "Provide compliance\u2011tech solutions and AML monitoring services, positioning the portfolio as a trusted partner for Bet365\u2019s remediation program.",
+          "urgency": "High"
         }
       ],
       "speaker_recommendations": [
         {
+          "person_or_company": "Jari V\u00e4h\u00e4nen",
+          "topic_expertise": "Finnish gambling regulation and market strategy",
+          "news_relevance": "\u2018Almost certain\u2019 Finland gambling legislation is revisited (iGaming Expert)",
+          "session_type": "Panel"
+        },
+        {
           "person_or_company": "Michael Jordan",
-          "topic_expertise": "Brand partnership and sports betting marketing",
-          "news_relevance": "Co\u2011hosting SBC Summit 2026, highlighting crossover between sports icons and the betting industry",
+          "topic_expertise": "Sports\u2011betting branding and celebrity endorsement",
+          "news_relevance": "Opening speaker for SBC Summit 2026 (SBC News)",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Carsten Koerl",
-          "topic_expertise": "Regulatory strategy and market expansion",
-          "news_relevance": "Joining SBC Summit 2026 panel amid tightening regulations in Europe and Asia",
-          "session_type": "Panel"
-        },
-        {
           "person_or_company": "Jason Robins",
-          "topic_expertise": "Online casino product innovation",
-          "news_relevance": "Featured at SBC Summit 2026, relevant as operators seek new slot content after recent reviews",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "BOYLE Sports CEO",
-          "topic_expertise": "Retail sportsbook growth and omni\u2011channel strategy",
-          "news_relevance": "Just opened 400th shop, demonstrating rapid retail expansion",
+          "topic_expertise": "Growth of daily fantasy & sportsbook platforms",
+          "news_relevance": "Co\u2011opening SBC Summit 2026 (SBC News)",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Banijay Gaming Executive",
-          "topic_expertise": "Land\u2011based to online integration",
-          "news_relevance": "Recent French casino acquisition signals shift toward omnichannel",
+          "person_or_company": "CEO of LONASE",
+          "topic_expertise": "African market entry and regulatory navigation",
+          "news_relevance": "Launch of LPbet to reclaim Senegal\u2019s online sports betting market (iGaming Afrika)",
           "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "CEO of Banijay Gaming",
+          "topic_expertise": "Media\u2011driven casino expansion in France",
+          "news_relevance": "Acquisition of JOA casinos to bolster French appeal (SBC News)",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Director of Angola Gaming Authority",
+          "topic_expertise": "Licensing frameworks and operator onboarding",
+          "news_relevance": "Angola regulator launches 30\u2011day licensing phase for gaming operators (iGaming Today)",
+          "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Banijay Gaming",
-            "iGaming Operators (e.g., Evolution, Entain)"
+            "Vodacom Group",
+            "Safaricom PLC"
           ],
-          "partnership_type": "M&A/Product",
-          "opportunity": "Facilitate joint ventures to integrate Banijay's land\u2011based assets with online casino platforms, creating a seamless player experience"
+          "partnership_type": "M&A",
+          "opportunity": "Co\u2011develop mobile\u2011first gaming products, joint marketing campaigns, and shared payment solutions for East African markets."
         },
         {
           "companies_involved": [
-            "Kazakhstan Payment Services",
-            "Compliance Tech Providers"
-          ],
-          "partnership_type": "Investment/Product",
-          "opportunity": "Introduce compliance technology partners to help payment services meet new regulatory standards and retain gaming merchant relationships"
-        },
-        {
-          "companies_involved": [
-            "Nevada Operators",
-            "Affiliate Networks (e.g., iGB Affiliate)"
+            "EveryMatrix",
+            "Betcenter Belgium"
           ],
           "partnership_type": "Product",
-          "opportunity": "Launch targeted affiliate campaigns to revive wagering volume after the recent revenue dip"
+          "opportunity": "Integrate EveryMatrix\u2019s platform with Betcenter\u2019s omnichannel suite; joint go\u2011to\u2011market push targeting Belgian retail and online operators."
+        },
+        {
+          "companies_involved": [
+            "LONASE",
+            "LPbet"
+          ],
+          "partnership_type": "Product",
+          "opportunity": "Sponsor LPbet\u2019s brand launch, co\u2011create localized betting content, and provide affiliate\u2011tracking infrastructure for the Senegal market."
+        },
+        {
+          "companies_involved": [
+            "Banijay Gaming",
+            "JOA Casinos"
+          ],
+          "partnership_type": "M&A",
+          "opportunity": "Leverage Banijay\u2019s media assets to promote JOA\u2019s casino portfolio in France; explore cross\u2011selling of entertainment\u2011gaming bundles."
+        },
+        {
+          "companies_involved": [
+            "Bet365",
+            "AUSTRAC"
+          ],
+          "partnership_type": "Compliance",
+          "opportunity": "Offer AML/CTF technology and advisory services to help Bet365 meet its enforceable undertaking and rebuild regulator trust."
         }
       ],
-      "timing_recommendations": "Prioritize outreach to Banijay Gaming, BOYLE Sports, and Kazakhstan payment providers within the next 2\u20113 weeks to capitalize on recent regulatory moves and expansion announcements; schedule follow\u2011up with Nevada operators before Q4 earnings release."
+      "timing_recommendations": "The African expansion signals (Vodacom\u2011Safaricom deal, LONASE\u2019s LPbet launch, Angola\u2019s 30\u2011day licensing window) are time\u2011critical \u2013 engagement should be initiated within the next 4\u20116 weeks to influence market\u2011entry strategies. EU regulatory shifts (EC President\u2019s under\u201116 protection push, Italy\u2019s 2% football\u2011bet tax review) also demand rapid positioning, especially for compliance\u2011focused sponsors and speakers. Prioritise outreach to EveryMatrix, LONASE, and Vodacom in the short term, while preparing regulatory\u2011expert panels for the upcoming SBC Summit 2026."
     },
-    "timestamp": "2026-08-03T11:24:01.976489",
+    "timestamp": "2026-08-04T10:39:41.688402",
     "ttl_hours": 24
   },
-  "b905671521f01bf7f98dea49be1504d2": {
+  "d2ed759a709028cd27b662ad277a902d": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Betsson Group",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Argentine municipality blocks online betting on public networks \u2013 Betsson announced plans to launch a localized mobile sportsbook in Argentina to overcome access restrictions.",
-          "booth_pitch": "Medium (20\u202fsqm) booth highlighting Latin American expansion, partnership opportunities, and compliance roadmap for new markets.",
+          "company": "Altenar",
+          "category_fit": "General iGaming / Sports Betting \u2013 Data & Odds Provider",
+          "news_trigger": "Key Trends Shaping Sports Betting in Africa \u2013 Altenar expert interview highlighting expansion into African markets",
+          "booth_pitch": "Medium (20\u202fsqm) booth with live odds dashboard and API demo stations to showcase African\u2011focused data solutions to operators and regulators.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Entain (formerly GVC Holdings)",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Kazakhstan crackdown on payment services for illegal online gambling \u2013 Entain unveiled a new compliant payment gateway to serve regulated Asian markets.",
-          "booth_pitch": "Large (50\u202fsqm+) booth focused on compliance, payment innovation, and cross\u2011border sportsbook solutions.",
+          "company": "Midnite",
+          "category_fit": "General iGaming / Sports Betting \u2013 Operator",
+          "news_trigger": "Midnite targets Southampton in operator\u2019s Championship takeover, signalling aggressive expansion in the UK market.",
+          "booth_pitch": "Large (50sqm+) booth featuring a mock sportsbook UI, live match simulations, and a private meeting suite for partnership talks with UK and EU operators.",
           "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Allwyn",
-          "category_fit": "Lottery & Gaming",
-          "news_trigger": "Allwyn CTO describes national lottery overhaul as \u2018monstrous\u2019 in size \u2013 Allwyn is rolling out a digital lottery platform and next\u2011gen draw technology.",
-          "booth_pitch": "Small (10\u202fsqm) booth showcasing digital lottery infrastructure, data analytics, and player engagement tools.",
+          "company": "EveryMatrix",
+          "category_fit": "General iGaming / Sports Betting \u2013 Platform Provider",
+          "news_trigger": "EveryMatrix signs an omnichannel partnership with Betcenter Belgium, indicating a push into the Benelux and broader European market.",
+          "booth_pitch": "Medium (20sqm) booth with interactive product demos of the omnichannel stack and a scheduled \u201cTech Talk\u201d slot for B2B networking.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "LONASE (LPbet)",
+          "category_fit": "General iGaming / Sports Betting \u2013 New Online Sportsbook",
+          "news_trigger": "LONASE launches LPbet to reclaim Senegal\u2019s online sports betting market from foreign firms, a fresh brand entry in West Africa.",
+          "booth_pitch": "Small (10sqm) booth with a branded video wall highlighting LPbet\u2019s launch, plus a QR\u2011code\u2011driven lead capture for regional operators.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Kalamba Games",
+          "category_fit": "General iGaming / Sports Betting \u2013 Game Developer",
+          "news_trigger": "Feature on how Kalamba Games turned gamification into a competitive edge, signalling new product releases and market expansion.",
+          "booth_pitch": "Medium (20sqm) booth with playable demo stations for their latest gamified slots and a scheduled \u201cGamification Workshop\u201d for operators.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "BOYLE Sports",
+          "category_fit": "General iGaming / Sports Betting \u2013 Retail & Online Operator",
+          "news_trigger": "BOYLE Sports opens its 400th retail shop at Galway Racecourse, underscoring rapid retail network growth.",
+          "booth_pitch": "Small (10sqm) booth focusing on retail\u2011to\u2011online integration, with a live feed of in\u2011shop betting terminals and a meeting area for distribution partners.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
           "company": "Banijay Gaming",
-          "category_fit": "Land\u2011Based & Omnichannel",
-          "news_trigger": "Banijay Gaming acquires French land\u2011based casino as part of an omnichannel push \u2013 the group is integrating casino, sportsbook and online channels.",
-          "booth_pitch": "Medium (20\u202fsqm) booth presenting omnichannel integration case studies and opportunities for B2B partners.",
-          "contact_urgency": "Medium",
+          "category_fit": "General iGaming / Sports Betting \u2013 Casino Operator",
+          "news_trigger": "Banijay Gaming acquires JOA casinos to bolster its French market appeal, indicating a strategic expansion phase.",
+          "booth_pitch": "Medium (20sqm) booth showcasing the JOA portfolio, with a focus on cross\u2011border casino\u2011sports betting bundles and partnership opportunities.",
+          "contact_urgency": "Low",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Paysafe Group",
-          "category_fit": "Payments & FinTech",
-          "news_trigger": "Kazakhstan crackdown on payment services \u2013 Paysafe announced new AML\u2011focused payment solutions for regulated iGaming operators.",
-          "booth_pitch": "Small (10\u202fsqm) booth demonstrating secure, compliant payment APIs and fraud\u2011prevention tools.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Kambi",
-          "category_fit": "B2B Technology / Sportsbook Solutions",
-          "news_trigger": "Industry trend toward AI\u2011driven odds \u2013 Kambi launched an AI\u2011powered odds engine to improve margin and player experience.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with live demos of the AI odds platform and integration case studies.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Pragmatic Play",
-          "category_fit": "Game Development / Slots",
-          "news_trigger": "3 Bandits slot review \u2013 Pragmatic Play released a new high\u2011volatility slot that is gaining traction across operators.",
-          "booth_pitch": "Large (50\u202fsqm+) booth to showcase the latest slot portfolio, live demo stations, and partnership opportunities for operators.",
+          "company": "Bet365",
+          "category_fit": "General iGaming / Sports Betting \u2013 Leading Operator",
+          "news_trigger": "Bet365 enters enforceable undertaking after AUSTRAC probe into AML/CTF processes, prompting a potential PR and compliance showcase.",
+          "booth_pitch": "Large (50sqm+) booth dedicated to compliance technology, featuring a compliance\u2011tech partner zone and a press briefing area to reinforce brand trust.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "Betway",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Nevada sports betting revenue falls 17.2% in May \u2013 Betway announced a strategic push into the U.S. market, targeting states with growth potential.",
-          "booth_pitch": "Medium (20\u202fsqm) booth focusing on U.S. regulatory compliance, market entry services, and sportsbook technology.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Regulatory & Compliance Services",
-          "opportunity": "Increasing global scrutiny and recent crackdowns (e.g., Kazakhstan, Bangladesh) create demand for compliance, licensing and AML solutions. Few exhibitors currently address this niche, offering a clear value\u2011add for operators seeking B2B guidance.",
+          "category": "African\u2011focused Sports Betting Operators & Data Providers",
+          "opportunity": "Few exhibitors currently represent the fast\u2011growing African market, yet regulators and global operators are actively seeking local partners to meet new licensing windows.",
           "target_company_types": [
-            "Compliance consultancies",
-            "Legal firms specializing in gaming regulation",
-            "AML and KYC technology providers"
+            "Regional operators",
+            "Odds and data providers",
+            "Payment solutions tailored to Africa"
+          ]
+        },
+        {
+          "category": "Compliance & AML Technology Vendors",
+          "opportunity": "Regulatory scrutiny is intensifying (e.g., Bet365 AUSTRAC case, EU under\u201116 protections), creating demand for dedicated compliance showcase space that is currently under\u2011represented.",
+          "target_company_types": [
+            "RegTech firms",
+            "KYC/AML solution providers",
+            "Risk analytics platforms"
           ]
         }
       ],
-      "timing_note": "Begin outreach in early July (Q3) to align with sponsors' budgeting cycles and give prospects ample time to plan booth logistics before the ICE/iGB event in September."
+      "timing_note": "Begin outreach in early March (3\u20114 months before the June ICE/iGB event) to secure preferred booth locations and allow prospects ample time to develop tailored exhibition concepts. Follow\u2011up in April with a personalized demo invitation aligned to their recent news trigger."
     },
-    "timestamp": "2026-08-03T11:24:02.962452",
+    "timestamp": "2026-08-04T10:39:42.958918",
     "ttl_hours": 24
   }
 }
