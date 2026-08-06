@@ -1,199 +1,210 @@
 {
-  "ec87b3b448257b99bd6e163bd2cb9cfb": {
+  "c1c6db502637b9c7bd79294cecf97c7f": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage Gives Readers Floor\u2011Level Insights and Networking Highlights",
-          "what_readers_get": "They receive real\u2011time keynote takeaways, exclusive backstage interviews, and post\u2011event networking summaries.",
-          "why_it_matters": "Live event intel shapes betting strategies and product roadmaps faster than delayed press releases.",
-          "evidence_summary": "Our portfolio devotes about 40% of its event articles (628 pieces) versus roughly 30% for competitors (945 pieces), a 2.9\u2011times higher concentration.",
+          "headline": "Live Event Coverage Gives Readers Insider Access to Industry Moments",
+          "what_readers_get": "Readers get floor\u2011level insights, keynote summaries, and networking highlights that others miss.",
+          "why_it_matters": "Event reporting extends reach beyond attendees, shaping anticipation and decision\u2011making for operators and partners.",
+          "evidence_summary": "Our event articles account for roughly 41% of our output versus 31% of competitors, a 2.9\u2011times higher concentration.",
           "confidence": "high",
           "original_type": "event",
           "internal_count": 628,
-          "concentration_ratio": 2.89
+          "concentration_ratio": 2.85
         }
       ],
-      "ai_discovered": [],
-      "strategic_summary": "The portfolio delivers higher\u2011density, insider event intelligence that equips iGaming professionals with actionable insights faster than rivals.",
-      "overall_confidence": 0.9,
+      "ai_discovered": [
+        {
+          "headline": "Funding and Investment News Delivered with Depth and Speed",
+          "what_readers_get": "Readers receive timely details on startup financing, M&A activity, and capital raises shaping the iGaming landscape.",
+          "why_it_matters": "Capital flows drive market consolidation and new product launches, making up\u2011to\u2011date financing intelligence essential for operators and investors.",
+          "evidence": "Internal pieces include a $1\u202fmillion funding round for StatsDrone and analysis of Bally\u2019s European expansion; competitor outlets show sparse coverage of comparable financing events.",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for real\u2011time industry events and financing insights that drive strategic decisions.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-05T10:35:11.589644",
+    "timestamp": "2026-08-06T10:36:47.967623",
     "ttl_hours": 24
   },
-  "b428b6bb0e6f0ba716f551e2ad12c5f7": {
+  "5c5bf4b880c6ed9325db9a83eb984b23": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "EveryMatrix",
-          "news_trigger": "Announced omnichannel partnership with Betcenter Belgium and a sportsbook deal with Merkur Group-owned Betcenter",
-          "pitch_angle": "Position as a strategic B2B partner for integrated casino\u2011sportsbook solutions, leveraging their recent expansion to showcase joint go\u2011to\u2011market campaigns",
+          "company": "SoftSwiss",
+          "news_trigger": "Panel discussion on Fixed Odds bringing prediction markets into regulated iGaming (iGaming Afrika)",
+          "pitch_angle": "Sponsor a high\u2011visibility panel or webinar on regulated prediction markets and offer thought\u2011leadership content to position SoftSwiss as the go\u2011to tech provider for fixed\u2011odds products.",
           "urgency": "High"
         },
         {
-          "company": "Midnite",
-          "news_trigger": "Targeted for takeover of Southampton in the Championship operator consolidation wave",
-          "pitch_angle": "Offer branding and fan\u2011engagement sponsorship packages tied to the upcoming club acquisition to boost market visibility in the UK football segment",
+          "company": "Visa",
+          "news_trigger": "Launch of a DRC stablecoin trial with M\u2011Pay and Onafriq (iGaming Afrika)",
+          "pitch_angle": "Lead a round\u2011table on financial inclusion and crypto payments for iGaming operators, showcasing Visa\u2019s stablecoin capabilities and driving adoption in emerging markets.",
           "urgency": "Medium"
         },
         {
-          "company": "Banijay Gaming",
-          "news_trigger": "Acquired JOA Casinos to strengthen its French market presence",
-          "pitch_angle": "Propose co\u2011marketing and exclusive content collaborations to accelerate brand integration in France\u2019s regulated iGaming space",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Superbet",
-          "news_trigger": "Secured flagship Greek basketball partnership with Olympiacos",
-          "pitch_angle": "Leverage the Olympiacos deal to create joint promotions and data\u2011driven betting experiences targeting Greek sports fans",
-          "urgency": "Low"
-        },
-        {
-          "company": "National Lottery (UK)",
-          "news_trigger": "Joining the $1bn Powerball jackpot rollout on 21 July",
-          "pitch_angle": "Develop cross\u2011promotion opportunities linking lottery and online casino products, emphasizing responsible gambling narratives",
+          "company": "IGT",
+          "news_trigger": "Entry into South African market via strategic partnership with Hollywoodbets (iGaming Afrika)",
+          "pitch_angle": "Sponsor a South\u2011Africa market\u2011entry case study series, providing IGT a platform to promote its product suite and generate operator leads in the region.",
           "urgency": "High"
         },
         {
-          "company": "Relax Gaming",
-          "news_trigger": "Published thought\u2011leadership on slot development balancing familiarity vs imagination",
-          "pitch_angle": "Sponsor a creative workshop series on innovative slot design, positioning the brand as a thought leader in product development",
+          "company": "ThrillTech",
+          "news_trigger": "Expansion in Latin America through SportingTech link\u2011up (iGaming Expert)",
+          "pitch_angle": "Create a Latin\u2011America tech showcase where ThrillTech can demo its new sports\u2011betting solutions, positioning the brand as a regional innovator.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "PokerStars",
+          "news_trigger": "Redundancies announced amid restructuring (Next.io)",
+          "pitch_angle": "Host a talent\u2011management workshop on workforce transformation in iGaming, allowing PokerStars to discuss best practices and employer branding.",
           "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Patrick Jay",
-          "topic_expertise": "Regulatory strategy and industry advocacy",
-          "news_relevance": "Recent EGR Global column arguing the sector is fighting the wrong war, highlighting need for strategic policy dialogue",
+          "person_or_company": "Mattias Wedar",
+          "topic_expertise": "Strategic market positioning and digital transformation in iGaming",
+          "news_relevance": "Featured in EGR article discussing industry outlook and strategic focus",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Victor Wanyama",
-          "topic_expertise": "Grassroots football development and sports betting partnerships",
-          "news_relevance": "Partnered with 22Bet to support Kenyan football, showcasing a model for socially responsible betting collaborations",
+          "person_or_company": "SoftSwiss CEO (or senior executive)",
+          "topic_expertise": "Fixed\u2011odds prediction markets and crypto\u2011friendly licensing",
+          "news_relevance": "Leading the SoftSwiss panel on regulated prediction markets",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Laurence Escalante",
-          "topic_expertise": "iGaming entrepreneurship and crisis management",
-          "news_relevance": "Stepping down from VGW amid scandal, offering insights on governance and brand resilience",
+          "person_or_company": "Head of Emerging Payments, Visa",
+          "topic_expertise": "Stablecoin integration and cross\u2011border payments for iGaming",
+          "news_relevance": "Driving the DRC stablecoin trial with M\u2011Pay and Onafriq",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Carsten Koerl",
-          "topic_expertise": "Casino product innovation and market expansion",
-          "news_relevance": "Co\u2011organiser of SBC Summit 2026, signalling influence over upcoming industry trends",
+          "person_or_company": "CEO, IGT Africa",
+          "topic_expertise": "Market entry strategy and product localisation in emerging markets",
+          "news_relevance": "Announced partnership with Hollywoodbets to launch in South Africa",
           "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "EveryMatrix",
-            "Betcenter Belgium"
+            "SoftSwiss",
+            "Regulated iGaming Operators"
+          ],
+          "partnership_type": "Investment/Product",
+          "opportunity": "Co\u2011develop a turnkey fixed\u2011odds prediction\u2011market platform that can be white\u2011labelled to operators seeking regulated crypto solutions."
+        },
+        {
+          "companies_involved": [
+            "Visa",
+            "M\u2011Pay",
+            "Onafriq"
           ],
           "partnership_type": "Product",
-          "opportunity": "Co\u2011create a joint omnichannel suite and use our media platform to amplify the launch to operators across Europe"
+          "opportunity": "Integrate the DRC stablecoin trial into iGaming wallets, creating a fast, low\u2011cost payment method for African operators and players."
         },
         {
           "companies_involved": [
-            "Banijay Gaming",
-            "JOA Casinos"
+            "IGT",
+            "Hollywoodbets"
           ],
-          "partnership_type": "M&A",
-          "opportunity": "Facilitate post\u2011acquisition integration storytelling and joint promotional campaigns targeting French regulators and players"
-        },
-        {
-          "companies_involved": [
-            "Bet365",
-            "AUSTRAC"
-          ],
-          "partnership_type": "Regulatory compliance",
-          "opportunity": "Offer consultancy and content services to help Bet365 meet AML/CTF requirements while positioning them as a compliance champion"
+          "partnership_type": "Strategic Partnership",
+          "opportunity": "Jointly roll out IGT\u2019s casino and sportsbook technology across Hollywoodbets\u2019 retail and online channels, leveraging local brand equity."
         }
       ],
-      "timing_recommendations": "Prioritize outreach to EveryMatrix (imminent partnership announcements), Bet365 (regulatory enforcement deadlines in Australia), and the UK National Lottery (Powerball launch on 21\u202fJuly) to capitalize on high\u2011visibility windows; also monitor Angola's 30\u2011day licensing phase for rapid entry opportunities."
+      "timing_recommendations": "Capitalize on the SBC Summit Tbilisi (2,500 delegates, next week) to secure speaking slots for SoftSwiss, Visa, and IGT. Prioritize outreach to Visa and SoftSwiss now to align with the DRC stablecoin trial rollout and the upcoming regulatory panel on prediction markets. Follow\u2011up with IGT immediately to leverage the fresh South African partnership announcement for market\u2011entry webinars."
     },
-    "timestamp": "2026-08-05T10:35:13.104138",
+    "timestamp": "2026-08-06T10:36:49.551734",
     "ttl_hours": 24
   },
-  "569032ca52934aab79435bffd4e62374": {
+  "0c626fe660d44049a1a8c8fa0c6b8096": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "EveryMatrix",
-          "category_fit": "General iGaming / Sports Betting \u2013 Platform & Omnichannel Solutions",
-          "news_trigger": "Announced Betcenter Belgium omnichannel partnership and a sportsbook deal with Merkur Group-owned Betcenter.",
-          "booth_pitch": "Medium (\u224820\u202fsqm) booth with live demo stations to showcase the new omnichannel platform, integration APIs, and partnership case studies.",
+          "company": "SoftSwiss",
+          "category_fit": "General iGaming \u2013 Platform & Technology Provider",
+          "news_trigger": "SOFTSWISS Panel: Fixed Odds Bring Prediction Markets Into Regulated iGaming (highlighting new fixed\u2011odds product line)",
+          "booth_pitch": "Gold Booth (20\u202fsqm) with a speaking slot on prediction\u2011market integration + premium lead\u2011gen services. Position SoftSwiss as the go\u2011to platform for regulated fixed\u2011odds products.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Banijay Gaming",
-          "category_fit": "General iGaming \u2013 Casino Expansion",
-          "news_trigger": "Acquired JOA Casinos to strengthen its French market presence.",
-          "booth_pitch": "Large (\u224850\u202fsqm+) exhibition space featuring a mini\u2011casino floor, French\u2011language content, and a launch lounge for new titles.",
+          "company": "T5C",
+          "category_fit": "General Sports Betting \u2013 Technology Delivery Partner",
+          "news_trigger": "T5C breaks from Checkd to power\u2011up tech delivery for sports betting (new tech stack rollout)",
+          "booth_pitch": "Silver Booth (15\u202fsqm) with demo area for live sports\u2011betting API showcase. Emphasise T5C\u2019s rapid integration capabilities to attract operators seeking tech upgrades.",
           "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "IGT",
+          "category_fit": "General iGaming \u2013 Game & Platform Provider",
+          "news_trigger": "IGT Enters South African Market with a Strategic Partnership with Hollywoodbets (new market expansion)",
+          "booth_pitch": "Platinum Booth (50\u202fsqm+) with a dedicated lounge and keynote speaking opportunity on market expansion strategies. Highlight IGT\u2019s global portfolio and new African footprint.",
+          "contact_urgency": "High",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "22Bet",
-          "category_fit": "Sports Betting \u2013 Emerging African Markets",
-          "news_trigger": "Partnered with Victor Wanyama to support grassroots football in Kenya, signalling a push into East Africa.",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth highlighting African market growth, localized betting products, and community\u2011impact initiatives.",
+          "company": "Belatra Games",
+          "category_fit": "General iGaming \u2013 Game Developer",
+          "news_trigger": "Belatra signs new cooperation agreement with VeliGames (new game pipeline launch)",
+          "booth_pitch": "Silver Booth (15\u202fsqm) with interactive demo stations for upcoming titles. Offer a co\u2011marketing package to boost visibility of the new partnership.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "Polymarket",
-          "category_fit": "Prediction Markets / Fixed\u2011Odds Innovation",
-          "news_trigger": "Granted the right to respond to illegal gambling allegations in South Korea, indicating regulatory engagement and market entry.",
-          "booth_pitch": "Medium (\u224820\u202fsqm) space with interactive prediction\u2011market demos, compliance briefings, and a \u201cRegTech Corner\u201d for regulators.",
+          "company": "MrQ",
+          "category_fit": "General iGaming \u2013 Operator",
+          "news_trigger": "MrQ unveils new in\u2011site currency as part of ongoing \u201clevelling up\u201d (new product/monetisation feature)",
+          "booth_pitch": "Gold Booth (20\u202fsqm) with a live showcase of the new currency system and a round\u2011table discussion on operator\u2011driven innovation.",
           "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "DigiPlus",
-          "category_fit": "iGaming Investment & Technology \u2013 Funding & Growth",
-          "news_trigger": "Major iGaming investment group publicly questioned its valuation, suggesting upcoming fundraising or strategic moves.",
-          "booth_pitch": "Small (\u224810\u202fsqm) booth positioned as a \u201cDeal Hub\u201d for investors and tech partners, with pitch decks and one\u2011on\u2011one meeting slots.",
-          "contact_urgency": "Medium",
+          "company": "Visa (in partnership with M\u2011Pay Africa & Onafriq)",
+          "category_fit": "Payments & Crypto \u2013 Financial Services",
+          "news_trigger": "Visa, M\u2011Pay Africa and Onafriq Launch DRC Stablecoin Trial (new crypto\u2011payment solution)",
+          "booth_pitch": "Gold Booth (20\u202fsqm) with a fintech demo zone and a panel slot on stablecoin adoption in regulated gambling markets.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Onafriq",
+          "category_fit": "Payments & Crypto \u2013 Stablecoin Provider",
+          "news_trigger": "Visa, M\u2011Pay Africa and Onafriq Launch DRC Stablecoin Trial (first stablecoin pilot in African gambling)",
+          "booth_pitch": "Silver Booth (15\u202fsqm) with a focused workshop on integrating stablecoins into iGaming platforms. Pair with Visa for joint branding opportunities.",
+          "contact_urgency": "High",
           "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "Superbet",
-          "category_fit": "Sports Betting \u2013 Sponsorship & Brand Activation",
-          "news_trigger": "Secured a flagship Greek basketball partnership with Olympiacos, expanding its sports\u2011sponsorship portfolio.",
-          "booth_pitch": "Medium (\u224820\u202fsqm) activation zone featuring live basketball content, fan\u2011engagement experiences, and partnership case studies.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "RegTech & Compliance Solutions",
-          "opportunity": "Regulatory scrutiny is intensifying globally (UKGC affordability checks, AUSTRAC AML actions). Exhibitors offering compliance automation, player\u2011affordability tools, and AML/KYC platforms are under\u2011represented, creating a high\u2011visibility slot for solution providers.",
+          "category": "Payments & Crypto Solutions",
+          "opportunity": "Few exhibitors currently showcase stablecoin or mobile\u2011money integrations, yet operators are actively seeking regulated payment innovations for emerging markets.",
           "target_company_types": [
-            "Compliance SaaS vendors",
-            "RegTech consultancies",
-            "AML/KYC technology firms"
+            "Stablecoin issuers",
+            "Mobile\u2011money platforms",
+            "Digital wallet providers"
           ]
         },
         {
-          "category": "Responsible Gaming & Player Protection",
-          "opportunity": "Recent headlines on responsible gaming initiatives (North West Gambling Board, UKGC updates) indicate a growing demand for tools that promote safe play. Few exhibitors currently focus on this niche, offering a chance to position as industry leaders in player welfare.",
+          "category": "Regulatory Tech & Compliance",
+          "opportunity": "Regulatory changes (Financial Risk Assessments, gambling\u2011debt rulings) create demand for compliance SaaS, but representation is limited.",
           "target_company_types": [
-            "Self\u2011exclusion platforms",
-            "Behavioral analytics providers",
-            "Player\u2011education content creators"
+            "Risk\u2011assessment platforms",
+            "AML/KYC solution providers",
+            "RegTech consultancies"
           ]
         }
       ],
-      "timing_note": "Begin outreach in early Q3\u202f2026 (June\u2011July) to align with exhibitors\u2019 budgeting cycles and give prospects ample lead time to plan booth design, travel, and staffing before the ICE/iGB event scheduled for September\u202f2026."
+      "timing_note": "Begin outreach in early Q4 (mid\u2011October) to align with ICE/iGB\u2019s exhibitor registration deadline (typically early November) and to capitalize on the momentum from recent product launches and regulatory announcements."
     },
-    "timestamp": "2026-08-05T10:35:14.082252",
+    "timestamp": "2026-08-06T10:36:50.430752",
     "ttl_hours": 24
   }
 }
