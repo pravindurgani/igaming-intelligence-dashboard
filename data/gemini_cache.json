@@ -1,205 +1,256 @@
 {
-  "7a2774364966a28f0654032796bc594f": {
+  "fee1c0f3d76d7bace83cae77471b6b96": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage You Won\u2019t Find Anywhere Else",
-          "what_readers_get": "Live floor insights, keynote highlights, and exclusive networking moments from top iGaming conferences.",
-          "why_it_matters": "Event details shape market trends and inform strategic decisions for operators and investors.",
-          "evidence_summary": "Our portfolio delivers about 40% of all event articles, a 2.9\u2011times higher concentration than competitors.",
+          "headline": "Live Event Insights You Won\u2019t Find Anywhere Else",
+          "what_readers_get": "On\u2011the\u2011ground reports, keynote takeaways, and networking highlights from the biggest iGaming conferences.",
+          "why_it_matters": "Event intelligence helps operators anticipate market shifts and spot emerging opportunities before they become mainstream.",
+          "evidence_summary": "Our portfolio dedicates about 90% of its event coverage, versus roughly 32% by competitors (ratio\u202f\u2248\u202f2.9).",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 637,
-          "concentration_ratio": 2.9
+          "internal_count": 655,
+          "concentration_ratio": 2.88
+        },
+        {
+          "rank": 2,
+          "headline": "Exclusive iGaming Job Listings and Career Opportunities for Professionals",
+          "what_readers_get": "Curated job openings, hiring trends, and career advice tailored to the iGaming sector.",
+          "why_it_matters": "Access to specialized roles accelerates talent acquisition and helps professionals navigate a fast\u2011growing industry.",
+          "evidence_summary": "Around 4% of our articles are career\u2011focused, compared with less than 0.2% from rivals (ratio\u202f\u2248\u202f26).",
+          "confidence": "high",
+          "original_type": "career",
+          "internal_count": 30,
+          "concentration_ratio": 26.0
+        },
+        {
+          "rank": 3,
+          "headline": "In\u2011Depth Operator Strategies and Funding News You Need",
+          "what_readers_get": "Detailed analysis of operator expansions, funding rounds, and strategic moves shaping the market.",
+          "why_it_matters": "Understanding operator decisions enables investors and partners to make informed bets on the sector\u2019s growth trajectory.",
+          "evidence_summary": "Approximately 0.3% of our content covers operator strategy, while competitors allocate about 0.15% (ratio\u202f\u2248\u202f2).",
+          "confidence": "medium",
+          "original_type": "industry_insight",
+          "internal_count": 2,
+          "concentration_ratio": 2.0
         }
       ],
-      "ai_discovered": [],
-      "strategic_summary": "The portfolio delivers the deepest, most actionable event intelligence, keeping readers ahead of market shifts.",
-      "overall_confidence": 0.9,
+      "ai_discovered": [
+        {
+          "headline": "Exclusive iGaming Job Listings and Career Opportunities for Professionals",
+          "what_readers_get": "Curated job openings, hiring trends, and career advice tailored to the iGaming sector.",
+          "why_it_matters": "Access to specialized roles accelerates talent acquisition and helps professionals navigate a fast\u2011growing industry.",
+          "evidence": "Multiple internal articles titled as job postings (e.g., Global People Operations Assistant, Market Operations Manager, Content Specialist) with negligible comparable content from competitors.",
+          "confidence": "high"
+        },
+        {
+          "headline": "In\u2011Depth Operator Strategies and Funding News You Need",
+          "what_readers_get": "Detailed analysis of operator expansions, funding rounds, and strategic moves shaping the market.",
+          "why_it_matters": "Understanding operator decisions enables investors and partners to make informed bets on the sector\u2019s growth trajectory.",
+          "evidence": "Internal pieces such as \u201cSoo Kim\u2019s British gamble: what does Bally\u2019s really want in Europe?\u201d and \u201cStatsDrone surpasses $1\u202fmillion in funding as NousViz fuels growth\u201d contrast with limited comparable coverage from rivals.",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "The portfolio delivers unrivaled event intelligence, targeted career resources, and deep operator insights that keep iGaming professionals ahead of the curve.",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-07T08:58:06.058843",
+    "timestamp": "2026-08-08T08:38:44.277826",
     "ttl_hours": 24
   },
-  "e0f49560fbcd56d20d8a1df624bdf700": {
+  "02be2ac5be530e21e92b3a8711ed1619": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "IGT",
-          "news_trigger": "IGT entered the South African market via a strategic partnership with Hollywoodbets",
-          "pitch_angle": "Offer co\u2011branded marketing packages and data\u2011driven player acquisition solutions to accelerate their South African rollout",
+          "company": "ZEAL Network",
+          "news_trigger": "ZEAL Network announced UK entry via acquisition of SevenCanyon (iGaming Expert)",
+          "pitch_angle": "Position ZEAL as a showcase sponsor for UK market expansion panels and fintech payment sessions at upcoming SBC Summits",
           "urgency": "High"
         },
         {
-          "company": "Pragmatic Play",
-          "news_trigger": "Slots Tracker shows Pragmatic Play leading the pack in slot performance",
-          "pitch_angle": "Propose a joint content hub showcasing top\u2011performing slots and cross\u2011promotional campaigns with our B2B audience",
+          "company": "Blueprint Gaming",
+          "news_trigger": "Blueprint Gaming outlines strategy to stretch IP slot appeal beyond existing fans (iGaming Expert)",
+          "pitch_angle": "Invite Blueprint to sponsor a dedicated slot\u2011innovation workshop and provide exclusive slot demos for event attendees",
           "urgency": "Medium"
         },
         {
-          "company": "ZEAL Network",
-          "news_trigger": "ZEAL Network announced UK entry through the acquisition of SevenCanyon",
-          "pitch_angle": "Position our platform as a launchpad for their UK portfolio, offering regulatory insight and brand exposure at upcoming conferences",
+          "company": "Altenar",
+          "news_trigger": "Altenar discusses the reality of expanding an in\u2011house sportsbook into new markets (iGaming Afrika)",
+          "pitch_angle": "Offer Altenar a B2B partnership slot to present its sportsbook platform at the fintech\u2011payments track, highlighting cross\u2011border integration",
           "urgency": "Medium"
         },
         {
-          "company": "Merkur Gaming",
-          "news_trigger": "Merkur backs UK retail with a major Leeds casino acquisition",
-          "pitch_angle": "Invite them to sponsor a retail\u2011focused panel on the convergence of land\u2011based and online gambling in the UK",
+          "company": "EveryMatrix",
+          "news_trigger": "EveryMatrix announces new Merkur agreements in Denmark & Belgium, showcasing omnichannel capabilities (SBC News)",
+          "pitch_angle": "Secure EveryMatrix as a lead sponsor for the omnichannel & market\u2011entry panel, leveraging their recent Nordic\u2011Benelux wins",
           "urgency": "Low"
         },
         {
-          "company": "XST Capital",
-          "news_trigger": "Investment firm XST Capital appointed ex\u2011Affinity Interactive boss to advisory role",
-          "pitch_angle": "Leverage their new advisory expertise for a fintech\u2011focused roundtable on investment trends in iGaming",
-          "urgency": "Low"
+          "company": "GGL (German Gaming Association)",
+          "news_trigger": "GGL approves higher \u20ac5 stake for online slots in Germany (iGamingToday.com)",
+          "pitch_angle": "Partner with GGL to host a German\u2011market regulatory round\u2011table, positioning them as the official German regulator sponsor",
+          "urgency": "High"
+        },
+        {
+          "company": "Banijay",
+          "news_trigger": "Banijay\u2019s JOA deal brings renewed focus to French iCasino (SBC News)",
+          "pitch_angle": "Invite Banijay to co\u2011host a French iCasino growth session, leveraging their media expertise for brand exposure",
+          "urgency": "Medium"
+        },
+        {
+          "company": "DraftKings",
+          "news_trigger": "Michael Burry invests in DraftK (presumed DraftKings) as part of a broader market bet (SBC News)",
+          "pitch_angle": "Approach DraftKings for headline sponsorship of the upcoming North America market summit, capitalising on heightened investor interest",
+          "urgency": "High"
         }
       ],
       "speaker_recommendations": [
         {
           "person_or_company": "John Cook",
-          "topic_expertise": "Event\u2011centric marketing strategies in iGaming",
-          "news_relevance": "Featured in SBC News discussing the continued relevance of events for marketing",
+          "topic_expertise": "Event\u2011centric B2B marketing and community building",
+          "news_relevance": "Featured in SBC News questioning the centrality of events in the marketing universe",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "Simon Westbury",
-          "topic_expertise": "Responsible gambling (RG) frameworks and technology",
-          "news_relevance": "Highlighted in EGR Global for his work on 1xCare and RG journeys",
+          "person_or_company": "ZEAL Network Executive Team",
+          "topic_expertise": "Cross\u2011border market entry and acquisition strategy",
+          "news_relevance": "Recent UK entry via SevenCanyon acquisition",
           "session_type": "Keynote"
         },
         {
-          "person_or_company": "Svenska Spel",
-          "topic_expertise": "People and culture transformation in regulated gambling operators",
-          "news_relevance": "Recent C\u2011suite appointment announced in EGR Global",
+          "person_or_company": "Blueprint Gaming Product Lead",
+          "topic_expertise": "IP slot extension and fan\u2011base diversification",
+          "news_relevance": "New Blueprint Gaming strategy to stretch IP appeal",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Amusnet",
-          "topic_expertise": "Integration of racing content with online betting platforms",
-          "news_relevance": "Partnered with Hollywoodbets for South African racing events (iGaming Afrika)",
+          "person_or_company": "Altenar Head of Sportsbook Development",
+          "topic_expertise": "Building and scaling in\u2011house sportsbook platforms",
+          "news_relevance": "Insights on expanding sportsbook into new jurisdictions",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "RubyPlay",
-          "topic_expertise": "Jackpot software development and cross\u2011product integration",
-          "news_relevance": "Acquired Splash Tech to expand jackpot capabilities (NEXT.io)",
-          "session_type": "Workshop"
+          "person_or_company": "GGL Representative",
+          "topic_expertise": "Regulatory changes and responsible gambling in Germany",
+          "news_relevance": "Recent approval of higher \u20ac5 slot stake limit",
+          "session_type": "Keynote"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "T5C",
-            "Checkd"
+            "ZEAL Network",
+            "SevenCanyon"
           ],
           "partnership_type": "M&A",
-          "opportunity": "T5C's spin\u2011off from Checkd creates a dedicated tech delivery unit for sports betting \u2013 our portfolio can provide integration services and joint go\u2011to\u2011market strategies."
+          "opportunity": "Leverage the acquisition to co\u2011create a UK\u2011focused fintech payment solution showcase at the SBC Summit"
         },
         {
           "companies_involved": [
-            "South African National Gambling Board",
-            "Hollywoodbets"
+            "Altenar",
+            "Local Operators in Kenya & Benin"
           ],
-          "partnership_type": "Regulatory/Compliance",
-          "opportunity": "Board's crackdown on illegal sites aligns with Hollywoodbets' expansion \u2013 position as compliance consultancy to help licensed operators navigate the new enforcement landscape."
+          "partnership_type": "Product",
+          "opportunity": "Facilitate joint\u2011venture discussions to bring Altenar\u2019s sportsbook tech to newly regulated African markets"
         },
         {
           "companies_involved": [
-            "BetKing",
-            "Nigeria Sportsbook StreamFest"
+            "EveryMatrix",
+            "Merkur Group"
           ],
-          "partnership_type": "Product/Promotion",
-          "opportunity": "BetKing's launch of Nigeria\u2019s first sportsbook streaming event offers a platform for sponsorship of live\u2011stream content and data\u2011analytics services."
+          "partnership_type": "M&A/Product Integration",
+          "opportunity": "Promote a joint omnichannel offering for Denmark and Belgium, positioning the portfolio as a distribution partner"
         }
       ],
-      "timing_recommendations": "Prioritize outreach to IGT and Pragmatic Play within the next 2 weeks to capitalize on their South African and slot\u2011performance momentum; schedule meetings with ZEAL Network and Merkur Gaming before the end of Q3 to align with their UK expansion timelines; engage XST Capital in Q4 when their advisory board becomes operational."
+      "timing_recommendations": "Prioritise engagement with ZEAL Network, DraftKings, and GGL before the next SBC Summit (early Q4 2026) to secure sponsorship slots and speaking roles. Simultaneously, fast\u2011track partnership talks with Altenar and local African regulators to capitalize on Kenya's new licensing rules and Benin's digital lottery rollout, both of which are in the implementation phase and require immediate market\u2011entry support."
     },
-    "timestamp": "2026-08-07T08:58:07.207134",
+    "timestamp": "2026-08-08T08:38:46.099954",
     "ttl_hours": 24
   },
-  "d5c3082afdf40744108fb3c90368f426": {
+  "d75950261e666178040ddf4d8b04c309": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "IGT",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "IGT entered the South African market through a strategic partnership with Hollywoodbets (egr.global).",
-          "booth_pitch": "Premium 20\u202fsqm booth with a speaking slot at the Sports Betting track. Position IGT as the gateway for operators looking to expand into Africa and showcase the new partnership live.",
+          "company": "Flutter Entertainment",
+          "category_fit": "General iGaming / Sports Betting \u2013 Multi\u2011brand operator",
+          "news_trigger": "Michael Burry\u2019s investment in Flutter highlights renewed capital confidence and upcoming product roll\u2011outs across its brands (Betfair, PokerStars, FanDuel).",
+          "booth_pitch": "Premium 50sqm+ booth with a dedicated speaking slot on multi\u2011brand integration + access to the exclusive networking lounge. Position Flutter as the industry\u2019s growth engine and attract B2B partners for cross\u2011sell opportunities.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20\u202fsqm)"
+          "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "MrQ",
-          "category_fit": "General iGaming / Casino",
-          "news_trigger": "MrQ unveiled a new in\u2011site currency as part of its ongoing \u201clevelling up\u201d initiative (egr.global).",
-          "booth_pitch": "Standard 10\u202fsqm booth plus a demo lounge to let attendees test the new currency system and discuss monetisation strategies with MrQ\u2019s product team.",
+          "company": "DraftKings",
+          "category_fit": "General iGaming / Sports Betting \u2013 US\u2011focused sportsbook & iGaming platform",
+          "news_trigger": "Recent investment interest from Michael Burry and the launch of new daily fantasy and online casino products for Q4 2024.",
+          "booth_pitch": "Medium 20sqm booth with a live demo arena for new product showcases and a round\u2011table session on US market expansion. Emphasise DraftKings\u2019 rapid growth and partnership potential.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Small (10\u202fsqm)"
+          "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "T5C",
-          "category_fit": "B2B Sports Betting Technology",
-          "news_trigger": "T5C announced a break from Checkd to power\u2011up its tech delivery platform for sports betting (egr.global).",
-          "booth_pitch": "Medium 20\u202fsqm booth with a live integration showcase and a round\u2011table session on next\u2011gen betting APIs, targeting operators seeking new tech partners.",
+          "company": "Playtech",
+          "category_fit": "General iGaming \u2013 B2B platform & casino solutions",
+          "news_trigger": "Strong H1 performance and a revised 2026 EBITDA outlook, coupled with strategic moves to mitigate UK regulatory headwinds.",
+          "booth_pitch": "Large 50sqm+ booth with a tech\u2011lab for live integration demos, plus a thought\u2011leadership panel on navigating regulatory uncertainty. Highlight Playtech\u2019s stability and product roadmap.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20\u202fsqm)"
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Blueprint Gaming",
+          "category_fit": "Slot Provider \u2013 IP\u2011driven content",
+          "news_trigger": "New strategy to stretch IP slot appeal beyond existing fan bases, signalling upcoming releases and co\u2011branding deals.",
+          "booth_pitch": "Medium 20sqm booth with an interactive slot\u2011play zone and a showcase of upcoming IP collaborations. Offer a speaking slot on creative licensing models.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
         },
         {
           "company": "ZEAL Network",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "ZEAL Network entered the UK market via the SevenCanyon acquisition (egr.global).",
-          "booth_pitch": "Large 50\u202fsqm+ exhibition space with a dedicated media wall to announce the UK launch, plus a panel slot on cross\u2011border market entry strategies.",
+          "category_fit": "General iGaming \u2013 Market entry & acquisition",
+          "news_trigger": "Recent UK market entry via the acquisition of SevenCanyon, indicating a push for rapid expansion and new product pipelines.",
+          "booth_pitch": "Small 10sqm booth with a focus on partnership matchmaking and a quick\u2011fire pitch session on UK market strategy. Position ZEAL as the new entrant to watch.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Large (50\u202fsqm+)"
+          "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "RubyPlay",
-          "category_fit": "B2B Jackpot & Slot Software",
-          "news_trigger": "RubyPlay acquired Splash Tech to expand its jackpot software portfolio (NEXT.io).",
-          "booth_pitch": "Standard 10\u202fsqm booth with a live jackpot demo and a private meeting area for B2B negotiations, highlighting the expanded product suite.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10\u202fsqm)"
-        },
-        {
-          "company": "Merkur Gaming",
-          "category_fit": "General iGaming / Retail Casino",
-          "news_trigger": "Merkur backed UK retail with a major Leeds casino acquisition (egr.global).",
-          "booth_pitch": "Medium 20\u202fsqm booth plus a case\u2011study presentation on integrating retail assets into an online ecosystem, appealing to both land\u2011based and online operators.",
+          "company": "Altenar",
+          "category_fit": "Sportsbook Platform \u2013 In\u2011house sportsbook expansion",
+          "news_trigger": "Report on the realities of expanding an in\u2011house sportsbook into new markets, with Altenar leading the discussion.",
+          "booth_pitch": "Medium 20sqm booth featuring a live sportsbook dashboard and a workshop on market\u2011entry playbooks. Offer a panel slot on technology\u2011driven sportsbook scaling.",
           "contact_urgency": "Low",
-          "estimated_booth_size": "Medium (20\u202fsqm)"
+          "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "BetKing",
-          "category_fit": "General Sports Betting / Emerging Markets",
-          "news_trigger": "BetKing launched Nigeria\u2019s first sportsbook StreamFest 2026, offering N50\u202fM in prizes (iGamingToday.com).",
-          "booth_pitch": "Large 50\u202fsqm+ booth with a live streaming studio to replicate the StreamFest experience, plus a sponsorship package for the event\u2019s prize pool to maximise brand exposure.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50\u202fsqm+)"
+          "company": "Gauselmann Group (GGL)",
+          "category_fit": "Online Slots \u2013 Regulatory\u2011driven market growth",
+          "news_trigger": "German regulator approves higher \u20ac5 stake for online slots, opening a lucrative market segment for GGL\u2019s slot portfolio.",
+          "booth_pitch": "Small 10sqm booth with a focus on German\u2011market compliance solutions and a demo of high\u2011stake slot titles. Include a brief on regulatory navigation for prospective partners.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Regulatory & Compliance Solutions",
-          "opportunity": "Few exhibitors currently address compliance tooling for new markets (e.g., Africa, LATAM). Operators are actively seeking partners to navigate tightening regulations, creating a high\u2011value niche.",
+          "category": "Fintech & Payments Solutions",
+          "opportunity": "SBC Summit\u2019s focus on faster, safer player payments highlights a growing demand for payment innovators, yet few fintech providers exhibit at ICE/iGB. Securing fintech exhibitors can attract operators seeking integrated payment stacks.",
           "target_company_types": [
-            "Compliance SaaS providers",
-            "Legal consultancy firms"
+            "Payment processors",
+            "Digital wallet providers",
+            "Crypto payment gateways"
           ]
         },
         {
-          "category": "Emerging Market Operators (Africa & LATAM)",
-          "opportunity": "Limited representation from operators expanding into Africa and Latin America, despite strong growth signals. Showcasing these players would attract investors and technology partners looking for frontier opportunities.",
+          "category": "AI & Responsible Gaming",
+          "opportunity": "Industry alerts about uncontrolled AI use create a niche for AI\u2011ethics platforms and responsible\u2011gaming tech, an area currently under\u2011represented at the event.",
           "target_company_types": [
-            "Regional sportsbooks",
-            "Casino platforms targeting emerging jurisdictions"
+            "AI compliance tools",
+            "Player protection SaaS",
+            "Behavioural analytics firms"
           ]
         }
       ],
-      "timing_note": "Reach out immediately\u2014ideally within the next 7\u201110 days\u2014to align with ICE/iGB\u2019s early\u2011bird registration deadline (mid\u2011September). Early engagement secures preferred booth locations and speaking opportunities before the budget lock\u2011in for Q4 2026."
+      "timing_note": "Begin outreach immediately (early May) to align with Q2 budgeting cycles and to secure speaking slots before the mid\u2011June finalisation deadline. High\u2011urgency prospects (Flutter, DraftKings) should be contacted within the next 10 days to lock in premium booth space."
     },
-    "timestamp": "2026-08-07T08:58:08.407351",
+    "timestamp": "2026-08-08T08:38:47.104109",
     "ttl_hours": 24
   }
 }
