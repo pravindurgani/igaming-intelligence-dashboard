@@ -1,213 +1,40 @@
 {
-  "177399a6d0633c375f8a11f8a6b4e268": {
+  "dba850c441d2b861d6ac191242f8c16a": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Live event intel you won\u2019t find anywhere else",
-          "what_readers_get": "Immediate, behind\u2011the\u2011scenes insights from conference floors, keynotes, and networking moments.",
-          "why_it_matters": "Industry decisions are shaped by real\u2011time trends revealed at live gatherings, not just post\u2011event summaries.",
-          "evidence_summary": "90.6% of our content covers events versus only 31.5% of competitors, a 2.88\u2011times higher focus.",
+          "headline": "Insider Event Coverage and Analysis",
+          "what_readers_get": "Readers get show floor insights, keynote coverage, and networking highlights that competitors miss.",
+          "why_it_matters": "Event coverage extends our reach beyond attendees and builds anticipation for future events.",
+          "evidence_summary": "90.8% of our content is dedicated to event coverage, compared to 31.6% of competitors",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 668,
-          "concentration_ratio": 2.88
+          "internal_count": 673,
+          "concentration_ratio": 2.87
         }
       ],
-      "ai_discovered": [],
-      "strategic_summary": "The portfolio delivers unrivaled, on\u2011the\u2011ground event intelligence that keeps industry professionals ahead of the curve.",
-      "overall_confidence": 0.9,
+      "ai_discovered": [
+        {
+          "headline": "Job Market Insights for the iGaming Industry",
+          "what_readers_get": "Readers get access to job listings and career development resources specific to the iGaming industry",
+          "why_it_matters": "The iGaming industry is rapidly evolving, and professionals need to stay up-to-date on job opportunities and career development",
+          "evidence": "Multiple articles on job listings and career development, such as 'Global People Operations Assistant' and 'Junior Risk Manager'",
+          "confidence": "medium"
+        },
+        {
+          "headline": "In-Depth Analysis of iGaming Business Trends",
+          "what_readers_get": "Readers get detailed analysis of iGaming business trends and market developments",
+          "why_it_matters": "The iGaming industry is highly competitive, and businesses need to stay informed about market trends and developments to stay ahead",
+          "evidence": "Articles such as 'Soo Kim\u2019s British gamble: what does Bally\u2019s really want in Europe?' and 'StatsDrone surpasses $1 million in funding as NousViz fuels growth'",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "The portfolio provides readers with unique insights and analysis on the iGaming industry, including event coverage, job market trends, and business analysis",
+      "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-11T08:55:00.426166",
-    "ttl_hours": 24
-  },
-  "81c2f3f24f2019e3c83776e0425ad7b0": {
-    "result": {
-      "additional_sponsor_opportunities": [
-        {
-          "company": "Papara",
-          "news_trigger": "Turkey deepens fintech scrutiny following Papara founder\u2019s re\u2011arrest, highlighting the need for compliant payment solutions in iGaming",
-          "pitch_angle": "Offer Papara a co\u2011branded payment gateway solution and regulatory advisory services to position them as the go\u2011to e\u2011wallet for Turkish iGaming operators",
-          "urgency": "High"
-        },
-        {
-          "company": "Flutterwave",
-          "news_trigger": "Flutterwave partners with PayPal Xoom to enhance international money transfers in Africa",
-          "pitch_angle": "Propose a joint venture to integrate Flutterwave\u2019s cross\u2011border payment stack with our iGaming platform, targeting African operators seeking seamless payouts",
-          "urgency": "Medium"
-        },
-        {
-          "company": "SoftSwiss Group",
-          "news_trigger": "SoftSwiss Group CSO named among the World\u2019s Top 100 CISOs 2026",
-          "pitch_angle": "Leverage SoftSwiss\u2019s security reputation to sponsor a \u201cCyber\u2011Safety in iGaming\u201d series, positioning our portfolio as the security\u2011first ecosystem",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Bloomberry",
-          "news_trigger": "Bloomberry launches FUNaloMAX, a digital\u2011first betting product",
-          "pitch_angle": "Invite Bloomberry to showcase FUNaloMAX in a live demo session, while offering data\u2011analytics partnership to accelerate user acquisition in Southeast Asia",
-          "urgency": "Low"
-        },
-        {
-          "company": "Blurify",
-          "news_trigger": "Blurify releases Openora, an AI\u2011native framework for iGaming platforms",
-          "pitch_angle": "Secure Blurify as a technology sponsor for our upcoming AI\u2011focused conference track, highlighting Openora\u2019s integration benefits for operators",
-          "urgency": "High"
-        },
-        {
-          "company": "iGB Affiliate",
-          "news_trigger": "Multiple iGB Affiliate mentions across recent headlines indicating strong affiliate network activity",
-          "pitch_angle": "Partner with iGB Affiliate to run a joint affiliate\u2011marketing program, providing exclusive content and lead\u2011generation for both parties",
-          "urgency": "Low"
-        },
-        {
-          "company": "1xCare",
-          "news_trigger": "Inside 1xCare\u2019s mission to change player\u2011protection discourse",
-          "pitch_angle": "Collaborate on a player\u2011protection panel and co\u2011develop responsible\u2011gaming tools that can be bundled with our operator suite",
-          "urgency": "Medium"
-        }
-      ],
-      "speaker_recommendations": [
-        {
-          "person_or_company": "Richard Harris (Rank Group CEO)",
-          "topic_expertise": "Strategic leadership and market expansion in regulated European gambling",
-          "news_relevance": "Recently appointed CEO, signalling a new strategic direction for Rank Group",
-          "session_type": "Keynote"
-        },
-        {
-          "person_or_company": "SoftSwiss CSO (Name TBD)",
-          "topic_expertise": "Cybersecurity and fraud mitigation in iGaming",
-          "news_relevance": "Recognised as a top CISO globally, bringing credibility to security discussions",
-          "session_type": "Panel"
-        },
-        {
-          "person_or_company": "CEO of Blurify",
-          "topic_expertise": "AI\u2011driven platform architecture and operational efficiency",
-          "news_relevance": "Launch of Openora platform addresses current AI integration challenges for operators",
-          "session_type": "Workshop"
-        },
-        {
-          "person_or_company": "Head of Player Protection at 1xCare",
-          "topic_expertise": "Responsible gaming frameworks and player\u2011wellbeing technology",
-          "news_relevance": "Active advocacy for new protection standards, aligning with regulatory trends",
-          "session_type": "Panel"
-        }
-      ],
-      "partnership_alerts": [
-        {
-          "companies_involved": [
-            "Flutterwave",
-            "PayPal Xoom"
-          ],
-          "partnership_type": "Strategic Integration",
-          "opportunity": "Facilitate a joint webinar series on cross\u2011border payouts for African iGaming operators, positioning our portfolio as the integration layer"
-        },
-        {
-          "companies_involved": [
-            "Sporting Risk",
-            "Betfred"
-          ],
-          "partnership_type": "Product Collaboration",
-          "opportunity": "Offer a co\u2011branded risk\u2011management solution that leverages Sporting Risk\u2019s analytics with Betfred\u2019s retail footprint"
-        },
-        {
-          "companies_involved": [
-            "Rank Group",
-            "Betfred"
-          ],
-          "partnership_type": "M&A Rumour Monitoring",
-          "opportunity": "Provide market intelligence on potential consolidation in the UK market and propose advisory services for any merger talks"
-        }
-      ],
-      "timing_recommendations": "Prioritise outreach to Papara and Blurify within the next 2\u20114 weeks to capitalize on heightened regulatory scrutiny in Turkey and the rapid AI adoption wave. Schedule joint webinars with Flutterwave/PayPal Xoom and the AI\u2011framework launch with Blurify before Q4 to align with fiscal planning cycles of African operators. Monitor German and Danish regulatory developments closely; a timely policy\u2011influence brief to operators could position us as a thought\u2011leader in compliance solutions."
-    },
-    "timestamp": "2026-08-11T08:55:01.928863",
-    "ttl_hours": 24
-  },
-  "95ba993b7b999244b06bac5bfca586e8": {
-    "result": {
-      "exhibitor_prospects": [
-        {
-          "company": "Flutterwave",
-          "category_fit": "Payments & FinTech",
-          "news_trigger": "Partnership with PayPal Xoom to enhance international money transfers in Africa",
-          "booth_pitch": "Medium (20\u202fsqm) booth with live demo stations showcasing seamless payment integration for iGaming operators",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "FanDuel",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Pennsylvania regulator reviewing FanDuel video content for VIP users, indicating heightened US market activity",
-          "booth_pitch": "Large (50\u202fsqm+) premium booth with speaking slot and VIP lounge to attract US operators and regulators",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "Rank Group",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Appointment of Richard Harris as CEO, signalling strategic growth and potential new product launches",
-          "booth_pitch": "Medium (20\u202fsqm) booth with brand showcase area and opportunity to host a round\u2011table on market expansion",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Sporting Risk",
-          "category_fit": "B2B Sports Betting",
-          "news_trigger": "New partnership with Betfred to supply risk\u2011management and odds solutions",
-          "booth_pitch": "Small (10\u202fsqm) booth with interactive risk\u2011engine demo and private meeting space for prospective B2B clients",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "SoftSwiss Group",
-          "category_fit": "B2B iGaming Platform",
-          "news_trigger": "CSO named among the World\u2019s Top 100 CISOs 2026, highlighting strong security credentials",
-          "booth_pitch": "Medium (20\u202fsqm) booth featuring a security lab showcase and a panel slot on cyber\u2011risk mitigation for operators",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "1xCare",
-          "category_fit": "Player Protection & Responsible Gaming",
-          "news_trigger": "Launch of a new player\u2011protection framework aimed at changing industry discourse",
-          "booth_pitch": "Small (10\u202fsqm) booth with an immersive experience zone and scheduled workshops on responsible gaming best practices",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Small (10sqm)"
-        },
-        {
-          "company": "EGT",
-          "category_fit": "Slot Content & Platform",
-          "news_trigger": "Expansion into the Netherlands with installations in Play World Casinos",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a live slot\u2011play area and opportunity to preview upcoming titles for European operators",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
-        }
-      ],
-      "category_gaps": [
-        {
-          "category": "Payments & FinTech",
-          "opportunity": "Few exhibitors currently showcase payment\u2011gateway solutions, yet operators are actively seeking seamless, cross\u2011border payment options to meet regulatory and player\u2011demand pressures.",
-          "target_company_types": [
-            "Payment processors",
-            "FinTech platforms",
-            "Digital wallet providers"
-          ]
-        },
-        {
-          "category": "Player Protection & Responsible Gaming",
-          "opportunity": "The responsible\u2011gaming segment is under\u2011represented, and with increasing regulator focus, exhibitors offering compliance tools, player\u2011care solutions, and analytics will attract high\u2011value B2B interest.",
-          "target_company_types": [
-            "Player\u2011protection SaaS",
-            "Risk\u2011analytics firms",
-            "Compliance consultancy"
-          ]
-        }
-      ],
-      "timing_note": "Initiate outreach immediately (next 2\u20113 weeks) to align with Q4 product launches and regulatory cycles; securing commitments now ensures exhibitors can lock in prime booth locations and schedule speaking slots before the ICE/iGB registration deadline."
-    },
-    "timestamp": "2026-08-11T08:55:02.971747",
+    "timestamp": "2026-08-12T09:14:01.171369",
     "ttl_hours": 24
   }
 }
