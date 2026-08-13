@@ -1,40 +1,108 @@
 {
-  "dba850c441d2b861d6ac191242f8c16a": {
+  "d094376ffcfe04aae7b8620c30e2e06b": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Insider Event Coverage and Analysis",
-          "what_readers_get": "Readers get show floor insights, keynote coverage, and networking highlights that competitors miss.",
-          "why_it_matters": "Event coverage extends our reach beyond attendees and builds anticipation for future events.",
-          "evidence_summary": "90.8% of our content is dedicated to event coverage, compared to 31.6% of competitors",
+          "headline": "Get Inside the iGaming Events You Can\u2019t Attend",
+          "what_readers_get": "Readers receive floor\u2011level insights, keynote summaries, and networking highlights from major iGaming conferences.",
+          "why_it_matters": "Live event intel drives strategy decisions faster than waiting for post\u2011event reports.",
+          "evidence_summary": "Our event coverage makes up about 91% of our iGaming content versus only 32% for competitors \u2013 a 2.9\u2011times higher focus.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 673,
+          "internal_count": 676,
           "concentration_ratio": 2.87
         }
       ],
-      "ai_discovered": [
-        {
-          "headline": "Job Market Insights for the iGaming Industry",
-          "what_readers_get": "Readers get access to job listings and career development resources specific to the iGaming industry",
-          "why_it_matters": "The iGaming industry is rapidly evolving, and professionals need to stay up-to-date on job opportunities and career development",
-          "evidence": "Multiple articles on job listings and career development, such as 'Global People Operations Assistant' and 'Junior Risk Manager'",
-          "confidence": "medium"
-        },
-        {
-          "headline": "In-Depth Analysis of iGaming Business Trends",
-          "what_readers_get": "Readers get detailed analysis of iGaming business trends and market developments",
-          "why_it_matters": "The iGaming industry is highly competitive, and businesses need to stay informed about market trends and developments to stay ahead",
-          "evidence": "Articles such as 'Soo Kim\u2019s British gamble: what does Bally\u2019s really want in Europe?' and 'StatsDrone surpasses $1 million in funding as NousViz fuels growth'",
-          "confidence": "medium"
-        }
-      ],
-      "strategic_summary": "The portfolio provides readers with unique insights and analysis on the iGaming industry, including event coverage, job market trends, and business analysis",
+      "ai_discovered": [],
+      "strategic_summary": "The portfolio delivers the deepest, on\u2011the\u2011ground event intelligence in iGaming, giving readers a strategic edge before anyone else.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-12T09:14:01.171369",
+    "timestamp": "2026-08-13T09:14:22.484700",
+    "ttl_hours": 24
+  },
+  "5ff6acc2f3ebd04491cf790fc9b7ee63": {
+    "result": {
+      "exhibitor_prospects": [
+        {
+          "company": "Merkur Group",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Merkur Group announced acquisition of White Hat Studios, expanding its game development portfolio.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a product showcase area and a 15\u2011minute speaking slot on M&A strategies in iGaming.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Betfounders",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Betfounders is rolling out its player\u2011engagement platform across Africa with the new Spincity partnership.",
+          "booth_pitch": "Small (10\u202fsqm) booth plus a live demo station to highlight player\u2011engagement tools; optional panel participation on African market growth.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Ainsworth",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Ainsworth launched a hybrid slot\u2011hardware solution for Asian casino floors, signalling a product expansion into new regions.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a hands\u2011on hardware demo area and a 10\u2011minute tech\u2011talk on hybrid slot innovations.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "EvenBet Gaming",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "EvenBet Gaming received a Swedish B2B supplier licence, opening the Scandinavian market for its sportsbook solutions.",
+          "booth_pitch": "Small (10\u202fsqm) booth with a meeting lounge; offer a round\u2011table discussion on entering regulated Nordic markets.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Pascal Gaming",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Pascal Gaming announced expanded distribution through an EGT Digital partnership, increasing its reach across Europe.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a partnership showcase wall and a 12\u2011minute presentation on distribution strategies.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Blask",
+          "category_fit": "iGaming Analytics & Data",
+          "news_trigger": "Blask introduced modular pricing for iGaming analytics, a new product aimed at flexible data solutions.",
+          "booth_pitch": "Small (10\u202fsqm) booth with interactive data visualisation screens; propose a sponsored workshop on pricing models for analytics services.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "DigiPlus",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "DigiPlus expanded its Brazil presence through IBJR membership, signalling a strategic push into Latin America.",
+          "booth_pitch": "Medium (20\u202fsqm) booth with a bilingual staff team and a 10\u2011minute case\u2011study session on Brazil market entry.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Setanta Bet",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Setanta Bet integrated GR8_TECH sportsbook in Georgia, showcasing a new product integration.",
+          "booth_pitch": "Small (10\u202fsqm) booth with a live sportsbook demo; offer a panel slot on integration best practices for emerging markets.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        }
+      ],
+      "category_gaps": [
+        {
+          "category": "iGaming Analytics & Data",
+          "opportunity": "Few exhibitors currently showcase pure\u2011play analytics solutions, yet operators are actively seeking data\u2011driven insights for player retention and regulatory compliance.",
+          "target_company_types": [
+            "Analytics platforms",
+            "Data\u2011as\u2011a\u2011Service providers"
+          ]
+        }
+      ],
+      "timing_note": "Reach out immediately (within the next 2 weeks) to capitalize on the momentum from recent product launches and market expansions; early engagement secures preferred booth locations and speaking opportunities before the final exhibitor list is locked."
+    },
+    "timestamp": "2026-08-13T09:14:25.196534",
     "ttl_hours": 24
   }
 }
