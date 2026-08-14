@@ -1,108 +1,287 @@
 {
-  "d094376ffcfe04aae7b8620c30e2e06b": {
+  "2a3c43d82ee7eb3422451783b0a0af82": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Get Inside the iGaming Events You Can\u2019t Attend",
-          "what_readers_get": "Readers receive floor\u2011level insights, keynote summaries, and networking highlights from major iGaming conferences.",
-          "why_it_matters": "Live event intel drives strategy decisions faster than waiting for post\u2011event reports.",
-          "evidence_summary": "Our event coverage makes up about 91% of our iGaming content versus only 32% for competitors \u2013 a 2.9\u2011times higher focus.",
+          "headline": "Live Event Coverage with Insider Context and Highlights",
+          "what_readers_get": "On\u2011site insights, keynote summaries, and networking takeaways that you won\u2019t find elsewhere.",
+          "why_it_matters": "Industry events set the agenda for product launches, regulation and partnership trends, so missing them means missing the next big move.",
+          "evidence_summary": "Around 39% of our articles focus on events, compared with roughly 32% from rival outlets.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 676,
-          "concentration_ratio": 2.87
+          "internal_count": 682,
+          "concentration_ratio": 2.85
         }
       ],
-      "ai_discovered": [],
-      "strategic_summary": "The portfolio delivers the deepest, on\u2011the\u2011ground event intelligence in iGaming, giving readers a strategic edge before anyone else.",
-      "overall_confidence": 0.85,
+      "ai_discovered": [
+        {
+          "headline": "Deep\u2011dive Geographic Market Analyses for Emerging iGaming Hubs",
+          "what_readers_get": "Detailed breakdowns of regulatory shifts, operator strategies and market potential in specific countries.",
+          "why_it_matters": "Local policy changes and operator moves drive revenue opportunities, and readers need precise, region\u2011focused intelligence to act fast.",
+          "evidence": "Internal articles such as \u201cSoo Kim\u2019s British gamble: what does Bally\u2019s really want in Europe?\u201d and \u201cWhat we already know about Austria\u2019s iGaming liberalisation\u201d demonstrate a focused regional analysis approach.",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "The portfolio delivers the most actionable, on\u2011the\u2011ground event intel and region\u2011specific market insight, keeping readers ahead of industry shifts.",
+      "overall_confidence": 0.84,
       "fallback_used": false
     },
-    "timestamp": "2026-08-13T09:14:22.484700",
+    "timestamp": "2026-08-14T09:10:36.779612",
     "ttl_hours": 24
   },
-  "5ff6acc2f3ebd04491cf790fc9b7ee63": {
+  "78382f304384842138ed13bceaef9104": {
     "result": {
-      "exhibitor_prospects": [
+      "additional_sponsor_opportunities": [
         {
-          "company": "Merkur Group",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Merkur Group announced acquisition of White Hat Studios, expanding its game development portfolio.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a product showcase area and a 15\u2011minute speaking slot on M&A strategies in iGaming.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
+          "company": "WagerWire",
+          "news_trigger": "Co\u2011founder declares prediction markets are \"here to stay\" (EGR Global)",
+          "pitch_angle": "Position WagerWire as a thought\u2011leadership partner for panels on emerging betting products and regulatory frameworks",
+          "urgency": "High"
         },
         {
-          "company": "Betfounders",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Betfounders is rolling out its player\u2011engagement platform across Africa with the new Spincity partnership.",
-          "booth_pitch": "Small (10\u202fsqm) booth plus a live demo station to highlight player\u2011engagement tools; optional panel participation on African market growth.",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Small (10sqm)"
+          "company": "Affigates",
+          "news_trigger": "Launch of end\u2011to\u2011end affiliate management platform promising greater trust (SBC News)",
+          "pitch_angle": "Offer sponsorship of affiliate\u2011marketing workshops and demo sessions to showcase their tech to B2B buyers",
+          "urgency": "Medium"
         },
         {
-          "company": "Ainsworth",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Ainsworth launched a hybrid slot\u2011hardware solution for Asian casino floors, signalling a product expansion into new regions.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a hands\u2011on hardware demo area and a 10\u2011minute tech\u2011talk on hybrid slot innovations.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Medium (20sqm)"
+          "company": "SoftSwiss",
+          "news_trigger": "Partnership with WorldGaming on 2027 iGaming trends (iGaming Afrika)",
+          "pitch_angle": "Invite SoftSwiss to co\u2011host a future\u2011tech roundtable on platform scalability and AI integration",
+          "urgency": "Medium"
         },
         {
-          "company": "EvenBet Gaming",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "EvenBet Gaming received a Swedish B2B supplier licence, opening the Scandinavian market for its sportsbook solutions.",
-          "booth_pitch": "Small (10\u202fsqm) booth with a meeting lounge; offer a round\u2011table discussion on entering regulated Nordic markets.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
+          "company": "WorldGaming (formerly Clarion Gaming)",
+          "news_trigger": "Joint trend report with SoftSwiss for 2027 (iGaming Afrika)",
+          "pitch_angle": "Secure a speaking slot on market expansion strategies in emerging regions (Africa, Far East)",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Banijay",
+          "news_trigger": "Merger with All3Media creating a new global media giant (SBC News)",
+          "pitch_angle": "Target Banijay for brand\u2011visibility packages around content\u2011driven betting integrations and media rights",
+          "urgency": "Low"
+        },
+        {
+          "company": "All3Media",
+          "news_trigger": "Merger with Banijay forming a new media powerhouse (SBC News)",
+          "pitch_angle": "Propose a joint case\u2011study sponsorship on cross\u2011platform audience engagement for betting brands",
+          "urgency": "Low"
+        },
+        {
+          "company": "BGC (Betting and Gaming Council)",
+          "news_trigger": "Backing of DCMS consultation and alignment with Entain\u2019s calls for immediate action (SBC News)",
+          "pitch_angle": "Offer BGC a platform to present regulatory position papers and host policy\u2011focused roundtables",
+          "urgency": "High"
+        },
+        {
+          "company": "Gamstop",
+          "news_trigger": "Record self\u2011exclusions ahead of 2026 World Cup (SBC News)",
+          "pitch_angle": "Partner on responsible\u2011gaming webinars and data\u2011insight sessions for operators targeting major events",
+          "urgency": "High"
         },
         {
           "company": "Pascal Gaming",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Pascal Gaming announced expanded distribution through an EGT Digital partnership, increasing its reach across Europe.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a partnership showcase wall and a 12\u2011minute presentation on distribution strategies.",
+          "news_trigger": "Distribution partnership with EGT Digital (iGaming Expert)",
+          "pitch_angle": "Feature Pascal Gaming in a B2B showcase on distribution models and cross\u2011border licensing",
+          "urgency": "Medium"
+        },
+        {
+          "company": "1xCare",
+          "news_trigger": "Formation of advisory committee for player\u2011protection programme (iGaming Afrika)",
+          "pitch_angle": "Invite 1xCare to lead a workshop on player\u2011wellbeing tools and compliance best practices",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Canal+",
+          "news_trigger": "Completion of $3\u202fbn takeover of MultiChoice Group (iGaming Afrika)",
+          "pitch_angle": "Leverage Canal+\u2019s expanded footprint for sponsorship of African market\u2011entry panels and content\u2011betting case studies",
+          "urgency": "Low"
+        },
+        {
+          "company": "ThrillTech",
+          "news_trigger": "Received AGCO licence to operate in Ontario (iGaming Expert)",
+          "pitch_angle": "Offer a spotlight session on Canadian market entry and regulatory navigation for new entrants",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Delaware Lottery",
+          "news_trigger": "Statewide rollout of self\u2011service betting kiosks (Sigma.world)",
+          "pitch_angle": "Propose a case\u2011study sponsorship on kiosk technology and omni\u2011channel betting experiences",
+          "urgency": "Low"
+        }
+      ],
+      "speaker_recommendations": [
+        {
+          "person_or_company": "WagerWire Co\u2011founder",
+          "topic_expertise": "Prediction markets and regulatory outlook",
+          "news_relevance": "Publicly asserted that prediction markets are permanent, sparking industry debate",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "Head of Affiliate Operations, Affigates",
+          "topic_expertise": "Affiliate technology, trust frameworks",
+          "news_relevance": "Launch of a new end\u2011to\u2011end affiliate management solution",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "CEO, SoftSwiss",
+          "topic_expertise": "Platform innovation and partnership models",
+          "news_relevance": "Recent partnership with WorldGaming on 2027 trends report",
+          "session_type": "Workshop"
+        },
+        {
+          "person_or_company": "Director, BGC (Betting and Gaming Council)",
+          "topic_expertise": "Regulatory policy and industry self\u2011regulation",
+          "news_relevance": "Backing DCMS consultation and aligning with Entain\u2019s regulatory push",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Chief Compliance Officer, Gamstop",
+          "topic_expertise": "Player protection and self\u2011exclusion mechanisms",
+          "news_relevance": "Record self\u2011exclusions ahead of the 2026 World Cup",
+          "session_type": "Workshop"
+        }
+      ],
+      "partnership_alerts": [
+        {
+          "companies_involved": [
+            "SoftSwiss",
+            "WorldGaming"
+          ],
+          "partnership_type": "Product/Research Collaboration",
+          "opportunity": "Co\u2011produce a joint thought\u2011leadership series on 2027 market trends and offer joint sponsorship packages"
+        },
+        {
+          "companies_involved": [
+            "Pascal Gaming",
+            "EGT Digital"
+          ],
+          "partnership_type": "Distribution Agreement",
+          "opportunity": "Facilitate a B2B showcase of their combined catalogue to attract new operators in emerging jurisdictions"
+        },
+        {
+          "companies_involved": [
+            "Banijay",
+            "All3Media"
+          ],
+          "partner_type": "M&A",
+          "opportunity": "Create a case\u2011study sponsorship around media\u2011rights integration for betting brands post\u2011merger"
+        },
+        {
+          "companies_involved": [
+            "Canal+",
+            "MultiChoice Group"
+          ],
+          "partnership_type": "Acquisition",
+          "opportunity": "Develop a market\u2011entry panel focusing on African OTT platforms and betting integration opportunities"
+        },
+        {
+          "companies_involved": [
+            "ThrillTech",
+            "AGCO"
+          ],
+          "partnership_type": "Licensing",
+          "opportunity": "Host a regulatory\u2011focus roundtable on Canadian licensing pathways and technology compliance"
+        }
+      ],
+      "timing_recommendations": "Prioritise outreach to WagerWire, BGC, and Gamstop within the next 2\u20114 weeks to align with the upcoming DCMS consultation deadline and the high\u2011visibility 2026 World Cup betting season. Secure speaking slots for the WagerWire co\u2011founder and Gamstop CCO before the World Cup kickoff to maximise media exposure. Follow up with SoftSwiss and WorldGaming before the release of their 2027 trend report (expected Q4) to lock in joint sponsorships."
+    },
+    "timestamp": "2026-08-14T09:10:38.653822",
+    "ttl_hours": 24
+  },
+  "93c6b4826cdc720f9bf5ecbb498de04a": {
+    "result": {
+      "exhibitor_prospects": [
+        {
+          "company": "WagerWire",
+          "category_fit": "General iGaming / Sports Betting \u2013 Prediction Markets",
+          "news_trigger": "Co\u2011founder says prediction markets are \u201chere to stay\u201d (egr.global)",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 Demo zone for live prediction\u2011market betting, data\u2011analytics lounge, and thought\u2011leadership panel on the future of odds.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Affigates",
+          "category_fit": "Affiliate Management & Technology",
+          "news_trigger": "Launch of end\u2011to\u2011end affiliate management platform designed for greater trust (igbaffiliate.com)",
+          "booth_pitch": "Small (10\u202fsqm) \u2013 Interactive dashboard showcase, quick\u2011connect API stations for prospective operators, and a \u201ctrust badge\u201d certification area.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "SoftSwiss",
+          "category_fit": "iGaming Platform / B2B Technology",
+          "news_trigger": "Partnership with WorldGaming on the 2027 iGaming Trends Report (SoftSwiss press release)",
+          "booth_pitch": "Large (50\u202fsqm+) \u2013 Full\u2011scale platform sandbox, AI\u2011driven game\u2011testing lab, and a conference\u2011style stage for the trends presentation.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "WorldGaming",
+          "category_fit": "iGaming Platform / B2B Technology",
+          "news_trigger": "Joint research with SoftSwiss on 2027 iGaming Trends (egr.global)",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 Co\u2011branded trend\u2011report lounge, live API integration demos, and networking pods for prospective partners.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Pascal Gaming",
+          "category_fit": "B2B Distribution & Content Aggregation",
+          "news_trigger": "New distribution partnership with EGT Digital (iGamingToday.com)",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 Content\u2011library showcase, partnership matchmaking area, and a live \u201ccontent\u2011to\u2011operator\u201d integration demo.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Blask",
-          "category_fit": "iGaming Analytics & Data",
-          "news_trigger": "Blask introduced modular pricing for iGaming analytics, a new product aimed at flexible data solutions.",
-          "booth_pitch": "Small (10\u202fsqm) booth with interactive data visualisation screens; propose a sponsored workshop on pricing models for analytics services.",
-          "contact_urgency": "Low",
+          "company": "1xCare",
+          "category_fit": "Player Protection & Compliance Solutions",
+          "news_trigger": "Appointed advisory committee to oversee its Player Protection Programme (iGamingToday.com)",
+          "booth_pitch": "Small (10\u202fsqm) \u2013 Interactive compliance quiz, demo of real\u2011time self\u2011exclusion tools, and a private meeting space for regulators.",
+          "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "DigiPlus",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "DigiPlus expanded its Brazil presence through IBJR membership, signalling a strategic push into Latin America.",
-          "booth_pitch": "Medium (20\u202fsqm) booth with a bilingual staff team and a 10\u2011minute case\u2011study session on Brazil market entry.",
-          "contact_urgency": "Medium",
+          "company": "Kalshi",
+          "category_fit": "Regulated Prediction Markets / Sports Betting",
+          "news_trigger": "CFTC order to keep offering sports\u2011event contracts in Michigan (egr.global)",
+          "booth_pitch": "Medium (20\u202fsqm) \u2013 Live US\u2011compliant market feed, regulatory\u2011compliance briefing area, and a \u201cfuture of regulated prediction markets\u201d panel.",
+          "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
         },
         {
-          "company": "Setanta Bet",
-          "category_fit": "General iGaming / Sports Betting",
-          "news_trigger": "Setanta Bet integrated GR8_TECH sportsbook in Georgia, showcasing a new product integration.",
-          "booth_pitch": "Small (10\u202fsqm) booth with a live sportsbook demo; offer a panel slot on integration best practices for emerging markets.",
-          "contact_urgency": "Medium",
-          "estimated_booth_size": "Small (10sqm)"
+          "company": "Betway",
+          "category_fit": "General iGaming / Sports Betting \u2013 Emerging African Markets",
+          "news_trigger": "Rwanda Development Board issued gambling licences to Betway (RDB press release)",
+          "booth_pitch": "Large (50\u202fsqm+) \u2013 Regional expansion showcase, African\u2011market partnership hub, and a stage for market\u2011entry case studies.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
         }
       ],
       "category_gaps": [
         {
-          "category": "iGaming Analytics & Data",
-          "opportunity": "Few exhibitors currently showcase pure\u2011play analytics solutions, yet operators are actively seeking data\u2011driven insights for player retention and regulatory compliance.",
+          "category": "Affiliate Management & Trust Solutions",
+          "opportunity": "Few exhibitors currently focus on end\u2011to\u2011end affiliate transparency, a growing concern for operators seeking compliance and brand safety.",
           "target_company_types": [
-            "Analytics platforms",
-            "Data\u2011as\u2011a\u2011Service providers"
+            "Affiliate Networks",
+            "Technology Platforms",
+            "Compliance SaaS providers"
+          ]
+        },
+        {
+          "category": "Player Protection & Regulatory Tech",
+          "opportunity": "Regulators are tightening self\u2011exclusion and harm\u2011reduction rules; exhibitors that can demonstrate real\u2011time protection tools will attract both operators and policymakers.",
+          "target_company_types": [
+            "Compliance SaaS",
+            "Self\u2011exclusion platforms",
+            "Responsible\u2011gaming consultancies"
           ]
         }
       ],
-      "timing_note": "Reach out immediately (within the next 2 weeks) to capitalize on the momentum from recent product launches and market expansions; early engagement secures preferred booth locations and speaking opportunities before the final exhibitor list is locked."
+      "timing_note": "ICE/iGB events are typically announced in Q4 for a Q1 launch. Initiating outreach now (mid\u2011August) allows prospects to budget, secure senior decision\u2011makers, and lock in prime booth locations before the September\u2011October booking window closes."
     },
-    "timestamp": "2026-08-13T09:14:25.196534",
+    "timestamp": "2026-08-14T09:10:40.259523",
     "ttl_hours": 24
   }
 }
