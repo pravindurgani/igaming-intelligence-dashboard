@@ -1,187 +1,270 @@
 {
-  "7e85eecd0a109f9838e1994e9e982b59": {
+  "94f5c9ce1d3eeb8367849384f93d5a98": {
     "result": {
       "enhanced_cards": [
         {
           "rank": 1,
-          "headline": "Exclusive Event Coverage Gives Readers Real\u2011Time Industry Insights",
-          "what_readers_get": "They receive on\u2011the\u2011ground reports, keynote highlights, and networking takeaways that other outlets miss.",
-          "why_it_matters": "Live event intel shapes betting trends and partnership opportunities faster than post\u2011event summaries.",
-          "evidence_summary": "We publish 39% of all event coverage, a concentration 2.84\u00d7 that of competitors.",
+          "headline": "Live Event Coverage Gives Readers Insider Access to Industry Happenings",
+          "what_readers_get": "On\u2011the\u2011floor insights, keynote summaries, and networking highlights that you can\u2019t find elsewhere.",
+          "why_it_matters": "Industry decisions and partnerships are often announced at conferences, so timely intel drives strategic advantage.",
+          "evidence_summary": "Our portfolio delivers 39% of all event articles (691 of 764) while competitors account for 32% (1,066 of 3,344), a concentration 2.84\u202f\u00d7 higher.",
           "confidence": "high",
           "original_type": "event",
-          "internal_count": 687,
+          "internal_count": 691,
           "concentration_ratio": 2.84
         }
       ],
-      "ai_discovered": [],
-      "strategic_summary": "The portfolio distinguishes itself by delivering exclusive, on\u2011site event intelligence that equips iGaming professionals with actionable insights faster than any competitor.",
+      "ai_discovered": [
+        {
+          "headline": "Deep Regulatory Analysis Helps Readers Anticipate Market Shifts",
+          "what_readers_get": "Clear breakdowns of new laws and policy trends affecting iGaming operators.",
+          "why_it_matters": "Regulatory changes can reshape licensing, taxation, and market entry strategies overnight.",
+          "evidence": "Internal pieces such as the Austria liberalisation overview and Bally\u2019s European expansion analysis (2+ articles) versus limited competitor focus.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Funding News Spotlights Emerging iGaming Innovators for Early Opportunities",
+          "what_readers_get": "Details on venture capital rounds and growth milestones of up\u2011and\u2011coming companies.",
+          "why_it_matters": "Investors and operators need to track emerging tech to stay competitive.",
+          "evidence": "Articles like StatsDrone\u2019s $1M funding story and similar startup coverage (2+ internal pieces) with sparse competitor reporting.",
+          "confidence": "medium"
+        },
+        {
+          "headline": "Career Spotlights Reveal Talent Trends and New Roles in iGaming",
+          "what_readers_get": "Profiles of emerging positions and hiring insights to guide professionals.",
+          "why_it_matters": "The sector\u2019s rapid growth creates demand for specialized talent, making hiring intelligence valuable.",
+          "evidence": "Internal job listings such as Junior Risk Manager and other role announcements (2+ articles) with few competitor equivalents.",
+          "confidence": "medium"
+        }
+      ],
+      "strategic_summary": "The portfolio positions itself as the go\u2011to source for insider event intel, regulatory foresight, and emerging business opportunities that empower iGaming professionals.",
       "overall_confidence": 0.85,
       "fallback_used": false
     },
-    "timestamp": "2026-08-15T08:29:06.974748",
+    "timestamp": "2026-08-16T08:28:41.282436",
     "ttl_hours": 24
   },
-  "58b44b46a7d39dbeecf921e893904b8e": {
+  "f493805439489a720a8a2fad9068ab0e": {
     "result": {
       "additional_sponsor_opportunities": [
         {
-          "company": "Nearpays",
-          "news_trigger": "Nearpays makes history as first Nigerian startup honored at UN AI for Good",
-          "pitch_angle": "Emphasize the potential for growth in emerging markets, particularly in Africa, and highlight the benefits of partnering with a innovative startup",
-          "urgency": "Medium"
-        },
-        {
-          "company": "Galaxsys",
-          "news_trigger": "Galaxsys: bringing intuitive digital experiences to casino lobbies with Instawin",
-          "pitch_angle": "Focus on the company's expertise in creating engaging digital experiences and the potential for collaboration in the iGaming industry",
-          "urgency": "Medium"
-        },
-        {
-          "company": "1spin4win",
-          "news_trigger": "1spin4win celebrates solid H1 2026 performance in Africa, marked by 45% YoY GGR",
-          "pitch_angle": "Highlight the company's success in the African market and the potential for partnership opportunities in emerging regions",
+          "company": "DraftKings",
+          "news_trigger": "DraftKings sued Philadelphia to halt an ongoing investigation into its gambling operations (iGaming Today)",
+          "pitch_angle": "Offer compliance and legal\u2011tech solutions to help DraftKings navigate US regulatory scrutiny and protect its brand reputation.",
           "urgency": "High"
         },
         {
-          "company": "LSports",
-          "news_trigger": "LSports to bring Play Insurance to sportsbooks worldwide",
-          "pitch_angle": "Emphasize the innovative solution offered by LSports and the potential for collaboration in the sports betting industry",
+          "company": "Gala Gaming",
+          "news_trigger": "Evolution is eyeing a deal with US\u2011based Gala as part of its European growth strategy (SBC News)",
+          "pitch_angle": "Position as a strategic M&A advisor or technology partner to accelerate Gala\u2019s entry into European markets.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Galaxy Gaming",
+          "news_trigger": "Evolution hints it may drop plans to acquire Galaxy Gaming, indicating potential strategic realignment (EGR Global)",
+          "pitch_angle": "Present advisory services for alternative partnership models or joint\u2011venture opportunities with Evolution.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "Stellar Bets",
+          "news_trigger": "Launch of Stellar Kiosk, a single\u2011player gaming platform for Africa (iGaming Afrika)",
+          "pitch_angle": "Provide payment integration, responsible\u2011gaming tools, and localized marketing support to scale the platform across the continent.",
           "urgency": "High"
+        },
+        {
+          "company": "Super (EGBA Board member)",
+          "news_trigger": "EGBA welcomes Super onto its Board of Directors (SBC News)",
+          "pitch_angle": "Leverage Super\u2019s new board position to co\u2011host industry roundtables on responsible gambling and regulatory best practices.",
+          "urgency": "Low"
+        },
+        {
+          "company": "Conversion Conference",
+          "news_trigger": "SBC teams up with Conversion Conf for Affiliate Leaders Summit 2026 (SBC News)",
+          "pitch_angle": "Offer sponsorship packages, data\u2011analytics showcases, and affiliate\u2011tech demos to reach a targeted affiliate audience.",
+          "urgency": "Medium"
+        },
+        {
+          "company": "National Lottery Authority (NLA) \u2013 Liberia",
+          "news_trigger": "NLA launches food distribution program for vulnerable groups in Montserrado County (iGaming Afrika)",
+          "pitch_angle": "Propose CSR partnership to embed responsible\u2011gaming messaging within the humanitarian initiative.",
+          "urgency": "Low"
         }
       ],
       "speaker_recommendations": [
         {
-          "person_or_company": "Rwanda Development Board (RDB)",
-          "topic_expertise": "Regulatory frameworks in emerging markets",
-          "news_relevance": "Rwanda Development Board (RDB), through the NLGC, has issued gambling licenses",
+          "person_or_company": "Malta Gaming Authority (MGA)",
+          "topic_expertise": "Regulatory enforcement and anti\u2011illicit platform measures",
+          "news_relevance": "MGA publicly lambasted illicit platforms impersonating licensed operators (iGaming Expert)",
           "session_type": "Panel"
         },
         {
-          "person_or_company": "1xCare",
-          "topic_expertise": "Player protection and responsible gaming",
-          "news_relevance": "1xCare Appoints Advisory Committee to Oversee Its Player Protection Programme",
+          "person_or_company": "Turkey Gambling Regulator",
+          "topic_expertise": "Offshore betting network crackdown and criminal\u2011gang disruption",
+          "news_relevance": "Turkey expands illegal gambling crackdown and targets offshore betting networks (iGaming Today & iGaming Expert)",
+          "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "DraftKings Legal Affairs Lead",
+          "topic_expertise": "US regulatory litigation and compliance strategy",
+          "news_relevance": "DraftKings is suing Philadelphia to halt an investigation (iGaming Today)",
           "session_type": "Workshop"
         },
         {
-          "person_or_company": "Svenska Spel",
-          "topic_expertise": "Market trends and regulatory compliance",
-          "news_relevance": "Svenska Spel Records Strongest Q2 Since Sweden\u2019s Gambling Market Overhaul",
+          "person_or_company": "Gala Gaming CEO",
+          "topic_expertise": "Cross\u2011border expansion and M&A in the iGaming sector",
+          "news_relevance": "Evolution is considering a deal with Gala as part of its growth plan (SBC News)",
+          "session_type": "Panel"
+        },
+        {
+          "person_or_company": "Stellar Bets Founder",
+          "topic_expertise": "African market entry and single\u2011player gaming platforms",
+          "news_relevance": "Launch of Stellar Kiosk targeting African gamers (iGaming Afrika)",
           "session_type": "Keynote"
+        },
+        {
+          "person_or_company": "NWGB Representative",
+          "topic_expertise": "Responsible gambling collaborations with liquor regulators and community policing",
+          "news_relevance": "NWGB partners with liquor regulator and community policing forum for responsible gambling initiatives (iGaming Afrika)",
+          "session_type": "Panel"
         }
       ],
       "partnership_alerts": [
         {
           "companies_involved": [
-            "Nearpays",
-            "Galaxsys"
+            "Evolution",
+            "Gala Gaming"
           ],
-          "partnership_type": "Product",
-          "opportunity": "Potential collaboration between Nearpays and Galaxsys to create innovative digital experiences for the iGaming industry"
+          "partnership_type": "M&A",
+          "opportunity": "Facilitate due\u2011diligence support and post\u2011deal integration services to accelerate Gala\u2019s European footprint."
         },
         {
           "companies_involved": [
-            "LSports",
-            "1xCare"
+            "Evolution",
+            "Galaxy Gaming"
           ],
-          "partnership_type": "Product",
-          "opportunity": "Potential partnership between LSports and 1xCare to integrate player protection features into sports betting platforms"
+          "partnership_type": "Potential Acquisition/Strategic Alliance",
+          "opportunity": "Offer advisory on alternative deal structures or joint\u2011venture frameworks if the acquisition falls through."
+        },
+        {
+          "companies_involved": [
+            "DraftKings",
+            "Philadelphia City Officials"
+          ],
+          "partnership_type": "Legal/Regulatory",
+          "opportunity": "Provide mediation and compliance technology to resolve the dispute and prevent future investigations."
+        },
+        {
+          "companies_involved": [
+            "Stellar Bets",
+            "African Telecom Operators"
+          ],
+          "partnership_type": "Product Distribution",
+          "opportunity": "Create bundled mobile\u2011first gaming solutions leveraging telecom infrastructure for rapid market penetration."
+        },
+        {
+          "companies_involved": [
+            "NLA",
+            "International NGOs"
+          ],
+          "partnership_type": "CSR/Community",
+          "opportunity": "Co\u2011design responsible\u2011gaming awareness campaigns within the food\u2011distribution program to enhance social impact."
         }
       ],
-      "timing_recommendations": "Reach out to Nearpays and Galaxsys within the next 2 weeks to discuss potential partnership opportunities, and schedule a meeting with LSports and 1xCare to explore collaboration possibilities."
+      "timing_recommendations": "Prioritize outreach to DraftKings and Turkish regulators within the next 2\u20114 weeks due to active legal proceedings and expanding enforcement actions. Secure speaking slots for the Gala Gaming CEO and Stellar Bets founder before the Affiliate Leaders Summit 2026 agenda finalizes (deadline early September)."
     },
-    "timestamp": "2026-08-15T08:29:09.587344",
+    "timestamp": "2026-08-16T08:28:43.302324",
     "ttl_hours": 24
   },
-  "43d85ddc2e7366de21756db0413b5982": {
+  "b11c81381de2399697d165bf7e4e982c": {
     "result": {
       "exhibitor_prospects": [
         {
-          "company": "Nearpays",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Nearpays makes history as first Nigerian startup honored at UN AI for Good",
-          "booth_pitch": "Silver booth package to showcase their innovative AI-powered solutions and connect with potential partners and investors",
+          "company": "Betano",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "World Cup final: 82% of Betano users backed Lionel Messi, highlighting massive engagement around the tournament.",
+          "booth_pitch": "Large (50sqm+) booth with a live World Cup activation zone, real\u2011time betting demos, and a VIP lounge for partner meetings. Position Betano as the go\u2011to platform for tournament betting and showcase upcoming product road\u2011map.",
           "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Galaxsys",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Galaxsys: bringing intuitive digital experiences to casino lobbies with Instawin",
-          "booth_pitch": "Gold booth package to demonstrate their Instawin product and meet with key decision-makers in the iGaming industry",
-          "contact_urgency": "Medium",
           "estimated_booth_size": "Large (50sqm+)"
         },
         {
-          "company": "Affigates",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Affigates: end-to-end affiliate management designed for greater trust",
-          "booth_pitch": "Bronze booth package to introduce their affiliate management solutions and network with potential clients",
+          "company": "Stellar Bets",
+          "category_fit": "General iGaming / Retail Betting",
+          "news_trigger": "Launch of Stellar Kiosk, a single\u2011player gaming platform for African retail betting halls.",
+          "booth_pitch": "Medium (20sqm) booth with a functional kiosk demo, interactive player journeys, and a focus on African market expansion opportunities.",
+          "contact_urgency": "Medium",
+          "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Evolution Gaming",
+          "category_fit": "General iGaming / Live Casino",
+          "news_trigger": "Evolution returns to European growth and is evaluating a US\u2011based Galaxy Gaming deal, signalling aggressive expansion.",
+          "booth_pitch": "Large (50sqm+) booth featuring live dealer stations, a showcase of new game formats, and a dedicated B2B meeting area to attract European and North American operators.",
+          "contact_urgency": "High",
+          "estimated_booth_size": "Large (50sqm+)"
+        },
+        {
+          "company": "Super",
+          "category_fit": "General iGaming / B2B Platform",
+          "news_trigger": "EGBA welcomes Super onto its Board of Directors, raising its profile in the regulated market.",
+          "booth_pitch": "Small (10sqm) booth highlighting Super\u2019s compliance\u2011first B2B suite, with case studies and a quick\u2011fire pitch for new operator partnerships.",
           "contact_urgency": "Medium",
           "estimated_booth_size": "Small (10sqm)"
         },
         {
-          "company": "1xCare",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "1xCare Appoints Advisory Committee to Oversee Its Player Protection Programme",
-          "booth_pitch": "Silver booth package to highlight their commitment to player protection and meet with like-minded operators and suppliers",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "BetConstruct",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Harmony Predictstreet by BetConstruct AI Comes to Life in Yerevan",
-          "booth_pitch": "Gold booth package to showcase their AI-powered Harmony Predictstreet product and connect with potential partners and clients",
+          "company": "SBC (Sports Betting Community)",
+          "category_fit": "Affiliate / Marketing",
+          "news_trigger": "SBC teams up with Conversion Conf for the Affiliate Leaders Summit 2026, indicating a push into affiliate education and networking.",
+          "booth_pitch": "Small (10sqm) booth with a mini\u2011conference space for affiliate workshops, showcasing SBC\u2019s affiliate tools and partnership programmes.",
           "contact_urgency": "Medium",
-          "estimated_booth_size": "Large (50sqm+)"
-        },
-        {
-          "company": "Betway",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Rwanda Development Board (RDB), through the NLGC, has issued gambling licenses to Betway, ElephantBe",
-          "booth_pitch": "Silver booth package to celebrate their new license and meet with other operators and suppliers in the region",
-          "contact_urgency": "High",
-          "estimated_booth_size": "Medium (20sqm)"
-        },
-        {
-          "company": "Entain",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Entain to cut 500 roles across online operations",
-          "booth_pitch": "Gold booth package to reassure the market about their commitment to the industry and meet with potential partners and investors",
-          "contact_urgency": "Low",
-          "estimated_booth_size": "Large (50sqm+)"
+          "estimated_booth_size": "Small (10sqm)"
         },
         {
           "company": "Betsson",
-          "category_fit": "General iGaming/Sports Betting",
-          "news_trigger": "Betsson banking on World Cup trading as profits fall in first half of 2026",
-          "booth_pitch": "Silver booth package to highlight their World Cup trading offerings and meet with other operators and suppliers",
-          "contact_urgency": "Medium",
+          "category_fit": "General iGaming / Sports Betting",
+          "news_trigger": "Betsson is banking on World Cup trading as profits fall in H1 2026, emphasizing a strategic focus on tournament betting.",
+          "booth_pitch": "Medium (20sqm) booth with a live World Cup trading dashboard, product demos, and a focus on data\u2011driven betting solutions for operators.",
+          "contact_urgency": "High",
           "estimated_booth_size": "Medium (20sqm)"
+        },
+        {
+          "company": "Dragon Power",
+          "category_fit": "Game Development / Slots",
+          "news_trigger": "Dragon Power 10,000 Ways slot review highlights a new high\u2011volatility slot release gaining traction.",
+          "booth_pitch": "Small (10sqm) booth with a playable demo of the 10,000 Ways slot, developer Q&A, and lead\u2011generation for B2B licensing deals.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
+        },
+        {
+          "company": "Kasinohai",
+          "category_fit": "Casino / Bonus Management",
+          "news_trigger": "Kasinohai study uncovers hidden costs in online casino bonuses, positioning the brand as a thought leader on responsible bonus structures.",
+          "booth_pitch": "Small (10sqm) booth focused on responsible gaming and bonus transparency, offering white\u2011paper downloads and one\u2011on\u2011one consultations.",
+          "contact_urgency": "Low",
+          "estimated_booth_size": "Small (10sqm)"
         }
       ],
       "category_gaps": [
         {
-          "category": "Sports Betting",
-          "opportunity": "The growing demand for sports betting solutions and the lack of exhibitors in this category create an opportunity for new companies to fill the gap",
+          "category": "Affiliate / Marketing Solutions",
+          "opportunity": "Few dedicated affiliate\u2011focused exhibitors at ICE/iGB, yet operators increasingly seek performance\u2011based acquisition partners. Filling this gap can attract a high\u2011value B2B audience looking for data\u2011driven affiliate tech.",
           "target_company_types": [
-            "Sportsbook operators",
-            "Betting platform providers"
+            "Affiliate Networks",
+            "Performance Marketing Platforms"
           ]
         },
         {
-          "category": "iGaming affiliate management",
-          "opportunity": "The increasing importance of affiliate management in the iGaming industry and the limited number of exhibitors in this category create an opportunity for new companies to establish themselves",
+          "category": "African Retail Betting Solutions",
+          "opportunity": "The African retail betting segment is under\u2011represented despite rapid growth. Showcasing kiosk\u2011based and single\u2011player platforms can draw regional operators and investors.",
           "target_company_types": [
-            "Affiliate network providers",
-            "Affiliate software developers"
+            "Retail Betting Kiosk Providers",
+            "Regional Operators",
+            "Hardware Integrators"
           ]
         }
       ],
-      "timing_note": "The best time to reach out to these prospects is immediately, as the news triggers are recent and the companies are likely to be actively looking for opportunities to promote their products and services. Additionally, the upcoming ICE/iGB event creates a sense of urgency and a clear call-to-action for these companies to secure their booth packages."
+      "timing_note": "Reach out in July\u2013August (Q3) when World Cup buzz is still high and before operators finalize their 2026/2027 exhibition budgets. This window also aligns with the lead\u2011time needed for booth design and travel arrangements for a November ICE/iGB event."
     },
-    "timestamp": "2026-08-15T08:29:12.253122",
+    "timestamp": "2026-08-16T08:28:44.503949",
     "ttl_hours": 24
   }
 }
